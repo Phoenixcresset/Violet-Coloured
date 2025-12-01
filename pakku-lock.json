@@ -1,0 +1,377 @@
+{
+    "target": "curseforge",
+    "mc_versions": [
+        "1.21.1"
+    ],
+    "loaders": {
+        "neoforge": "21.1.216"
+    },
+    "projects": [
+        {
+            "pakku_id": "qV6dRbJaAKqBIEHf",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "alltheleaks"
+            },
+            "name": {
+                "curseforge": "AllTheLeaks (Memory Leak Fix)"
+            },
+            "id": {
+                "curseforge": "1091339"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "alltheleaks-1.1.3+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7259/391/alltheleaks-1.1.3+1.21.1-neoforge.jar",
+                    "id": "7259391",
+                    "parent_id": "1091339",
+                    "hashes": {
+                        "sha1": "31ec5abc2fe556ee3b12e883d3826853fbe152e0",
+                        "md5": "afd2ee5fd3896794ec4ce1dcc583a0df"
+                    },
+                    "required_dependencies": [],
+                    "size": 1148082,
+                    "date_published": "2025-11-25T00:57:58.960Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Egg5io7aGVEFrupt",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cloth-config"
+            },
+            "name": {
+                "curseforge": "Cloth Config API (Fabric/Forge/NeoForge)"
+            },
+            "id": {
+                "curseforge": "348521"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cloth-config-15.0.140-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5729/127/cloth-config-15.0.140-neoforge.jar",
+                    "id": "5729127",
+                    "parent_id": "348521",
+                    "hashes": {
+                        "sha1": "c3e5733ba4503b102589a026000fd5ce0212f6f2",
+                        "md5": "4c3757160403fcccb8ad468c2ea22862"
+                    },
+                    "required_dependencies": [],
+                    "size": 1163890,
+                    "date_published": "2024-09-16T17:18:01.157Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "9dW647SguV6NDwAF",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "c2me"
+            },
+            "name": {
+                "curseforge": "Concurrent Chunk Management Engine"
+            },
+            "id": {
+                "curseforge": "533097"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "c2me-neoforge-mc1.21.1-0.3.0+alpha.0.88.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/7263/293/c2me-neoforge-mc1.21.1-0.3.0+alpha.0.88.jar",
+                    "id": "7263293",
+                    "parent_id": "533097",
+                    "hashes": {
+                        "sha1": "b00b795c80c69be602d2245812358fcd01951d63",
+                        "md5": "fd1280ccb13ba08a418389ba61d2d9d4"
+                    },
+                    "required_dependencies": [],
+                    "size": 4508262,
+                    "date_published": "2025-11-26T04:54:19.963Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "RJknOVURuTO7XMtJ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "entityculling"
+            },
+            "name": {
+                "curseforge": "Entity Culling Fabric/Forge"
+            },
+            "id": {
+                "curseforge": "448233"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "entityculling-neoforge-1.9.3-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7167/812/entityculling-neoforge-1.9.3-mc1.21.1.jar",
+                    "id": "7167812",
+                    "parent_id": "448233",
+                    "hashes": {
+                        "sha1": "dffecdb172ec6fefb27e68ebd7192b2416d56da9",
+                        "md5": "8e33bc70b088a641483ee9542764d1af"
+                    },
+                    "required_dependencies": [],
+                    "size": 474485,
+                    "date_published": "2025-10-30T19:05:58.967Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ZEHIVgZeXnMX4Dx6",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ferritecore"
+            },
+            "name": {
+                "curseforge": "FerriteCore ((Neo)Forge)"
+            },
+            "id": {
+                "curseforge": "429235"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ferritecore-7.0.2-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5850/121/ferritecore-7.0.2-neoforge.jar",
+                    "id": "5850121",
+                    "parent_id": "429235",
+                    "hashes": {
+                        "sha1": "7279fc52c32a033acc2864a9bcb018b2e04bbd03",
+                        "md5": "e176f7b9672b5b36130dc2f46ea96f48"
+                    },
+                    "required_dependencies": [],
+                    "size": 118911,
+                    "date_published": "2024-10-27T07:58:51.757Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dGGeXOF5F02nKfZI",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "immediatelyfast"
+            },
+            "name": {
+                "curseforge": "ImmediatelyFast"
+            },
+            "id": {
+                "curseforge": "686911"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ImmediatelyFast-NeoForge-1.6.7+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7032/371/ImmediatelyFast-NeoForge-1.6.7+1.21.1.jar",
+                    "id": "7032371",
+                    "parent_id": "686911",
+                    "hashes": {
+                        "sha1": "820e7b79c123d2a884410a6ab9882b0ae0e2d1a6",
+                        "md5": "e9cb9e254eb7e059d3e8f9ac4644d1cb"
+                    },
+                    "required_dependencies": [],
+                    "size": 254163,
+                    "date_published": "2025-09-25T15:06:44.573Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "6SkUgkEdYxDQMora",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "lithium"
+            },
+            "name": {
+                "curseforge": "Lithium (Fabric/NeoForge)"
+            },
+            "id": {
+                "curseforge": "360438"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lithium-neoforge-0.15.1+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7246/288/lithium-neoforge-0.15.1+mc1.21.1.jar",
+                    "id": "7246288",
+                    "parent_id": "360438",
+                    "hashes": {
+                        "sha1": "38295e15a600899697a5dbd29b1e9c15060e5760",
+                        "md5": "e16050f462629aaa8486ff09d506a6b4"
+                    },
+                    "required_dependencies": [],
+                    "size": 749987,
+                    "date_published": "2025-11-21T17:10:34.300Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Xpy0v9ZfORKOlqju",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "modernfix"
+            },
+            "name": {
+                "curseforge": "ModernFix"
+            },
+            "id": {
+                "curseforge": "790626"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "modernfix-neoforge-5.25.1+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7200/212/modernfix-neoforge-5.25.1+mc1.21.1.jar",
+                    "id": "7200212",
+                    "parent_id": "790626",
+                    "hashes": {
+                        "sha1": "5407ee2d311f6f16773292fe22942a023a19677d",
+                        "md5": "ec331d841fb16c6c3a6e90d8b839ed12"
+                    },
+                    "required_dependencies": [],
+                    "size": 569818,
+                    "date_published": "2025-11-08T20:04:57.983Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "nHgjnV0hQhTZKk76",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "moreculling"
+            },
+            "name": {
+                "curseforge": "MoreCulling"
+            },
+            "id": {
+                "curseforge": "630104"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "moreculling-neoforge-1.21.1-1.0.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6292/880/moreculling-neoforge-1.21.1-1.0.6.jar",
+                    "id": "6292880",
+                    "parent_id": "630104",
+                    "hashes": {
+                        "sha1": "f6f43344e0622ac05ad7aca5378ec35aad31ac30",
+                        "md5": "d6021cd3f5644831db8cdcbaf23a4c9b"
+                    },
+                    "required_dependencies": [
+                        "348521"
+                    ],
+                    "size": 342982,
+                    "date_published": "2025-03-11T17:25:36.660Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "nGoI2ktXUDnnYdBu",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "sodium"
+            },
+            "name": {
+                "curseforge": "Sodium"
+            },
+            "id": {
+                "curseforge": "394468"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sodium-neoforge-0.6.13+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6382/651/sodium-neoforge-0.6.13+mc1.21.1.jar",
+                    "id": "6382651",
+                    "parent_id": "394468",
+                    "hashes": {
+                        "sha1": "38af70fa4dc4b2aaac636e92fdba3bedd5a025e1",
+                        "md5": "e5018c782d851fea76be0205b7616e5d"
+                    },
+                    "required_dependencies": [],
+                    "size": 1162994,
+                    "date_published": "2025-04-04T00:13:49.467Z"
+                }
+            ]
+        }
+    ],
+    "lockfile_version": 1
+}
