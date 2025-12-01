@@ -20,7 +20,8 @@ usernamecache.json
 build/
 
 # ProbeJS
-.probe/
+.probe
+kubejs/**/probe-settings.json
 
 # Zip files (mostly modpack exports)
 *.zip   
@@ -51,5 +52,3 @@ $RECYCLE.BIN/
 .DS_Store
 .AppleDouble
 .LSOverride
-
-
