@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Pakku",
+      "type": "shell",
+      "command": "java -jar pakku.jar ${input:arg}",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "arg",
+      "type": "promptString",
+      "description": "Enter Pakku arguments",
+      "default": ""
+    }
+  ]
+}
