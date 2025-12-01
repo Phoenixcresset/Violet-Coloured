@@ -44,6 +44,42 @@
             ]
         },
         {
+            "pakku_id": "qzW1pMQy7rxMwqcb",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "better-modlist-neoforge"
+            },
+            "name": {
+                "curseforge": "Better Modlist"
+            },
+            "id": {
+                "curseforge": "1089803"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "better_modlist-1.1.20.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7054/789/better_modlist-1.1.20.jar",
+                    "id": "7054789",
+                    "parent_id": "1089803",
+                    "hashes": {
+                        "sha1": "fa88e9304136c8ca9f769418b2c19f1ec0d08499",
+                        "md5": "11264a2336302bd8c8c0e8469be9558a"
+                    },
+                    "required_dependencies": [],
+                    "size": 803441,
+                    "date_published": "2025-10-01T18:53:22.530Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Egg5io7aGVEFrupt",
             "type": "MOD",
             "slug": {
@@ -113,6 +149,78 @@
                     "required_dependencies": [],
                     "size": 4508262,
                     "date_published": "2025-11-26T04:54:19.963Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "noftyytgRZ4WXe9i",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "configured"
+            },
+            "name": {
+                "curseforge": "Configured"
+            },
+            "id": {
+                "curseforge": "457570"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "configured-neoforge-1.21.1-2.6.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7276/577/configured-neoforge-1.21.1-2.6.3.jar",
+                    "id": "7276577",
+                    "parent_id": "457570",
+                    "hashes": {
+                        "sha1": "e977d86eec39d49295df4e2c4265d6710ae065e8",
+                        "md5": "6bc7aea6278cd85c5eb7beb7edbb555b"
+                    },
+                    "required_dependencies": [],
+                    "size": 428793,
+                    "date_published": "2025-11-30T02:21:15.073Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "YxIFJSW8H3h1MsWA",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "emi"
+            },
+            "name": {
+                "curseforge": "EMI"
+            },
+            "id": {
+                "curseforge": "580555"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "emi-1.1.22+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6420/931/emi-1.1.22+1.21.1+neoforge.jar",
+                    "id": "6420931",
+                    "parent_id": "580555",
+                    "hashes": {
+                        "sha1": "cbbd038194cd63249db185c53b1d50a1767f80a3",
+                        "md5": "ca9775a6f300989cb4d2063e1833579b"
+                    },
+                    "required_dependencies": [],
+                    "size": 1038248,
+                    "date_published": "2025-04-14T03:34:37.090Z"
                 }
             ]
         },

@@ -1,5 +1,12 @@
 # Changelog
 
+## [Unreleased]
+### Mods
+#### Added
+- Better Modlist
+- Configured
+- EMI
+
 ## [0.0.1]
 ### Changes
 - Setup a base minecraft in place, with a few optimization mods.
