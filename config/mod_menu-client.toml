@@ -31,7 +31,7 @@ mod_parents = []
 	#Will only show mods with config available
 	config_mode = false
 	#Disables drag and drop mods adding
-	disable_drag_and_drop = false
+	disable_drag_and_drop = true
 	#Will use catalogue's icon if present
 	use_catalogue_icon = true
 
@@ -55,7 +55,7 @@ mod_parents = []
 	#Hides search bar and drag and drop text, also moves mod's icon up
 	hide_screen_top = false
 	#Add modid of the mod to hide it from the modlist
-	hidden_mods = []
+	hidden_mods = ["rhino", "cloth_config"]
 	#Add modid of the mod to hide its config
 	hidden_configs = []
 	#deprecated
@@ -68,7 +68,7 @@ mod_parents = []
 
 [count]
 	#Makes hidden mods count added to the total mods count
-	count_hidden_mods = true
+	count_hidden_mods = false
 	#Makes childrens count get added to the total mods count
 	count_children = true
 	#Makes libraries count get added to the total mods count
