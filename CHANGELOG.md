@@ -25,7 +25,9 @@
 - EntityCulling
 - FerriteCore
 - Immediately Fast
+- KubeJS
 - Lithium
 - ModernFix
 - MoreCulling
+- ProbeJS
 - Sodium
