@@ -3,13 +3,20 @@
 ## [Unreleased]
 ### Added
 - Shaders !
+- Customized EMI Interface
+- Better Keybinds management, removal of some useless keybinds and rebinding of others
 ### Mods
 #### Added
 - Better Modlist
 - Configured
 - EMI
+- EMI++
 - Iris
 - Euphoria Patches
+- Controlling
+- Drop-Down Keybindings
+- KeyBindJS
+
 ### Shaders
 #### Added
 - Complementary Reimagined

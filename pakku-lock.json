@@ -585,6 +585,47 @@
             ]
         },
         {
+            "pakku_id": "c3rbCaqLIWMUkzln",
+            "pakku_links": [
+                "UTiUjBWThuuQwM8N"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "keybindjs"
+            },
+            "name": {
+                "curseforge": "KeyBindJS"
+            },
+            "id": {
+                "curseforge": "1212200"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "keybindjs-2101-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6462/609/keybindjs-2101-1.0.1.jar",
+                    "id": "6462609",
+                    "parent_id": "1212200",
+                    "hashes": {
+                        "sha1": "95218c0181dea86747943ec60b10a57bce1bfd29",
+                        "md5": "c7fe39a92b70296bb1f41e3a7ec160c5"
+                    },
+                    "required_dependencies": [
+                        "238086"
+                    ],
+                    "size": 20178,
+                    "date_published": "2025-04-25T10:39:09.273Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "q5a7GQQQWj8CzNvn",
             "type": "MOD",
             "slug": {

@@ -32,7 +32,7 @@ config/iris.properties
 .env
 
 # VSCode
-.vscode/probe.code-snippets
+.vscode/**.code-snippets
 .vscode/settings.json
 
 # OS specific files
