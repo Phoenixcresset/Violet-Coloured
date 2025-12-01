@@ -9,62 +9,47 @@ resourcepacks/
 server-resource-packs/
 screenshots/
 downloads/
-modernfix/
-fancymenu_data/
-ESM/
 
+command_history.txt
 icon.png
 options.txt
-rhino.local.properties
 usercache.json
 usernamecache.json
 
 # Pakku
 build/
-!.pakku/
-!pakku.jar
-!pakku.json
-!pakku-lock.json
 
-# Node.js
-**/node_modules/
+# ProbeJS
+.probe/
+
+# Zip files (mostly modpack exports)
+*.zip   
 
 # dotenv
 .env
 
 # VSCode
-!/.vscode/*.code-workspace
-/.vscode/*
+.vscode/probe.code-snippets
+.vscode/settings.json
 
-# ProbeJS
-/kubejs/probe/
-/kubejs/config/probejs.json
-/kubejs/config/probe-settings.json
-/kubejs/*/jsconfig.json
+# OS specific files
 
-# Client configs (with exceptions below)
-!/config/**/*client.*
-
-
-# Configs (generaly ones that tend to edit the date on launch)
-
-# Linux
+## Linux
 *~
 .fuse_hidden*
 .directory
 .Trash-*
 
-# Windows
+## Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 *.lnk
 
-# macOS
+## macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# Zip files (mostly modpack exports)
-*.zip   
+
