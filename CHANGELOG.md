@@ -1,12 +1,17 @@
 # Changelog
 
-## [Unreleased]
-### Changes
-- Sample Text
-
 ## [0.0.1]
 ### Changes
-- Initial Commit
-
-### Bug fixes
-- None for now
+- Setup a base minecraft in place, with a few optimization mods.
+### Mods
+#### Added
+- All The Leaks
+- Clot Config
+- C2ME
+- EntityCulling
+- FerriteCore
+- Immediately Fast
+- Lithium
+- ModernFix
+- MoreCulling
+- Sodium
