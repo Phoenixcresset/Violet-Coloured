@@ -23,8 +23,9 @@ build/
 .probe
 kubejs/**/probe-settings.json
 
-# Zip files (mostly modpack exports)
-*.zip   
+# Shaders
+shaderpacks/
+config/iris.properties
 
 # dotenv
 .env

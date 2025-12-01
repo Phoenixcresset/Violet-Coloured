@@ -1,11 +1,18 @@
 # Changelog
 
 ## [Unreleased]
+### Added
+- Shaders !
 ### Mods
 #### Added
 - Better Modlist
 - Configured
 - EMI
+- Iris
+- Euphoria Patches
+### Shaders
+#### Added
+- Complementary Reimagined
 
 ## [0.0.1]
 ### Changes
