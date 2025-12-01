@@ -313,13 +313,6 @@ jobs:
             **Loader**: `${{ needs.info.outputs.loader_type }}-${{ needs.info.outputs.loader_version }}`
 
             ${{ needs.info.outputs.changelog }}
-
-  lint:
-    name: Lint KubeJS
-    needs: [info]
-    uses: ./.github/workflows/lint.yml
-    if: needs.info.outputs.kubejs_changed == 'true'
-    secrets: inherit
       
   update-mmc-pack:
     name: Update MMC-Pack 
