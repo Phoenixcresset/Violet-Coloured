@@ -1,8 +1,7 @@
 {
     "name": "Violet Coloured",
     "version": "DEV",
-    "release_type": "release",
-    "description": "Test for description",
+    "description": "A modpack made to play with Create and Spectrum together.",
     "author": "Violet Everbloom",
     "overrides": [
         "config",
@@ -19,11 +18,15 @@
         "server_starter.conf",
         "server-icon.png",
         "start_server.bat",
-        "README.md"
+        "!README.md"
     ],
     "client_overrides": [
         "resourcepacks"
     ],
     "projects": {
+        "probejs": {
+            "side": "CLIENT",
+            "export": false
+        }
     }
 }

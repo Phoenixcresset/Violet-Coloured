@@ -227,6 +227,48 @@
             ]
         },
         {
+            "pakku_id": "UTiUjBWThuuQwM8N",
+            "pakku_links": [
+                "Ars28aFbdxOPs4wY"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs"
+            },
+            "name": {
+                "curseforge": "KubeJS"
+            },
+            "id": {
+                "curseforge": "238086"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubejs-neoforge-2101.7.2-build.348.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7278/501/kubejs-neoforge-2101.7.2-build.348.jar",
+                    "id": "7278501",
+                    "parent_id": "238086",
+                    "hashes": {
+                        "sha1": "75f96b2e4157c0efdbfd9f6271d080fb6921aaf4",
+                        "md5": "e53316dd5b84d571d3e753c213102336"
+                    },
+                    "required_dependencies": [
+                        "416294"
+                    ],
+                    "size": 2240610,
+                    "date_published": "2025-11-30T15:42:41.300Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "6SkUgkEdYxDQMora",
             "type": "MOD",
             "slug": {
@@ -333,6 +375,86 @@
                     ],
                     "size": 342982,
                     "date_published": "2025-03-11T17:25:36.660Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "OAAE1vaHLIG2P6Kf",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "probejs"
+            },
+            "name": {
+                "curseforge": "ProbeJS"
+            },
+            "id": {
+                "curseforge": "585406"
+            },
+            "export": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ProbeJS-7.7.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7105/159/ProbeJS-7.7.2.jar",
+                    "id": "7105159",
+                    "parent_id": "585406",
+                    "hashes": {
+                        "sha1": "3f0b9288845fd547338b535cdaed6ef2bb3787e8",
+                        "md5": "37f5b3a9c854c8a8b5b2d07ab016db10"
+                    },
+                    "required_dependencies": [],
+                    "size": 4195463,
+                    "date_published": "2025-10-14T02:49:36.610Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Ars28aFbdxOPs4wY",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "rhino"
+            },
+            "name": {
+                "curseforge": "Rhino"
+            },
+            "id": {
+                "curseforge": "416294"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rhino-2101.2.7-build.81.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.4",
+                        "1.21.3",
+                        "1.21.1",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7104/526/rhino-2101.2.7-build.81.jar",
+                    "id": "7104526",
+                    "parent_id": "416294",
+                    "hashes": {
+                        "sha1": "5dcc80079095706645d567353095297948a41eea",
+                        "md5": "050aad61e018a810b0f183ad50e084c6"
+                    },
+                    "required_dependencies": [],
+                    "size": 882032,
+                    "date_published": "2025-10-13T22:22:58.843Z"
                 }
             ]
         },
