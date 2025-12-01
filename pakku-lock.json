@@ -268,6 +268,49 @@
             ]
         },
         {
+            "pakku_id": "oMU4cd7hENkF9yQf",
+            "pakku_links": [
+                "YxIFJSW8H3h1MsWA",
+                "q5a7GQQQWj8CzNvn"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "emi-plus-plus"
+            },
+            "name": {
+                "curseforge": "EMI++"
+            },
+            "id": {
+                "curseforge": "1335150"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "emixx-neoforge-1.2.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6940/860/emixx-neoforge-1.2.3.jar",
+                    "id": "6940860",
+                    "parent_id": "1335150",
+                    "hashes": {
+                        "sha1": "5bfd6ca144cd6cf72c6df9a9ab400403ca774e79",
+                        "md5": "b35762dcac45488056774d5675d2c2d3"
+                    },
+                    "required_dependencies": [
+                        "580555",
+                        "351264"
+                    ],
+                    "size": 207208,
+                    "date_published": "2025-08-29T11:38:50.610Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "RJknOVURuTO7XMtJ",
             "type": "MOD",
             "slug": {
@@ -461,6 +504,51 @@
                     ],
                     "size": 2438548,
                     "date_published": "2025-06-17T15:53:15.717Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "q5a7GQQQWj8CzNvn",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kotlin-for-forge"
+            },
+            "name": {
+                "curseforge": "Kotlin for Forge"
+            },
+            "id": {
+                "curseforge": "351264"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kotlinforforge-5.10.0-all.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.5",
+                        "1.21.8",
+                        "1.21.4",
+                        "1.21.3",
+                        "1.21.7",
+                        "1.21.1",
+                        "1.21.6",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6994/56/kotlinforforge-5.10.0-all.jar",
+                    "id": "6994056",
+                    "parent_id": "351264",
+                    "hashes": {
+                        "sha1": "cdde4af2f1cecc97d320d230093e5564212f9fb2",
+                        "md5": "0d0d14c17956ba4a042d47b75e0b6831"
+                    },
+                    "required_dependencies": [],
+                    "size": 6730194,
+                    "date_published": "2025-09-13T21:05:44.580Z"
                 }
             ]
         },

@@ -88,12 +88,12 @@
 	 * Whether to have the search bar in the center of the screen, instead of to the
 	 * side.
 	 */
-	center-search-bar: true;
+	center-search-bar: false;
 
 	/**
 	 * Which sidebar type to switch to when searching.
 	 */
-	search-sidebar-focus: index;
+	search-sidebar-focus: none;
 
 	/**
 	 * Which sidebar type to focus when the search is empty.
@@ -103,7 +103,7 @@
 	/**
 	 * Whether the EMI config button should be visible.
 	 */
-	emi-config-button-visibility: shown;
+	emi-config-button-visibility: auto;
 
 	/**
 	 * Whether the recipe tree button should be visible.
@@ -177,22 +177,22 @@
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to
 	 */
-	left-sidebar-size: 12, 100;
+	left-sidebar-size: 12, 12;
 
 	/**
 	 * How much space to maintain between the left sidebar and obstructions, in pixels
 	 */
-	left-sidebar-margins: 2, 2, 2, 2;
+	left-sidebar-margins: 2, 8, 2, 2;
 
 	/**
 	 * Where to position the left sidebar
 	 */
-	left-sidebar-align: left, top;
+	left-sidebar-align: right, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the left sidebar
 	 */
-	left-sidebar-header: visible;
+	left-sidebar-header: invisible;
 
 	/**
 	 * Which theme to use for the left sidebar
@@ -212,17 +212,17 @@
 	/**
 	 * How many columns and rows of ingredients to limit the right sidebar to
 	 */
-	right-sidebar-size: 12, 100;
+	right-sidebar-size: 12, 12;
 
 	/**
 	 * How much space to maintain between the right sidebar and obstructions, in pixels
 	 */
-	right-sidebar-margins: 2, 2, 2, 2;
+	right-sidebar-margins: 2, 2, 2, 8;
 
 	/**
 	 * Where to position the right sidebar
 	 */
-	right-sidebar-align: right, top;
+	right-sidebar-align: left, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the right sidebar
@@ -232,7 +232,7 @@
 	/**
 	 * Which theme to use for the right sidebar
 	 */
-	right-sidebar-theme: transparent;
+	right-sidebar-theme: vanilla;
 
 	/**
 	 * The pages in the top sidebar

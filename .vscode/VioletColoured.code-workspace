@@ -27,6 +27,7 @@
             "server-resource-packs/": true,
             "usercache.json": true,
             "usernamecache.json": true,
+            "emi.json": true
         }
     }
 }
