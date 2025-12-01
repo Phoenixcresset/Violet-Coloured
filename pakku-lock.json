@@ -232,6 +232,83 @@
             ]
         },
         {
+            "pakku_id": "Q4wLcrK3puCGsfYi",
+            "pakku_links": [
+                "YAISXXqsq2jetf1B"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "controlling"
+            },
+            "name": {
+                "curseforge": "Controlling"
+            },
+            "id": {
+                "curseforge": "250398"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Controlling-neoforge-1.21.1-19.0.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6368/976/Controlling-neoforge-1.21.1-19.0.5.jar",
+                    "id": "6368976",
+                    "parent_id": "250398",
+                    "hashes": {
+                        "sha1": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe",
+                        "md5": "7141c2d0bb774dc6e4481be32b685179"
+                    },
+                    "required_dependencies": [
+                        "858542"
+                    ],
+                    "size": 77555,
+                    "date_published": "2025-03-30T23:44:28.983Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0qkcwk1beqYUoWGx",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "drop-down-keybindings"
+            },
+            "name": {
+                "curseforge": "Drop-Down Keybindings"
+            },
+            "id": {
+                "curseforge": "1281974"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dropdown_keybindings-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6625/401/dropdown_keybindings-1.0.0.jar",
+                    "id": "6625401",
+                    "parent_id": "1281974",
+                    "hashes": {
+                        "sha1": "88f9c8f6082338bde4ba87aecc9df35d6bd9c604",
+                        "md5": "7dc8f84eef6d2331fe3e7500ffc0830f"
+                    },
+                    "required_dependencies": [],
+                    "size": 329033,
+                    "date_published": "2025-06-07T12:57:58.023Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "YxIFJSW8H3h1MsWA",
             "type": "MOD",
             "slug": {
@@ -781,6 +858,42 @@
                     "required_dependencies": [],
                     "size": 882032,
                     "date_published": "2025-10-13T22:22:58.843Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "YAISXXqsq2jetf1B",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "searchables"
+            },
+            "name": {
+                "curseforge": "Searchables"
+            },
+            "id": {
+                "curseforge": "858542"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Searchables-neoforge-1.21.1-1.0.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5831/692/Searchables-neoforge-1.21.1-1.0.2.jar",
+                    "id": "5831692",
+                    "parent_id": "858542",
+                    "hashes": {
+                        "sha1": "5b8a0b43a474c066371b2e16f9bfb88622552a74",
+                        "md5": "0a0a8665bb4d77e3f8139750cb98d9e4"
+                    },
+                    "required_dependencies": [],
+                    "size": 77326,
+                    "date_published": "2024-10-21T20:44:39.390Z"
                 }
             ]
         },
