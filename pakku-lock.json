@@ -8,6 +8,48 @@
     },
     "projects": [
         {
+            "pakku_id": "QRo9GNxTTNaaH0Fp",
+            "pakku_links": [
+                "Egg5io7aGVEFrupt"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "advancements-reloaded"
+            },
+            "name": {
+                "curseforge": "Advancements Reloaded"
+            },
+            "id": {
+                "curseforge": "1113876"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "advancements_reloaded-0.6.1-neoforge-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5835/520/advancements_reloaded-0.6.1-neoforge-1.21.1.jar",
+                    "id": "5835520",
+                    "parent_id": "1113876",
+                    "hashes": {
+                        "sha1": "ee735f92df88e6535ab71b744599c4820fc990c5",
+                        "md5": "fedad4598f27290a14be335a5402fb17"
+                    },
+                    "required_dependencies": [
+                        "348521"
+                    ],
+                    "size": 64186,
+                    "date_published": "2024-10-22T23:11:25.733Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qV6dRbJaAKqBIEHf",
             "type": "MOD",
             "slug": {
@@ -467,6 +509,42 @@
                     "required_dependencies": [],
                     "size": 2277807,
                     "date_published": "2025-11-18T22:18:55.073Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "qNJlZLyyOG33D0d1",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fancy-toasts"
+            },
+            "name": {
+                "curseforge": "Fancy Toasts | Better Advancements"
+            },
+            "id": {
+                "curseforge": "1326436"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fancytoasts-neoforge-1.21.1-1.4.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7279/751/fancytoasts-neoforge-1.21.1-1.4.5.jar",
+                    "id": "7279751",
+                    "parent_id": "1326436",
+                    "hashes": {
+                        "sha1": "ba501293fd781aa9458bd738c11a2c8010720832",
+                        "md5": "37ce298511dc4b06c1d1d40e32db858e"
+                    },
+                    "required_dependencies": [],
+                    "size": 343189,
+                    "date_published": "2025-11-30T21:45:36.750Z"
                 }
             ]
         },

@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Added
 - Shaders ! (and a better Sodium UI)
+- Better Advancement Menu and Toasts
 - Customized EMI Interface
 - Better Keybinds management, removal of some useless keybinds and rebinding of others
 ### Mods
@@ -17,6 +18,8 @@
 - Controlling
 - Drop-Down Keybindings
 - KeyBindJS
+- Advancement Reloaded
+- Fancy Toasts
 
 ### Shaders
 #### Added
