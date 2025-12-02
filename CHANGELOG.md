@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 ### Added
-- Shaders !
+- Shaders ! (and a better Sodium UI)
 - Customized EMI Interface
 - Better Keybinds management, removal of some useless keybinds and rebinding of others
 ### Mods
@@ -11,6 +11,7 @@
 - Configured
 - EMI
 - EMI++
+- Reese's Sodium Options
 - Iris
 - Euphoria Patches
 - Controlling

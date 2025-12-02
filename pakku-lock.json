@@ -861,6 +861,52 @@
             ]
         },
         {
+            "pakku_id": "tw3oSzFFA8q7a1bk",
+            "pakku_links": [
+                "nGoI2ktXUDnnYdBu"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "reeses-sodium-options"
+            },
+            "name": {
+                "curseforge": "Reese's Sodium Options"
+            },
+            "id": {
+                "curseforge": "511319"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.5",
+                        "1.21.4",
+                        "1.21.3",
+                        "1.21.1",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6091/21/reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar",
+                    "id": "6091021",
+                    "parent_id": "511319",
+                    "hashes": {
+                        "sha1": "b03d05495be28d8cef7a34872941bb8d703d60e6",
+                        "md5": "f3a0d7f31993d6f34e90f816f82cbcaf"
+                    },
+                    "required_dependencies": [
+                        "394468"
+                    ],
+                    "size": 78451,
+                    "date_published": "2025-01-15T20:35:53.370Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Ars28aFbdxOPs4wY",
             "type": "MOD",
             "slug": {
