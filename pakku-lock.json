@@ -86,6 +86,44 @@
             ]
         },
         {
+            "pakku_id": "ViQ8gDCC0GkRoQJ0",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "appleskin"
+            },
+            "name": {
+                "curseforge": "AppleSkin"
+            },
+            "id": {
+                "curseforge": "248787"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "appleskin-neoforge-mc1.21-3.0.7.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6616/291/appleskin-neoforge-mc1.21-3.0.7.jar",
+                    "id": "6616291",
+                    "parent_id": "248787",
+                    "hashes": {
+                        "sha1": "8f76d97a7f61f8d61db6d84a83baf29a3bb56330",
+                        "md5": "9b6a8681aa9c871a8816a39d614034c6"
+                    },
+                    "required_dependencies": [],
+                    "size": 74100,
+                    "date_published": "2025-06-05T04:43:44.343Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qzW1pMQy7rxMwqcb",
             "type": "MOD",
             "slug": {
@@ -976,6 +1014,43 @@
                     "required_dependencies": [],
                     "size": 4195463,
                     "date_published": "2025-10-14T02:49:36.610Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "VulzMUyUN8vEJWq4",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "raised"
+            },
+            "name": {
+                "curseforge": "Raised"
+            },
+            "id": {
+                "curseforge": "570368"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "raised-neoforge-1.21.1-5.0.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7067/761/raised-neoforge-1.21.1-5.0.2.jar",
+                    "id": "7067761",
+                    "parent_id": "570368",
+                    "hashes": {
+                        "sha1": "e4b07f58f376d681a9076b5ae7aedb2117f15080",
+                        "md5": "e80c98b9057246004cedc058e63ad125"
+                    },
+                    "required_dependencies": [],
+                    "size": 91579,
+                    "date_published": "2025-10-05T00:55:28.797Z"
                 }
             ]
         },
