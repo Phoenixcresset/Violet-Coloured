@@ -5,9 +5,11 @@
 - Shaders ! (and a better Sodium UI)
 - Better Advancement Menu and Toasts
 - Customized EMI Interface
+- Better F3 layout, close to the 1.21.9 one
 - Better Keybinds management, removal of some useless keybinds and rebinding of others
 ### Mods
 #### Added
+- Better F3
 - Better Modlist
 - Configured
 - EMI
