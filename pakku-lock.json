@@ -126,6 +126,7 @@
         {
             "pakku_id": "qzW1pMQy7rxMwqcb",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "better-modlist-neoforge"
             },
@@ -165,6 +166,7 @@
                 "Egg5io7aGVEFrupt"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "betterf3"
             },
@@ -396,6 +398,7 @@
         {
             "pakku_id": "0qkcwk1beqYUoWGx",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "drop-down-keybindings"
             },
@@ -511,6 +514,7 @@
         {
             "pakku_id": "RJknOVURuTO7XMtJ",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "entityculling"
             },
@@ -548,6 +552,7 @@
         {
             "pakku_id": "mtSUSpbJrSQEsvYE",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "euphoria-patches"
             },
@@ -666,6 +671,7 @@
         {
             "pakku_id": "dGGeXOF5F02nKfZI",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "immediatelyfast"
             },
@@ -747,6 +753,7 @@
                 "UTiUjBWThuuQwM8N"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "keybindjs"
             },
@@ -944,6 +951,7 @@
         {
             "pakku_id": "nHgjnV0hQhTZKk76",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "moreculling"
             },
@@ -1020,6 +1028,7 @@
         {
             "pakku_id": "VulzMUyUN8vEJWq4",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "raised"
             },
@@ -1060,6 +1069,7 @@
                 "nGoI2ktXUDnnYdBu"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "reeses-sodium-options"
             },
@@ -1181,6 +1191,7 @@
         {
             "pakku_id": "nGoI2ktXUDnnYdBu",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "sodium"
             },

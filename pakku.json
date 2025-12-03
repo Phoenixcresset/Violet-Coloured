@@ -24,9 +24,48 @@
         "resourcepacks"
     ],
     "projects": {
+        "better-modlist-neoforge": {
+            "side": "CLIENT"
+        },
+        "betterf3": {
+            "side": "CLIENT"
+        },
+        "drop-down-keybindings": {
+            "side": "CLIENT"
+        },
+        "entityculling": {
+            "side": "CLIENT"
+        },
+        "euphoria-patches": {
+            "side": "CLIENT"
+        },
+        "immediatelyfast": {
+            "side": "CLIENT"
+        },
+        "iris": {
+            "side": "CLIENT"
+        },
+        "keybindjs": {
+            "side": "CLIENT"
+        },
+        "moreculling": {
+            "side": "CLIENT"
+        },
         "probejs": {
             "side": "CLIENT",
             "export": false
+        },
+        "raised": {
+            "side": "CLIENT"
+        },
+        "reeses-sodium-options": {
+            "side": "CLIENT"
+        },
+        "searchablestorage": {
+            "side": "CLIENT"
+        },
+        "sodium": {
+            "side": "CLIENT"
         }
     }
 }
