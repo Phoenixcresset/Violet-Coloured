@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [0.0.2]
 ### Added
 - Shaders ! (and a better Sodium UI)
 - Better Advancement Menu and Toasts
