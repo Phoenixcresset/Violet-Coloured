@@ -66,6 +66,9 @@
         },
         "sodium": {
             "side": "CLIENT"
+        },
+        "dynamic-fps":{
+            "side": "CLIENT"
         }
     }
 }

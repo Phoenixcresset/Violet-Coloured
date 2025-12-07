@@ -1,5 +1,12 @@
 # Changelog
 
+## [Unreleased]
+
+### Mods
+#### Added
+- Dynamic FPS
+
+
 ## [0.0.2]
 ### Added
 - Shaders ! (and a better Sodium UI)
