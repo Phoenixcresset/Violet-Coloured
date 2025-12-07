@@ -5,7 +5,10 @@
 ### Mods
 #### Added
 - Dynamic FPS
+- Inventory Essentials
 - Jade
+- Mouse Tweaks
+- Trash Slot
 
 
 ## [0.0.2]

@@ -124,6 +124,42 @@
             ]
         },
         {
+            "pakku_id": "hFgNz5YU4qXApa4A",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "balm"
+            },
+            "name": {
+                "curseforge": "Balm"
+            },
+            "id": {
+                "curseforge": "531761"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "balm-neoforge-1.21.1-21.0.55.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7264/790/balm-neoforge-1.21.1-21.0.55.jar",
+                    "id": "7264790",
+                    "parent_id": "531761",
+                    "hashes": {
+                        "sha1": "288003dfab9ef7d4aa600c9325cb64ce861c3d4d",
+                        "md5": "0ee8598103ea2a18887db4f63a71b314"
+                    },
+                    "required_dependencies": [],
+                    "size": 727272,
+                    "date_published": "2025-11-26T15:47:33.777Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qzW1pMQy7rxMwqcb",
             "type": "MOD",
             "side": "CLIENT",
@@ -745,6 +781,47 @@
             ]
         },
         {
+            "pakku_id": "7PuuL2oRyixsx7Co",
+            "pakku_links": [
+                "hFgNz5YU4qXApa4A"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "inventory-essentials"
+            },
+            "name": {
+                "curseforge": "Inventory Essentials"
+            },
+            "id": {
+                "curseforge": "368825"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "inventoryessentials-neoforge-1.21.1-21.1.9.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7207/589/inventoryessentials-neoforge-1.21.1-21.1.9.jar",
+                    "id": "7207589",
+                    "parent_id": "368825",
+                    "hashes": {
+                        "sha1": "86148ac9d605a0b92d8970b2f81095d8e8701cda",
+                        "md5": "4a02540398db10e28d76f1b17ff378f5"
+                    },
+                    "required_dependencies": [
+                        "531761"
+                    ],
+                    "size": 160855,
+                    "date_published": "2025-11-10T18:53:53.907Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "sth4KjyGLsjLFQFW",
             "pakku_links": [
                 "nGoI2ktXUDnnYdBu"
@@ -1103,6 +1180,43 @@
             ]
         },
         {
+            "pakku_id": "5KCBdHqBscKEkY7M",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "mouse-tweaks"
+            },
+            "name": {
+                "curseforge": "Mouse Tweaks"
+            },
+            "id": {
+                "curseforge": "60089"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5637/846/MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+                    "id": "5637846",
+                    "parent_id": "60089",
+                    "hashes": {
+                        "sha1": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+                        "md5": "4ab6e808a59fdebecfbc92438b85b470"
+                    },
+                    "required_dependencies": [],
+                    "size": 73938,
+                    "date_published": "2024-08-17T15:55:16.403Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "OAAE1vaHLIG2P6Kf",
             "type": "MOD",
             "side": "CLIENT",
@@ -1337,6 +1451,48 @@
                     "required_dependencies": [],
                     "size": 1162994,
                     "date_published": "2025-04-04T00:13:49.467Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "U9vedRqQnjOWIPH2",
+            "pakku_links": [
+                "hFgNz5YU4qXApa4A"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "trashslot"
+            },
+            "name": {
+                "curseforge": "TrashSlot"
+            },
+            "id": {
+                "curseforge": "235577"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "trashslot-neoforge-1.21.1-21.1.4.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6319/145/trashslot-neoforge-1.21.1-21.1.4.jar",
+                    "id": "6319145",
+                    "parent_id": "235577",
+                    "hashes": {
+                        "sha1": "0b7004a166834ae9a33cc37d769947436bb3f956",
+                        "md5": "ecaf023c276ce3e4c3faee79a6a820f8"
+                    },
+                    "required_dependencies": [
+                        "531761"
+                    ],
+                    "size": 123189,
+                    "date_published": "2025-03-18T15:07:48.147Z"
                 }
             ]
         }

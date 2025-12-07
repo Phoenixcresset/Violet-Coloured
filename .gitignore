@@ -19,6 +19,7 @@ usernamecache.json
 
 # Misc. Mods
 config/jade/sort-order.json
+TrashSlotSaveState.json
 
 # Pakku
 build/
