@@ -18,7 +18,10 @@ usercache.json
 usernamecache.json
 
 # Misc. Mods
+.mixin.out/
 config/jade/sort-order.json
+config/konkrete/
+config/resourceful-config-web.json
 TrashSlotSaveState.json
 
 # Pakku

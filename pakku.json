@@ -24,10 +24,19 @@
         "resourcepacks"
     ],
     "projects": {
+        "auth-me": {
+            "side": "CLIENT"
+        },
         "better-modlist-neoforge": {
             "side": "CLIENT"
         },
         "betterf3": {
+            "side": "CLIENT"
+        },
+        "crafting-tweaks": {
+            "side": "CLIENT"
+        },
+        "dynamic-fps":{
             "side": "CLIENT"
         },
         "entityculling": {
@@ -45,7 +54,19 @@
         "keybindjs": {
             "side": "CLIENT"
         },
+        "lighty": {
+            "side": "CLIENT"
+        },
+        "model-gap-fix": {
+            "side": "CLIENT"
+        },
+        "modernworldcreation": {
+            "side": "CLIENT"
+        },
         "moreculling": {
+            "side": "CLIENT"
+        },
+        "mouse-tweaks":{
             "side": "CLIENT"
         },
         "probejs": {
@@ -64,10 +85,7 @@
         "sodium": {
             "side": "CLIENT"
         },
-        "dynamic-fps":{
-            "side": "CLIENT"
-        },
-        "mouse-tweaks":{
+        "yeetusexperimentus": {
             "side": "CLIENT"
         }
     }

@@ -4,11 +4,20 @@
 
 ### Mods
 #### Added
+- Auth Me
+- Crafting Tweaks
+- Durability Tooltip
 - Dynamic FPS
+- Find Me
 - Inventory Essentials
 - Jade
+- Lighty
+- Load My F***ing Tags
+- Model Gap Fix
+- Modern World Creation
 - Mouse Tweaks
 - Trash Slot
+- Yeetus Experimentus
 
 #### Removed
 - Drop-Down Keybindings
