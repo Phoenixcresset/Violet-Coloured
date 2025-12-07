@@ -786,6 +786,83 @@
             ]
         },
         {
+            "pakku_id": "kLL1aj3Q5rGjMorc",
+            "pakku_links": [
+                "Va9UxN4lnXHdtv9O"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "jade-addons"
+            },
+            "name": {
+                "curseforge": "Jade Addons (Neo/Forge)"
+            },
+            "id": {
+                "curseforge": "583345"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6315/149/JadeAddons-1.21.1-NeoForge-6.1.0.jar",
+                    "id": "6315149",
+                    "parent_id": "583345",
+                    "hashes": {
+                        "sha1": "d0aef07e67f9e2dd7ae68f9f27d845511d8eaff3",
+                        "md5": "81f8035bc735c75463add09f923ad372"
+                    },
+                    "required_dependencies": [
+                        "324717"
+                    ],
+                    "size": 74419,
+                    "date_published": "2025-03-17T11:50:57.657Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Va9UxN4lnXHdtv9O",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "jade"
+            },
+            "name": {
+                "curseforge": "Jade 🔍"
+            },
+            "id": {
+                "curseforge": "324717"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Jade-1.21.1-NeoForge-15.10.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6853/386/Jade-1.21.1-NeoForge-15.10.3.jar",
+                    "id": "6853386",
+                    "parent_id": "324717",
+                    "hashes": {
+                        "sha1": "0c7e9b04e2481d26c9080dd5d32351490d1fed3a",
+                        "md5": "4c3891e2160079f270029c004ba3f562"
+                    },
+                    "required_dependencies": [],
+                    "size": 725736,
+                    "date_published": "2025-08-06T00:52:56.567Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "c3rbCaqLIWMUkzln",
             "pakku_links": [
                 "UTiUjBWThuuQwM8N"

@@ -17,6 +17,9 @@ options.txt
 usercache.json
 usernamecache.json
 
+# Misc. Mods
+config/jade/sort-order.json
+
 # Pakku
 build/
 

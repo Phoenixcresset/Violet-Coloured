@@ -5,6 +5,7 @@
 ### Mods
 #### Added
 - Dynamic FPS
+- Jade
 
 
 ## [0.0.2]
