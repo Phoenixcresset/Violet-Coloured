@@ -10,6 +10,8 @@
 - Mouse Tweaks
 - Trash Slot
 
+#### Removed
+- Drop-Down Keybindings
 
 ## [0.0.2]
 ### Added

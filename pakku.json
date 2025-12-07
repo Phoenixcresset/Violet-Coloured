@@ -30,9 +30,6 @@
         "betterf3": {
             "side": "CLIENT"
         },
-        "drop-down-keybindings": {
-            "side": "CLIENT"
-        },
         "entityculling": {
             "side": "CLIENT"
         },
