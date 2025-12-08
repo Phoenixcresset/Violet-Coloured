@@ -1,64 +1,64 @@
 # Minecraft
-local/
-saves/
-mods/
-logs/
-crash-reports/
-backups/
-resourcepacks/
-server-resource-packs/
-screenshots/
-downloads/
+/local/
+/saves/
+/mods/
+/logs/
+/crash-reports/
+/backups/
+/resourcepacks/
+/server-resource-packs/
+/screenshots/
+/downloads/
 
-command_history.txt
-emi.json
-icon.png
-options.txt
-usercache.json
-usernamecache.json
+/command_history.txt
+/emi.json
+/icon.png
+/options.txt
+/usercache.json
+/usernamecache.json
 
 # Misc. Mods
-.mixin.out/
-config/jade/sort-order.json
-config/konkrete/
-config/resourceful-config-web.json
-TrashSlotSaveState.json
+/.mixin.out/
+/config/jade/sort-order.json
+/config/konkrete/
+/config/resourceful-config-web.json
+/TrashSlotSaveState.json
 
 # Pakku
-build/
+/build/
 
 # ProbeJS
-.probe
-kubejs/**/probe-settings.json
-kubejs/**/jsconfig.json
+/.probe
+/kubejs/**/probe-settings.json
+/kubejs/**/jsconfig.json
 
 # Shaders
-shaderpacks/
-config/iris.properties
+/shaderpacks/
+/config/iris.properties
 
 # dotenv
-.env
+/.env
 
 # VSCode
-.vscode/**.code-snippets
-.vscode/settings.json
+/.vscode/**.code-snippets
+/.vscode/settings.json
 
 # OS specific files
 
 ## Linux
-*~
-.fuse_hidden*
-.directory
-.Trash-*
+/*~
+/.fuse_hidden*
+/.directory
+/.Trash-*
 
 ## Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
+/Thumbs.db
+/ehthumbs.db
+/Desktop.ini
+/$RECYCLE.BIN/
+/*.lnk
 
 ## macOS
-.DS_Store
-.AppleDouble
-.LSOverride
+/.DS_Store
+/.AppleDouble
+/.LSOverride
