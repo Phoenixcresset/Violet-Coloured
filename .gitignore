@@ -28,7 +28,7 @@
 /build/
 
 # ProbeJS
-/.probe
+.probe
 /kubejs/**/probe-settings.json
 /kubejs/**/jsconfig.json
 
