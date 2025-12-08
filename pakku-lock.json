@@ -8,6 +8,42 @@
     },
     "projects": [
         {
+            "pakku_id": "G6tcA25m9HkkfXG8",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "advanced-loot-info"
+            },
+            "name": {
+                "curseforge": "Advanced Loot Info"
+            },
+            "id": {
+                "curseforge": "1205426"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.6.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7278/209/AdvancedLootInfo-neoforge-1.21.1-1.6.0.jar",
+                    "id": "7278209",
+                    "parent_id": "1205426",
+                    "hashes": {
+                        "sha1": "b0900888294358f4cb108d215708b3249f8207c0",
+                        "md5": "8bad224b996fa9186cf367155eb3daed"
+                    },
+                    "required_dependencies": [],
+                    "size": 696986,
+                    "date_published": "2025-11-30T14:01:52.160Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "QRo9GNxTTNaaH0Fp",
             "pakku_links": [
                 "Egg5io7aGVEFrupt"
