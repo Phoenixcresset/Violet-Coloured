@@ -19,8 +19,10 @@
 - Modern World Creation
 - Mouse Tweaks
 - Smithing Template Viewer
+- Structure Essentials
 - Too Many Recipe Viewers
 - Trash Slot
+- WITS
 - Yeetus Experimentus
 
 #### Removed
