@@ -4,6 +4,7 @@
 
 ### Mods
 #### Added
+- Advanced Loot Info
 - Auth Me
 - Crafting Tweaks
 - Durability Tooltip
@@ -11,11 +12,14 @@
 - Find Me
 - Inventory Essentials
 - Jade
+- Just Enough Breeding
 - Lighty
 - Load My F***ing Tags
 - Model Gap Fix
 - Modern World Creation
 - Mouse Tweaks
+- Smithing Template Viewer
+- Too Many Recipe Viewers
 - Trash Slot
 - Yeetus Experimentus
 
