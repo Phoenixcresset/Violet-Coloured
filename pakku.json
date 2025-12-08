@@ -7,18 +7,8 @@
         "config",
         "defaultconfigs",
         "kubejs",
-        "!kubejs/probe/**"
-    ],
-    "server_overrides": [
-        "!kubejs/assets",
-        "forge-auto-install.txt",
-        "generate_auto_installation_file.bat",
-        "minecraft_server.jar",
-        "server.properties",
-        "server_starter.conf",
-        "server-icon.png",
-        "start_server.bat",
-        "!README.md"
+        "!kubejs/**/probe-settings.json",
+        "!kubejs/**/jsconfig.json"
     ],
     "client_overrides": [
         "resourcepacks"
