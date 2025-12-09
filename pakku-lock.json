@@ -307,6 +307,48 @@
             ]
         },
         {
+            "pakku_id": "vfrxF7dXSotsSwCD",
+            "pakku_links": [
+                "ZBH2avmTqV7NpnrL"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "better-world-loading-forge"
+            },
+            "name": {
+                "curseforge": "Better World Loading ([Neo]Forge)"
+            },
+            "id": {
+                "curseforge": "1286032"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "betterworldloadingnf21-1.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6647/966/betterworldloadingnf21-1.0.jar",
+                    "id": "6647966",
+                    "parent_id": "1286032",
+                    "hashes": {
+                        "sha1": "83b2e9003981e0306ee57926cd192042ccb7cedd",
+                        "md5": "5c9a90850267015ab7ff8d24a76f4d4a"
+                    },
+                    "required_dependencies": [
+                        "488090"
+                    ],
+                    "size": 11620,
+                    "date_published": "2025-06-13T17:59:28.940Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "SccPrTZPlcTMAUni",
             "pakku_links": [
                 "Egg5io7aGVEFrupt"
@@ -1514,6 +1556,43 @@
                     "required_dependencies": [],
                     "size": 78624,
                     "date_published": "2025-10-08T21:52:34.067Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ZBH2avmTqV7NpnrL",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "midnightlib"
+            },
+            "name": {
+                "curseforge": "MidnightLib"
+            },
+            "id": {
+                "curseforge": "488090"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "midnightlib-neoforge-1.9.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7254/894/midnightlib-neoforge-1.9.1+1.21.1.jar",
+                    "id": "7254894",
+                    "parent_id": "488090",
+                    "hashes": {
+                        "sha1": "4e54f9df0d6fda3ef84a5720e7f2b026f8820168",
+                        "md5": "baf787797e9d31e2b764eb9182caec6f"
+                    },
+                    "required_dependencies": [],
+                    "size": 60276,
+                    "date_published": "2025-11-23T20:10:53.863Z"
                 }
             ]
         },

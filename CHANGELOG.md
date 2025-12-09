@@ -6,6 +6,7 @@
 #### Added
 - Advanced Loot Info
 - Auth Me
+- Better World Loading
 - Crafting Tweaks
 - Durability Tooltip
 - Dynamic FPS

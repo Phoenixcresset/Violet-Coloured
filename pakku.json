@@ -26,7 +26,7 @@
         "crafting-tweaks": {
             "side": "CLIENT"
         },
-        "dynamic-fps":{
+        "dynamic-fps": {
             "side": "CLIENT"
         },
         "entityculling": {
@@ -56,7 +56,7 @@
         "moreculling": {
             "side": "CLIENT"
         },
-        "mouse-tweaks":{
+        "mouse-tweaks": {
             "side": "CLIENT"
         },
         "probejs": {
@@ -76,6 +76,9 @@
             "side": "CLIENT"
         },
         "yeetusexperimentus": {
+            "side": "CLIENT"
+        },
+        "better-world-loading-forge": {
             "side": "CLIENT"
         }
     }
