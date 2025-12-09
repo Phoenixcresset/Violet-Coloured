@@ -11,14 +11,32 @@ const keybindsToRemove = [
     'key.inventoryessentials.sort_inventory',
     'key.trashslot.toggle_lock',
     'key.trashslot.toggle',
-    'key.fancytoasts.config_menu'
-   
+    'key.fancytoasts.config_menu',
+    'key.craftingtweaks.rotate',
+    'key.craftingtweaks.rotate_counter_clockwise',
+    'key.craftingtweaks.balance',
+    'key.craftingtweaks.spread',
+    'key.craftingtweaks.clear',
+    'key.craftingtweaks.force_clear',
+    'key.craftingtweaks.compress_one',
+    'key.craftingtweaks.compress_stack',
+    'key.craftingtweaks.compress_all',
+    'key.craftingtweaks.decompress_one',
+    'key.craftingtweaks.decompress_stack',
+    'key.craftingtweaks.decompress_all',
+    'key.craftingtweaks.refill_last',
+    'key.craftingtweaks.refill_last_stack',
+    'key.craftingtweaks.transfer_stack',
+    'key.findme.pull_one',
+    'key.findme.pull_stack',
+    'key.lighty.enable'
 ]
 
 const keybindsToRebind = {
     'key.advancements': { key: GLFW.GLFW_KEY_G},
     'iris.keybind.reload': { key: GLFW.GLFW_KEY_O, modifier: KeyModifier.SHIFT },
     'iris.keybind.toggleShaders': { key: GLFW.GLFW_KEY_O, modifier: KeyModifier.CONTROL },
+    'key.lighty.toggle': { key: GLFW.GLFW_KEY_F7 }
 }
 
 KeyBindJSEvents.modify(event => {
