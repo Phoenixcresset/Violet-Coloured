@@ -22,7 +22,7 @@
     {
       "label": "Remove project",
       "type": "shell",
-      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar remove ${input:project_to_remove}",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar rm ${input:project_to_remove}",
       "group": "build",
     }
   ],
