@@ -10,6 +10,7 @@
 - Crafting Tweaks
 - Durability Tooltip
 - Dynamic FPS
+- Effects Insight
 - Find Me
 - Inventory Essentials
 - Jade
@@ -19,8 +20,11 @@
 - Model Gap Fix
 - Modern World Creation
 - Mouse Tweaks
+- Particle Effects
 - Smithing Template Viewer
+- Status Effect Bars Reforged
 - Structure Essentials
+- Stylish Effects
 - Too Many Recipe Viewers
 - Trash Slot
 - WITS

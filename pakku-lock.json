@@ -837,6 +837,48 @@
             ]
         },
         {
+            "pakku_id": "vmhwEc9l6QhGsZ8Q",
+            "pakku_links": [
+                "FcXXV2bWFUXfgJJr"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "effect-insights"
+            },
+            "name": {
+                "curseforge": "Effect Insights"
+            },
+            "id": {
+                "curseforge": "891326"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "EffectDescriptions-v21.1.1-1.21.1-NeoForge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6077/939/EffectDescriptions-v21.1.1-1.21.1-NeoForge.jar",
+                    "id": "6077939",
+                    "parent_id": "891326",
+                    "hashes": {
+                        "sha1": "700355b3e6c5f11e56d0aff6cc6825604e910da0",
+                        "md5": "896da090a0dad90a8783d41f20aa6f35"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 66316,
+                    "date_published": "2025-01-11T20:36:26.790Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "RJknOVURuTO7XMtJ",
             "type": "MOD",
             "side": "CLIENT",
@@ -1793,6 +1835,44 @@
             ]
         },
         {
+            "pakku_id": "JmpusELF9AKlADcr",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "particle-effects"
+            },
+            "name": {
+                "curseforge": "Particle Effects"
+            },
+            "id": {
+                "curseforge": "1120746"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ParticleEffects-1.1.0+1.21.1+neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7276/561/ParticleEffects-1.1.0+1.21.1+neoforge.jar",
+                    "id": "7276561",
+                    "parent_id": "1120746",
+                    "hashes": {
+                        "sha1": "65182abb47014d48c336d24f836ced4cfce99baa",
+                        "md5": "31046e83e213797fb1a347cf328671db"
+                    },
+                    "required_dependencies": [],
+                    "size": 289325,
+                    "date_published": "2025-11-30T02:19:47.883Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "OAAE1vaHLIG2P6Kf",
             "type": "MOD",
             "side": "CLIENT",
@@ -1827,6 +1907,42 @@
                     "required_dependencies": [],
                     "size": 4195463,
                     "date_published": "2025-10-14T02:49:36.610Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "FcXXV2bWFUXfgJJr",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "puzzles-lib"
+            },
+            "name": {
+                "curseforge": "Puzzles Lib"
+            },
+            "id": {
+                "curseforge": "495476"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7140/307/PuzzlesLib-v21.1.39-1.21.1-NeoForge.jar",
+                    "id": "7140307",
+                    "parent_id": "495476",
+                    "hashes": {
+                        "sha1": "bcc0900fbbf6d6fc5ca05039cd5725e6145225f2",
+                        "md5": "ccf523ffc1c317a005408d11009350a4"
+                    },
+                    "required_dependencies": [],
+                    "size": 1080389,
+                    "date_published": "2025-10-23T08:58:43.523Z"
                 }
             ]
         },
@@ -2068,6 +2184,43 @@
             ]
         },
         {
+            "pakku_id": "MpoDheNWPkyxYcl9",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "status-effect-bars-reforged"
+            },
+            "name": {
+                "curseforge": "Status Effect Bars Reforged"
+            },
+            "id": {
+                "curseforge": "1284599"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "statuseffectbars-1.21.1-NeoForge-1.0.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6707/544/statuseffectbars-1.21.1-NeoForge-1.0.2.jar",
+                    "id": "6707544",
+                    "parent_id": "1284599",
+                    "hashes": {
+                        "sha1": "bc2d624a831126bb00032d53ca0211d026e95682",
+                        "md5": "ebaa5cfea2cb0e8b6916fd8e99606bd0"
+                    },
+                    "required_dependencies": [],
+                    "size": 25114,
+                    "date_published": "2025-06-29T10:20:15.187Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "aTpt4XFAHwWvd2Jn",
             "pakku_links": [
                 "QiQmBpHjlGqi2iDb"
@@ -2105,6 +2258,48 @@
                     ],
                     "size": 60611,
                     "date_published": "2025-07-05T11:15:59.830Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TbD2ARUF98dObTbr",
+            "pakku_links": [
+                "FcXXV2bWFUXfgJJr"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "stylish-effects"
+            },
+            "name": {
+                "curseforge": "Stylish Effects"
+            },
+            "id": {
+                "curseforge": "543661"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "StylishEffects-v21.1.2-1.21.1-NeoForge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7239/283/StylishEffects-v21.1.2-1.21.1-NeoForge.jar",
+                    "id": "7239283",
+                    "parent_id": "543661",
+                    "hashes": {
+                        "sha1": "1e987d711f5f0321f4b82b393e1a34202f69165b",
+                        "md5": "ca441ceaeb6890e0764116d86ab9aaa5"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 124381,
+                    "date_published": "2025-11-19T16:14:00.570Z"
                 }
             ]
         },

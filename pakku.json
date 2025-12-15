@@ -80,6 +80,18 @@
         },
         "better-world-loading-forge": {
             "side": "CLIENT"
+        },
+        "particle-effects": {
+            "side": "CLIENT"
+        },
+        "stylish-effects": {
+            "side": "CLIENT"
+        },
+        "effect-insights": {
+            "side": "CLIENT"
+        },
+        "status-effect-bars-reforged": {
+            "side": "CLIENT"
         }
     }
 }
