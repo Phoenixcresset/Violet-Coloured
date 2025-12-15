@@ -8,10 +8,13 @@
 - Advanced Loot Info
 - Auth Me
 - Better World Loading
+- Cherished Worlds
 - Crafting Tweaks
+- Ding
 - Durability Tooltip
 - Dynamic FPS
 - Effects Insight
+- Equipment Compare
 - Find Me
 - Inventory Essentials
 - Jade

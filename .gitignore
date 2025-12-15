@@ -20,6 +20,7 @@
 # Misc. Mods
 /.mixin.out/
 /config/dynamic_fps.json
+/config/ichunutil/
 /config/jade/sort-order.json
 /config/konkrete/
 /config/lithium.properties
@@ -32,6 +33,7 @@
 /config/sodium-*
 /config/transition.json
 /config/trender.json
+/cherishedworlds-favorites.dat
 /TrashSlotSaveState.json
 
 # Pakku
