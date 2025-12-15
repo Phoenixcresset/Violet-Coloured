@@ -243,7 +243,7 @@
 		ambient_border = true
 		#Draw harmful effects on a separate line from beneficial ones. This is turned on in vanilla.
 		#Default Value: false
-		separate_effects = false
+		separate_effects = true
 		#Effect duration color. Setting this to "EFFECT" will use potion color.
 		#Default Value: GRAY
 		#Allowed Values: EFFECT, BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
