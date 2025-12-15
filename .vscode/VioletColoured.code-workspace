@@ -1,34 +1,16 @@
 {
-    "folders": [
-        {
-            "name": "Root",
-            "path": "../",
-        },{
-            "name": "KubeJS",
-            "path": "../kubejs"
-        },{
-            "name": "Configs",
-            "path": "../config"
-        },{
-            "name": "Configs Default",
-            "path": "../defaultconfigs"
-        },{
-            "name": "Quests",
-            "path": "../config/ftbquests/quests"
-        }
-    ],
     "settings": {
         "files.exclude": {
+            ".mixin.out/": true,
             ".probe/": true,
             "downloads/": true,
             "local/":true,
             "mods/": true,
+            "resourcepacks/": true,
             "saves/": true,
+            "screenshots/": true,
             "server-resource-packs/": true,
-            "usercache.json": true,
-            "usernamecache.json": true,
-            "emi.json": true,
-            ".mixin.out/": true,
+            "shaderpacks/": true,
             "config/dynamic_fps.json": true,
             "config/jade/sort-order.json": true,
             "config/konkrete/": true,
@@ -44,7 +26,15 @@
             "config/transition.json": true,
             "config/trender.json": true,
             "command_history.txt": true,
-            "TrashSlotSaveState.json": true
+            "emi.json": true,
+            "TrashSlotSaveState.json": true,
+            "usercache.json": true,
+            "usernamecache.json": true,
         }
-    }
+    },
+    "folders": [
+        {
+            "path": ".."
+        }
+    ]
 }
