@@ -24,7 +24,7 @@
 #Configs for ding to trigger when resources are reloaded
 [resourcesReload]
 	#Play sound when resources complete reloading. Requires game to be restarted when changing this option.
-	playOnResourcesReload = true
+	playOnResourcesReload = false
 	#Resource Location based name of the sound file to play when resources complete reloading.
 	#
 	#Look at the "name" config for more details.
