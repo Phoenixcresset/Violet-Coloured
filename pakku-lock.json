@@ -312,6 +312,7 @@
                 "ZBH2avmTqV7NpnrL"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "better-world-loading-forge"
             },
