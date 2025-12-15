@@ -4,6 +4,7 @@
 
 ### Mods
 #### Added
+- Accelerated Decay
 - Advanced Loot Info
 - Auth Me
 - Better World Loading
