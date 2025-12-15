@@ -7,7 +7,8 @@
   "loopsStrength": 1.0,
   "loopsSpeed": 1.0,
   "offsetX": 0,
-  "offsetY": 50,
+  "offsetY": -50,
   "toastAnchor": "TOP",
-  "toastScreenBehavior": "TRANSPARENT"
+  "toastScreenBehavior": "TRANSPARENT",
+  "version": 1
 }
