@@ -5,11 +5,25 @@
       "label": "Run Pakku",
       "type": "shell",
       "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar ${input:arg}",
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "problemMatcher": []
+      "group": "build",
+    },
+    {
+      "label": "Add project",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar add ${input:project_to_add}",
+      "group": "build",
+    },
+    {
+      "label": "Set project to client side",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar cfg prj -s CLIENT ${input:project_to_set_side}",
+      "group": "build",
+    },
+    {
+      "label": "Remove project",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar remove ${input:project_to_remove}",
+      "group": "build",
     }
   ],
   "inputs": [
@@ -17,6 +31,24 @@
       "id": "arg",
       "type": "promptString",
       "description": "Enter Pakku arguments",
+      "default": ""
+    },
+    {
+      "id": "project_to_add",
+      "type": "promptString",
+      "description": "Enter the Curseforge slug(s) of the project(s) to add",
+      "default": ""
+    },
+    {
+      "id": "project_to_set_side",
+      "type": "promptString",
+      "description": "Enter the Curseforge slug(s) of the project(s) to set to client side",
+      "default": ""
+    },
+    {
+      "id": "project_to_remove",
+      "type": "promptString",
+      "description": "Enter the Curseforge slug(s) of the project(s) to remove",
       "default": ""
     }
   ]
