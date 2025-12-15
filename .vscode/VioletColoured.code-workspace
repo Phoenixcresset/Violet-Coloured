@@ -27,7 +27,24 @@
             "server-resource-packs/": true,
             "usercache.json": true,
             "usernamecache.json": true,
-            "emi.json": true
+            "emi.json": true,
+            ".mixin.out/": true,
+            "config/dynamic_fps.json": true,
+            "config/jade/sort-order.json": true,
+            "config/konkrete/": true,
+            "config/iris*": true,
+            "config/lithium.properties": true,
+            "config/lmft.json": true,
+            "config/midnightlib.json": true,
+            "config/modernfix-mixins.properties": true,
+            "config/particle_effects.json5": true,
+            "config/resourceful-config-web.json": true,
+            "config/sodium-fingerprint.json": true,
+            "config/sodium-mixins.properties": true,
+            "config/transition.json": true,
+            "config/trender.json": true,
+            "command_history.txt": true,
+            "TrashSlotSaveState.json": true
         }
     }
 }

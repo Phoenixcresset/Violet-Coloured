@@ -19,9 +19,19 @@
 
 # Misc. Mods
 /.mixin.out/
+/config/dynamic_fps.json
 /config/jade/sort-order.json
 /config/konkrete/
+/config/lithium.properties
+/config/lmft.json
+/config/midnightlib.json
+/config/modernfix-mixins.properties
+/config/neoforge-*
+/config/particle_effects.json5
 /config/resourceful-config-web.json
+/config/sodium-*
+/config/transition.json
+/config/trender.json
 /TrashSlotSaveState.json
 
 # Pakku
@@ -34,7 +44,7 @@
 
 # Shaders
 /shaderpacks/
-/config/iris.properties
+/config/iris*
 
 # dotenv
 /.env
