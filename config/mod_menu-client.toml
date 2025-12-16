@@ -55,7 +55,7 @@ mod_parents = []
 	#Hides search bar and drag and drop text, also moves mod's icon up
 	hide_screen_top = false
 	#Add modid of the mod to hide it from the modlist
-	hidden_mods = ["rhino", "cloth_config", "kotlinforforge", "balm", "cupboard", "yet_another_config_lib_v3", "toomanyrecipeviewers", "jei", "supermartijn642configlib", "searchables", "puzzleslib", "midnightlib", "konkrete"]
+	hidden_mods = ["rhino", "cloth_config", "kotlinforforge", "balm", "cupboard", "yet_another_config_lib_v3", "toomanyrecipeviewers", "jei", "supermartijn642configlib", "searchables", "puzzleslib", "midnightlib", "konkrete", "ichunutil", "iceberg"]
 	#Add modid of the mod to hide its config
 	hidden_configs = []
 	#deprecated
