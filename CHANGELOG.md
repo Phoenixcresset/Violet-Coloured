@@ -25,6 +25,7 @@
 - Modern World Creation
 - Mouse Tweaks
 - Particle Effects
+- Remove Reloading Screen
 - Smithing Template Viewer
 - Status Effect Bars Reforged
 - Structure Essentials

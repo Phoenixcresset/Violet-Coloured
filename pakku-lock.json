@@ -2234,6 +2234,43 @@
             ]
         },
         {
+            "pakku_id": "vjenGCXbzmmiXxst",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "rrls"
+            },
+            "name": {
+                "curseforge": "Remove Reloading Screen"
+            },
+            "id": {
+                "curseforge": "833233"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rrls-5.0.10+mc1.21.1-forge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6418/267/rrls-5.0.10+mc1.21.1-forge.jar",
+                    "id": "6418267",
+                    "parent_id": "833233",
+                    "hashes": {
+                        "sha1": "4f02d745abde6d655d62ce2c3aafb2c8a14fcc27",
+                        "md5": "4d7bcd6cb496085e9371a3a5d10ad4c6"
+                    },
+                    "required_dependencies": [],
+                    "size": 180241,
+                    "date_published": "2025-04-13T12:06:17.303Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Ars28aFbdxOPs4wY",
             "type": "MOD",
             "slug": {
