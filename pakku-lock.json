@@ -799,6 +799,50 @@
             ]
         },
         {
+            "pakku_id": "oDXFhetAepd6MKiT",
+            "pakku_links": [
+                "q5a7GQQQWj8CzNvn",
+                "ZGJUCEqnhx4NriVD"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "drop-confirm"
+            },
+            "name": {
+                "curseforge": "DropConfirm"
+            },
+            "id": {
+                "curseforge": "881314"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "drop_confirm-6.1.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7339/109/drop_confirm-6.1.0.jar",
+                    "id": "7339109",
+                    "parent_id": "881314",
+                    "hashes": {
+                        "sha1": "64ebd460841f29501b7de284a32143aaf24392fb",
+                        "md5": "24f701e091c086b2dd5a6c6a78f66bb5"
+                    },
+                    "required_dependencies": [
+                        "351264",
+                        "667299"
+                    ],
+                    "size": 53342,
+                    "date_published": "2025-12-16T03:30:50.880Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "mnSlfncOnpBBnoMp",
             "pakku_links": [
                 "GOYyrx4ZFYizTF8b"

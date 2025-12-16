@@ -11,6 +11,7 @@
 - Cherished Worlds
 - Crafting Tweaks
 - Ding
+- Drop Confirm
 - Durability Tooltip
 - Dynamic FPS
 - Effects Insight
