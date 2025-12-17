@@ -16,6 +16,7 @@
 - Dynamic FPS
 - Effects Insight
 - Equipment Compare
+- Fading Night Vision
 - Find Me
 - Inventory Essentials
 - Jade

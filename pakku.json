@@ -101,6 +101,9 @@
         },
         "skin-layers-3d": {
             "side": "CLIENT"
+        },
+        "fading-night-vision": {
+            "side": "CLIENT"
         }
     }
 }
