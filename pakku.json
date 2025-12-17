@@ -104,6 +104,33 @@
         },
         "fading-night-vision": {
             "side": "CLIENT"
+        },
+        "advancements-reloaded": {
+            "side": "CLIENT"
+        },
+        "cherished-worlds": {
+            "side": "CLIENT"
+        },
+        "controlling": {
+            "side": "CLIENT"
+        },
+        "ding": {
+            "side": "CLIENT"
+        },
+        "durability-tooltip": {
+            "side": "CLIENT"
+        },
+        "equipment-compare": {
+            "side": "CLIENT"
+        },
+        "fancy-toasts": {
+            "side": "CLIENT"
+        },
+        "irisshaders": {
+            "side": "CLIENT"
+        },
+        "searchables": {
+            "side": "CLIENT"
         }
     }
 }
