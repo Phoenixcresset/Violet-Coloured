@@ -2120,6 +2120,47 @@
             ]
         },
         {
+            "pakku_id": "KBt9NuJkFo3Dw0xK",
+            "pakku_links": [
+                "FcXXV2bWFUXfgJJr"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "pick-up-notifier"
+            },
+            "name": {
+                "curseforge": "Pick Up Notifier"
+            },
+            "id": {
+                "curseforge": "351441"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6409/785/PickUpNotifier-v21.1.1-1.21.1-NeoForge.jar",
+                    "id": "6409785",
+                    "parent_id": "351441",
+                    "hashes": {
+                        "sha1": "90d3fe207c95a3a5d849ebf8d70ffa885694e30f",
+                        "md5": "703cd8ad4dc4d99e11532122812915f9"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 97094,
+                    "date_published": "2025-04-11T06:14:09.147Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "OAAE1vaHLIG2P6Kf",
             "type": "MOD",
             "side": "CLIENT",

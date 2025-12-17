@@ -26,6 +26,7 @@
 - Modern World Creation
 - Mouse Tweaks
 - Particle Effects
+- Pick Up Notifier
 - Remove Reloading Screen
 - Skin Layers 3D
 - Smithing Template Viewer
