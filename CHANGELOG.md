@@ -27,6 +27,7 @@
 - Mouse Tweaks
 - Particle Effects
 - Remove Reloading Screen
+- Skin Layers 3D
 - Smithing Template Viewer
 - Status Effect Bars Reforged
 - Structure Essentials

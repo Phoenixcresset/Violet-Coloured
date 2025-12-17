@@ -2395,6 +2395,44 @@
             ]
         },
         {
+            "pakku_id": "x3HUftj3HfgQKmPw",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "skin-layers-3d"
+            },
+            "name": {
+                "curseforge": "Skin Layers 3D"
+            },
+            "id": {
+                "curseforge": "521480"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "skinlayers3d-neoforge-1.10.1-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7322/374/skinlayers3d-neoforge-1.10.1-mc1.21.1.jar",
+                    "id": "7322374",
+                    "parent_id": "521480",
+                    "hashes": {
+                        "sha1": "14e6fb20e82ffcb7e604e595118e7d0ca9f7f384",
+                        "md5": "f96e2768e6bd601535ed882dffa4106c"
+                    },
+                    "required_dependencies": [],
+                    "size": 1966859,
+                    "date_published": "2025-12-11T22:47:00.913Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "iLaA0u9EL1PmdOs5",
             "type": "MOD",
             "slug": {
