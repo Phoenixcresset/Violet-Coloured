@@ -805,6 +805,7 @@
                 "ZGJUCEqnhx4NriVD"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "drop-confirm"
             },
@@ -2280,6 +2281,7 @@
         {
             "pakku_id": "vjenGCXbzmmiXxst",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "rrls"
             },

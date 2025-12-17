@@ -92,6 +92,12 @@
         },
         "status-effect-bars-reforged": {
             "side": "CLIENT"
+        },
+        "drop-confirm": {
+            "side": "CLIENT"
+        },
+        "rrls": {
+            "side": "CLIENT"
         }
     }
 }
