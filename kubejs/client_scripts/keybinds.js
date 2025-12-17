@@ -29,7 +29,8 @@ const keybindsToRemove = [
     'key.craftingtweaks.transfer_stack',
     'key.findme.pull_one',
     'key.findme.pull_stack',
-    'key.lighty.enable'
+    'key.lighty.enable',
+    'key.drop_confirm.toggle',
 ]
 
 const keybindsToRebind = {
