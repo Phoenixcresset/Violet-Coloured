@@ -28,16 +28,17 @@
                     "file_name": "accelerated-decay-neoforge-21.0.0.jar",
                     "mc_versions": [
                         "1.21",
-                        "1.21.5",
                         "1.21.8",
-                        "1.21.9",
-                        "1.21.10",
+                        "1.21.5",
                         "1.21.4",
-                        "1.21.3",
-                        "1.21.7",
                         "1.21.1",
                         "1.21.6",
-                        "1.21.2"
+                        "1.21.3",
+                        "1.21.7",
+                        "1.21.2",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
                     ],
                     "loaders": [
                         "neoforge"
@@ -1276,8 +1277,7 @@
                         "1.21.7",
                         "1.21.2",
                         "1.21.9",
-                        "1.21.10",
-                        "1.21.11"
+                        "1.21.10"
                     ],
                     "loaders": [
                         "neoforge"
@@ -1550,7 +1550,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ImmediatelyFast-NeoForge-1.6.8+1.21.1.jar",
+                    "file_name": "ImmediatelyFast-NeoForge-1.6.9+1.21.1.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -1559,16 +1559,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7313/114/ImmediatelyFast-NeoForge-1.6.8+1.21.1.jar",
-                    "id": "7313114",
+                    "url": "https://edge.forgecdn.net/files/7349/649/ImmediatelyFast-NeoForge-1.6.9+1.21.1.jar",
+                    "id": "7349649",
                     "parent_id": "686911",
                     "hashes": {
-                        "sha1": "5b165e9a2b75b71f627b0962a6ad1949fa2b6fea",
-                        "md5": "58bd08edfd9a6f54553d361afcb0b0ae"
+                        "sha1": "01df8113ce41993ea341b973afc36ef2e1701e00",
+                        "md5": "b556b55f0efd382cfca9a390dbaff72e"
                     },
                     "required_dependencies": [],
-                    "size": 254698,
-                    "date_published": "2025-12-09T20:23:19.003Z"
+                    "size": 367790,
+                    "date_published": "2025-12-18T11:58:08.900Z"
                 }
             ]
         },
