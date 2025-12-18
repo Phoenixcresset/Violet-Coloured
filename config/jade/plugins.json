@@ -50,7 +50,7 @@
     "total_enchantment_power": false,
     "potion_effects": true,
     "painting": true,
-    "chiseled_bookshelf": true
+    "chiseled_bookshelf": false
   },
   "jadeaddons": {
     "equipment_requirement": ""

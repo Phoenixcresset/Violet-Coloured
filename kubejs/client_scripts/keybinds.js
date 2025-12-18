@@ -33,6 +33,9 @@ const keybindsToRemove = [
     'key.drop_confirm.toggle',
     'key.fadingnightvision.toggle_night_vision',
     'key.carbon_config.key',
+    'key.scholar.toggle_book_tools',
+    'key.scholar.import_book',
+    'key.scholar.export_book'
 ]
 
 const keybindsToRebind = {
