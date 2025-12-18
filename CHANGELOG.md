@@ -18,6 +18,7 @@
 - Equipment Compare
 - Fading Night Vision
 - Find Me
+- Gallery
 - Inventory Essentials
 - Jade
 - Jump Over Fences
@@ -30,6 +31,7 @@
 - Particle Effects
 - Pick Up Notifier
 - Polymorph
+- Portfolio
 - Remove Reloading Screen
 - Skin Layers 3D
 - Smithing Template Viewer

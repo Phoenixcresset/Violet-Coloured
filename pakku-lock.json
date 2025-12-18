@@ -444,6 +444,42 @@
             ]
         },
         {
+            "pakku_id": "dSoLtANCGlBrPBja",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "blueprint"
+            },
+            "name": {
+                "curseforge": "Blueprint"
+            },
+            "id": {
+                "curseforge": "382216"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "blueprint-1.21.1-8.0.8.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7148/94/blueprint-1.21.1-8.0.8.jar",
+                    "id": "7148094",
+                    "parent_id": "382216",
+                    "hashes": {
+                        "sha1": "9f9549cecaee3f4cb03d9c829b148a110a0efb54",
+                        "md5": "23d0b0b757490ddad76a6260323298b6"
+                    },
+                    "required_dependencies": [],
+                    "size": 1098679,
+                    "date_published": "2025-10-25T13:03:05.170Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "f7UCu3bOGQZrokFT",
             "type": "MOD",
             "slug": {
@@ -1376,6 +1412,47 @@
                     ],
                     "size": 40862,
                     "date_published": "2025-04-25T19:03:00.147Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "EcJC7JG6ZqDmqp2k",
+            "pakku_links": [
+                "dSoLtANCGlBrPBja"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "gallery"
+            },
+            "name": {
+                "curseforge": "Gallery"
+            },
+            "id": {
+                "curseforge": "1173553"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "gallery-1.21.1-2.0.0.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6449/910/gallery-1.21.1-2.0.0.jar",
+                    "id": "6449910",
+                    "parent_id": "1173553",
+                    "hashes": {
+                        "sha1": "4b70093c91dd290b7defc81905054aa445ecd752",
+                        "md5": "8acea1303f2b72cd500ba121824621cb"
+                    },
+                    "required_dependencies": [
+                        "382216"
+                    ],
+                    "size": 391259,
+                    "date_published": "2025-04-21T23:36:19.480Z"
                 }
             ]
         },
@@ -2323,6 +2400,42 @@
                     "required_dependencies": [],
                     "size": 174972,
                     "date_published": "2025-07-21T10:56:20.123Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2dogQB3bSXjSTV4d",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "portfolio"
+            },
+            "name": {
+                "curseforge": "Portfolio"
+            },
+            "id": {
+                "curseforge": "851131"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "portfolio-1.21.1-1.5.0-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6954/259/portfolio-1.21.1-1.5.0-neoforge.jar",
+                    "id": "6954259",
+                    "parent_id": "851131",
+                    "hashes": {
+                        "sha1": "1bfdd25957c753917b9e7b00580fdb8d774140e0",
+                        "md5": "525eec0bca53d9c896ec0cc4a18ded5e"
+                    },
+                    "required_dependencies": [],
+                    "size": 793218,
+                    "date_published": "2025-09-01T22:47:39.410Z"
                 }
             ]
         },
