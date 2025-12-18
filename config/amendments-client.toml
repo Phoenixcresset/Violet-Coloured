@@ -57,7 +57,7 @@
 	#Scale of items on hanging signs (unit is in pixel they would occupy). Set to 8 to better match the pixels on the sign
 	# Default: 10.0
 	# Range: 0.0 ~ 32.0
-	item_pixel_scale = 10.0
+	item_pixel_scale = 8.0
 	#Makes signs swing!
 	swinging_signs = true
 	#Signs have visual attachment to walls and fences

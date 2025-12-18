@@ -61,16 +61,16 @@
 
 	#Map of potion ids to their inverse ids. Used for potion mixing
 	[cauldron.inverse_potions]
+		"minecraft:luck" = "minecraft:unluck"
+		"minecraft:unluck" = "minecraft:luck"
+		"minecraft:mining_fatigue" = "minecraft:haste"
+		"minecraft:speed" = "minecraft:slowness"
+		"minecraft:haste" = "minecraft:mining_fatigue"
+		"minecraft:instant_damage" = "minecraft:instant_health"
+		"minecraft:strength" = "minecraft:weakness"
+		"minecraft:slowness" = "minecraft:speed"
 		"minecraft:weakness" = "minecraft:strength"
 		"minecraft:instant_health" = "minecraft:instant_damage"
-		"minecraft:luck" = "minecraft:unluck"
-		"minecraft:mining_fatigue" = "minecraft:haste"
-		"minecraft:strength" = "minecraft:weakness"
-		"minecraft:instant_damage" = "minecraft:instant_health"
-		"minecraft:speed" = "minecraft:slowness"
-		"minecraft:unluck" = "minecraft:luck"
-		"minecraft:haste" = "minecraft:mining_fatigue"
-		"minecraft:slowness" = "minecraft:speed"
 
 [tripwire_hook]
 	#Allows placing tools on tripwire hooks
@@ -131,7 +131,7 @@
 
 [torch]
 	#Allows torches to set entities on fire
-	torch_fire = true
+	torch_fire = false
 	#Allows torches to set entities on fire when held in offhand given you are attacking with a sword
 	torch_fire_offhand = false
 	#Duration of the on fire effect applied by torches. In seconds
