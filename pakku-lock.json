@@ -174,6 +174,48 @@
             ]
         },
         {
+            "pakku_id": "VUwPMVCrprAM2vXv",
+            "pakku_links": [
+                "nTpsI13QeOHtIL5r"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "amendments"
+            },
+            "name": {
+                "curseforge": "Amendments"
+            },
+            "id": {
+                "curseforge": "896746"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "amendments-1.21-2.0.10-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7343/969/amendments-1.21-2.0.10-neoforge.jar",
+                    "id": "7343969",
+                    "parent_id": "896746",
+                    "hashes": {
+                        "sha1": "5fec85da5653b1e97b4b732dadb438d816f35884",
+                        "md5": "48b3c0793610884b22120148ae81bdf5"
+                    },
+                    "required_dependencies": [
+                        "499980"
+                    ],
+                    "size": 1140704,
+                    "date_published": "2025-12-17T13:12:28.017Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ViQ8gDCC0GkRoQJ0",
             "type": "MOD",
             "slug": {
@@ -2207,6 +2249,43 @@
                     "required_dependencies": [],
                     "size": 569818,
                     "date_published": "2025-11-08T20:04:57.983Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "nTpsI13QeOHtIL5r",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "selene"
+            },
+            "name": {
+                "curseforge": "Moonlight Lib"
+            },
+            "id": {
+                "curseforge": "499980"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "moonlight-1.21-2.28.2-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7340/883/moonlight-1.21-2.28.2-neoforge.jar",
+                    "id": "7340883",
+                    "parent_id": "499980",
+                    "hashes": {
+                        "sha1": "100339839fce7009fa646562cd9ae0438c64cb1c",
+                        "md5": "45e681076038a42751b2defa09ddbfd7"
+                    },
+                    "required_dependencies": [],
+                    "size": 1479333,
+                    "date_published": "2025-12-16T16:58:04.393Z"
                 }
             ]
         },

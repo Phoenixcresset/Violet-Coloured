@@ -33,6 +33,8 @@
 /config/sodium-*
 /config/transition.json
 /config/trender.json
+/config/*.bak
+/dynamic-resource-pack-cache/
 /cherishedworlds-favorites.dat
 /TrashSlotSaveState.json
 

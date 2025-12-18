@@ -6,6 +6,7 @@
 #### Added
 - Accelerated Decay
 - Advanced Loot Info
+- Amendments
 - Auth Me
 - Better World Loading
 - Cherished Worlds
