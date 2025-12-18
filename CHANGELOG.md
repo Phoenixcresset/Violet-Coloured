@@ -1,7 +1,6 @@
 # Changelog
 
-## [Unreleased]
-
+## [0.0.3]
 ### Mods
 #### Added
 - Accelerated Decay
