@@ -3,6 +3,7 @@
         "files.exclude": {
             ".mixin.out/": true,
             ".probe/": true,
+            "data/": true,
             "downloads/": true,
             "dynamic-resource-pack-cache/": true,
             "local/":true,
