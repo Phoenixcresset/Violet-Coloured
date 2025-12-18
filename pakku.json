@@ -131,6 +131,9 @@
         },
         "searchables": {
             "side": "CLIENT"
+        },
+        "jump-over-fences-forge": {
+            "side": "CLIENT"
         }
     }
 }

@@ -20,6 +20,7 @@
 - Find Me
 - Inventory Essentials
 - Jade
+- Jump Over Fences
 - Just Enough Breeding
 - Lighty
 - Load My F***ing Tags
@@ -28,6 +29,7 @@
 - Mouse Tweaks
 - Particle Effects
 - Pick Up Notifier
+- Polymorph
 - Remove Reloading Screen
 - Skin Layers 3D
 - Smithing Template Viewer
