@@ -80,4 +80,4 @@
 	anvil_repairing = true
 	#Mobs that have a custom name drop a name tag with that name on death.
 	#Default Value: false
-	name_tags_drop_from_mobs = false
+	name_tags_drop_from_mobs = true
