@@ -7,6 +7,7 @@
 - Easy Anvils
 - Easy Magic
 - Easy Shulker Boxes
+- KubeJS Tweaks
 
 ## [0.0.3]
 ### Mods
