@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Mods
 #### Added
+- Dyed Flames
 - Easy Anvils
 - Easy Magic
 - Easy Shulker Boxes

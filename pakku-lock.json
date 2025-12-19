@@ -1016,6 +1016,47 @@
             ]
         },
         {
+            "pakku_id": "6sdHsZP3xk9iTq0R",
+            "pakku_links": [
+                "FcXXV2bWFUXfgJJr"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "dyed-flames"
+            },
+            "name": {
+                "curseforge": "Dyed Flames"
+            },
+            "id": {
+                "curseforge": "1254590"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "DyedFlames-v21.1.1-1.21.1-NeoForge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6498/28/DyedFlames-v21.1.1-1.21.1-NeoForge.jar",
+                    "id": "6498028",
+                    "parent_id": "1254590",
+                    "hashes": {
+                        "sha1": "25cea136906ba978c553c2f38016cd7c6af2f0ff",
+                        "md5": "4882e2a3a32dc4f545399b38e2f9ff36"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 97354,
+                    "date_published": "2025-05-05T08:42:02.100Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "lJxTuBIo8Vp2tOP5",
             "type": "MOD",
             "side": "CLIENT",
