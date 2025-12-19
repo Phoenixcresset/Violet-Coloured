@@ -1,45 +1,62 @@
-const itemsWithInteractions = {
-    "sack": {
-        "type": "iteminteractions:container",
-        "disallowed_item_contents": [],
-        "equipment_slots": "any",
-        "filter_container_items": true,
-        "interaction_permissions": "always",
-        "inventory_height": 4,
-        "inventory_width": 4,
-        "supported_items": "supplementaries:sack"
+const blacklistedItems = [];
+
+const createContainerConfig = (itemIds, size, background_color) => {
+   
+    var config = {
+        type: "iteminteractions:container",
+        disallowed_item_contents: blacklistedItems,
+        equipment_slots: "any",
+        filter_container_items: true,
+        interaction_permissions: "always",
+        inventory_height: size.height,
+        inventory_width: size.width,
+        supported_items: itemIds,
+    }
+    if (background_color !== null) {
+        config.background_color = background_color
+    }
+
+    return config;
+}
+
+const modContainers = {
+    "supplementaries": {
+        "sack": createContainerConfig("supplementaries:sack", {height: 3, width: 3}),
     },
-//     "suppsquared:item_containers_providers/sack_black"
+    "suppsquared": {
+        "sack_{COLOR}": createContainerConfig("suppsquared:sack_{COLOR}", {height: 3, width: 3}, "{COLOR}"),
+    }
+}
+
+const itemsWithInteractions = {
+    "sack": createContainerConfig("supplementaries:sack", {height: 3, width: 3}),
 }
 
 const COLORS = ["black", "blue", "brown", "cyan", "gray", "green", "light_blue", "light_gray", "lime", "magenta", "orange", "pink", "purple", "red", "white", "yellow"];
 
 const dyedItemsWithInteractions = {
-    "sack_{COLOR}": {
-        "type": "iteminteractions:container",
-        "background_color": "{COLOR}",
-        "disallowed_item_contents": [],
-        "equipment_slots": "any",
-        "filter_container_items": true,
-        "interaction_permissions": "always",
-        "inventory_height": 3,
-        "inventory_width": 3,
-        "supported_items": "suppsquared:sack_{COLOR}"
-    },
+    "sack_{COLOR}": createContainerConfig("suppsquared:sack_{COLOR}", {height: 3, width: 3}, "{COLOR}"),
 }
 
 ServerEvents.generateData("after_mods", event => {
-    for (const [name, data] of Object.entries(itemsWithInteractions)) {
-        // The path is easyshulkerboxes:item_contents_provider/ + the item id
-        event.json(`easyshulkerboxes:item_contents_provider/${name}`, data)
-    }
-    for (const [template, data] of Object.entries(dyedItemsWithInteractions)) {
-        for (const color of COLORS) {
-            let itemName = template.replace("{COLOR}", color);
-            let itemData = JSON.parse(
-                JSON.stringify(data).replace(/{COLOR}/g, color)
-            );
-            event.json(`easyshulkerboxes:item_contents_provider/${itemName}`, itemData)
+    for (const [modid, containers] of Object.entries(modContainers)) {
+        if (!Platform.isLoaded(modid)) {
+            console.log(`Easy Shulker Boxes compat : Skipping containers for ${modid} (mod not loaded)`)
+            continue
+        }
+
+        for (const [template, data] of Object.entries(containers)) {
+            if (template.includes("{COLOR}")) {
+                for (const color of COLORS) {
+                    let itemName = template.replace("{COLOR}", color)
+                    let itemData = JSON.parse(
+                        JSON.stringify(data).replace(/{COLOR}/g, color)
+                    )
+                    event.json(`easyshulkerboxes:item_contents_provider/${itemName}`, itemData)
+                }
+            } else {
+                event.json(`easyshulkerboxes:item_contents_provider/${template}`, data)
+            }
         }
     }
 })
