@@ -7,15 +7,23 @@ const recipeHidingConfig = {
     ],
     recipeIds: [
         "minecraft:/chests/spawn_bonus_chest",
+        "emi:/anvil/enchanting/.*",
+        "emi:/crafting/repairing/.*",
+        "emi:/anvil/repairing/tool/.*",
+        "emi:/grindstone/repairing/.*",
+        "emi:/grindstone/disenchanting/.*",
     ],
     categorizedIds: {
         "ali:trial_chambers": [
-            "minecraft:/dispensers/*",
+            "minecraft:/dispensers/.*",
             "minecraft:/chests/trial_chambers/reward(?:_ominous)?_(?:common|rare|unique)",
-            "minecraft:/equipment/*",
+            "minecraft:/equipment/.*",
         ],
         "ali:fishing_loot": [
             "minecraft:/gameplay/fishing/(junk|treasure|fish)",
+        ],
+        "minecraft:smithing": [
+            ".*armor_trim.*",
         ]
     }
 };
