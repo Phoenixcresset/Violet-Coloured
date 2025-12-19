@@ -1133,6 +1133,129 @@
             ]
         },
         {
+            "pakku_id": "zcvuyeygNOp1Fd9P",
+            "pakku_links": [
+                "FcXXV2bWFUXfgJJr"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "easy-anvils"
+            },
+            "name": {
+                "curseforge": "Easy Anvils"
+            },
+            "id": {
+                "curseforge": "682567"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5733/955/EasyAnvils-v21.1.0-1.21.1-NeoForge.jar",
+                    "id": "5733955",
+                    "parent_id": "682567",
+                    "hashes": {
+                        "sha1": "376c02e44dfcb44b79a494b1dba87b2ffb24277f",
+                        "md5": "869e136e160ef739bee32e4bd6860d2a"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 152297,
+                    "date_published": "2024-09-18T10:12:35.533Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "MOFNP69oNYt8itBT",
+            "pakku_links": [
+                "FcXXV2bWFUXfgJJr"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "easy-magic"
+            },
+            "name": {
+                "curseforge": "Easy Magic"
+            },
+            "id": {
+                "curseforge": "456239"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "EasyMagic-v21.1.4-1.21.1-NeoForge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7151/100/EasyMagic-v21.1.4-1.21.1-NeoForge.jar",
+                    "id": "7151100",
+                    "parent_id": "456239",
+                    "hashes": {
+                        "sha1": "bbd1d7afd2b803f6c8055b5342d581ea542e132e",
+                        "md5": "b51766fc730e071db0fb073abfa5beb6"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 143992,
+                    "date_published": "2025-10-26T07:28:03.210Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "SOIZ7B6ttu1YeFX4",
+            "pakku_links": [
+                "FcXXV2bWFUXfgJJr"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "easy-shulker-boxes"
+            },
+            "name": {
+                "curseforge": "Easy Shulker Boxes"
+            },
+            "id": {
+                "curseforge": "594006"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "EasyShulkerBoxes-v21.1.3-1.21.1-NeoForge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6697/879/EasyShulkerBoxes-v21.1.3-1.21.1-NeoForge.jar",
+                    "id": "6697879",
+                    "parent_id": "594006",
+                    "hashes": {
+                        "sha1": "9491302950e20bec758f67f13ff21663ecf40986",
+                        "md5": "e79add151633e1a5c40abfb618cd786d"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 215920,
+                    "date_published": "2025-06-26T13:43:27.667Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "vmhwEc9l6QhGsZ8Q",
             "pakku_links": [
                 "FcXXV2bWFUXfgJJr"

@@ -1,5 +1,12 @@
 # Changelog
 
+## [Unreleased]
+### Mods
+#### Added
+- Easy Anvils
+- Easy Magic
+- Easy Shulker Boxes
+
 ## [0.0.3]
 ### Mods
 #### Added
