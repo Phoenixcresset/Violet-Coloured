@@ -35,7 +35,10 @@ const keybindsToRemove = [
     'key.carbon_config.key',
     'key.scholar.toggle_book_tools',
     'key.scholar.import_book',
-    'key.scholar.export_book'
+    'key.scholar.export_book',
+    'key.toggleVisualItemContents',
+    'key.toggleSelectedItemTooltips',
+    'key.toggleCarriedItemTooltips'
 ]
 
 const keybindsToRebind = {
