@@ -1,4 +1,6 @@
 [ingame]
+	#If enabled, clicking on the link printed in the chat when taking a screenshot will open it directly in the screenshot manager.
+	redirectScreenshotChatLinks = true
 	#Screenshot Viewer Hooks
 	#Shows a button to access screenshots directly in the pause menu.
 	showButtonInGamePauseMenu = true
@@ -12,16 +14,14 @@
 	# Default: 0
 	# Range: > -2147483648
 	titleScreenButtonHorizontalOffset = 0
-	#If enabled, clicking on the link printed in the chat when taking a screenshot will open it directly in the screenshot manager.
-	redirectScreenshotChatLinks = false
 
 [ingui]
+	#The ordering of the screenshots when the screen is opened.
+	#Allowed Values: ASCENDING, DESCENDING
+	defaultListOrder = "DESCENDING"
 	#Screenshot Manager Customization
 	#The path to the folder containing the screenshots images that will be displayed in the screen.
 	screenshotsFolder = "C:\\Users\\jblam\\Desktop\\PrismLauncher\\instances\\Violet Coloured\\minecraft\\screenshots"
-	#The ordering of the screenshots when the screen is opened.
-	#Allowed Values: ASCENDING, DESCENDING
-	defaultListOrder = "ASCENDING"
 	#Warns you with a confirmation screen when trying to delete a screenshot.
 	promptWhenDeletingScreenshot = true
 	#Whether a growing animation should play when a screenshot on the screen is clicked to be enlarged.
