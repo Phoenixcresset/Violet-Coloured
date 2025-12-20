@@ -192,7 +192,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "amendments-1.21-2.0.10-neoforge.jar",
+                    "file_name": "amendments-1.21-2.0.13-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -201,18 +201,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7343/969/amendments-1.21-2.0.10-neoforge.jar",
-                    "id": "7343969",
+                    "url": "https://edge.forgecdn.net/files/7352/178/amendments-1.21-2.0.13-neoforge.jar",
+                    "id": "7352178",
                     "parent_id": "896746",
                     "hashes": {
-                        "sha1": "5fec85da5653b1e97b4b732dadb438d816f35884",
-                        "md5": "48b3c0793610884b22120148ae81bdf5"
+                        "sha1": "8ff88f9b6d422c7d2a1f20c318fa6f4edf0eab8a",
+                        "md5": "eb3f68605d032eaf8b399557d0fad2c8"
                     },
                     "required_dependencies": [
                         "499980"
                     ],
-                    "size": 1140704,
-                    "date_published": "2025-12-17T13:12:28.017Z"
+                    "size": 1141810,
+                    "date_published": "2025-12-19T02:53:52.463Z"
                 }
             ]
         },
@@ -3158,6 +3158,7 @@
         {
             "pakku_id": "FJzOWLQd5HvqQAH8",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "screenshot-viewer"
             },
