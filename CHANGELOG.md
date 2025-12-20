@@ -7,7 +7,13 @@
 - Easy Anvils
 - Easy Magic
 - Easy Shulker Boxes
+- Hide Experimental Warning
 - KubeJS Tweaks
+- OPack2Reload
+- Resource Pack Overrides
+
+#### Removed
+- Yeetus Experimentus
 
 ## [0.0.3]
 ### Mods

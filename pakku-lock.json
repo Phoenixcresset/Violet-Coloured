@@ -635,6 +635,46 @@
             ]
         },
         {
+            "pakku_id": "BkMjMPSxhZZOKliy",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "collective"
+            },
+            "name": {
+                "curseforge": "Collective"
+            },
+            "id": {
+                "curseforge": "342584"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "collective-1.21.1-8.13.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7148/969/collective-1.21.1-8.13.jar",
+                    "id": "7148969",
+                    "parent_id": "342584",
+                    "hashes": {
+                        "sha1": "a31359f980453a838a7e854d86f485314fda91ad",
+                        "md5": "b454e160d38e5463f86b50ca82e9ef83"
+                    },
+                    "required_dependencies": [],
+                    "size": 946726,
+                    "date_published": "2025-10-25T16:55:00.750Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "SykfGywuz9sX9gNz",
             "type": "SHADER",
             "slug": {
@@ -1659,6 +1699,51 @@
                     ],
                     "size": 391259,
                     "date_published": "2025-04-21T23:36:19.480Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2E3LZrokcB0pwWqC",
+            "pakku_links": [
+                "BkMjMPSxhZZOKliy"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "hide-experimental-warning"
+            },
+            "name": {
+                "curseforge": "Hide Experimental Warning"
+            },
+            "id": {
+                "curseforge": "1009556"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "hideexperimentalwarning-1.21.1-1.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5609/644/hideexperimentalwarning-1.21.1-1.2.jar",
+                    "id": "5609644",
+                    "parent_id": "1009556",
+                    "hashes": {
+                        "sha1": "11498f7f2aaf659b8f63ce718b7b4218ef5d97ff",
+                        "md5": "af698c3f621497e65b35f0eea322d27c"
+                    },
+                    "required_dependencies": [
+                        "342584"
+                    ],
+                    "size": 18715,
+                    "date_published": "2024-08-08T23:44:34.410Z"
                 }
             ]
         },
@@ -3500,53 +3585,6 @@
                     "required_dependencies": [],
                     "size": 12231,
                     "date_published": "2024-06-14T02:05:30.513Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "fRmmL2PsmFgLiHVp",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "curseforge": "yeetusexperimentus"
-            },
-            "name": {
-                "curseforge": "Yeetus Experimentus"
-            },
-            "id": {
-                "curseforge": "635427"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "yeetusexperimentus-neoforge-87.0.0.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.5",
-                        "1.21.8",
-                        "1.21.9",
-                        "1.21.10",
-                        "1.21.4",
-                        "1.21.3",
-                        "1.21.7",
-                        "1.21.1",
-                        "1.21.6",
-                        "1.21.2"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5444/189/yeetusexperimentus-neoforge-87.0.0.jar",
-                    "id": "5444189",
-                    "parent_id": "635427",
-                    "hashes": {
-                        "sha1": "7132c346103d75a7c84da64b35b92e3a6f1ce3da",
-                        "md5": "146a7ff6596eff098dd1d07337ba88fe"
-                    },
-                    "required_dependencies": [],
-                    "size": 570057,
-                    "date_published": "2024-06-19T12:03:09.493Z"
                 }
             ]
         },
