@@ -11,6 +11,7 @@
 - KubeJS Tweaks
 - OPack2Reload
 - Resource Pack Overrides
+- Screenshot Viewer
 
 #### Removed
 - Yeetus Experimentus

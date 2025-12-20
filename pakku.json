@@ -134,6 +134,9 @@
         },
         "jump-over-fences-forge": {
             "side": "CLIENT"
+        },
+        "screenshot-viewer": {
+            "side": "CLIENT"
         }
     }
 }
