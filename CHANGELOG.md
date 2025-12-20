@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Mods
 #### Added
+- Delete Worlds to Trash
 - Dyed Flames
 - Easy Anvils
 - Easy Magic

@@ -137,6 +137,9 @@
         },
         "screenshot-viewer": {
             "side": "CLIENT"
+        },
+        "delete-worlds-to-trash-forge": {
+            "side": "CLIENT"
         }
     }
 }

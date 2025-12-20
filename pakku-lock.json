@@ -916,6 +916,43 @@
             ]
         },
         {
+            "pakku_id": "eZt8VP0q1uYGw6VS",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "delete-worlds-to-trash-forge"
+            },
+            "name": {
+                "curseforge": "Delete Worlds To Trash"
+            },
+            "id": {
+                "curseforge": "571076"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "DeleteWorldsToTrash-v21.1.0-1.21.1-NeoForge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5735/514/DeleteWorldsToTrash-v21.1.0-1.21.1-NeoForge.jar",
+                    "id": "5735514",
+                    "parent_id": "571076",
+                    "hashes": {
+                        "sha1": "42adc6405eae940dd729b9f101e144b5ae0d2d3a",
+                        "md5": "b54abf37d48bae84b9c975070c01f6b0"
+                    },
+                    "required_dependencies": [],
+                    "size": 59785,
+                    "date_published": "2024-09-18T21:48:10.933Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "6LewjZ6tNekJfEbk",
             "pakku_links": [
                 "YPlTyJCUtHz9fIuG"
