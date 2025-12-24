@@ -3,6 +3,7 @@
 ## [Unreleased]
 ### Mods
 #### Added
+- Async Locator Refined
 - Delete Worlds to Trash
 - Dyed Flames
 - Easy Anvils
@@ -15,6 +16,7 @@
 - Screenshot Viewer
 
 #### Removed
+- Structure Essentials
 - Yeetus Experimentus
 
 ## [0.0.3]
