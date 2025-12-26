@@ -4,6 +4,8 @@
 ### Mods
 #### Added
 - Async Locator Refined
+- Better Climbing
+- Convient Effects
 - Delete Worlds to Trash
 - Dyed Flames
 - Easy Anvils

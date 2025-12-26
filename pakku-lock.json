@@ -401,6 +401,43 @@
             ]
         },
         {
+            "pakku_id": "c12Kla3A78EfKcAo",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "better-climbing"
+            },
+            "name": {
+                "curseforge": "Better Climbing"
+            },
+            "id": {
+                "curseforge": "655619"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "better_climbing-neoforge-4.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5514/197/better_climbing-neoforge-4.jar",
+                    "id": "5514197",
+                    "parent_id": "655619",
+                    "hashes": {
+                        "sha1": "3e5f07639bab5084b492cd7d66b9bfea740ec244",
+                        "md5": "f05a9fb48d3d56cfa5b3aea5e3aaa92d"
+                    },
+                    "required_dependencies": [],
+                    "size": 7127,
+                    "date_published": "2024-07-08T16:19:46.013Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qzW1pMQy7rxMwqcb",
             "type": "MOD",
             "side": "CLIENT",
@@ -865,6 +902,47 @@
                     ],
                     "size": 77555,
                     "date_published": "2025-03-30T23:44:28.983Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "OBYhQWZ4Ckej5gQR",
+            "pakku_links": [
+                "FcXXV2bWFUXfgJJr"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "convenient-effects"
+            },
+            "name": {
+                "curseforge": "Convenient Effects"
+            },
+            "id": {
+                "curseforge": "1259240"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ConvenientEffects-v21.1.2-1.21.1-NeoForge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7102/28/ConvenientEffects-v21.1.2-1.21.1-NeoForge.jar",
+                    "id": "7102028",
+                    "parent_id": "1259240",
+                    "hashes": {
+                        "sha1": "4f617deaa79b005b075ef021551fd81b0e3ef7e7",
+                        "md5": "983a72f8a0511357b1c4649e9ac6aaa9"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 57921,
+                    "date_published": "2025-10-13T07:47:42.780Z"
                 }
             ]
         },
