@@ -1,6 +1,9 @@
 # Changelog
 
 ## [Unreleased]
+## Changes
+- Better compat between EMI and Stylish Effects
+- Changed EMI left panel to be both craftables and favorites
 ### Mods
 #### Added
 - Async Locator Refined
