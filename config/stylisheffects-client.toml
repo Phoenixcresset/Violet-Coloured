@@ -17,7 +17,7 @@
 		#Default Value: 5
 		# Default: 5
 		# Range: 1 ~ 255
-		max_columns = 5
+		max_columns = 1
 		#Space between individual effect widgets on y-axis.
 		#Default Value: 1
 		# Default: 1
@@ -54,7 +54,7 @@
 		debug_container_types = false
 		#Render active status effects in every menu screen, not just in the player inventory.
 		#Default Value: true
-		effects_everywhere = true
+		effects_everywhere = false
 		#Allow effect renderer to fall back to a more compact version (when available) if not enough screen space exists. Otherwise effect widgets might run off-screen.
 		#Default Value: true
 		allow_fallback = true
@@ -66,7 +66,7 @@
 		#This setting might not be respected when not enough screen space is available. To force this setting disable "allow_fallback".
 		#Default Value: gui_compact_widget
 		#Allowed Values: NONE, GUI_SMALL, GUI_COMPACT, INVENTORY_COMPACT, INVENTORY_FULL_SIZE
-		renderer_type = "GUI_COMPACT"
+		renderer_type = "GUI_SMALL"
 
 	[renderers.gui_renderer]
 		#Prevent status effects with infinite duration from showing.
@@ -208,7 +208,7 @@
 		ambient_border = true
 		#Draw harmful effects on a separate line from beneficial ones. This is turned on in vanilla.
 		#Default Value: false
-		separate_effects = false
+		separate_effects = true
 		#Effect duration color. Setting this to "EFFECT" will use potion color.
 		#Default Value: GRAY
 		#Allowed Values: EFFECT, BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
