@@ -2667,7 +2667,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "moonlight-1.21-2.28.2-neoforge.jar",
+                    "file_name": "moonlight-1.21-2.29.3-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -2676,16 +2676,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7340/883/moonlight-1.21-2.28.2-neoforge.jar",
-                    "id": "7340883",
+                    "url": "https://edge.forgecdn.net/files/7387/807/moonlight-1.21-2.29.3-neoforge.jar",
+                    "id": "7387807",
                     "parent_id": "499980",
                     "hashes": {
-                        "sha1": "100339839fce7009fa646562cd9ae0438c64cb1c",
-                        "md5": "45e681076038a42751b2defa09ddbfd7"
+                        "sha1": "c73fe9d99743d84157bd6e997eb62a52f6192fa3",
+                        "md5": "b533b25301f311a7e4a9707f5f96b1d3"
                     },
                     "required_dependencies": [],
-                    "size": 1479333,
-                    "date_published": "2025-12-16T16:58:04.393Z"
+                    "size": 1499028,
+                    "date_published": "2025-12-28T10:06:47.317Z"
                 }
             ]
         },
@@ -2819,7 +2819,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ParticleEffects-1.1.0+1.21.1+neoforge.jar",
+                    "file_name": "ParticleEffects-1.2.0+1.21.1+neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2827,16 +2827,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7276/561/ParticleEffects-1.1.0+1.21.1+neoforge.jar",
-                    "id": "7276561",
+                    "url": "https://edge.forgecdn.net/files/7382/485/ParticleEffects-1.2.0+1.21.1+neoforge.jar",
+                    "id": "7382485",
                     "parent_id": "1120746",
                     "hashes": {
-                        "sha1": "65182abb47014d48c336d24f836ced4cfce99baa",
-                        "md5": "31046e83e213797fb1a347cf328671db"
+                        "sha1": "c25e8a75900521762ab077b3821335c1a1ad0708",
+                        "md5": "fa598a36b97efa77dac6a30984e05764"
                     },
                     "required_dependencies": [],
-                    "size": 289325,
-                    "date_published": "2025-11-30T02:19:47.883Z"
+                    "size": 294636,
+                    "date_published": "2025-12-26T22:24:15.990Z"
                 }
             ]
         },
