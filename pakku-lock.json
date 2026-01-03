@@ -153,7 +153,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "alltheleaks-1.1.4+1.21.1-neoforge.jar",
+                    "file_name": "alltheleaks-1.1.6+1.21.1-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -161,16 +161,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7284/934/alltheleaks-1.1.4+1.21.1-neoforge.jar",
-                    "id": "7284934",
+                    "url": "https://edge.forgecdn.net/files/7398/946/alltheleaks-1.1.6+1.21.1-neoforge.jar",
+                    "id": "7398946",
                     "parent_id": "1091339",
                     "hashes": {
-                        "sha1": "2ea478d2cf372018c290b34ba80a7fb0bf28455b",
-                        "md5": "62687a25284063271ff737ce21084510"
+                        "sha1": "1621f1bff2b96f8a20c6085ce1af52f7044f8f36",
+                        "md5": "7863cb800c23248e9131083cf4711390"
                     },
                     "required_dependencies": [],
-                    "size": 1150190,
-                    "date_published": "2025-12-02T08:49:42.893Z"
+                    "size": 527501,
+                    "date_published": "2025-12-31T03:05:08.780Z"
                 }
             ]
         },
@@ -1505,7 +1505,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "entityculling-neoforge-1.9.4-mc1.21.1.jar",
+                    "file_name": "entityculling-neoforge-1.9.5-mc1.21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -1513,16 +1513,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7313/367/entityculling-neoforge-1.9.4-mc1.21.1.jar",
-                    "id": "7313367",
+                    "url": "https://edge.forgecdn.net/files/7396/695/entityculling-neoforge-1.9.5-mc1.21.1.jar",
+                    "id": "7396695",
                     "parent_id": "448233",
                     "hashes": {
-                        "sha1": "d265fdd6f8c052873f098b7acd5db7617f6d7bc0",
-                        "md5": "ba141c586b438179269d6b57cf05ee6a"
+                        "sha1": "0b4a085c1b79c86d7054342123a0ce8deaa0b174",
+                        "md5": "ef1da268d5562d65d85da5af3c290a03"
                     },
                     "required_dependencies": [],
-                    "size": 1563532,
-                    "date_published": "2025-12-09T21:10:08.423Z"
+                    "size": 1564767,
+                    "date_published": "2025-12-30T15:26:14.963Z"
                 }
             ]
         },
@@ -2667,7 +2667,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "moonlight-1.21-2.29.3-neoforge.jar",
+                    "file_name": "moonlight-1.21-2.29.4-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -2676,16 +2676,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7387/807/moonlight-1.21-2.29.3-neoforge.jar",
-                    "id": "7387807",
+                    "url": "https://edge.forgecdn.net/files/7396/730/moonlight-1.21-2.29.4-neoforge.jar",
+                    "id": "7396730",
                     "parent_id": "499980",
                     "hashes": {
-                        "sha1": "c73fe9d99743d84157bd6e997eb62a52f6192fa3",
-                        "md5": "b533b25301f311a7e4a9707f5f96b1d3"
+                        "sha1": "8434210fd838935556861cf2de108c8fea05d088",
+                        "md5": "6a7b6b3953cd52f4d41ee32dc28381b8"
                     },
                     "required_dependencies": [],
-                    "size": 1499028,
-                    "date_published": "2025-12-28T10:06:47.317Z"
+                    "size": 1499415,
+                    "date_published": "2025-12-30T15:30:17.400Z"
                 }
             ]
         },
@@ -3592,7 +3592,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "toomanyrecipeviewers-0.7.0+mc.21.1.jar",
+                    "file_name": "toomanyrecipeviewers-0.7.1+mc.21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3600,18 +3600,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7259/317/toomanyrecipeviewers-0.7.0+mc.21.1.jar",
-                    "id": "7259317",
+                    "url": "https://edge.forgecdn.net/files/7410/429/toomanyrecipeviewers-0.7.1+mc.21.1.jar",
+                    "id": "7410429",
                     "parent_id": "1194921",
                     "hashes": {
-                        "sha1": "6f50e476a0b542ddaefdbd3fcc5ceb22791244a5",
-                        "md5": "23d228d4f2662e631c7ef0fe2dd6c95b"
+                        "sha1": "a13279348d76bb3ecf8ff1b978ebd5bf8b7e3d52",
+                        "md5": "5935bbc4322df435eff6ab2b34527f0b"
                     },
                     "required_dependencies": [
                         "580555"
                     ],
-                    "size": 1155645,
-                    "date_published": "2025-11-25T00:22:13.177Z"
+                    "size": 1156564,
+                    "date_published": "2026-01-03T00:51:43.857Z"
                 }
             ]
         },
