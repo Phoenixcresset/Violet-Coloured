@@ -40,8 +40,8 @@ LootJS.lootTables(event => {
     console.warn("[Obliterate Items] LootJS not loaded, skipping loot table removals.")
 }
 
-// Remove from villager trades
 if (Platform.isLoaded("morejs")) {
+    // Remove from villager trades
     MoreJS.villagerTrades(event => {
         event.removeTrades({
             first: Ingredient.of(obliteratedItems)
@@ -53,8 +53,14 @@ if (Platform.isLoaded("morejs")) {
             output: Ingredient.of(obliteratedItems)
         });
     });
+    MoreJS.registerPotionBrewing(event => {
+        event.removePotionBrewing({
+            ingredient: Ingredient.of(obliteratedItems)
+        });
+        // TODO : test with input and output potions if needed
+    })
 } else {
-    console.warn("[Obliterate Items] MoreJS not loaded, skipping villager trade removals.")
+    console.warn("[Obliterate Items] MoreJS not loaded, skipping villager trade and potion brewing removals.")
 }
 
 
