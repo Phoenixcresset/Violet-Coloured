@@ -1,18 +1,17 @@
 {
     "settings": {
         "files.exclude": {
+            ".cache/": true,
             ".mixin.out/": true,
             ".probe/": true,
+            "coremods/": true,
             "data/": true,
             "downloads/": true,
             "dynamic-resource-pack-cache/": true,
             "local/":true,
-            "mods/": true,
-            "resourcepacks/": true,
             "saves/": true,
             "screenshots/": true,
             "server-resource-packs/": true,
-            "shaderpacks/": true,
             "config/dynamic_fps.json": true,
             "config/ichunutil/": true,
             "config/jade/sort-order.json": true,

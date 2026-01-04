@@ -9,6 +9,7 @@
 /server-resource-packs/
 /screenshots/
 /downloads/
+/coremods/
 
 /command_history.txt
 /emi.json
@@ -18,6 +19,7 @@
 /usernamecache.json
 
 # Misc. Mods
+/.cache/
 /.mixin.out/
 /config/dynamic_fps.json
 /config/ichunutil/
