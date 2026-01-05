@@ -38,7 +38,9 @@ const keybindsToRemove = [
     'key.scholar.export_book',
     'key.toggleVisualItemContents',
     'key.toggleSelectedItemTooltips',
-    'key.toggleCarriedItemTooltips'
+    'key.toggleCarriedItemTooltips',
+    'key.simple_music_control.next_music_track',
+    'key.simple_music_control.toggle_music'
 ]
 
 const keybindsToRebind = {
