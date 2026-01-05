@@ -1,6 +1,6 @@
 [creativeModeTabs]
-	enableCreativeModeTabs = false
-	syncSelectedCreativeModeTab = false
+	enableCreativeModeTabs = true
+	syncSelectedCreativeModeTab = true
 
 [stackGroups]
 	enableStackGroups = true
