@@ -3484,6 +3484,7 @@
                     "id": "6742209",
                     "parent_id": "1185599",
                     "hashes": {
+                        "sha1": "7b7599f0508dde932f7d294e7f6d6a6d609b2b66",
                         "md5": "edb45551f75eed4878e3d32f9baa2706"
                     },
                     "required_dependencies": [],
