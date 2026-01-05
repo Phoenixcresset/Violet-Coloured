@@ -16,6 +16,8 @@
 - Easy Shulker Boxes
 - Hide Experimental Warning
 - KubeJS Tweaks
+- LootJS
+- MoreJS
 - OPack2Reload
 - Resource Pack Overrides
 - Screenshot Viewer
