@@ -19,6 +19,7 @@
 - LootJS
 - MoreJS
 - OPack2Reload
+- Rebind Narrator
 - Resource Pack Overrides
 - Screenshot Viewer
 

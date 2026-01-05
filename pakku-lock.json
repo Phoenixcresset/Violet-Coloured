@@ -3149,6 +3149,42 @@
             ]
         },
         {
+            "pakku_id": "fYXpOisYMOEssKFy",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "rebind-narrator"
+            },
+            "name": {
+                "curseforge": "Rebind Narrator"
+            },
+            "id": {
+                "curseforge": "296996"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rebind_narrator-1.21.1-neoforge-2025.12.23.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7370/951/rebind_narrator-1.21.1-neoforge-2025.12.23.jar",
+                    "id": "7370951",
+                    "parent_id": "296996",
+                    "hashes": {
+                        "sha1": "3e28da451f5d7eecb35d195fb08bfe4d7f9022ec",
+                        "md5": "295f75c630abc3b7c1fccd3405c88424"
+                    },
+                    "required_dependencies": [],
+                    "size": 213661,
+                    "date_published": "2025-12-23T21:39:11.287Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "tw3oSzFFA8q7a1bk",
             "pakku_links": [
                 "nGoI2ktXUDnnYdBu"
