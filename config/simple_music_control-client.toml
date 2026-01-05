@@ -1,7 +1,7 @@
 stopMusicOnJukeboxUse = true
-creativeMusicInSurvival = true
-situationalMusicInCreative = true
-modifyMusicDelays = true
+creativeMusicInSurvival = false
+situationalMusicInCreative = false
+modifyMusicDelays = false
 # Default: 300
 # Range: > 1
 musicMinDelay = 300
@@ -9,7 +9,7 @@ musicMinDelay = 300
 # Range: > 1
 musicMaxDelay = 600
 playMusicWhenPaused = true
-nowPlayingWidget = true
+nowPlayingWidget = false
 # Default: 6
 # Range: > 1
 nowPlayingWidgetDuration = 6
