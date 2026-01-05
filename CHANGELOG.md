@@ -22,6 +22,8 @@
 - Rebind Narrator
 - Resource Pack Overrides
 - Screenshot Viewer
+- Simple Music Control
+- Sounds Be Gone
 
 #### Removed
 - Structure Essentials

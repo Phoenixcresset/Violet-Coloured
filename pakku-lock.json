@@ -3458,6 +3458,41 @@
             ]
         },
         {
+            "pakku_id": "fG6J1PIwjaN5j5YF",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "simple-music-control"
+            },
+            "name": {
+                "curseforge": "Simple Music Control"
+            },
+            "id": {
+                "curseforge": "1185599"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "simple_music_control-1.3.7+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6742/209/simple_music_control-1.3.7+1.21.1.jar",
+                    "id": "6742209",
+                    "parent_id": "1185599",
+                    "hashes": {
+                        "md5": "edb45551f75eed4878e3d32f9baa2706"
+                    },
+                    "required_dependencies": [],
+                    "size": 135779,
+                    "date_published": "2025-07-07T20:45:52.163Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "x3HUftj3HfgQKmPw",
             "type": "MOD",
             "side": "CLIENT",
@@ -3566,6 +3601,43 @@
                     "required_dependencies": [],
                     "size": 1162994,
                     "date_published": "2025-04-04T00:13:49.467Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "PfgP9rraqaUIb2tU",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "sounds-be-gone"
+            },
+            "name": {
+                "curseforge": "Sounds Be Gone!"
+            },
+            "id": {
+                "curseforge": "874633"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "soundsbegone-1.3.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5612/412/soundsbegone-1.3.5.jar",
+                    "id": "5612412",
+                    "parent_id": "874633",
+                    "hashes": {
+                        "sha1": "baf4353a896ee8472c70d865d6a4b30e2d040c2a",
+                        "md5": "09a2893d7d498a4f50829a39b662e9e3"
+                    },
+                    "required_dependencies": [],
+                    "size": 2738125,
+                    "date_published": "2024-08-09T20:21:10.680Z"
                 }
             ]
         },
