@@ -3151,6 +3151,7 @@
         {
             "pakku_id": "fYXpOisYMOEssKFy",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "rebind-narrator"
             },
@@ -3460,6 +3461,7 @@
         {
             "pakku_id": "fG6J1PIwjaN5j5YF",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "simple-music-control"
             },
@@ -3608,6 +3610,7 @@
         {
             "pakku_id": "PfgP9rraqaUIb2tU",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "sounds-be-gone"
             },

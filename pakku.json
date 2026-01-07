@@ -140,6 +140,15 @@
         },
         "delete-worlds-to-trash-forge": {
             "side": "CLIENT"
+        },
+        "simple-music-control": {
+            "side": "CLIENT"
+        },
+        "sounds-be-gone": {
+            "side": "CLIENT"
+        },
+        "rebind-narrator": {
+            "side": "CLIENT"
         }
     }
 }
