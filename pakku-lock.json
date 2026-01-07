@@ -306,7 +306,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "async-locator-refined-neoforge-1.21.1-1.5.1.jar",
+                    "file_name": "async-locator-refined-neoforge-1.21.1-1.5.2-hotfix.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -314,16 +314,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7371/659/async-locator-refined-neoforge-1.21.1-1.5.1.jar",
-                    "id": "7371659",
+                    "url": "https://edge.forgecdn.net/files/7427/564/async-locator-refined-neoforge-1.21.1-1.5.2-hotfix.jar",
+                    "id": "7427564",
                     "parent_id": "1331921",
                     "hashes": {
-                        "sha1": "3a67f7a9a8ce5292753570d4600cfa7c21ec2c15",
-                        "md5": "58ddca6937997a086bcc082638719c9b"
+                        "sha1": "a12d3276da3afc2429b361025dd3426f2bcd5b5e",
+                        "md5": "781fee5e400e4ac474d4edac8969f0a7"
                     },
                     "required_dependencies": [],
-                    "size": 275484,
-                    "date_published": "2025-12-24T01:08:15.053Z"
+                    "size": 272352,
+                    "date_published": "2026-01-06T23:32:35.833Z"
                 }
             ]
         },
@@ -379,7 +379,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "balm-neoforge-1.21.1-21.0.55.jar",
+                    "file_name": "balm-neoforge-1.21.1-21.0.56.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -387,16 +387,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7264/790/balm-neoforge-1.21.1-21.0.55.jar",
-                    "id": "7264790",
+                    "url": "https://edge.forgecdn.net/files/7420/963/balm-neoforge-1.21.1-21.0.56.jar",
+                    "id": "7420963",
                     "parent_id": "531761",
                     "hashes": {
-                        "sha1": "288003dfab9ef7d4aa600c9325cb64ce861c3d4d",
-                        "md5": "0ee8598103ea2a18887db4f63a71b314"
+                        "sha1": "c1c1d4859c7943c7d1c181c07fa7273a1d56df15",
+                        "md5": "7ab16721c9a8bb96666233d8ef46b47d"
                     },
                     "required_dependencies": [],
-                    "size": 727272,
-                    "date_published": "2025-11-26T15:47:33.777Z"
+                    "size": 739709,
+                    "date_published": "2026-01-05T13:50:26.647Z"
                 }
             ]
         },
@@ -2070,7 +2070,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Jade-1.21.1-NeoForge-15.10.3.jar",
+                    "file_name": "Jade-1.21.1-NeoForge-15.10.4.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2078,16 +2078,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6853/386/Jade-1.21.1-NeoForge-15.10.3.jar",
-                    "id": "6853386",
+                    "url": "https://edge.forgecdn.net/files/7428/884/Jade-1.21.1-NeoForge-15.10.4.jar",
+                    "id": "7428884",
                     "parent_id": "324717",
                     "hashes": {
-                        "sha1": "0c7e9b04e2481d26c9080dd5d32351490d1fed3a",
-                        "md5": "4c3891e2160079f270029c004ba3f562"
+                        "sha1": "7d23a1dd515872bd6498b8edd06bb84e61f2c4e7",
+                        "md5": "9631d88b936ea1c297ad52da3d0f4bed"
                     },
                     "required_dependencies": [],
-                    "size": 725736,
-                    "date_published": "2025-08-06T00:52:56.567Z"
+                    "size": 725725,
+                    "date_published": "2026-01-07T09:07:13.507Z"
                 }
             ]
         },
