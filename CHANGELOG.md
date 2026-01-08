@@ -8,6 +8,7 @@
 #### Added
 - Async Locator Refined
 - Better Climbing
+- Carry On
 - Convient Effects
 - Delete Worlds to Trash
 - Dyed Flames
