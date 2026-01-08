@@ -58,7 +58,6 @@
 
 # VSCode
 /.vscode/**.code-snippets
-/.vscode/settings.json
 
 # OS specific files
 

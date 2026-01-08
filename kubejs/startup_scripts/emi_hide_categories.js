@@ -1,64 +1,62 @@
 const recipeHidingConfig = {
-    categories: [
-        "ali:plant_loot", // Buggy visual preview
-        "ali:block_loot",
-        "ali:hero_loot",
-        "emixx:villager_trades",
+  categories: [
+    "ali:plant_loot", // Buggy visual preview
+    "ali:block_loot",
+    "ali:hero_loot",
+    "emixx:villager_trades",
+  ],
+  recipeIds: [
+    "minecraft:/chests/spawn_bonus_chest",
+    "emi:/anvil/enchanting/.*",
+    "emi:/crafting/repairing/.*",
+    "emi:/anvil/repairing/tool/.*",
+    "emi:/grindstone/repairing/.*",
+    "emi:/grindstone/disenchanting/.*",
+  ],
+  categorizedIds: {
+    "ali:trial_chambers": [
+      "minecraft:/dispensers/.*",
+      "minecraft:/chests/trial_chambers/reward(?:_ominous)?_(?:common|rare|unique)",
+      "minecraft:/equipment/.*",
     ],
-    recipeIds: [
-        "minecraft:/chests/spawn_bonus_chest",
-        "emi:/anvil/enchanting/.*",
-        "emi:/crafting/repairing/.*",
-        "emi:/anvil/repairing/tool/.*",
-        "emi:/grindstone/repairing/.*",
-        "emi:/grindstone/disenchanting/.*",
-    ],
-    categorizedIds: {
-        "ali:trial_chambers": [
-            "minecraft:/dispensers/.*",
-            "minecraft:/chests/trial_chambers/reward(?:_ominous)?_(?:common|rare|unique)",
-            "minecraft:/equipment/.*",
-        ],
-        "ali:fishing_loot": [
-            "minecraft:/gameplay/fishing/(junk|treasure|fish)",
-        ],
-        "minecraft:smithing": [
-            ".*armor_trim.*",
-        ]
-    }
+    "ali:fishing_loot": ["minecraft:/gameplay/fishing/(junk|treasure|fish)"],
+    "minecraft:smithing": [".*armor_trim.*"],
+  },
 };
 
 function buildRecipeFilters(recipeHidingConfig) {
-    const filters = [];
+  const filters = [];
 
-    for (const category of recipeHidingConfig.categories) {
-        filters.push({
-            category: category
-        });
+  for (const category of recipeHidingConfig.categories) {
+    filters.push({
+      category: category,
+    });
+  }
+
+  for (const id of recipeHidingConfig.recipeIds) {
+    filters.push({
+      id: `/${id}/`,
+    });
+  }
+
+  for (const [category, ids] of Object.entries(
+    recipeHidingConfig.categorizedIds
+  )) {
+    for (const id of ids) {
+      filters.push({
+        category: category,
+        id: `/${id}/`,
+      });
     }
+  }
 
-    for (const id of recipeHidingConfig.recipeIds) {
-        filters.push({
-            id: `/${id}/`
-        });
-    }
-
-    for (const [category, ids] of Object.entries(recipeHidingConfig.categorizedIds)) {
-        for (const id of ids) {
-            filters.push({
-                category: category,
-                id: `/${id}/`,
-            });
-        }
-    }
-
-    return filters;
+  return filters;
 }
 
 const recipeFilters = buildRecipeFilters(recipeHidingConfig);
 
 StartupEvents.init(() => {
-    JsonIO.write("kubejs/assets/emi/recipe/filters/filters.json",
-        {filters: recipeFilters}
-    )
-})
+  JsonIO.write("kubejs/assets/emi/recipe/filters/filters.json", {
+    filters: recipeFilters,
+  });
+});
