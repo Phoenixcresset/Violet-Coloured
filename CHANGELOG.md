@@ -23,6 +23,7 @@
 - KubeJS Tweaks
 - LootJS
 - MoreJS
+- Not Enough Recipe Book
 - OPack2Reload
 - Rebind Narrator
 - Resource Pack Overrides

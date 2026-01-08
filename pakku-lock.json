@@ -2989,6 +2989,49 @@
             ]
         },
         {
+            "pakku_id": "AOquT2N1wOae3Uzd",
+            "pakku_links": [
+                "1zliknSgHV8OJEPg",
+                "Jql6rtq25ONof5nE"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "notenoughrecipebook"
+            },
+            "name": {
+                "curseforge": "Not Enough Recipe Book [NERB]"
+            },
+            "id": {
+                "curseforge": "738663"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6880/47/Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar",
+                    "id": "6880047",
+                    "parent_id": "738663",
+                    "hashes": {
+                        "sha1": "e0c36cd85d3d31cc2afb1bfc6b885f505245252f",
+                        "md5": "c68639619ef74bba9384b1b7ae421040"
+                    },
+                    "required_dependencies": [
+                        "419699",
+                        "916747"
+                    ],
+                    "size": 23830,
+                    "date_published": "2025-08-12T21:10:09.807Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "8yICHm4edyqO3isf",
             "type": "MOD",
             "slug": {
@@ -3021,6 +3064,47 @@
                     "required_dependencies": [],
                     "size": 5561,
                     "date_published": "2025-07-19T08:28:19.043Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Jql6rtq25ONof5nE",
+            "pakku_links": [
+                "1zliknSgHV8OJEPg"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "octo-lib"
+            },
+            "name": {
+                "curseforge": "OctoLib"
+            },
+            "id": {
+                "curseforge": "916747"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "OctoLib-NEOFORGE-0.6.0.4+1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6932/487/OctoLib-NEOFORGE-0.6.0.4+1.21.jar",
+                    "id": "6932487",
+                    "parent_id": "916747",
+                    "hashes": {
+                        "sha1": "106ca4d0a3597e1a5c6489e98361c81436c528e0",
+                        "md5": "a4d9392dc783763815e350b9392ddd51"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 507443,
+                    "date_published": "2025-08-27T00:27:22.627Z"
                 }
             ]
         },
