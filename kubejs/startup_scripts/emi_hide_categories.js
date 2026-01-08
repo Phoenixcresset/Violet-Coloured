@@ -7,6 +7,8 @@ const recipeHidingConfig = {
   ],
   recipeIds: [
     "minecraft:/chests/spawn_bonus_chest",
+    "minecraft:/chests/village/*",
+    "minecraft:/chests/jungle_temple_dispenser",
     "emi:/anvil/enchanting/.*",
     "emi:/crafting/repairing/.*",
     "emi:/anvil/repairing/tool/.*",
