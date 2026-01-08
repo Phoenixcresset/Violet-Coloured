@@ -26,6 +26,24 @@
       "group": "build",
     },
     {
+      "label": "Get the status of the projects",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar status",
+      "group": "build",
+    },
+    {
+      "label": "List installed projects",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar ls",
+      "group": "build",
+    },
+    {
+      "label": "Update installed projects",
+      "type": "shell",
+      "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar update ${input:projects_to_update}",
+      "group": "build",
+    },
+    {
       "label": "Copy prism pre-launch command to clipboard",
       "type": "shell",
       "command": "Set-Clipboard 'java --enable-native-access=ALL-UNNAMED -jar pakku.jar fetch'",
@@ -60,6 +78,12 @@
       "id": "project_to_remove",
       "type": "promptString",
       "description": "Enter the Curseforge slug(s) of the project(s) to remove",
+      "default": ""
+    },
+    {
+      "id": "projects_to_update",
+      "type": "promptString",
+      "description": "Enter the Curseforge slug(s) of the project(s) to update (-a to update all)",
       "default": ""
     }
   ]
