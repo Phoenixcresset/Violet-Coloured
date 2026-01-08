@@ -14,6 +14,7 @@
 - Easy Anvils
 - Easy Magic
 - Easy Shulker Boxes
+- Fast Leaf Decay
 - Hide Experimental Warning
 - KubeJS Tweaks
 - LootJS
@@ -26,6 +27,7 @@
 - Sounds Be Gone
 
 #### Removed
+- Accelerated Decay
 - Structure Essentials
 - Yeetus Experimentus
 

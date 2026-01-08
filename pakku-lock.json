@@ -8,58 +8,6 @@
     },
     "projects": [
         {
-            "pakku_id": "IwCKsSbpXAbzvHmh",
-            "pakku_links": [
-                "1zliknSgHV8OJEPg"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "accelerated-decay"
-            },
-            "name": {
-                "curseforge": "Accelerated Decay"
-            },
-            "id": {
-                "curseforge": "699872"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "accelerated-decay-neoforge-21.0.0.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.8",
-                        "1.21.5",
-                        "1.21.4",
-                        "1.21.1",
-                        "1.21.6",
-                        "1.21.3",
-                        "1.21.7",
-                        "1.21.2",
-                        "1.21.9",
-                        "1.21.10",
-                        "1.21.11"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5433/36/accelerated-decay-neoforge-21.0.0.jar",
-                    "id": "5433036",
-                    "parent_id": "699872",
-                    "hashes": {
-                        "sha1": "b023fe4daf1379f0f4233bea02ba112f3854db3e",
-                        "md5": "efe86104e3c16df897e1a6b745b32fba"
-                    },
-                    "required_dependencies": [
-                        "419699"
-                    ],
-                    "size": 10478,
-                    "date_published": "2024-06-15T23:30:30.533Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "G6tcA25m9HkkfXG8",
             "type": "MOD",
             "slug": {
@@ -1690,6 +1638,46 @@
                     "required_dependencies": [],
                     "size": 347129,
                     "date_published": "2025-12-06T23:49:29.367Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "LFUeZ5pYJCJciYD8",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fast-leaf-decay"
+            },
+            "name": {
+                "curseforge": "Fast Leaf Decay"
+            },
+            "id": {
+                "curseforge": "230976"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fastleafdecay-35.jar",
+                    "mc_versions": [
+                        "1.21.5",
+                        "1.21.4",
+                        "1.21.3",
+                        "1.21.1",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5849/90/fastleafdecay-35.jar",
+                    "id": "5849090",
+                    "parent_id": "230976",
+                    "hashes": {
+                        "sha1": "589f05dcd58d3708cee9046b23fe11fb81a25d2e",
+                        "md5": "97223075d6407a012024fd7e3c48e5e8"
+                    },
+                    "required_dependencies": [],
+                    "size": 9511,
+                    "date_published": "2024-10-26T22:34:50.607Z"
                 }
             ]
         },
