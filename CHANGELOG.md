@@ -9,6 +9,8 @@
 - Async Locator Refined
 - Better Climbing
 - Carry On
+- Colorwheel
+- Colorwheel Patcher
 - Convient Effects
 - Delete Worlds to Trash
 - Dyed Flames
@@ -26,6 +28,7 @@
 - Screenshot Viewer
 - Simple Music Control
 - Sounds Be Gone
+- Vanillin
 
 #### Removed
 - Accelerated Decay

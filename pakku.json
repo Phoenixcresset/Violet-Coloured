@@ -149,6 +149,15 @@
         },
         "rebind-narrator": {
             "side": "CLIENT"
+        },
+        "vanillin": {
+            "side": "CLIENT"
+        },
+        "colorwheel": {
+            "side": "CLIENT"
+        },
+        "colorwheel-patcher": {
+            "side": "CLIENT"
         }
     }
 }
