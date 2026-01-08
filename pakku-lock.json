@@ -123,6 +123,43 @@
             ]
         },
         {
+            "pakku_id": "Mwhq4pLMQ56gdsAY",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "alternate-current"
+            },
+            "name": {
+                "curseforge": "Alternate Current"
+            },
+            "id": {
+                "curseforge": "548115"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "alternate_current-mc1.21-1.9.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5665/477/alternate_current-mc1.21-1.9.0.jar",
+                    "id": "5665477",
+                    "parent_id": "548115",
+                    "hashes": {
+                        "sha1": "1201c14362f2bad7062d315f8a9b26afbabd2c9c",
+                        "md5": "27530bb4fcd327476406d6e3caf94523"
+                    },
+                    "required_dependencies": [],
+                    "size": 50425,
+                    "date_published": "2024-08-26T15:08:51.890Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "VUwPMVCrprAM2vXv",
             "pakku_links": [
                 "nTpsI13QeOHtIL5r"

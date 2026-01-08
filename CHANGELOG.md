@@ -6,6 +6,7 @@
 - Changed EMI left panel to be both craftables and favorites
 ### Mods
 #### Added
+- Alternate Current
 - Async Locator Refined
 - Better Climbing
 - Carry On
