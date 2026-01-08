@@ -10,6 +10,7 @@
 - Async Locator Refined
 - Better Climbing
 - Carry On
+- Clumps
 - Colorwheel
 - Colorwheel Patcher
 - Convient Effects
