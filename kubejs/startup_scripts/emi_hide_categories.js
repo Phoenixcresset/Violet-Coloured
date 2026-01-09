@@ -14,6 +14,8 @@ const recipeHidingConfig = {
     "emi:/anvil/repairing/tool/.*",
     "emi:/grindstone/repairing/.*",
     "emi:/grindstone/disenchanting/.*",
+    "supplementaries:/inject/test",
+    "minecraft:/shearing/bogged",
   ],
   categorizedIds: {
     "ali:trial_chambers": [
