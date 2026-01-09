@@ -1,5 +1,6 @@
 {
-  
+  "violetcolored.tooltip.holdForDescription": "Hold [%1$s] for Summary",
+  "violetcolored.tooltip.keyShift": "Shift",
   "block.minecraft.campfire.condition1": "When placed",
-  "block.minecraft.campfire.behaviour1": "This can hurt _mobs_ that walk into it. Also can hurt the _player_"
+  "block.minecraft.campfire.behaviour1": "This can hurt mobs that walk into it. Also can hurt the player."
 }

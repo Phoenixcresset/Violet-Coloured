@@ -1,5 +1,3 @@
-// requires: create
-
 const tooltipConfig = {
   "minecraft:soul_campfire": [
     {
@@ -56,17 +54,18 @@ function validateTooltipConfig(config) {
 
 function holdShiftLine(isHeld) {
   const shiftKey = isHeld
-    ? Text.of(Text.translatable("create.tooltip.keyShift")).color(
+    ? Text.of(Text.translatable("violetcolored.tooltip.keyShift")).color(
         colorPalette.hint.highlightStrong
       )
-    : Text.of(Text.translatable("create.tooltip.keyShift")).color(
+    : Text.of(Text.translatable("violetcolored.tooltip.keyShift")).color(
         colorPalette.hint.highlight
       );
 
   return Text.of(
-    Text.translatable("create.tooltip.holdForDescription", shiftKey).color(
-      colorPalette.hint.default
-    )
+    Text.translatable(
+      "violetcolored.tooltip.holdForDescription",
+      shiftKey
+    ).color(colorPalette.hint.default)
   );
 }
 
@@ -95,27 +94,10 @@ function generateTooltipLine(segment) {
     case "condition":
       return text.color(colorPalette.description.condition);
     case "behaviour":
-      return formatHighlightedText(text);
+      return text.color(colorPalette.description.default);
     default:
       throw new Error(`Unknown tooltip segment type: ${segment.type}`);
   }
-}
-
-function formatHighlightedText(text) {
-  console.log("Formatting text:", text);
-  const parts = String(text.getString()).split(/(_.*?_)/);
-  console.log("Split parts:", parts);
-  return Text.join(
-    parts.map((part) => {
-      if (part.startsWith("_") && part.endsWith("_")) {
-        return Text.of(part.slice(1, -1)).color(
-          colorPalette.description.highlight
-        );
-      } else {
-        return Text.of(part).color(colorPalette.description.default);
-      }
-    })
-  );
 }
 
 validateTooltipConfig(tooltipConfig);
