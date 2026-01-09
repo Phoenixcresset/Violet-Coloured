@@ -49,9 +49,6 @@
 /kubejs/**/probe-settings.json
 /kubejs/**/jsconfig.json
 
-# KubeJS Offline
-/kubejs/documentation/
-
 # Shaders
 /shaderpacks/
 /config/iris*

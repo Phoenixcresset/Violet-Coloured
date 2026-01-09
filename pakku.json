@@ -158,9 +158,6 @@
         },
         "colorwheel-patcher": {
             "side": "CLIENT"
-        },
-        "kubejs-offline": {
-            "export": false
         }
     }
 }
