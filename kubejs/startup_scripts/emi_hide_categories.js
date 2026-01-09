@@ -16,6 +16,7 @@ const recipeHidingConfig = {
     "emi:/grindstone/disenchanting/.*",
     "supplementaries:/inject/test",
     "minecraft:/shearing/bogged",
+    "minecraft:gameplay/cat_morning_gift",
   ],
   categorizedIds: {
     "ali:trial_chambers": [
