@@ -1,9 +1,11 @@
 # Changelog
 
-## [Unreleased]
+## [0.0.4]
 ## Changes
 - Better compat between EMI and Stylish Effects
 - Changed EMI left panel to be both craftables and favorites
+- Custom Tooltips logic
+- Power Item Obliterator
 ### Mods
 #### Added
 - Alternate Current
