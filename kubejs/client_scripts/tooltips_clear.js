@@ -1,23 +1,38 @@
-const tooltipClearingConfig = [
-  {
-    itemId: "supplementaries:sack",
-    linesToClear: 6,
-  },
-  {
-    itemId: /suppsquared:sack_.*/,
-    linesToClear: 6,
-  },
-];
+function createTooltipClearingConfig(itemId, linesToClear) {
+  return {
+    itemId: itemId,
+    linesToClear: linesToClear,
+  };
+}
 
-tooltipClearingConfig.forEach((itemConfig) => {
-  ItemEvents.modifyTooltips((event) => {
-    console.log("Obliterated Items", global.obliteratedItems);
-    console.log("Clearing tooltips for item:", itemConfig);
-    console.log("Matching Items", Ingredient.of(itemConfig.itemId));
-    event.modify(itemConfig.itemId, (tooltip) => {
-      for (let i = 0; i < itemConfig.linesToClear; i++) {
-        tooltip.removeLine(1);
-      }
-    });
-  });
+function getItemIdPattern(modId, itemId) {
+  if (itemId instanceof RegExp) {
+    return new RegExp(`^${modId}:${itemId.source}$`);
+  } else {
+    return `${modId}:${itemId}`;
+  }
+}
+
+const tooltipClearingConfig = {
+  supplementaries: [createTooltipClearingConfig("sack", 6)],
+  suppsquared: [createTooltipClearingConfig(/sack_.*/, 6)],
+};
+
+ItemEvents.modifyTooltips((event) => {
+  for (const [modId, items] of Object.entries(tooltipClearingConfig)) {
+    if (!Platform.isLoaded(modId)) {
+      console.log(`Tooltip Clearing : Skipping for ${modId} (mod not loaded)`);
+      continue;
+    }
+
+    for (const item of items) {
+      let fullItemId = getItemIdPattern(modId, item.itemId);
+      console.log(`Clearing tooltip for ${fullItemId}`);
+      event.modify(fullItemId, (tooltip) => {
+        for (let i = 0; i < item.linesToClear; i++) {
+          tooltip.removeLine(1);
+        }
+      });
+    }
+  }
 });
