@@ -57,7 +57,6 @@ KeyBindJSEvents.modify((event) => {
   if (!Platform.isClientEnvironment()) return;
 
   for (const key of keybindsToRemove) {
-    console.log(`Removed keybind: ${key}`);
     event.remove(key);
   }
 

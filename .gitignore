@@ -37,6 +37,7 @@
 /config/trender.json
 /config/*.bak
 /data/
+/dynamic-data-pack-cache/
 /dynamic-resource-pack-cache/
 /cherishedworlds-favorites.dat
 /TrashSlotSaveState.json

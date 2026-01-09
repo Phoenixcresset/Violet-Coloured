@@ -1,7 +1,13 @@
 # Changelog
 
+## [Unreleased]
+### Mods
+#### Added
+- Supplementaries
+- Supplementaries Squared
+
 ## [0.0.4]
-## Changes
+### Changes
 - Better compat between EMI and Stylish Effects
 - Changed EMI left panel to be both craftables and favorites
 - Custom Tooltips logic

@@ -1,6 +1,6 @@
 const obliteratedPatterns = {
   minecraft: [
-    // /.*carrot.*/,
+    /.*carrot.*/,
   ],
 };
 
