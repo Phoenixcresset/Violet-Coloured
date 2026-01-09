@@ -21,6 +21,7 @@
 - Easy Shulker Boxes
 - Fast Leaf Decay
 - Hide Experimental Warning
+- KubeJS Offline
 - KubeJS Tweaks
 - LootJS
 - MoreJS
