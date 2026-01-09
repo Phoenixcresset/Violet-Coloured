@@ -14,6 +14,7 @@ const recipeHidingConfig = {
     "emi:/anvil/repairing/tool/.*",
     "emi:/grindstone/repairing/.*",
     "emi:/grindstone/disenchanting/.*",
+    "supplementaries:/tipped_spikes.*",
     "supplementaries:/inject/test",
     "minecraft:/shearing/bogged",
     "minecraft:gameplay/cat_morning_gift",

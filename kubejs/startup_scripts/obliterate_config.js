@@ -1,7 +1,5 @@
 const obliteratedPatterns = {
-  minecraft: [
-    /.*carrot.*/,
-  ],
+  supplementaries: ["bamboo_spikes_tipped"],
 };
 
 const creativeTabs = [
