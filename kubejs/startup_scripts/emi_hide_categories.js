@@ -23,6 +23,13 @@ const recipeHidingConfig = {
       "minecraft:/chests/trial_chambers/reward(?:_ominous)?_(?:common|rare|unique)",
       "minecraft:/equipment/.*",
     ],
+    "supplementaries:galleons": [
+      "supplementaries:/loot/galleon/cannon",
+      "supplementaries:/loot/galleon/key",
+    ],
+    "supplementaries:urn_loot": [
+      "supplementaries:/loot/urn_loot/(?!urn_loot$).*",
+    ],
     "ali:fishing_loot": ["minecraft:/gameplay/fishing/(junk|treasure|fish)"],
     "minecraft:smithing": [".*armor_trim.*"],
   },

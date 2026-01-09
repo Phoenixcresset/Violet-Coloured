@@ -42,6 +42,15 @@
       ]
     },
     {
+      "key": "supplementaries:urn_loot",
+      "type": "GAMEPLAY",
+      "icon": "supplementaries:urn",
+      "hide": false,
+      "pattern": [
+        "^supplementaries:loot/urn_loot/.*$"
+      ]
+    },
+    {
       "key": "ali:trial_chambers",
       "type": "GAMEPLAY",
       "icon": "minecraft:spawner",
@@ -56,12 +65,22 @@
       ]
     },
     {
+      "key": "supplementaries:galleons",
+      "type": "GAMEPLAY",
+      "icon": "supplementaries:cannon_boat_spruce",
+      "hide": false,
+      "pattern": [
+        "^supplementaries:loot/galleon/.*$"
+      ]
+    },
+    {
       "key": "ali:fishing_loot",
       "type": "GAMEPLAY",
       "icon": "minecraft:fishing_rod",
       "hide": false,
       "pattern": [
-        "^.*:gameplay/fishing.*$"
+        "^.*:gameplay/fishing.*$",
+        "supplementaries:inject/fishing_treasure_antique_ink"
       ]
     },
     {
