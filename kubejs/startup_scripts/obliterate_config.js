@@ -19,6 +19,10 @@ const creativeTabs = [
 let obliteratedItems = [];
 
 for (const [prefix, items] of Object.entries(obliteratedPatterns)) {
+  if (!Platform.isLoaded(prefix)) {
+    console.log(`[Obliterate Items] Skipping for ${prefix} (mod not loaded)`);
+    continue;
+  }
   for (const item of items) {
     if (typeof item === "string") {
       obliteratedItems.push(`${prefix}:${item}`);
