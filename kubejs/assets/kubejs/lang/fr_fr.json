@@ -1,0 +1,4 @@
+{
+  "block.minecraft.campfire.condition1": "Une fois placé",
+  "block.minecraft.campfire.behaviour1": "Cela peut blesser les _mobs_ qui marchent dedans. Peut aussi blesser le _joueur_"
+}
