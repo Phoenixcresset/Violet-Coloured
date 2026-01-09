@@ -3,8 +3,11 @@
 ## [Unreleased]
 ### Mods
 #### Added
+- Just Enough Items
 - Supplementaries
 - Supplementaries Squared
+#### Removed
+- Too Many Recipe Viewers
 
 ## [0.0.4]
 ### Changes

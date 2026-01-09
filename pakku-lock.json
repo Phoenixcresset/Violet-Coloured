@@ -2343,6 +2343,43 @@
             ]
         },
         {
+            "pakku_id": "HVaeCDrOWItCnJph",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "jei"
+            },
+            "name": {
+                "curseforge": "Just Enough Items (JEI)"
+            },
+            "id": {
+                "curseforge": "238222"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "jei-1.21.1-neoforge-19.27.0.340.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7420/587/jei-1.21.1-neoforge-19.27.0.340.jar",
+                    "id": "7420587",
+                    "parent_id": "238222",
+                    "hashes": {
+                        "sha1": "27d0d85e7e32e926fc3664ab6815df5cdabb7941",
+                        "md5": "6c7cf71d0f92c30d2e8e0cf3fd94a8bf"
+                    },
+                    "required_dependencies": [],
+                    "size": 1529391,
+                    "date_published": "2026-01-05T11:31:22.473Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "c3rbCaqLIWMUkzln",
             "pakku_links": [
                 "UTiUjBWThuuQwM8N"
@@ -4146,47 +4183,6 @@
                     ],
                     "size": 774220,
                     "date_published": "2025-12-19T00:31:52.193Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "EBukIMpaX84R0dp9",
-            "pakku_links": [
-                "YxIFJSW8H3h1MsWA"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "tmrv"
-            },
-            "name": {
-                "curseforge": "TooManyRecipeViewers (TMRV)"
-            },
-            "id": {
-                "curseforge": "1194921"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "toomanyrecipeviewers-0.7.1+mc.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7410/429/toomanyrecipeviewers-0.7.1+mc.21.1.jar",
-                    "id": "7410429",
-                    "parent_id": "1194921",
-                    "hashes": {
-                        "sha1": "a13279348d76bb3ecf8ff1b978ebd5bf8b7e3d52",
-                        "md5": "5935bbc4322df435eff6ab2b34527f0b"
-                    },
-                    "required_dependencies": [
-                        "580555"
-                    ],
-                    "size": 1156564,
-                    "date_published": "2026-01-03T00:51:43.857Z"
                 }
             ]
         },
