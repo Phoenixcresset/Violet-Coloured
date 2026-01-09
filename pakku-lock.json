@@ -3906,6 +3906,43 @@
             ]
         },
         {
+            "pakku_id": "Y1r5Pt5vfT5XpfM2",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "spyglass-improvements"
+            },
+            "name": {
+                "curseforge": "Spyglass Improvements: Zoom, Quick Access... [Fabric/NeoForge]"
+            },
+            "id": {
+                "curseforge": "571264"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "spyglass_improvements-1.5.7+mc1.21+neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5634/604/spyglass_improvements-1.5.7+mc1.21+neoforge.jar",
+                    "id": "5634604",
+                    "parent_id": "571264",
+                    "hashes": {
+                        "sha1": "c7a2041f23f99a289fa2307774a2709e42d3d591",
+                        "md5": "ce908ea767bb2c9ac7966c892c40db47"
+                    },
+                    "required_dependencies": [],
+                    "size": 62864,
+                    "date_published": "2024-08-16T10:52:29.583Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "MpoDheNWPkyxYcl9",
             "type": "MOD",
             "side": "CLIENT",
@@ -4112,6 +4149,42 @@
             ]
         },
         {
+            "pakku_id": "Hj5BFziXKYOrkxLK",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "useful-spyglass"
+            },
+            "name": {
+                "curseforge": "Useful Spyglass"
+            },
+            "id": {
+                "curseforge": "840027"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "usefulspyglass-neoforge-1.21.1-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7174/926/usefulspyglass-neoforge-1.21.1-1.0.1.jar",
+                    "id": "7174926",
+                    "parent_id": "840027",
+                    "hashes": {
+                        "sha1": "4d363420c9ff5225166a18c97b023e13e5db66a9",
+                        "md5": "a53f2b396ea546f7768cf8d12cf7da91"
+                    },
+                    "required_dependencies": [],
+                    "size": 72660,
+                    "date_published": "2025-11-01T18:34:41.447Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "SE7DP7bNGypnLM6x",
             "type": "MOD",
             "side": "CLIENT",
@@ -4256,6 +4329,42 @@
                     "required_dependencies": [],
                     "size": 688343,
                     "date_published": "2024-12-18T00:58:03.477Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "oQqRuWEy8XU7uvbA",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "owo-lib"
+            },
+            "name": {
+                "curseforge": "oωo (owo-lib)"
+            },
+            "id": {
+                "curseforge": "532610"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/6785/734/owo-lib-neoforge-0.12.15.5-beta.1+1.21.jar",
+                    "id": "6785734",
+                    "parent_id": "532610",
+                    "hashes": {
+                        "sha1": "48dda11a6710591cf162bdbedf982ea21dd1f2ed",
+                        "md5": "4c8323c3d0493f7e82a2287e5ca9df7f"
+                    },
+                    "required_dependencies": [],
+                    "size": 1221583,
+                    "date_published": "2025-07-19T00:45:21.910Z"
                 }
             ]
         }

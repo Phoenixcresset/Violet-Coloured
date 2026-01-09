@@ -175,6 +175,17 @@
         "y": "DOWN"
       },
       "sync": "minecraft:toasts"
+    },
+    "usefulspyglass:hud_base": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "usefulspyglass:hud_base"
     }
   },
   "resource": {

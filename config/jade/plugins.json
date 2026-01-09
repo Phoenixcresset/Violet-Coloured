@@ -53,7 +53,7 @@
     "chiseled_bookshelf": false
   },
   "jadeaddons": {
-    "equipment_requirement": ""
+    "equipment_requirement": "usefulspyglass:enchantable/spyglass"
   },
   "jade_access": {
     "held_item": true,

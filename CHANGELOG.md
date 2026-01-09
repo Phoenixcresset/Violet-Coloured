@@ -31,6 +31,8 @@
 - Screenshot Viewer
 - Simple Music Control
 - Sounds Be Gone
+- Spyglass Improvements
+- Useful Spyglass
 - Vanillin
 
 #### Removed
