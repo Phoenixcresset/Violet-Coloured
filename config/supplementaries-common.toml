@@ -469,6 +469,19 @@
 	altimeter = true
 	confetti_popper = true
 
+	[tools.flute]
+		#Max distance at which a bound flute will allow a pet to teleport
+		# Default: 64
+		# Range: 0 ~ 500
+		bound_distance = 500
+		enabled = true
+		#Allows flute to be unbound. Unbound flutes will search for pets in a radius and teleport them to the player
+		unbound = false
+		#Radius in which an unbound flute will search pets
+		# Default: 64
+		# Range: 0 ~ 500
+		unbound_radius = 64
+
 	[tools.quiver]
 		enabled = true
 		#Allows using a quiver without being slowed down
@@ -538,19 +551,6 @@
 		capacity = 32
 		#Makes rope arrows exclusive to crossbows
 		exclusive_to_crossbows = false
-
-	[tools.flute]
-		enabled = true
-		#Allows flute to be unbound. Unbound flutes will search for pets in a radius and teleport them to the player
-		unbound = false
-		#Radius in which an unbound flute will search pets
-		# Default: 64
-		# Range: 0 ~ 500
-		unbound_radius = 64
-		#Max distance at which a bound flute will allow a pet to teleport
-		# Default: 64
-		# Range: 0 ~ 500
-		bound_distance = 64
 
 	[tools.bomb]
 		enabled = true
