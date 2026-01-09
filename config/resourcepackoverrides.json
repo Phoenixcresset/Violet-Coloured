@@ -2,11 +2,6 @@
   "schema_version": "2",
   "pack_overrides": {
     "hidden_packs": [
-      "mod_resources",
-      "programmer_art",
-      "scholar:colored_books",
-      "scholar:chiseled_bookshelf_colored_books",
-      "moonlight:merged_pack"
     ],
     "$$hidden_packs": {
       "hidden": true
