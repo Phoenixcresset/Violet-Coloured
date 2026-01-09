@@ -85,6 +85,16 @@ const keybindsToRebind = {
   "key.lighty.toggle": { key: GLFW.GLFW_KEY_F7 },
 };
 
+const keybindsToCategorize = {
+  "key.categories.gameplay": ["key.spyglass-improvements.use"],
+  "key.categories.inventory": [
+    "key.trashslot.delete",
+    "key.trashslot.delete_all",
+    "key.findme.search",
+  ],
+  "key.categories.misc": ["key.lighty.toggle"],
+};
+
 KeyBindJSEvents.modify((event) => {
   if (!Platform.isClientEnvironment()) return;
 
@@ -100,5 +110,11 @@ KeyBindJSEvents.modify((event) => {
       key,
       modifier !== undefined ? modifier : KeyModifier.NONE
     );
+  }
+
+  for (const [category, keys] of Object.entries(keybindsToCategorize)) {
+    for (const key of keys) {
+      event.modifyCategory(key, category);
+    }
   }
 });
