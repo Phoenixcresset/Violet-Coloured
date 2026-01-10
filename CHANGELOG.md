@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 ### Changes
+- Supplementaries addition !
+- Replaced JEI by TMRV for now because of recipes registration
 - Changed Noteblock to shift down pitch while sneak right-clicking
 ### Mods 
 #### Added
