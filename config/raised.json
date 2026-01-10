@@ -183,9 +183,9 @@
       },
       "direction": {
         "x": "NONE",
-        "y": "NONE"
+        "y": "UP"
       },
-      "sync": "supplementaries:cannon_charge"
+      "sync": "minecraft:hotbar"
     },
     "supplementaries:selectable_container_item": {
       "displacement": {
