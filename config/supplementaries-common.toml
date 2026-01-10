@@ -103,6 +103,26 @@
 	fodder = true
 	hourglass = true
 
+	[functional.jar]
+		#Allow Jars to capture small mobs
+		jar_capture = false
+		enabled = true
+		#Jar liquid capacity: leave at 12 for pixel accuracy
+		# Default: 12
+		# Range: 0 ~ 1024
+		capacity = 12
+		#Allow right click to instantly eat or drink food or potions inside a placed jar.
+		#Disable if you think this ability is op (honey for example). Cookies are excluded
+		drink_from_jar = false
+		#Allows the player to directly drink from jar items
+		drink_from_jar_item = false
+		#Dynamically allows all small mobs inside jars depending on their hitbox size
+		jar_auto_detect = false
+		#Allow Jars to hold cookies
+		jar_cookies = true
+		#Allow Jars to hold liquids from bottles, buckets and bowls
+		jar_liquids = true
+
 	[functional.rope]
 		#Also internally disables Galleons, Pulleys, Buntings, Rope arrows and rope mineshaft.
 		#Also disables compat blocks such as supplementaries Farmers Delight rope tomatoes and Decorative blocks rope chandeliers.
@@ -117,26 +137,6 @@
 		#Use this config to turn allow supplementaries to replace all items tagged as #supplementaries:ropes with supplementaries own rope or turn them to air instead. This is applied to all loot tables (chests and drops)
 		#Allowed Values: REPLACE, NONE, REMOVE
 		replace_in_loot_tables = "NONE"
-
-	[functional.jar]
-		enabled = true
-		#Jar liquid capacity: leave at 12 for pixel accuracy
-		# Default: 12
-		# Range: 0 ~ 1024
-		capacity = 12
-		#Allow right click to instantly eat or drink food or potions inside a placed jar.
-		#Disable if you think this ability is op (honey for example). Cookies are excluded
-		drink_from_jar = false
-		#Allows the player to directly drink from jar items
-		drink_from_jar_item = false
-		#Dynamically allows all small mobs inside jars depending on their hitbox size
-		jar_auto_detect = false
-		#Allow Jars to capture small mobs
-		jar_capture = true
-		#Allow Jars to hold cookies
-		jar_cookies = true
-		#Allow Jars to hold liquids from bottles, buckets and bowls
-		jar_liquids = true
 
 	[functional.cage]
 		enabled = true
@@ -201,9 +201,9 @@
 
 		#This is a map of special blocks that can be cleaned with soap. For items you will also need to add a recipe
 		[functional.soap.special_blocks]
-			"quark:dirty_glass" = "minecraft:glass"
 			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
 			"quark:dirty_glass_pane" = "minecraft:glass_pane"
+			"quark:dirty_glass" = "minecraft:glass"
 
 	[functional.cannon]
 		enabled = true
