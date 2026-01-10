@@ -177,7 +177,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "amendments-1.21-2.0.13-neoforge.jar",
+                    "file_name": "amendments-1.21-2.0.14-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -186,18 +186,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7352/178/amendments-1.21-2.0.13-neoforge.jar",
-                    "id": "7352178",
+                    "url": "https://edge.forgecdn.net/files/7440/267/amendments-1.21-2.0.14-neoforge.jar",
+                    "id": "7440267",
                     "parent_id": "896746",
                     "hashes": {
-                        "sha1": "8ff88f9b6d422c7d2a1f20c318fa6f4edf0eab8a",
-                        "md5": "eb3f68605d032eaf8b399557d0fad2c8"
+                        "sha1": "6d3610f1b3e181117ced9c67c4b5a473a1a5bbfe",
+                        "md5": "19d51a2c1519c74c1cfb3b2aaa801036"
                     },
                     "required_dependencies": [
                         "499980"
                     ],
-                    "size": 1141810,
-                    "date_published": "2025-12-19T02:53:52.463Z"
+                    "size": 1143400,
+                    "date_published": "2026-01-10T03:28:56.200Z"
                 }
             ]
         },
@@ -2921,7 +2921,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "moonlight-1.21-2.29.4-neoforge.jar",
+                    "file_name": "moonlight-1.21-2.29.9-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -2930,16 +2930,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7396/730/moonlight-1.21-2.29.4-neoforge.jar",
-                    "id": "7396730",
+                    "url": "https://edge.forgecdn.net/files/7441/363/moonlight-1.21-2.29.9-neoforge.jar",
+                    "id": "7441363",
                     "parent_id": "499980",
                     "hashes": {
-                        "sha1": "8434210fd838935556861cf2de108c8fea05d088",
-                        "md5": "6a7b6b3953cd52f4d41ee32dc28381b8"
+                        "sha1": "b0c829d141d12f340c27a6fd0f25ab0a321932e6",
+                        "md5": "e626048b4b38d2ae5e457f117735ad5c"
                     },
                     "required_dependencies": [],
-                    "size": 1499415,
-                    "date_published": "2025-12-30T15:30:17.400Z"
+                    "size": 1548201,
+                    "date_published": "2026-01-10T11:10:54.530Z"
                 }
             ]
         },
@@ -3312,7 +3312,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "portfolio-1.21.1-1.5.0-neoforge.jar",
+                    "file_name": "portfolio-1.21.1-1.5.1-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3320,16 +3320,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6954/259/portfolio-1.21.1-1.5.0-neoforge.jar",
-                    "id": "6954259",
+                    "url": "https://edge.forgecdn.net/files/7442/194/portfolio-1.21.1-1.5.1-neoforge.jar",
+                    "id": "7442194",
                     "parent_id": "851131",
                     "hashes": {
-                        "sha1": "1bfdd25957c753917b9e7b00580fdb8d774140e0",
-                        "md5": "525eec0bca53d9c896ec0cc4a18ded5e"
+                        "sha1": "eb634945c79e81690028b25be49b3b238f99ab02",
+                        "md5": "d3e35be66b104833f60d8daa51bd69ed"
                     },
                     "required_dependencies": [],
-                    "size": 793218,
-                    "date_published": "2025-09-01T22:47:39.410Z"
+                    "size": 819309,
+                    "date_published": "2026-01-10T15:27:32.283Z"
                 }
             ]
         },
@@ -3660,7 +3660,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "scholar-neoforge-1.21.1-1.1.11.1.jar",
+                    "file_name": "scholar-neoforge-1.21.1-1.1.12.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3668,16 +3668,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7291/540/scholar-neoforge-1.21.1-1.1.11.1.jar",
-                    "id": "7291540",
+                    "url": "https://edge.forgecdn.net/files/7438/824/scholar-neoforge-1.21.1-1.1.12.jar",
+                    "id": "7438824",
                     "parent_id": "961802",
                     "hashes": {
-                        "sha1": "7f91f2118a69f87d557388b6b540215dfa658884",
-                        "md5": "b9b37bbbbe7b98c9964fbec80d19e7e6"
+                        "sha1": "b051ff8e57065768581a93c845f6730537c38a77",
+                        "md5": "b710030e6104a9050fc306611fa71da5"
                     },
                     "required_dependencies": [],
-                    "size": 721162,
-                    "date_published": "2025-12-03T22:15:40.157Z"
+                    "size": 721464,
+                    "date_published": "2026-01-09T20:26:48.683Z"
                 }
             ]
         },
@@ -4353,7 +4353,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "yet_another_config_lib_v3-3.8.1+1.21.1-neoforge.jar",
+                    "file_name": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -4362,16 +4362,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7305/639/yet_another_config_lib_v3-3.8.1+1.21.1-neoforge.jar",
-                    "id": "7305639",
+                    "url": "https://edge.forgecdn.net/files/7437/845/yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+                    "id": "7437845",
                     "parent_id": "667299",
                     "hashes": {
-                        "sha1": "b566b99f019feae4df41651ff17f8b295fa72435",
-                        "md5": "a093525ef45f8bf2dd901d3230519d63"
+                        "sha1": "fe270c9f6e0a8142cf316944087f5109cef08bbb",
+                        "md5": "c346120062c3364a0d215c228354030e"
                     },
                     "required_dependencies": [],
-                    "size": 1118896,
-                    "date_published": "2025-12-07T20:01:10.980Z"
+                    "size": 1118651,
+                    "date_published": "2026-01-09T16:34:33.460Z"
                 }
             ]
         },
