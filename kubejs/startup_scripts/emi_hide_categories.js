@@ -17,7 +17,7 @@ const recipeHidingConfig = {
     "supplementaries:/tipped_spikes.*",
     "supplementaries:/inject/test",
     "minecraft:/shearing/bogged",
-    "minecraft:gameplay/cat_morning_gift",
+    "minecraft:/gameplay/cat_morning_gift",
   ],
   categorizedIds: {
     "ali:trial_chambers": [
