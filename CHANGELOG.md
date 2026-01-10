@@ -1,7 +1,9 @@
 # Changelog
 
 ## [Unreleased]
-### Mods
+### Changes
+- Changed Noteblock to shift down pitch while sneak right-clicking
+### Mods 
 #### Added
 - Just Enough Items
 - Supplementaries
