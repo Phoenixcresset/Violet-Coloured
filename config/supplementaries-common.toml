@@ -295,6 +295,13 @@
 	fire_pit = true
 	wicker_fence = true
 
+	[building.notice_board]
+		#Enables a GUI for the block. Not needed as the block just holds one item which you can place by clicking on it
+		gui = false
+		enabled = true
+		#Allows notice boards to accept and display any item, not just maps and books
+		allow_any_item = false
+
 	[building.spider_head]
 		enabled = true
 
@@ -358,13 +365,6 @@
 		broken_by_sapling = false
 		#When Farmers Delight is on planter will also act like rich soil and use it in its recipe
 		rich_soil_planter = true
-
-	[building.notice_board]
-		enabled = true
-		#Allows notice boards to accept and display any item, not just maps and books
-		allow_any_item = false
-		#Enables a GUI for the block. Not needed as the block just holds one item which you can place by clicking on it
-		gui = true
 
 	[building.pedestal]
 		enabled = true
@@ -631,13 +631,19 @@
 #Vanilla tweaks
 [tweaks]
 
+	[tweaks.clock_and_compass]
+		#Allow to right click with a clock to display current time in numerical form
+		clock_right_click = false
+		#Allow to right click with a compass to display current coordinates in numerical form
+		compass_right_click = false
+
 	[tweaks.dragon_banner_pattern]
 		#Adds dragon banner pattern made from dragon head
 		enabled = true
 
 	[tweaks.shulker_helmet]
 		#Allows wearing shulker shells
-		enabled = true
+		enabled = false
 
 	[tweaks.ai_tweaks]
 		#Allows pillagers to use cannon boats. Add more entities to the 'supplementaries:can_use_cannon_boat' tag to allow them to use cannon boats as well
@@ -646,7 +652,7 @@
 		raiders_dismount_boats = true
 
 	[tweaks.golden_apple_disenchant]
-		enabled = true
+		enabled = false
 
 	[tweaks.traders_open_doors]
 		#Allows traders to open doors (because they couldn't apparently)
@@ -668,7 +674,7 @@
 		#Allow placeable sticks
 		sticks = true
 		#Allow placeable blaze rods
-		blaze_rods = true
+		blaze_rods = false
 
 	[tweaks.placeable_gunpowder]
 		#Allow placeable gunpowder
@@ -734,7 +740,7 @@
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
-		zombie_horse_conversion = true
+		zombie_horse_conversion = false
 		#Amount of rotten flesh needed
 		# Default: 64
 		# Range: 1 ~ 1000
@@ -742,7 +748,7 @@
 		#Allows zombie horses to be ridden underwater
 		rideable_underwater = true
 		#Convert a zombie horse back by feeding it a golden carrot
-		zombie_horse_inverse_conversion = true
+		zombie_horse_inverse_conversion = false
 
 	[tweaks.noteblocks_scare]
 		#Noteblocks with a zombie head will scare off villagers
@@ -777,9 +783,3 @@
 		# Default: 0.15
 		# Range: 0.0 ~ 1.0
 		chance_per_slime_size = 0.15
-
-	[tweaks.clock_and_compass]
-		#Allow to right click with a clock to display current time in numerical form
-		clock_right_click = true
-		#Allow to right click with a compass to display current coordinates in numerical form
-		compass_right_click = false
