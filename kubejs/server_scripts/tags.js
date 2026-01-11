@@ -38,10 +38,6 @@ const tagsToRemoveFromItems = {
 let removedTags = [];
 
 for (const [prefix, tags] of Object.entries(tagsToRemove)) {
-  if (!Platform.isLoaded(prefix)) {
-    console.log(`[Tags Removal] Skipping for ${prefix} (mod not loaded)`);
-    continue;
-  }
   for (const tag of tags) {
     console.log(`[Tags Removal] Removing tag ${prefix}:${tag}`);
     removedTags.push(`${prefix}:${tag}`);
