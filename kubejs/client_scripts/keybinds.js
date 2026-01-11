@@ -73,6 +73,7 @@ const keybindsToRemove = [
   "key.jei.closeRecipeGui",
   "key.jei.copy.recipe.id",
   "key.carry.desc",
+  "supplementaries.keybind.quiver",
 ];
 
 const keybindsToRebind = {
