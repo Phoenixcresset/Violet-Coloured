@@ -18,6 +18,7 @@ const tagsToRemove = {
     "faucet_connection_blacklist",
     "water_holder",
   ],
+  sereneseasons: ["spring_crops"],
 };
 
 const tagsToRemoveFromItems = {
