@@ -17,6 +17,11 @@ const tagsToRemove = {
     "frame_block_blacklist",
     "faucet_connection_blacklist",
     "water_holder",
+    "cage_catchable",
+    "cage_baby_catchable",
+    "jar_catchable",
+    "jar_baby_catchable",
+    "tickable_when_captured",
   ],
   sereneseasons: ["spring_crops"],
 };
@@ -83,6 +88,18 @@ ServerEvents.tags("item", (event) => {
 });
 
 ServerEvents.tags("block", (event) => {
+  for (const tag of removedTags) {
+    event.removeAll(tag);
+  }
+  for (const entry of removedTagsFromItems) {
+    console.log(
+      `[Tags Removal] Removing item ${entry.item} from tag ${entry.tag}`
+    );
+    event.remove(entry.tag, entry.item);
+  }
+});
+
+ServerEvents.tags("entity_type", (event) => {
   for (const tag of removedTags) {
     event.removeAll(tag);
   }
