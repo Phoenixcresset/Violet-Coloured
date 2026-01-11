@@ -66,6 +66,72 @@
       },
       "sync": "minecraft:hotbar"
     },
+    "immersiveoverlays:biome": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveoverlays:biome"
+    },
+    "immersiveoverlays:clock": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveoverlays:clock"
+    },
+    "immersiveoverlays:compass": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveoverlays:compass"
+    },
+    "immersiveoverlays:speed": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveoverlays:speed"
+    },
+    "immersiveoverlays:temperature": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveoverlays:temperature"
+    },
+    "immersiveoverlays:wind": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "immersiveoverlays:wind"
+    },
     "minecraft:bossbar": {
       "displacement": {
         "x": 0,

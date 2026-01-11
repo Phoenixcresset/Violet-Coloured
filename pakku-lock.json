@@ -2108,6 +2108,42 @@
             ]
         },
         {
+            "pakku_id": "XcCGiRq5F6EMm0pM",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "immersive-overlays"
+            },
+            "name": {
+                "curseforge": "Immersive Overlays"
+            },
+            "id": {
+                "curseforge": "1245453"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "immersiveoverlays-1.5.0+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7408/926/immersiveoverlays-1.5.0+1.21.1-neoforge.jar",
+                    "id": "7408926",
+                    "parent_id": "1245453",
+                    "hashes": {
+                        "sha1": "a4a673e1556685af33d6f5684c52c93e4c2a9d1a",
+                        "md5": "f494f8db33267c2f635ee75f8a68d851"
+                    },
+                    "required_dependencies": [],
+                    "size": 269602,
+                    "date_published": "2026-01-02T16:51:52.147Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "7PuuL2oRyixsx7Co",
             "pakku_links": [
                 "hFgNz5YU4qXApa4A"
