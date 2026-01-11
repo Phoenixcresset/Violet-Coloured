@@ -71,7 +71,7 @@
   "compat_cold_sweat_temperature": true,
   "compat_legendary_survival_overhaul_temperature": true,
   "compat_thermoo_temperature": true,
-  "biome_enable": true,
+  "biome_enable": false,
   "biome_icons": true,
   "biome_reduced_info": false,
   "biome_text_tinted": true,
