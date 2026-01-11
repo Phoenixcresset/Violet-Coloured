@@ -2,9 +2,10 @@ const obliteratedPatterns = {
   supplementaries: [
     "bamboo_spikes_tipped",
     "cage",
-    /timber_.*/,
+    "faucet",
     /.*gravel_bricks/,
     /lapis_bricks.*/,
+    /timber_.*/,
   ],
   suppsquared: ["heavy_key", /metal_.*/],
 };
