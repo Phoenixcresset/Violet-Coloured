@@ -1,5 +1,5 @@
 const obliteratedPatterns = {
-  supplementaries: ["bamboo_spikes_tipped"],
+  supplementaries: ["bamboo_spikes_tipped", "cage"],
 };
 
 const creativeTabs = [

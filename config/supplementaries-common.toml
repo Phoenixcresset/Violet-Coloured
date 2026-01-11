@@ -615,6 +615,10 @@
 
 #General settings
 [general]
+	#slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	red_merchant_spawn_multiplier = 0.0
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
 	#Enable Creative Tab
@@ -623,10 +627,6 @@
 	dispensers = true
 	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues
 	sanity_checks_messages = true
-	#slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
-	# Default: 1.0
-	# Range: 0.0 ~ 10.0
-	red_merchant_spawn_multiplier = 1.0
 
 #Vanilla tweaks
 [tweaks]
