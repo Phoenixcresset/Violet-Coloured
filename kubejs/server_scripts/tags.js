@@ -1,5 +1,6 @@
 const tagsToRemove = {
   supplementaries: [
+    // Items
     "blackboard_light_gray",
     "blackboard_gray",
     "blackboard_brown",
@@ -14,9 +15,11 @@ const tagsToRemove = {
     "blackboard_purple",
     "blackboard_magenta",
     "blackboard_pink",
+    // Blocks
     "frame_block_blacklist",
     "faucet_connection_blacklist",
     "water_holder",
+    // Entities
     "cage_catchable",
     "cage_baby_catchable",
     "jar_catchable",
