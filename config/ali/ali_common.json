@@ -53,7 +53,7 @@
     {
       "key": "ali:trial_chambers",
       "type": "GAMEPLAY",
-      "icon": "minecraft:spawner",
+      "icon": "minecraft:trial_spawner",
       "hide": false,
       "pattern": [
         "^.*:chests/trial_chambers/.*$",
@@ -86,7 +86,7 @@
     {
       "key": "ali:archaeology_loot",
       "type": "GAMEPLAY",
-      "icon": "minecraft:decorated_pot",
+      "icon": "minecraft:brush",
       "hide": false,
       "pattern": [
         "^.*:archaeology/.*$"
@@ -115,7 +115,7 @@
     {
       "key": "ali:trade_loot",
       "type": "TRADE",
-      "icon": "minecraft:emerald_block",
+      "icon": "minecraft:emerald",
       "hide": false,
       "pattern": [
         ".*"
