@@ -3,13 +3,16 @@
 ## [Unreleased]
 ### Changes
 - Supplementaries addition !
+- Improved player animations
 - Immersive Overlays for seeing the time and coordinates in the HUD
 - Replaced JEI by TMRV for now because of recipes registration
 - Changed Noteblock to shift down pitch while sneak right-clicking
 ### Mods 
 #### Added
+- First Person Model
 - Immersive Overlays
 - Just Enough Items
+- Not Enough Animations
 - Supplementaries
 - Supplementaries Squared
 #### Removed
