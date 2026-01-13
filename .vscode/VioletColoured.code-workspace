@@ -13,6 +13,7 @@
             "saves/": true,
             "screenshots/": true,
             "server-resource-packs/": true,
+            "texturepacks/": true,
             "config/dynamic_fps.json": true,
             "config/ichunutil/": true,
             "config/jade/sort-order.json": true,
