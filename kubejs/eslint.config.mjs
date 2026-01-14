@@ -10,8 +10,26 @@ export default defineConfig([
   },
   { files: ["**/*.js"], languageOptions: { sourceType: "script" } },
   {
-    rules: {
-      "no-undef": "off",
+    languageOptions: {
+      globals: {
+        StartupEvents: "readonly",
+        ServerEvents: "readonly",
+        ItemEvents: "readonly",
+        BlockEvents: "readonly",
+        PlayerEvents: "readonly",
+        RecipeViewerEvents: "readonly",
+        Ingredient: "readonly",
+        Text: "readonly",
+        Platform: "readonly",
+        JsonIO: "readonly",
+        LootJS: "readonly",
+        MoreJS: "readonly",
+        KeyBindJSEvents: "readonly",
+        GLFW: "readonly",
+        KeyModifier: "readonly",
+        console: "readonly",
+        global: "readonly",
+      },
     },
   },
   eslintConfigPrettier,
