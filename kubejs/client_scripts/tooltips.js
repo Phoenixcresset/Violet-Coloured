@@ -2,11 +2,11 @@ const tooltipConfig = {
   "minecraft:soul_campfire": [
     {
       type: "condition",
-      text: "block.minecraft.campfire.condition1",
+      translationKey: "block.minecraft.campfire.condition1",
     },
     {
       type: "behaviour",
-      text: "block.minecraft.campfire.behaviour1",
+      translationKey: "block.minecraft.campfire.behaviour1",
     },
   ],
 };
@@ -35,8 +35,8 @@ function validateTooltipConfig(config) {
       return;
     }
     segments.forEach((segment, index) => {
-      if (!segment.type || !segment.text) {
-        errors.push(`${itemId}[${index}]: missing type or text`);
+      if (!segment.type || !segment.translationKey) {
+        errors.push(`${itemId}[${index}]: missing type or translationKey`);
         return;
       }
       if (!VALID_TYPES.includes(segment.type)) {
@@ -89,7 +89,7 @@ function createTooltipHandler(itemId, segments, shiftRequired) {
 }
 
 function generateTooltipLine(segment) {
-  const text = Text.translatable(segment.text);
+  const text = Text.translatable(segment.translationKey);
   switch (segment.type) {
     case "condition":
       return text.color(colorPalette.description.condition);
