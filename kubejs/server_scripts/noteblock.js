@@ -40,12 +40,12 @@ BlockEvents.rightClicked("minecraft:note_block", (event) => {
   // 3 Volume to match normal note block range (48 blocks = 16 * 3 (volume) max range)
   const volume = 3;
   event.server.runCommandSilent(
-    `playsound ${soundEvent} block @a ${block.x} ` +
-      `${block.y} ${block.z} ${volume} ${pitch}`
+    `playsound ${soundEvent} block @a ${block.getX()} ` +
+      `${block.getY()} ${block.getZ()} ${volume} ${pitch}`
   );
 
   // Display the note particle
-  const particlePos = block.pos.getCenter().add(0, 0.7, 0);
+  const particlePos = block.getPos().getCenter().add(0, 0.7, 0);
   level.spawnParticles(
     "minecraft:note",
     false,

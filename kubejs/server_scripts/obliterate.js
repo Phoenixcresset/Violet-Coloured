@@ -70,7 +70,7 @@ function obliterateItems() {
   // Destroy on interaction
   BlockEvents.rightClicked((event) => {
     let { block } = event;
-    if (isObliterated(block.id)) {
+    if (isObliterated(block.getId())) {
       block.set("minecraft:air");
     }
   });
@@ -78,7 +78,7 @@ function obliterateItems() {
   // Destroy on block placement
   BlockEvents.placed((event) => {
     let { block } = event;
-    if (isObliterated(block.id)) {
+    if (isObliterated(block.getId())) {
       block.set("minecraft:air");
     }
   });
@@ -103,8 +103,10 @@ function obliterateItems() {
   // Destroy on inventory changed
   PlayerEvents.inventoryChanged((event) => {
     let { item, player } = event;
-    if (isObliterated(item.id)) {
-      event.player.statusMessage = Text.yellow(item.id).append(" is disabled");
+    if (isObliterated(item.getId())) {
+      event.player.statusMessage = Text.yellow(item.getId()).append(
+        " is disabled"
+      );
       event.player.playNotifySound(
         "entity.experience_orb.pickup",
         "ambient",
