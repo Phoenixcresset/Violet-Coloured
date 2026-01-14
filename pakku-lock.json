@@ -3177,6 +3177,42 @@
             ]
         },
         {
+            "pakku_id": "2WZl72XR0rAZLg4a",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "multi-mine"
+            },
+            "name": {
+                "curseforge": "Multi Mine"
+            },
+            "id": {
+                "curseforge": "227887"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "multimine-1.21.1.1NF.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5754/479/multimine-1.21.1.1NF.jar",
+                    "id": "5754479",
+                    "parent_id": "227887",
+                    "hashes": {
+                        "sha1": "02887753c14ca8e016532ad14b8fbe6290f3ec91",
+                        "md5": "55743df28489bfb9cbbad765a030f09f"
+                    },
+                    "required_dependencies": [],
+                    "size": 34051,
+                    "date_published": "2024-09-25T07:45:23.373Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "JCQ3Ecw6fjZ6eHbF",
             "type": "MOD",
             "slug": {
