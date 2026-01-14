@@ -61,7 +61,7 @@ for (const [tag, mods] of Object.entries(tagsToRemoveFromItems)) {
       console.log(`[Tags Removal] Skipping for ${prefix} (mod not loaded)`);
       continue;
     }
-    for (const item of items) {
+    for (let item of items) {
       if (item.startsWith("#")) {
         item = item.substring(1);
         removedTagsFromItems.push({

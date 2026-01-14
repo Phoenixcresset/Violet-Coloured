@@ -34,10 +34,6 @@ const modContainers = {
   },
 };
 
-const itemsWithInteractions = {
-  sack: createContainerConfig("supplementaries:sack", { height: 3, width: 3 }),
-};
-
 const COLORS = [
   "black",
   "blue",
@@ -56,14 +52,6 @@ const COLORS = [
   "white",
   "yellow",
 ];
-
-const dyedItemsWithInteractions = {
-  "sack_{COLOR}": createContainerConfig(
-    "suppsquared:sack_{COLOR}",
-    { height: 3, width: 3 },
-    "{COLOR}"
-  ),
-};
 
 ServerEvents.generateData("after_mods", (event) => {
   for (const [modid, containers] of Object.entries(modContainers)) {

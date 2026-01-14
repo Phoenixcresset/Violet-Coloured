@@ -42,6 +42,8 @@ for (const [prefix, items] of Object.entries(obliteratedPatterns)) {
 
 global.obliteratedItems = obliteratedItems;
 
+global.creativeTabs = creativeTabs;
+
 // Check if itemID exists within obliteratedItems
 global.isObliterated = (itemId) => {
   for (let i = 0; i < obliteratedItems.length; i++) {
