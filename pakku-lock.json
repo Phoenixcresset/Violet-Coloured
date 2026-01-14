@@ -2031,6 +2031,43 @@
             ]
         },
         {
+            "pakku_id": "LeTbNfAicMOBOmcZ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "treechop"
+            },
+            "name": {
+                "curseforge": "HT's TreeChop"
+            },
+            "id": {
+                "curseforge": "421377"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "TreeChop-1.21.1-neoforge-0.19.3.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6254/465/TreeChop-1.21.1-neoforge-0.19.3.jar",
+                    "id": "6254465",
+                    "parent_id": "421377",
+                    "hashes": {
+                        "sha1": "7bf7c1bde0f574e3fb9077115a2d4f59e534486c",
+                        "md5": "c87da07af73f649d1fe4ec6ca6d5a3ea"
+                    },
+                    "required_dependencies": [],
+                    "size": 517750,
+                    "date_published": "2025-03-02T06:25:58.463Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "2E3LZrokcB0pwWqC",
             "pakku_links": [
                 "BkMjMPSxhZZOKliy"
