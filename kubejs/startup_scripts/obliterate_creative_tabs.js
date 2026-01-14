@@ -1,6 +1,6 @@
-creativeTabs.forEach((tab) => {
+global.creativeTabs.forEach((tab) => {
   StartupEvents.modifyCreativeTab(tab, (event) => {
-    obliteratedItems.forEach((item) => {
+    global.obliteratedItems.forEach((item) => {
       event.remove(item);
     });
   });
