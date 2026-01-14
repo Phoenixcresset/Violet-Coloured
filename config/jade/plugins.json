@@ -54,7 +54,7 @@
   },
   "treechop": {
     "plugin": true,
-    "show_tree_block_counts": true,
+    "show_tree_block_counts": false,
     "show_num_chops_remaining": true
   },
   "jadeaddons": {
