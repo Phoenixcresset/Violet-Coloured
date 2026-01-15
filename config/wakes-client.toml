@@ -14,7 +14,7 @@ wakeOpacity = 0.5
 # Range: 0.0 ~ 1.0
 blendStrength = 0.5
 firstPersonSplashPlane = false
-spawnParticles = false
+spawnParticles = true
 # Default: 0.5
 # Range: 0.0 ~ 1.0
 shaderLightPassthrough = 0.5
@@ -47,6 +47,9 @@ renderType = "AUTO"
 
 #Wake Behavior
 [wakeBehavior]
+	# Default: 100
+	# Range: > 0
+	splashStrength = 0
 	# Default: 0.95
 	# Range: 0.0 ~ 1.0
 	wavePropagationFactor = 0.95
@@ -59,9 +62,6 @@ renderType = "AUTO"
 	# Default: 100
 	# Range: > 0
 	paddleStrength = 100
-	# Default: 100
-	# Range: > 0
-	splashStrength = 100
 
 #Splash Plane Settings
 [splashPlane]
