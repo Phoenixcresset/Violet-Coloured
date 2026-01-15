@@ -1423,6 +1423,7 @@
                 "q5a7GQQQWj8CzNvn"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "emi-plus-plus"
             },
@@ -1953,6 +1954,7 @@
                 "JCQ3Ecw6fjZ6eHbF"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "first-person-model"
             },
@@ -2189,6 +2191,7 @@
         {
             "pakku_id": "XcCGiRq5F6EMm0pM",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "immersive-overlays"
             },
@@ -2423,6 +2426,7 @@
         {
             "pakku_id": "X70lJ8XpTKdZcuph",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "justenoughbreeding"
             },
@@ -3215,6 +3219,7 @@
         {
             "pakku_id": "JCQ3Ecw6fjZ6eHbF",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "not-enough-animations"
             },
@@ -4021,6 +4026,7 @@
         {
             "pakku_id": "iLaA0u9EL1PmdOs5",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "smithing-template-viewer"
             },

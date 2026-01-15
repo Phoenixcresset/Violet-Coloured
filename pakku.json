@@ -158,6 +158,24 @@
         },
         "colorwheel-patcher": {
             "side": "CLIENT"
+        },
+        "smithing-template-viewer": {
+            "side": "CLIENT"
+        },
+        "justenoughbreeding": {
+            "side": "CLIENT"
+        },
+        "emi-plus-plus": {
+            "side": "CLIENT"
+        },
+        "first-person-model": {
+            "side": "CLIENT"
+        },
+        "not-enough-animations": {
+            "side": "CLIENT"
+        },
+        "immersive-overlays": {
+            "side": "CLIENT"
         }
     }
 }
