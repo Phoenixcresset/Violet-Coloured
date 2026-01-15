@@ -22,7 +22,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.6.0.jar",
+                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.6.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -30,16 +30,16 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7278/209/AdvancedLootInfo-neoforge-1.21.1-1.6.0.jar",
-                    "id": "7278209",
+                    "url": "https://edge.forgecdn.net/files/7451/618/AdvancedLootInfo-neoforge-1.21.1-1.6.2.jar",
+                    "id": "7451618",
                     "parent_id": "1205426",
                     "hashes": {
-                        "sha1": "b0900888294358f4cb108d215708b3249f8207c0",
-                        "md5": "8bad224b996fa9186cf367155eb3daed"
+                        "sha1": "e8782c23d9fe8de9f3a08deb2b35c877548e51e9",
+                        "md5": "befa895c135b43db35427ef867ad7799"
                     },
                     "required_dependencies": [],
-                    "size": 696986,
-                    "date_published": "2025-11-30T14:01:52.160Z"
+                    "size": 735983,
+                    "date_published": "2026-01-12T19:36:12.903Z"
                 }
             ]
         },
@@ -177,7 +177,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "amendments-1.21-2.0.14-neoforge.jar",
+                    "file_name": "amendments-1.21-2.0.15-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -186,18 +186,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7440/267/amendments-1.21-2.0.14-neoforge.jar",
-                    "id": "7440267",
+                    "url": "https://edge.forgecdn.net/files/7461/27/amendments-1.21-2.0.15-neoforge.jar",
+                    "id": "7461027",
                     "parent_id": "896746",
                     "hashes": {
-                        "sha1": "6d3610f1b3e181117ced9c67c4b5a473a1a5bbfe",
-                        "md5": "19d51a2c1519c74c1cfb3b2aaa801036"
+                        "sha1": "00056f29646f3bf86116b281c2362c0dabdb4533",
+                        "md5": "72d35a860a4a113249ade7342f0600ed"
                     },
                     "required_dependencies": [
                         "499980"
                     ],
-                    "size": 1143400,
-                    "date_published": "2026-01-10T03:28:56.200Z"
+                    "size": 1143659,
+                    "date_published": "2026-01-14T22:57:45.190Z"
                 }
             ]
         },
@@ -3036,7 +3036,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "moonlight-1.21-2.29.9-neoforge.jar",
+                    "file_name": "moonlight-1.21-2.29.10-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -3045,16 +3045,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7441/363/moonlight-1.21-2.29.9-neoforge.jar",
-                    "id": "7441363",
+                    "url": "https://edge.forgecdn.net/files/7456/625/moonlight-1.21-2.29.10-neoforge.jar",
+                    "id": "7456625",
                     "parent_id": "499980",
                     "hashes": {
-                        "sha1": "b0c829d141d12f340c27a6fd0f25ab0a321932e6",
-                        "md5": "e626048b4b38d2ae5e457f117735ad5c"
+                        "sha1": "f58d48e56bcf350e819567edb8c983718e2fa231",
+                        "md5": "7fdd0e6f4dd6a267b0cf7f15a579434a"
                     },
                     "required_dependencies": [],
-                    "size": 1548201,
-                    "date_published": "2026-01-10T11:10:54.530Z"
+                    "size": 1548276,
+                    "date_published": "2026-01-14T00:49:35.050Z"
                 }
             ]
         },
@@ -4033,7 +4033,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "smithingtemplateviewer-1.0.3.jar",
+                    "file_name": "smithingtemplateviewer-1.0.4.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -4042,16 +4042,16 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6502/654/smithingtemplateviewer-1.0.3.jar",
-                    "id": "6502654",
+                    "url": "https://edge.forgecdn.net/files/7452/53/smithingtemplateviewer-1.0.4.jar",
+                    "id": "7452053",
                     "parent_id": "1133580",
                     "hashes": {
-                        "sha1": "1ee2fa37e522b645f7b17ed28062e58aac908ae8",
-                        "md5": "a97f2b0ef880a37cfb55dcfbbaeb392c"
+                        "sha1": "4fea33926fafbd59f7434d1e4e64938ddee5d5db",
+                        "md5": "a6163398a0aa7135b3964bf13e245ba4"
                     },
                     "required_dependencies": [],
-                    "size": 39663,
-                    "date_published": "2025-05-06T16:33:59.750Z"
+                    "size": 39702,
+                    "date_published": "2026-01-12T21:37:18.853Z"
                 }
             ]
         },
