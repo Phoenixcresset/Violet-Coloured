@@ -1,31 +1,29 @@
-# Changelog
-
-## [Unreleased]
-### Changes
+# [Unreleased]
+## Changes
 - Supplementaries addition !
 - Improved player animations
 - Immersive Overlays for seeing the time and coordinates in the HUD
 - Replaced JEI by TMRV for now because of recipes registration
 - Changed Noteblock to shift down pitch while sneak right-clicking
-### Mods 
-#### Added
+## Mods 
+### Added
 - First Person Model
 - Immersive Overlays
 - Just Enough Items
 - Not Enough Animations
 - Supplementaries
 - Supplementaries Squared
-#### Removed
+### Removed
 - Too Many Recipe Viewers
 
-## [0.0.4]
-### Changes
+# [0.0.4]
+## Changes
 - Better compat between EMI and Stylish Effects
 - Changed EMI left panel to be both craftables and favorites
 - Custom Tooltips logic
 - Power Item Obliterator
-### Mods
-#### Added
+## Mods
+### Added
 - Alternate Current
 - Async Locator Refined
 - Better Climbing
@@ -55,14 +53,14 @@
 - Useful Spyglass
 - Vanillin
 
-#### Removed
+### Removed
 - Accelerated Decay
 - Structure Essentials
 - Yeetus Experimentus
 
-## [0.0.3]
-### Mods
-#### Added
+# [0.0.3]
+## Mods
+### Added
 - Accelerated Decay
 - Advanced Loot Info
 - Amendments
@@ -104,11 +102,11 @@
 - WITS
 - Yeetus Experimentus
 
-#### Removed
+### Removed
 - Drop-Down Keybindings
 
-## [0.0.2]
-### Added
+# [0.0.2]
+## Added
 - Shaders ! (and a better Sodium UI)
 - Better Advancement Menu and Toasts
 - Customized EMI Interface
@@ -116,8 +114,8 @@
 - Better Tooltips with food values
 - Better F3 layout, close to the 1.21.9 one
 - Better Keybinds management, removal of some useless keybinds and rebinding of others
-### Mods
-#### Added
+## Mods
+### Added
 - Better F3
 - Better Modlist
 - Configured
@@ -134,15 +132,15 @@
 - Raised
 - AppleSkin
 
-### Shaders
-#### Added
+## Shaders
+### Added
 - Complementary Reimagined
 
-## [0.0.1]
-### Changes
+# [0.0.1]
+## Changes
 - Setup a base minecraft in place, with a few optimization mods.
-### Mods
-#### Added
+## Mods
+### Added
 - All The Leaks
 - Clot Config
 - C2ME
