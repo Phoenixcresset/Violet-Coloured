@@ -179,6 +179,9 @@
         },
         "particular-reforged": {
             "side": "CLIENT"
+        },
+        "wakes-reforged": {
+            "side": "CLIENT"
         }
     }
 }

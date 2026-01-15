@@ -4570,6 +4570,43 @@
             ]
         },
         {
+            "pakku_id": "9AyOgtR0ca12zTFb",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "wakes-reforged"
+            },
+            "name": {
+                "curseforge": "Wakes Reforged"
+            },
+            "id": {
+                "curseforge": "1223529"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "wakes-1.21.1-NeoForge-1.0.4.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7229/309/wakes-1.21.1-NeoForge-1.0.4.jar",
+                    "id": "7229309",
+                    "parent_id": "1223529",
+                    "hashes": {
+                        "sha1": "c733296604f9fd93a7007d0b6522217b6202b5df",
+                        "md5": "3f7b97722fff066b97b7a473af0f0614"
+                    },
+                    "required_dependencies": [],
+                    "size": 185452,
+                    "date_published": "2025-11-16T15:48:56.680Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ZGJUCEqnhx4NriVD",
             "type": "MOD",
             "slug": {

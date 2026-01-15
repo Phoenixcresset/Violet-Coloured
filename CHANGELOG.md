@@ -2,6 +2,7 @@
 ## Changes
 - Supplementaries addition !
 - Improved player animations
+- Many new particles
 - Immersive Overlays for seeing the time and coordinates in the HUD
 - Replaced JEI by TMRV for now because of recipes registration
 - Changed Noteblock to shift down pitch while sneak right-clicking
@@ -14,6 +15,7 @@
 - Particular Reforged
 - Supplementaries
 - Supplementaries Squared
+- Wakes Reforged
 ### Removed
 - Too Many Recipe Viewers
 
