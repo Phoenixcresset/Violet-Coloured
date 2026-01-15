@@ -176,6 +176,9 @@
         },
         "immersive-overlays": {
             "side": "CLIENT"
+        },
+        "particular-reforged": {
+            "side": "CLIENT"
         }
     }
 }

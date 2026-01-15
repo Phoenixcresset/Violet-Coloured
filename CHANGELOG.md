@@ -11,6 +11,7 @@
 - Immersive Overlays
 - Just Enough Items
 - Not Enough Animations
+- Particular Reforged
 - Supplementaries
 - Supplementaries Squared
 ### Removed

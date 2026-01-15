@@ -3413,6 +3413,43 @@
             ]
         },
         {
+            "pakku_id": "VFIJE9FPRm4AiXyu",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "particular-reforged"
+            },
+            "name": {
+                "curseforge": "Particular ✨ Reforged"
+            },
+            "id": {
+                "curseforge": "1219053"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "particular-1.21.1-NeoForge-1.1.7.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7075/190/particular-1.21.1-NeoForge-1.1.7.jar",
+                    "id": "7075190",
+                    "parent_id": "1219053",
+                    "hashes": {
+                        "sha1": "39d2fa3c396bf75a00078922dd6c2a7bf9f63f46",
+                        "md5": "c6dfdb944d0b621d574aaaa1f8325098"
+                    },
+                    "required_dependencies": [],
+                    "size": 221535,
+                    "date_published": "2025-10-06T21:23:29.047Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "KBt9NuJkFo3Dw0xK",
             "pakku_links": [
                 "FcXXV2bWFUXfgJJr"
