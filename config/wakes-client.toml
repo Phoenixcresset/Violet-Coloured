@@ -9,12 +9,12 @@ mobBlacklist = []
 wakeResolution = "SIXTEEN"
 # Default: 1.0
 # Range: 0.0 ~ 1.0
-wakeOpacity = 1.0
+wakeOpacity = 0.5
 # Default: 0.5
 # Range: 0.0 ~ 1.0
 blendStrength = 0.5
 firstPersonSplashPlane = false
-spawnParticles = true
+spawnParticles = false
 # Default: 0.5
 # Range: 0.0 ~ 1.0
 shaderLightPassthrough = 0.5
@@ -35,7 +35,7 @@ renderType = "AUTO"
 #Spawning Rules
 [spawningRules]
 	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
-	boatSpawning = "SIMULATION_AND_PLANES"
+	boatSpawning = "ONLY_SIMULATION"
 	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
 	playerSpawning = "ONLY_SIMULATION"
 	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
