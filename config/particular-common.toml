@@ -6,15 +6,15 @@
 		#Enable water splash particles
 		waterSplash = true
 		#Enable cascade particles
-		cascades = true
+		cascades = false
 		#Enable waterfall spray particles
 		waterfallSpray = true
 		#Enable firefly particles
-		fireflies = true
+		fireflies = false
 		#Enable falling leaves particles
-		fallingLeaves = true
+		fallingLeaves = false
 		#Enable cave dust particles
-		caveDust = true
+		caveDust = false
 		#Enable chest bubbles
 		chestBubbles = true
 		#Enable soul sand bubbles
@@ -24,11 +24,11 @@
 		#Enable popping bubbles
 		poppingBubbles = true
 		#Enable rain ripples
-		rainRipples = true
+		rainRipples = false
 		#Enable water drip ripples
-		waterDripRipples = true
+		waterDripRipples = false
 		#Enable cake eating particles
-		cakeEatingParticles = true
+		cakeEatingParticles = false
 		#Enable emissive lava drips
 		emissiveLavaDrips = true
 
