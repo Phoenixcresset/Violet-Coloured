@@ -1,14 +1,22 @@
 {
-  "typescript.tsserver.maxTsServerMemory": 4096,
-  "typescript.disableAutomaticTypeAcquisition": true,
-  "typescript.surveys.enabled": false,
-  "typescript.validate.enable": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "json.schemas": [
-    {
-      "fileMatch": ["/recipe_schema/*.json"],
-      "url": "./.vscode/recipe.json"
-    }
-  ]
+    "typescript.tsserver.maxTsServerMemory": 4096,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "typescript.surveys.enabled": false,
+    "typescript.validate.enable": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "eslint.validate": [
+        "javascript"
+    ],
+    "eslint.workingDirectories": [
+        "./kubejs"
+    ],
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/recipe_schema/*.json"
+            ],
+            "url": "./.vscode/recipe.json"
+        }
+    ]
 }
