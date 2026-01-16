@@ -1,8 +1,18 @@
 {
   "schema_version": "2",
+  "default_packs": [
+    "file/Authentic Shadows_1.21+.zip"
+  ],
   "pack_overrides": {
+    "additional_packs": [
+      "file/Authentic Shadows_1.21+.zip"
+    ],
     "hidden_packs": [
     ],
+    "$$additional_packs": {
+      "default_position": "TOP",
+      "fixed_position": true
+    },
     "$$hidden_packs": {
       "hidden": true
     }

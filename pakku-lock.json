@@ -350,6 +350,44 @@
             ]
         },
         {
+            "pakku_id": "RP2mPW0f6Xw1Y6m7",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "authentic-shadows"
+            },
+            "name": {
+                "curseforge": "Authentic Shadows"
+            },
+            "id": {
+                "curseforge": "391858"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Authentic Shadows_1.21+.zip",
+                    "mc_versions": [
+                        "1.21.5",
+                        "1.21.4",
+                        "1.21.3",
+                        "1.21.1",
+                        "1.21.2"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6052/198/Authentic Shadows_1.21+.zip",
+                    "id": "6052198",
+                    "parent_id": "391858",
+                    "hashes": {
+                        "sha1": "25d7c55757b3bb3e7df2caea42089725cd4d346c",
+                        "md5": "42f669120f46d2bd8eaa452f7185312a"
+                    },
+                    "required_dependencies": [],
+                    "size": 8085,
+                    "date_published": "2025-01-04T11:51:29.497Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "hFgNz5YU4qXApa4A",
             "type": "MOD",
             "slug": {
