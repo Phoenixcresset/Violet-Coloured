@@ -1,3 +1,4 @@
+/** @typedef {Object.<string, Array<string>>} TagsToRemove */
 const tagsToRemove = {
   supplementaries: [
     // Items
@@ -29,6 +30,7 @@ const tagsToRemove = {
   sereneseasons: ["spring_crops"],
 };
 
+/** @typedef {Object.<string, TagsToRemove>} TagsToRemoveFromItems */
 const tagsToRemoveFromItems = {
   "curios:belt": {
     supplementaries: ["#keys", "quiver"],
@@ -44,6 +46,7 @@ const tagsToRemoveFromItems = {
   },
 };
 
+/** @type {Array<string>} */
 let removedTags = [];
 
 for (const [prefix, tags] of Object.entries(tagsToRemove)) {
@@ -52,6 +55,7 @@ for (const [prefix, tags] of Object.entries(tagsToRemove)) {
   }
 }
 
+/** @type {Array<{tag: string, item: string}>} */
 let removedTagsFromItems = [];
 
 for (const [tag, mods] of Object.entries(tagsToRemoveFromItems)) {

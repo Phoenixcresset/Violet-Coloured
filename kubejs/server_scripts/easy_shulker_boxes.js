@@ -1,5 +1,26 @@
+/** @type {Array<string>} */
 const blacklistedItems = [];
 
+/**
+ * @typedef {Object} ContainerConfig
+ * @property {string} type
+ * @property {Array<string>} disallowed_item_contents
+ * @property {string} equipment_slots
+ * @property {boolean} filter_container_items
+ * @property {string} interaction_permissions
+ * @property {number} inventory_height
+ * @property {number} inventory_width
+ * @property {Array<string>} supported_items
+ * @property {string} [background_color]
+ */
+
+/**
+ *
+ * @param {Array<string>} itemIds
+ * @param {{height: number, width: number}} size
+ * @param {string} [background_color]
+ * @returns {ContainerConfig}
+ */
 function createContainerConfig(itemIds, size, background_color) {
   var config = {
     type: "iteminteractions:container",
@@ -18,6 +39,7 @@ function createContainerConfig(itemIds, size, background_color) {
   return config;
 }
 
+/** @typedef {Object.<string, Object.<string, ContainerConfig>>} ModContainers */
 const modContainers = {
   supplementaries: {
     sack: createContainerConfig("supplementaries:sack", {

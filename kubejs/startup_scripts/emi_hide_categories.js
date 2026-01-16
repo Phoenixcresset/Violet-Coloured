@@ -1,3 +1,9 @@
+/**
+ * @typedef {Object} RecipeHidingConfig
+ * @property {Array<string>} categories
+ * @property {Array<string>} recipeIds
+ * @property {Object.<string, Array<string>>} categorizedIds
+ */
 const recipeHidingConfig = {
   categories: [
     "ali:plant_loot", // Buggy visual preview
@@ -37,6 +43,10 @@ const recipeHidingConfig = {
   },
 };
 
+/**
+ * @param {RecipeHidingConfig} recipeHidingConfig Categories, recipe IDs, and categorized IDs to hide
+ * @returns {Array<Object>} Array of recipe filter objects
+ */
 function buildRecipeFilters(recipeHidingConfig) {
   const filters = [];
 
@@ -62,10 +72,10 @@ function buildRecipeFilters(recipeHidingConfig) {
       });
     }
   }
-
   return filters;
 }
 
+/** @type {Array<Object.<string, string>>} */
 const recipeFilters = buildRecipeFilters(recipeHidingConfig);
 
 StartupEvents.init(() => {

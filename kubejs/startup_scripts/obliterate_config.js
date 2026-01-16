@@ -1,3 +1,4 @@
+/** @typedef {Object.<string, Array<string|RegExp>>} ObliteratedPatterns */
 const obliteratedPatterns = {
   supplementaries: [
     "bamboo_spikes_tipped",
@@ -10,7 +11,8 @@ const obliteratedPatterns = {
   suppsquared: ["heavy_key", /metal_.*/],
 };
 
-const creativeTabs = [
+/** @type {Array<string>} */
+global.creativeTabs = [
   "minecraft:building_blocks",
   "minecraft:colored_blocks",
   "minecraft:natural_blocks",
@@ -23,7 +25,7 @@ const creativeTabs = [
   "minecraft:spawn_eggs",
 ];
 
-// Flatten obliteratedPatterns object into an array of strings and regexes
+/** @type {Array<string|RegExp>} */
 let obliteratedItems = [];
 
 for (const [prefix, items] of Object.entries(obliteratedPatterns)) {
@@ -42,9 +44,11 @@ for (const [prefix, items] of Object.entries(obliteratedPatterns)) {
 
 global.obliteratedItems = obliteratedItems;
 
-global.creativeTabs = creativeTabs;
-
-// Check if itemID exists within obliteratedItems
+/**
+ * Checks if an itemId is obliterated
+ * @param {string} itemId
+ * @returns {boolean} True if itemId is obliterated, false otherwise
+ */
 global.isObliterated = (itemId) => {
   for (let i = 0; i < obliteratedItems.length; i++) {
     let id = obliteratedItems[i];

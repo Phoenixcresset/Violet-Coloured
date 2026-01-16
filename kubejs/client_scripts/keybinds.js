@@ -1,3 +1,4 @@
+/** @type {Array<string>} */
 const keybindsToRemove = [
   "key.kubejs.kubedex",
   "key.configured.open_mod_list",
@@ -76,6 +77,13 @@ const keybindsToRemove = [
   "supplementaries.keybind.quiver",
 ];
 
+/**
+ * @typedef {Object} ModifiedKeybind
+ * @property {number} key
+ * @property {KeyModifier} [modifier]
+ */
+
+/** @type {Object.<string, ModifiedKeybind>} */
 const keybindsToRebind = {
   "key.advancements": { key: GLFW.GLFW_KEY_G },
   "iris.keybind.reload": { key: GLFW.GLFW_KEY_O, modifier: KeyModifier.SHIFT },
@@ -86,6 +94,7 @@ const keybindsToRebind = {
   "key.lighty.toggle": { key: GLFW.GLFW_KEY_F7 },
 };
 
+/** @type {Object.<string, Array<string>>} */
 const keybindsToCategorize = {
   "key.categories.gameplay": ["key.spyglass-improvements.use"],
   "key.categories.inventory": [

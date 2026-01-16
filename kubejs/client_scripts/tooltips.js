@@ -1,3 +1,10 @@
+/**
+ * @typedef {Object} TooltipSegment
+ * @property {string} type
+ * @property {string} translationKey
+ */
+
+/** @typedef {Object.<string, Array<TooltipSegment>>} TooltipConfig */
 const tooltipConfig = {
   "minecraft:soul_campfire": [
     {
@@ -11,6 +18,16 @@ const tooltipConfig = {
   ],
 };
 
+/** @typedef {Object} ColorPalette
+ * @property {Object} hint
+ * @property {number} hint.default
+ * @property {number} hint.highlight
+ * @property {number} hint.highlightStrong
+ * @property {Object} description
+ * @property {number} description.default
+ * @property {number} description.highlight
+ * @property {number} description.condition
+ */
 const colorPalette = {
   hint: {
     default: 0x555555,
@@ -24,9 +41,12 @@ const colorPalette = {
   },
 };
 
+/** @type {Array<string>} */
 const VALID_TYPES = ["condition", "behaviour"];
 
+/** @param {TooltipConfig} config */
 function validateTooltipConfig(config) {
+  /** @type {Array<string>} */
   const errors = [];
 
   Object.entries(config).forEach(([itemId, segments]) => {
@@ -52,6 +72,7 @@ function validateTooltipConfig(config) {
   }
 }
 
+/** @param {boolean} isHeld */
 function holdShiftLine(isHeld) {
   const shiftKey = isHeld
     ? Text.of(Text.translatable("violetcolored.tooltip.keyShift")).color(
@@ -69,6 +90,11 @@ function holdShiftLine(isHeld) {
   );
 }
 
+/**
+ * @param {string} itemId
+ * @param {Array<TooltipSegment>} segments
+ * @param {boolean} shiftRequired
+ */
 function createTooltipHandler(itemId, segments, shiftRequired) {
   ItemEvents.modifyTooltips((event) => {
     event.modify(itemId, { shift: shiftRequired }, (tooltip) => {
@@ -88,6 +114,7 @@ function createTooltipHandler(itemId, segments, shiftRequired) {
   });
 }
 
+/** @param {TooltipSegment} segment */
 function generateTooltipLine(segment) {
   const text = Text.translatable(segment.translationKey);
   switch (segment.type) {

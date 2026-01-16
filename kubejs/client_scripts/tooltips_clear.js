@@ -1,3 +1,8 @@
+/**
+ * @typedef {Object} TooltipClearingConfig
+ * @property {string|RegExp} itemId
+ * @property {number} linesToClear
+ */
 function createTooltipClearingConfig(itemId, linesToClear) {
   return {
     itemId: itemId,
@@ -5,6 +10,11 @@ function createTooltipClearingConfig(itemId, linesToClear) {
   };
 }
 
+/**
+ * @param {string} modId
+ * @param {string|RegExp} itemId
+ * @returns {string|RegExp}
+ */
 function getItemIdPattern(modId, itemId) {
   if (itemId instanceof RegExp) {
     return new RegExp(`^${modId}:${itemId.source}$`);
@@ -13,6 +23,7 @@ function getItemIdPattern(modId, itemId) {
   }
 }
 
+/** @type {Object.<string, Array<TooltipClearingConfig>>} */
 const tooltipClearingConfig = {
   supplementaries: [createTooltipClearingConfig("sack", 6)],
   suppsquared: [createTooltipClearingConfig(/sack_.*/, 6)],

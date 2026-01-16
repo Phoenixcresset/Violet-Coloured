@@ -1,5 +1,9 @@
+/** @type {Array<string|RegExp>} */
 const obliteratedItems = global.obliteratedItems;
+
+/** @type {function(string): boolean} */
 const isObliterated = global.isObliterated;
+
 function obliterateItems() {
   // Remove recipes
   ServerEvents.recipes((event) => {
