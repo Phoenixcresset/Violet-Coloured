@@ -49,7 +49,6 @@
 # KubeJS
 .probe
 /kubejs/**/probe-settings.json
-/kubejs/**/jsconfig.json
 /kubejs/node_modules/
 
 # Shaders
