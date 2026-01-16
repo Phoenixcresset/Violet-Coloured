@@ -13,6 +13,7 @@
 - Immersive Overlays
 - Just Enough Items
 - Let Sleeping Dogs Lie
+- Log Filter
 - Not Enough Animations
 - Particular Reforged
 - Supplementaries
