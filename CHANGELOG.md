@@ -8,9 +8,11 @@
 - Changed Noteblock to shift down pitch while sneak right-clicking
 ## Mods 
 ### Added
+- Cat Loaf
 - First Person Model
 - Immersive Overlays
 - Just Enough Items
+- Let Sleeping Dogs Lie
 - Not Enough Animations
 - Particular Reforged
 - Supplementaries
@@ -18,6 +20,9 @@
 - Wakes Reforged
 ### Removed
 - Too Many Recipe Viewers
+## Resource Packs
+### Added
+- Authentic Shadows
 
 # [0.0.4]
 ## Changes
