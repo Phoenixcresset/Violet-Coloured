@@ -23,6 +23,7 @@ export default defineConfig([
         Platform: "readonly",
         JsonIO: "readonly",
         LootJS: "readonly",
+        LootEntry: "readonly",
         MoreJS: "readonly",
         KeyBindJSEvents: "readonly",
         GLFW: "readonly",
