@@ -692,6 +692,43 @@
             ]
         },
         {
+            "pakku_id": "5DXcb4xg35xcSob7",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cat-loaf"
+            },
+            "name": {
+                "curseforge": "Cat Loaf"
+            },
+            "id": {
+                "curseforge": "978666"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "catloaf-1.1.3-1.21-NEOFORGED.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5958/653/catloaf-1.1.3-1.21-NEOFORGED.jar",
+                    "id": "5958653",
+                    "parent_id": "978666",
+                    "hashes": {
+                        "sha1": "3b586ea2d225897a5d672d4f60d598d9cda10afc",
+                        "md5": "3d018a317a99b3da4beda033e0d631cc"
+                    },
+                    "required_dependencies": [],
+                    "size": 73786,
+                    "date_published": "2024-12-03T08:59:10.337Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "G6rkRb8aJio5abuT",
             "type": "MOD",
             "side": "CLIENT",
@@ -2740,6 +2777,48 @@
                     ],
                     "size": 1046811,
                     "date_published": "2025-12-02T08:43:23.537Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ypqt7Vv8QK39084U",
+            "pakku_links": [
+                "YPlTyJCUtHz9fIuG"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "let-sleeping-dogs-lie"
+            },
+            "name": {
+                "curseforge": "Let Sleeping Dogs Lie (Forge)"
+            },
+            "id": {
+                "curseforge": "334098"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "LetSleepingDogsLie-1.21-NeoForge-1.3.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5478/504/LetSleepingDogsLie-1.21-NeoForge-1.3.0.jar",
+                    "id": "5478504",
+                    "parent_id": "334098",
+                    "hashes": {
+                        "sha1": "8f854de7ae2c3610211cdafbe3682db5081adefe",
+                        "md5": "6ce5964d43c9ea452c6a823e5464d341"
+                    },
+                    "required_dependencies": [
+                        "229060"
+                    ],
+                    "size": 269950,
+                    "date_published": "2024-06-27T03:47:39.687Z"
                 }
             ]
         },
