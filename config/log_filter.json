@@ -1,0 +1,123 @@
+{
+  "logEvents": "NONE",
+  "rules": [
+    {
+      "loggerName": [
+        {
+          "relation": "MATCH",
+          "value": "concerrox.emixx.content.villagertrade.VillagerTradeManager"
+        }
+      ]
+    },
+    {
+      "formatMessage": [
+        {
+          "relation": "MATCH",
+          "value": "Class {} does not support optimized vertex writing code paths, which may cause reduced rendering performance"
+        },
+        {
+          "relation": "MATCH",
+          "value": "Flywheel backend fell back from '{}' to '{}'"
+        },
+        {
+          "relation": "MATCH",
+          "value": "Warning! Mod {} has a broken icon, loading default icon"
+        },
+        {
+          "relation": "MATCH",
+          "value": "Invalid mod icon for icon source {}: {}"
+        },
+        {
+          "relation": "MATCH",
+          "value": "Configuration file {} is not correct. Correcting"
+        },
+        {
+          "relation": "MATCH",
+          "value": "Configuration {} is not correct. Correcting"
+        },
+        {
+          "relation": "MATCH",
+          "value": "Incorrect key {} was corrected from {} to its default, {}. {}"
+        },
+        {
+          "relation": "MATCH",
+          "value": "Missing sound for event: {}"
+        },
+        {
+          "relation": "MATCH",
+          "value": "Shader {} could not find sampler named {} in the specified shader program."
+        },
+        {
+          "relation": "MATCH",
+          "value": "Shader {} could not find uniform named {} in the specified shader program."
+        },
+        {
+          "relation": "MATCH",
+          "value": "Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. {}"
+        },
+      {
+          "relation": "MATCH",
+          "value": "Failed to create entity: {} (NULL)"
+        }
+      ]
+    },
+    {
+      "message": [
+        {
+          "relation": "MATCH",
+          "value": "Found missing \"\\\" in file \"block.properties\" in block entry: \"// Shader Loader Version Placeholder\""
+        },
+        {
+          "relation": "MATCH",
+          "value": "Error loading class: it/hurts/octostudios/octolib/modules/particles/OctoRenderManager (java.lang.ClassNotFoundException: it.hurts.octostudios.octolib.modules.particles.OctoRenderManager)"
+        },
+        {
+          "relation": "MATCH",
+          "value": "Failed to process update information"
+        },
+        {
+          "relation": "CONTAINS",
+          "value": "Missing textures in model supplementaries:"
+        },
+        {
+          "relation": "MATCH",
+          "value": "Failed to load config provider from mod: iceberg"
+        },
+        {
+          "relation": "MATCH",
+          "value": "Static binding violation: PRIVATE @Overwrite method elementOrTag in modernfix-neoforge.mixins.json:perf.tag_id_caching.TagEntryMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded."
+        },
+        {
+          "relation": "MATCH",
+          "value": "Object with ID modid:example specified in data map for registry minecraft:dimension doesn't exist"
+        },
+        {
+          "relation": "MATCH",
+          "value": "Failed to create entity: entity.minecraft.player"
+        },
+        {
+          "relation": "MATCH",
+          "value": "No trades defined for minecraft:nitwit"
+        },
+        {
+          "relation": "MATCH",
+          "value": "No trades defined for minecraft:none"
+        }
+      ]
+    },
+    {
+      "loggerName": [
+        {
+          "relation": "MATCH",
+          "value": "probejs"
+        }
+      ],
+      "level": [
+        {
+          "relation": "EQUAL",
+          "value": "ERROR"
+        }
+      ]
+    }
+  ]
+}
