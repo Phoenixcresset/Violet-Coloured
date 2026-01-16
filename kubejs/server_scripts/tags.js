@@ -48,7 +48,6 @@ let removedTags = [];
 
 for (const [prefix, tags] of Object.entries(tagsToRemove)) {
   for (const tag of tags) {
-    console.log(`[Tags Removal] Removing tag ${prefix}:${tag}`);
     removedTags.push(`${prefix}:${tag}`);
   }
 }
@@ -83,9 +82,6 @@ ServerEvents.tags("item", (event) => {
     event.removeAll(tag);
   }
   for (const entry of removedTagsFromItems) {
-    console.log(
-      `[Tags Removal] Removing item ${entry.item} from tag ${entry.tag}`
-    );
     event.remove(entry.tag, entry.item);
   }
 });
@@ -95,9 +91,6 @@ ServerEvents.tags("block", (event) => {
     event.removeAll(tag);
   }
   for (const entry of removedTagsFromItems) {
-    console.log(
-      `[Tags Removal] Removing item ${entry.item} from tag ${entry.tag}`
-    );
     event.remove(entry.tag, entry.item);
   }
 });
@@ -107,9 +100,6 @@ ServerEvents.tags("entity_type", (event) => {
     event.removeAll(tag);
   }
   for (const entry of removedTagsFromItems) {
-    console.log(
-      `[Tags Removal] Removing item ${entry.item} from tag ${entry.tag}`
-    );
     event.remove(entry.tag, entry.item);
   }
 });

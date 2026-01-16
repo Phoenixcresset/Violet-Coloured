@@ -27,7 +27,6 @@ ItemEvents.modifyTooltips((event) => {
 
     for (const item of items) {
       let fullItemId = getItemIdPattern(modId, item.itemId);
-      console.log(`Clearing tooltip for ${fullItemId}`);
       event.modify(fullItemId, (tooltip) => {
         for (let i = 0; i < item.linesToClear; i++) {
           tooltip.removeLine(1);
