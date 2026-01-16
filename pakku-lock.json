@@ -2949,6 +2949,43 @@
             ]
         },
         {
+            "pakku_id": "iwFzU4dAwrUxVFuO",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "log-filter"
+            },
+            "name": {
+                "curseforge": "Log Filter"
+            },
+            "id": {
+                "curseforge": "1120671"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "log_filter-neoforge-1.21-1.0.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5809/497/log_filter-neoforge-1.21-1.0.0.jar",
+                    "id": "5809497",
+                    "parent_id": "1120671",
+                    "hashes": {
+                        "sha1": "6d422352e609ab0ef7d597b547178ba7d0841b0e",
+                        "md5": "ac8769f357c3b8a76bfe1bf8223cce1a"
+                    },
+                    "required_dependencies": [],
+                    "size": 26980,
+                    "date_published": "2024-10-13T18:21:23.773Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "MeevtaCegWVEoiL7",
             "pakku_links": [
                 "UTiUjBWThuuQwM8N"
