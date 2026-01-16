@@ -4,11 +4,25 @@
     "file/Authentic Shadows_1.21+.zip"
   ],
   "pack_overrides": {
+    "required_packs": [
+      "vanilla",
+      "mod_resources",
+      "moonlight:merged_pack",
+      "scholar:colored_books",
+      "scholar:chiseled_bookshelf_colored_books"
+    ],
     "additional_packs": [
       "file/Authentic Shadows_1.21+.zip"
     ],
     "hidden_packs": [
+      "supplementaries:darker_ropes"
     ],
+    "$$required_packs": {
+      "default_position": "BOTTOM",
+      "fixed_position": true,
+      "required": true,
+      "hidden": true
+    },
     "$$additional_packs": {
       "default_position": "TOP",
       "fixed_position": true
