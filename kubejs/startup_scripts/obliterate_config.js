@@ -48,11 +48,10 @@ global.creativeTabs = creativeTabs;
 global.isObliterated = (itemId) => {
   for (let i = 0; i < obliteratedItems.length; i++) {
     let id = obliteratedItems[i];
-    let reg = new RegExp(id);
     if (typeof id == "string") {
       if (itemId == id) return true;
     } else if (id instanceof RegExp) {
-      if (reg.test(itemId)) return true;
+      if (id.test(itemId)) return true;
     }
   }
   return false;
