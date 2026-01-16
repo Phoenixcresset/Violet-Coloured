@@ -1,6 +1,6 @@
 const blacklistedItems = [];
 
-const createContainerConfig = (itemIds, size, background_color) => {
+function createContainerConfig(itemIds, size, background_color) {
   var config = {
     type: "iteminteractions:container",
     disallowed_item_contents: blacklistedItems,
@@ -16,7 +16,7 @@ const createContainerConfig = (itemIds, size, background_color) => {
   }
 
   return config;
-};
+}
 
 const modContainers = {
   supplementaries: {
