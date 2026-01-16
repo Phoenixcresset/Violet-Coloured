@@ -13,7 +13,8 @@
 		"prunoideae.probejs",
 		"gruntfuggly.todo-tree",
 		"misodee.vscode-nbt",
-		"usernamehw.errorlens"
+		"usernamehw.errorlens",
+		"aaron-bond.better-comments"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
