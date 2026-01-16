@@ -1,5 +1,9 @@
 /** @typedef {Object.<string, Array<string>>} TagsToRemove */
 const tagsToRemove = {
+  minecraft: [
+    "enderman_holdable", // Remove enderman griefing
+  ],
+  amendments: ["add_potion_cauldron"],
   supplementaries: [
     // Items
     "blackboard_light_gray",
@@ -100,6 +104,15 @@ ServerEvents.tags("block", (event) => {
 });
 
 ServerEvents.tags("entity_type", (event) => {
+  for (const tag of removedTags) {
+    event.removeAll(tag);
+  }
+  for (const entry of removedTagsFromItems) {
+    event.remove(entry.tag, entry.item);
+  }
+});
+
+ServerEvents.tags("worldgen/structure", (event) => {
   for (const tag of removedTags) {
     event.removeAll(tag);
   }
