@@ -11,7 +11,7 @@ function createContainerConfig(itemIds, size, background_color) {
     inventory_width: size.width,
     supported_items: itemIds,
   };
-  if (background_color !== null) {
+  if (background_color !== undefined) {
     config.background_color = background_color;
   }
 
