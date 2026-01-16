@@ -1,4 +1,3 @@
-
 let noteblockInteractionPossible = true;
 
 // This script will break Vanilla parity, they won't be able to place blocks on note blocks
