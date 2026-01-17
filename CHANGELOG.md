@@ -10,6 +10,7 @@
 ### Added
 - Cat Loaf
 - First Person Model
+- Horseman
 - Immersive Overlays
 - Just Enough Items
 - Let Sleeping Dogs Lie
