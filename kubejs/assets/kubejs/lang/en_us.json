@@ -1,4 +1,5 @@
 {
+  "key.categories.remove_when_done": "Remove When Done",
   "violetcolored.tooltip.holdForDescription": "Hold [%1$s] for Summary",
   "violetcolored.tooltip.keyShift": "Shift",
   "block.minecraft.campfire.condition1": "When placed",

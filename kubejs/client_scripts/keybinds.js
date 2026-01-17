@@ -106,6 +106,11 @@ const keybindsToCategorize = {
     "key.findme.search",
   ],
   "key.categories.misc": ["key.lighty.toggle", "key.firstperson.toggle"],
+  "key.categories.remove_when_done": [
+    "key.raised.options",
+    "key.immersiveoverlays.settings",
+    "key.modmenu.open_menu",
+  ],
 };
 
 KeyBindJSEvents.modify((event) => {
