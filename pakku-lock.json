@@ -2535,6 +2535,43 @@
             ]
         },
         {
+            "pakku_id": "WIkzo59qgVTAlXod",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "jumpy-boats"
+            },
+            "name": {
+                "curseforge": "Jumpy Boats"
+            },
+            "id": {
+                "curseforge": "542110"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "jumpboat-1.21.0-1.0.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5439/938/jumpboat-1.21.0-1.0.5.jar",
+                    "id": "5439938",
+                    "parent_id": "542110",
+                    "hashes": {
+                        "sha1": "8fa562264f3ffd030773b2744ff6b42c52080ce6",
+                        "md5": "d40c7c2430bb7c59844e98c6835a5668"
+                    },
+                    "required_dependencies": [],
+                    "size": 5328,
+                    "date_published": "2024-06-18T02:04:10.570Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "X70lJ8XpTKdZcuph",
             "type": "MOD",
             "side": "CLIENT",
