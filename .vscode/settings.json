@@ -41,6 +41,7 @@
         "dynamic-resource-pack-cache/": true,
         "emi.json": true,
         "local/": true,
+        "moddata/": true,
         "saves/": true,
         "screenshots/": true,
         "server-resource-packs/": true,
