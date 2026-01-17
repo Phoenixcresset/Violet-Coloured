@@ -3371,6 +3371,51 @@
             ]
         },
         {
+            "pakku_id": "kv8bCWAeDcJix096",
+            "pakku_links": [
+                "BkMjMPSxhZZOKliy"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "no-animal-tempt-delay"
+            },
+            "name": {
+                "curseforge": "No Animal Tempt Delay"
+            },
+            "id": {
+                "curseforge": "952356"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "noanimaltemptdelay-1.21.1-1.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5609/572/noanimaltemptdelay-1.21.1-1.2.jar",
+                    "id": "5609572",
+                    "parent_id": "952356",
+                    "hashes": {
+                        "sha1": "2cb906d108769588b004128fa9a2453ad0437d68",
+                        "md5": "5bfaf0261e7b8d6d3abbae9ae74b9abd"
+                    },
+                    "required_dependencies": [
+                        "342584"
+                    ],
+                    "size": 21285,
+                    "date_published": "2024-08-08T23:22:54.263Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "JCQ3Ecw6fjZ6eHbF",
             "type": "MOD",
             "side": "CLIENT",
