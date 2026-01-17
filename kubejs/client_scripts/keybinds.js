@@ -75,6 +75,9 @@ const keybindsToRemove = [
   "key.jei.copy.recipe.id",
   "key.carry.desc",
   "supplementaries.keybind.quiver",
+  "treechop.key.toggle_chopping",
+  "treechop.key.cycle_sneak_behavior",
+  "treechop.key.open_settings_overlay",
 ];
 
 /**
