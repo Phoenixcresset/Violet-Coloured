@@ -105,7 +105,7 @@ const keybindsToCategorize = {
     "key.trashslot.delete_all",
     "key.findme.search",
   ],
-  "key.categories.misc": ["key.lighty.toggle"],
+  "key.categories.misc": ["key.lighty.toggle", "key.firstperson.toggle"],
 };
 
 KeyBindJSEvents.modify((event) => {
