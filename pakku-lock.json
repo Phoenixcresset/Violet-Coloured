@@ -3064,6 +3064,48 @@
             ]
         },
         {
+            "pakku_id": "6HRneypN1xxEaVYc",
+            "pakku_links": [
+                "nTpsI13QeOHtIL5r"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "mmmmmmmmmmmm"
+            },
+            "name": {
+                "curseforge": "MmmMmmMmmMmm (Target Dummy)"
+            },
+            "id": {
+                "curseforge": "225738"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dummmmmmy-1.21-2.0.11-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7206/981/dummmmmmy-1.21-2.0.11-neoforge.jar",
+                    "id": "7206981",
+                    "parent_id": "225738",
+                    "hashes": {
+                        "sha1": "1bdaf699dd40c03c96a85f64ae9b54a8e40bb539",
+                        "md5": "358d23fbde0c2f6794c2350a109dc623"
+                    },
+                    "required_dependencies": [
+                        "499980"
+                    ],
+                    "size": 218920,
+                    "date_published": "2025-11-10T15:54:33.047Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "c2xHNEIBh912jAxT",
             "type": "MOD",
             "side": "CLIENT",

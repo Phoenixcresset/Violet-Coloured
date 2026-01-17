@@ -19,6 +19,7 @@
 - Particular Reforged
 - Supplementaries
 - Supplementaries Squared
+- Target Dummy
 - Wakes Reforged
 ### Removed
 - Too Many Recipe Viewers
