@@ -182,6 +182,9 @@
         },
         "wakes-reforged": {
             "side": "CLIENT"
+        },
+        "nbt-autocomplete": {
+            "side": "CLIENT"
         }
     }
 }

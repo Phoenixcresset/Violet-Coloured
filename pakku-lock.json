@@ -3485,6 +3485,7 @@
         {
             "pakku_id": "0drjZ7mjGi76tDiS",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "nbt-autocomplete"
             },
