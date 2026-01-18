@@ -16,6 +16,7 @@
 - Just Enough Items
 - Let Sleeping Dogs Lie
 - Log Filter
+- NBT Autocomplete
 - No Animal Tempty Delay
 - Not Enough Animations
 - Particular Reforged
