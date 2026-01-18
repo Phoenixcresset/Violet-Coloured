@@ -12,7 +12,7 @@
 - First Person Model
 - Horseman
 - Immersive Overlays
-- Jump Boats
+- Jumpy Boats
 - Just Enough Items
 - Let Sleeping Dogs Lie
 - Log Filter
