@@ -3486,6 +3486,42 @@
             ]
         },
         {
+            "pakku_id": "0drjZ7mjGi76tDiS",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "nbt-autocomplete"
+            },
+            "name": {
+                "curseforge": "NBT Autocomplete"
+            },
+            "id": {
+                "curseforge": "813557"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "NBTac-NEOFORGE-1.21.1-1.3.10.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5957/930/NBTac-NEOFORGE-1.21.1-1.3.10.jar",
+                    "id": "5957930",
+                    "parent_id": "813557",
+                    "hashes": {
+                        "sha1": "1cf9b213218103d6a1249b5db49b42fc389fb7dd",
+                        "md5": "0e5f23ca11c0d9d0f583ad7b1bbace30"
+                    },
+                    "required_dependencies": [],
+                    "size": 248412,
+                    "date_published": "2024-12-03T00:10:41.410Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "kv8bCWAeDcJix096",
             "pakku_links": [
                 "BkMjMPSxhZZOKliy"

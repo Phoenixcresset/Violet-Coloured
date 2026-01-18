@@ -15,6 +15,7 @@
         ".cache/": true,
         ".mixin.out/": true,
         ".probe/": true,
+        "cache/": true,
         "cherishedworlds-favorites.dat": true,
         "command_history.txt": true,
         "config/*.bak": true,

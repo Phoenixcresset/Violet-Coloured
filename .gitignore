@@ -22,6 +22,7 @@
 # Misc. Mods
 /.cache/
 /.mixin.out/
+/cache/
 /config/dynamic_fps.json
 /config/ichunutil/
 /config/jade/sort-order.json
