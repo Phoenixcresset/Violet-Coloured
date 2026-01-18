@@ -22,7 +22,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.6.2.jar",
+                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.6.4.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -30,16 +30,16 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7451/618/AdvancedLootInfo-neoforge-1.21.1-1.6.2.jar",
-                    "id": "7451618",
+                    "url": "https://edge.forgecdn.net/files/7469/962/AdvancedLootInfo-neoforge-1.21.1-1.6.4.jar",
+                    "id": "7469962",
                     "parent_id": "1205426",
                     "hashes": {
-                        "sha1": "e8782c23d9fe8de9f3a08deb2b35c877548e51e9",
-                        "md5": "befa895c135b43db35427ef867ad7799"
+                        "sha1": "d01e0f1b7439da03380617c19c7fb799b0ca0c82",
+                        "md5": "d022a462cb7433c31fe52446bb707db9"
                     },
                     "required_dependencies": [],
-                    "size": 735983,
-                    "date_published": "2026-01-12T19:36:12.903Z"
+                    "size": 737417,
+                    "date_published": "2026-01-16T19:57:26.907Z"
                 }
             ]
         },
@@ -1134,7 +1134,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ConvenientEffects-v21.1.2-1.21.1-NeoForge.jar",
+                    "file_name": "ConvenientEffects-v21.1.3-1.21.1-NeoForge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -1142,18 +1142,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7102/28/ConvenientEffects-v21.1.2-1.21.1-NeoForge.jar",
-                    "id": "7102028",
+                    "url": "https://edge.forgecdn.net/files/7473/54/ConvenientEffects-v21.1.3-1.21.1-NeoForge.jar",
+                    "id": "7473054",
                     "parent_id": "1259240",
                     "hashes": {
-                        "sha1": "4f617deaa79b005b075ef021551fd81b0e3ef7e7",
-                        "md5": "983a72f8a0511357b1c4649e9ac6aaa9"
+                        "sha1": "0541cd2f1f5c5dd3865bba9262d8c2c6e90d8d51",
+                        "md5": "54b4f59f086f1f7c1342d10cf8eadec7"
                     },
                     "required_dependencies": [
                         "495476"
                     ],
-                    "size": 57921,
-                    "date_published": "2025-10-13T07:47:42.780Z"
+                    "size": 58435,
+                    "date_published": "2026-01-17T11:57:21.173Z"
                 }
             ]
         },
@@ -2204,7 +2204,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "horseman-neoforge-1.21.1-1.5.6.jar",
+                    "file_name": "horseman-neoforge-1.21.1-1.5.9.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2212,16 +2212,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7112/835/horseman-neoforge-1.21.1-1.5.6.jar",
-                    "id": "7112835",
+                    "url": "https://edge.forgecdn.net/files/7479/795/horseman-neoforge-1.21.1-1.5.9.jar",
+                    "id": "7479795",
                     "parent_id": "1082085",
                     "hashes": {
-                        "sha1": "6add163e931aa72eb54781e351dbbf68a477a4da",
-                        "md5": "1330f474bcd8a3ba1bf770f01faa439d"
+                        "sha1": "2895ff3d881778e06a7383bc4a1120ca86c1c4f1",
+                        "md5": "c5c28282815ce0bb9df3e9b93f3e1744"
                     },
                     "required_dependencies": [],
-                    "size": 436721,
-                    "date_published": "2025-10-16T10:18:21.677Z"
+                    "size": 445058,
+                    "date_published": "2026-01-18T10:06:31.457Z"
                 }
             ]
         },
@@ -2740,33 +2740,30 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "kotlinforforge-5.10.0-all.jar",
+                    "file_name": "kotlinforforge-5.11.0-all.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.5",
-                        "1.21.8",
                         "1.21.4",
-                        "1.21.3",
-                        "1.21.7",
                         "1.21.1",
-                        "1.21.6",
+                        "1.21.3",
                         "1.21.2"
                     ],
                     "loaders": [
-                        "neoforge",
-                        "forge"
+                        "forge",
+                        "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6994/56/kotlinforforge-5.10.0-all.jar",
-                    "id": "6994056",
+                    "url": "https://edge.forgecdn.net/files/7471/280/kotlinforforge-5.11.0-all.jar",
+                    "id": "7471280",
                     "parent_id": "351264",
                     "hashes": {
-                        "sha1": "cdde4af2f1cecc97d320d230093e5564212f9fb2",
-                        "md5": "0d0d14c17956ba4a042d47b75e0b6831"
+                        "sha1": "a8b9f1233336ca9fe4702bc2cc5a6f97ad5e3b65",
+                        "md5": "ad515a1a34f47bbc17aabab0b99ecee4"
                     },
                     "required_dependencies": [],
-                    "size": 6730194,
-                    "date_published": "2025-09-13T21:05:44.580Z"
+                    "size": 6869790,
+                    "date_published": "2026-01-17T01:22:54.927Z"
                 }
             ]
         },
@@ -3309,7 +3306,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "moonlight-1.21-2.29.10-neoforge.jar",
+                    "file_name": "moonlight-1.21-2.29.11-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -3318,16 +3315,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7456/625/moonlight-1.21-2.29.10-neoforge.jar",
-                    "id": "7456625",
+                    "url": "https://edge.forgecdn.net/files/7473/45/moonlight-1.21-2.29.11-neoforge.jar",
+                    "id": "7473045",
                     "parent_id": "499980",
                     "hashes": {
-                        "sha1": "f58d48e56bcf350e819567edb8c983718e2fa231",
-                        "md5": "7fdd0e6f4dd6a267b0cf7f15a579434a"
+                        "sha1": "b5deaf117d5d0401053b28329e4d942a814177ad",
+                        "md5": "167d88c5027cab7b1b98414546db9938"
                     },
                     "required_dependencies": [],
-                    "size": 1548276,
-                    "date_published": "2026-01-14T00:49:35.050Z"
+                    "size": 1550831,
+                    "date_published": "2026-01-17T11:55:03.030Z"
                 }
             ]
         },

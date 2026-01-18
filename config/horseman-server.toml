@@ -115,3 +115,5 @@
 	fix_running_back_after_dismount = true
 	#Horse with Leather Horse Armor equipped can walk on a Powder Snow like a player with Leather Boots. Default: true
 	leather_horse_armor_powder_snow = true
+	#Taming a horse does not require an empty hand. Default: false
+	allow_taming_horse_with_item_in_hand = false

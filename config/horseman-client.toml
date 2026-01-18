@@ -22,10 +22,10 @@ copper_horn_details_tooltip = false
 [switch_inventory]
 	#Adds button and hotkey to switch between player and horse inventory. Default: true
 	enabled = true
-	#X position of the button in player's inventory. Default: -14.
-	# Default: -14
+	#X position of the button in player's inventory.
+	# Default: 176
 	# Range: > -2147483648
-	player_button_position_x = -14
+	player_button_position_x = 176
 	#Y position of the button in player's inventory. Default: 9.
 	# Default: 9
 	# Range: > -2147483648
