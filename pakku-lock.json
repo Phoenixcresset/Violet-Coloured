@@ -898,7 +898,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "colorwheel-neoforge-1.2.0+mc1.21.1.jar",
+                    "file_name": "colorwheel-neoforge-1.2.1+mc1.21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -906,18 +906,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7412/174/colorwheel-neoforge-1.2.0+mc1.21.1.jar",
-                    "id": "7412174",
+                    "url": "https://edge.forgecdn.net/files/7490/349/colorwheel-neoforge-1.2.1+mc1.21.1.jar",
+                    "id": "7490349",
                     "parent_id": "1254143",
                     "hashes": {
-                        "sha1": "e7c43a0418ddd3f9b422696a3435c250f88ac318",
-                        "md5": "7c57e7033ce10d249ef582063d7836b5"
+                        "sha1": "395962772bd24b0b7e07c2d39dbf498599a8b901",
+                        "md5": "54bdc8345be83bf73e7c73283fe79306"
                     },
                     "required_dependencies": [
                         "455508"
                     ],
-                    "size": 372673,
-                    "date_published": "2026-01-03T13:15:44.337Z"
+                    "size": 372917,
+                    "date_published": "2026-01-19T20:11:36.207Z"
                 }
             ]
         },
