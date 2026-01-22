@@ -142,7 +142,7 @@
 - Controlling
 - Drop-Down Keybindings
 - KeyBindJS
-- Advancement Reloaded
+- Advancements Reloaded
 - Fancy Toasts
 - Raised
 - AppleSkin
