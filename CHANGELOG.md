@@ -9,6 +9,7 @@
 ## Mods 
 ### Added
 - Cat Loaf
+- Click Through Plus
 - First Person Model
 - Horseman
 - Immersive Overlays
