@@ -14,18 +14,6 @@ global.TagModule = (function () {
   /** @type {Record<TagType, Array<{tag: TagId, item: ItemId}>>} */
   const _removalsFromItems = {};
 
-  /**
-   * @param {ModId} modId
-   * @returns {boolean}
-   */
-  function _isModLoaded(modId) {
-    if (!Platform.isLoaded(modId)) {
-      console.log(`[TagModule] Skipping for ${modId} (mod not loaded)`);
-      return false;
-    }
-    return true;
-  }
-
   function _formatItemId(modId, itemId) {
     return itemId.startsWith("#")
       ? `#${modId}:${itemId.substring(1)}`
@@ -52,9 +40,6 @@ global.TagModule = (function () {
 
       for (const [tag, mods] of Object.entries(tagToItemsMap)) {
         for (const [modId, items] of Object.entries(mods)) {
-          if (!_isModLoaded(modId)) {
-            continue;
-          }
           for (const item of items) {
             let formattedItemId = _formatItemId(modId, item);
             if (additionsSet.has(`${tag}|${formattedItemId}`)) {
@@ -105,9 +90,6 @@ global.TagModule = (function () {
 
       for (const [tag, mods] of Object.entries(tagToItemsMap)) {
         for (const [modId, items] of Object.entries(mods)) {
-          if (!_isModLoaded(modId)) {
-            continue;
-          }
           for (const item of items) {
             let formattedItemId = _formatItemId(modId, item);
             if (removalsFromItemsSet.has(`${tag}|${formattedItemId}`)) {
@@ -138,20 +120,10 @@ global.TagModule = (function () {
     }
   }
 
-  function getRemovedTags() {
-    return _removals;
-  }
-
-  function getRemovedTagsFromItems() {
-    return _removalsFromItems;
-  }
-
   return {
     registerAddedTagsToItems: registerAddedTagsToItems,
     registerRemovedTags: registerRemovedTags,
     registerRemovedTagsFromItems: registerRemovedTagsFromItems,
     apply: apply,
-    getRemovedTags: getRemovedTags,
-    getRemovedTagsFromItems: getRemovedTagsFromItems,
   };
 })();
