@@ -17,6 +17,7 @@
         "blackboard_magenta",
         "blackboard_pink",
       ],
+      sereneseasons: ["spring_crops"],
     },
     block: {
       minecraft: ["enderman_holdable"], // Remove enderman griefing
@@ -25,6 +26,7 @@
         "faucet_connection_blacklist",
         "water_holder",
       ],
+      sereneseasons: ["spring_crops"],
     },
     entity_type: {
       supplementaries: [
