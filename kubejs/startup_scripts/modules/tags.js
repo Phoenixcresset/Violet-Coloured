@@ -33,7 +33,7 @@ global.TagModule = (function () {
     for (const [tagType, tagToEntriesMap] of Object.entries(
       tagsToAddToEntries,
     )) {
-      // Using a keyed set to avoid duplicates, since _additionToEntries contains objects
+      // Using a keyed set to avoid duplicates: Since _additionToEntries contains objects, a set cannot be created directly
       let additionsSet = new Set(
         (_additionToEntries[tagType] || []).map(
           (entry) => `${entry.tag}|${entry.entry}`,
@@ -83,7 +83,7 @@ global.TagModule = (function () {
     for (const [tagType, tagToEntriesMap] of Object.entries(
       tagsToRemoveFromEntries,
     )) {
-      // Using a keyed set to avoid duplicates, since removalsFromEntries contains objects
+      // Using a keyed set to avoid duplicates: Since _removalsFromEntries contains objects, a set cannot be created directly
       let removalsFromEntriesSet = new Set(
         (__removalsFromEntries[tagType] || []).map(
           (entry) => `${entry.tag}|${entry.entry}`,
