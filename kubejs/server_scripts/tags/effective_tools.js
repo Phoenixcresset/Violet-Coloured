@@ -1,5 +1,3 @@
-// priority:10
-
 (() => {
   const effectiveToolsBlocks = {
     block: {

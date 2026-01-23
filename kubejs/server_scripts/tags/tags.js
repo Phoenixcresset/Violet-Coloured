@@ -1,13 +1,13 @@
 (() => {
-  global.TagModule.registerAddedTagsToEntries({
+  const addedTagsToEntries = {
     item: {
       "dummmmmmy:arthropod_heads": {
         supplementaries: ["spider_head"],
       },
     },
-  });
+  };
 
-  global.TagModule.registerRemovedTags({
+  const removedTags = {
     item: {
       supplementaries: [
         "blackboard_light_gray",
@@ -48,9 +48,9 @@
     "worldgen/structure": {
       amendments: ["add_potion_cauldron"],
     },
-  });
+  };
 
-  global.TagModule.registerRemovedTagsFromEntries({
+  const removedTagsFromEntries = {
     item: {
       "curios:belt": {
         supplementaries: ["#keys", "quiver"],
@@ -73,19 +73,9 @@
         minecraft: ["dragon_head"],
       },
     },
-  });
+  };
 
-  const tagsTypes = [
-    "item",
-    "block",
-    "entity_type",
-    "fluid",
-    "worldgen/structure",
-  ];
-  // Uses forEach instead of a for of because of issues with the scope of tagType in ServerEvents.tags
-  tagsTypes.forEach((tagType) => {
-    ServerEvents.tags(tagType, (event) => {
-      global.TagModule.apply(event, tagType);
-    });
-  });
+  global.TagModule.registerAddedTagsToEntries(addedTagsToEntries);
+  global.TagModule.registerRemovedTags(removedTags);
+  global.TagModule.registerRemovedTagsFromEntries(removedTagsFromEntries);
 })();
