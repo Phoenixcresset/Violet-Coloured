@@ -8,11 +8,11 @@
 
 global.TagModule = (function () {
   /** @type {Record<TagType, Array<{tag: TagId, item: ItemId}>>} */
-  const _additionsToItems = {};
+  const _itemsAddition = {};
   /** @type {Record<TagType, Array<FullTagId>>} */
   const _removals = {};
   /** @type {Record<TagType, Array<{tag: TagId, item: ItemId}>>} */
-  const _removalsFromItems = {};
+  const __itemsRemoval = {};
 
   function _formatItemId(modId, itemId) {
     return itemId.startsWith("#")
@@ -34,7 +34,7 @@ global.TagModule = (function () {
     for (const [tagType, tagToItemsMap] of Object.entries(tagsToAddToItems)) {
       // Using a keyed set to avoid duplicates, since _itemsAddition contains objects
       let additionsSet = new Set(
-        (_additionsToItems[tagType] || []).map(
+        (_itemsAddition[tagType] || []).map(
           (entry) => `${entry.tag}|${entry.item}`,
         ),
       );
@@ -46,7 +46,7 @@ global.TagModule = (function () {
             if (additionsSet.has(`${tag}|${formattedItemId}`)) {
               continue;
             }
-            _getOrCreateArrayForTagType(_additionsToItems, tagType).push({
+            _getOrCreateArrayForTagType(_itemsAddition, tagType).push({
               tag: tag,
               item: formattedItemId,
             });
@@ -84,7 +84,7 @@ global.TagModule = (function () {
     )) {
       // Using a keyed set to avoid duplicates, since removalsFromItems contains objects
       let removalsFromItemsSet = new Set(
-        (_removalsFromItems[tagType] || []).map(
+        (__itemsRemoval[tagType] || []).map(
           (entry) => `${entry.tag}|${entry.item}`,
         ),
       );
@@ -96,7 +96,7 @@ global.TagModule = (function () {
             if (removalsFromItemsSet.has(`${tag}|${formattedItemId}`)) {
               continue;
             }
-            _getOrCreateArrayForTagType(_removalsFromItems, tagType).push({
+            _getOrCreateArrayForTagType(__itemsRemoval, tagType).push({
               tag: tag,
               item: formattedItemId,
             });
@@ -107,9 +107,9 @@ global.TagModule = (function () {
   }
 
   function apply(event, tagType) {
-    const additions = _additionsToItems[tagType] || [];
+    const additions = _itemsAddition[tagType] || [];
     const removals = _removals[tagType] || [];
-    const removalsFromItems = _removalsFromItems[tagType] || [];
+    const removalsFromItems = __itemsRemoval[tagType] || [];
     for (const tag of removals) {
       event.removeAll(tag);
     }
