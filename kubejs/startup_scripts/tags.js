@@ -32,6 +32,7 @@ global.TagModule = (function () {
    */
   function registerAddedTagsToItems(tagsToAddToItems) {
     for (const [tagType, tagToItemsMap] of Object.entries(tagsToAddToItems)) {
+      // Using a keyed set to avoid duplicates, since _itemsAddition contains objects
       let additionsSet = new Set(
         (_additionsToItems[tagType] || []).map(
           (entry) => `${entry.tag}|${entry.item}`,
