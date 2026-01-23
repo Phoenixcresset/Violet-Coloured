@@ -61,23 +61,16 @@
     },
   });
 
-  ServerEvents.tags("item", (event) => {
-    global.TagModule.apply(event, "item");
-  });
-
-  ServerEvents.tags("block", (event) => {
-    global.TagModule.apply(event, "block");
-  });
-
-  ServerEvents.tags("entity_type", (event) => {
-    global.TagModule.apply(event, "entity_type");
-  });
-
-  ServerEvents.tags("fluid", (event) => {
-    global.TagModule.apply(event, "fluid");
-  });
-
-  ServerEvents.tags("worldgen/structure", (event) => {
-    global.TagModule.apply(event, "worldgen/structure");
-  });
+  const tagsTypes = [
+    "item",
+    "block",
+    "entity_type",
+    "fluid",
+    "worldgen/structure",
+  ];
+  for (const tagType of tagsTypes) {
+    ServerEvents.tags(tagType, (event) => {
+      global.TagModule.apply(event, tagType);
+    });
+  }
 })();
