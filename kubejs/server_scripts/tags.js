@@ -1,4 +1,12 @@
 (() => {
+  global.TagModule.registerAddedTagsToEntries({
+    item: {
+      "dummmmmmy:arthropod_heads": {
+        supplementaries: ["spider_head"],
+      },
+    },
+  });
+
   global.TagModule.registerRemovedTags({
     item: {
       supplementaries: [
@@ -59,6 +67,10 @@
       "supplementaries:blackboard_white": {
         minecraft: ["quartz"],
         c: ["#gems/quartz"],
+      },
+      // Removes the dragon head to count as an arthropod since Supplementaries adds a spider head
+      "dummmmmmy:arthropod_heads": {
+        minecraft: ["dragon_head"],
       },
     },
   });
