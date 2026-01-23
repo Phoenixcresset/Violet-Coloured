@@ -42,7 +42,7 @@ function obliterateItems() {
     });
   } else {
     console.warn(
-      "[Obliterate Items] LootJS not loaded, skipping loot table removals."
+      "[Obliterate Items] LootJS not loaded, skipping loot table removals.",
     );
   }
 
@@ -67,7 +67,7 @@ function obliterateItems() {
     });
   } else {
     console.warn(
-      "[Obliterate Items] MoreJS not loaded, skipping villager trade and potion brewing removals."
+      "[Obliterate Items] MoreJS not loaded, skipping villager trade and potion brewing removals.",
     );
   }
 
@@ -109,13 +109,13 @@ function obliterateItems() {
     let { item, player } = event;
     if (isObliterated(item.getId())) {
       event.player.statusMessage = Text.yellow(item.getId()).append(
-        " is disabled"
+        " is disabled",
       );
       event.player.playNotifySound(
         "entity.experience_orb.pickup",
         "ambient",
         0.2,
-        1
+        1,
       );
       player.inventory.clear(item);
     }
