@@ -1,41 +1,41 @@
-/** @type {Array<string>} */
-const pickaxeBreakableBlocks = [
-  "#c:glass_blocks",
-  "#c:glass_panes",
-  "minecraft:sea_lantern",
-  "minecraft:glowstone",
-  "minecraft:redstone_lamp",
-  "minecraft:beacon",
-  "minecraft:sea_lantern",
-  "minecraft:lever",
-];
+/** @type {Object.<string, Array<string>>} */
+const effectiveToolsBlocks = {
+  pickaxe: [
+    "#c:glass_blocks",
+    "#c:glass_panes",
+    "minecraft:sea_lantern",
+    "minecraft:glowstone",
+    "minecraft:redstone_lamp",
+    "minecraft:beacon",
+    "minecraft:lever",
+  ],
+  axe: [
+    "#minecraft:beds",
+    "#c:skulls",
+    // TODO : Glass ?
+  ],
+  hoe: [
+    "minecraft:ochre_froglight",
+    "minecraft:verdant_froglight",
+    "minecraft:pearlescent_froglight",
+    "minecraft:cactus",
+  ],
+};
 
-/** @type {Array<string>} */
-const axeBreakableBlocks = [
-  "#minecraft:beds",
-  "#c:skulls",
-  // TODO : Glass ?
-];
-
-/** @type {Array<string>} */
-const hoeBreakableBlocks = [
-  "minecraft:ochre_froglight",
-  "minecraft:verdant_froglight",
-  "minecraft:pearlescent_froglight",
-  "minecraft:cactus",
-];
+/**
+ * @param {import("dev.latvian.mods.kubejs.generator.KubeDataGenerator").$KubeDataGenerator$$Type} event
+ * @param {string} tool
+ * @param {Array<string>} values
+ */
+function addMineableTag(event, tool, values) {
+  event.json(`minecraft:tags/block/mineable/${tool}`, {
+    replace: false,
+    values: values,
+  });
+}
 
 ServerEvents.generateData("after_mods", (event) => {
-  event.json("minecraft:tags/block/mineable/pickaxe", {
-    replace: false,
-    values: pickaxeBreakableBlocks,
-  });
-  event.json("minecraft:tags/block/mineable/axe", {
-    replace: false,
-    values: axeBreakableBlocks,
-  });
-  event.json("minecraft:tags/block/mineable/hoe", {
-    replace: false,
-    values: hoeBreakableBlocks,
-  });
+  for (const [tool, values] of Object.entries(effectiveToolsBlocks)) {
+    addMineableTag(event, tool, values);
+  }
 });
