@@ -1,23 +1,22 @@
 /** @typedef {string} ModId */
 /** @typedef {string} ShortTagId */
-/** @typedef {string} ItemId */
+/** @typedef {string} EntryId */
 /** @typedef {string} TagId */
 /** @typedef {"item"|"block"|"fluid"|"entity_type"|"worldgen/structure"} TagType */
 /** @typedef {Record<ModId, Array<ShortTagId>>} ModToTagsRecord */
-/** @typedef {Record<TagId, Record<ShortTagId, Array<ItemId>>>} TagToItemsRecord */
-
+/** @typedef {Record<TagId, Record<ShortTagId, Array<EntryId>>>} TagToEntriesRecord */
 global.TagModule = (function () {
-  /** @type {Record<TagType, Array<{tag: TagId, item: ItemId}>>} */
-  const _itemsAddition = {};
+  /** @type {Record<TagType, Array<{tag: TagId, entry: EntryId}>>} */
+  const _additionToEntries = {};
   /** @type {Record<TagType, Array<FullTagId>>} */
   const _removals = {};
-  /** @type {Record<TagType, Array<{tag: TagId, item: ItemId}>>} */
-  const __itemsRemoval = {};
+  /** @type {Record<TagType, Array<{tag: TagId, entry: EntryId}>>} */
+  const __removalsFromEntries = {};
 
-  function _formatItemId(modId, itemId) {
-    return itemId.startsWith("#")
-      ? `#${modId}:${itemId.substring(1)}`
-      : `${modId}:${itemId}`;
+  function _formatEntryId(modId, entryId) {
+    return entryId.startsWith("#")
+      ? `#${modId}:${entryId.substring(1)}`
+      : `${modId}:${entryId}`;
   }
 
   function _getOrCreateArrayForTagType(record, tagType) {
@@ -28,27 +27,29 @@ global.TagModule = (function () {
   }
 
   /**
-   * @param {Record<TagType, TagToItemsRecord>} tagsToAddToItems
+   * @param {Record<TagType, TagToEntriesRecord>} tagsToAddToEntries
    */
-  function registerAddedTagsToItems(tagsToAddToItems) {
-    for (const [tagType, tagToItemsMap] of Object.entries(tagsToAddToItems)) {
-      // Using a keyed set to avoid duplicates, since _itemsAddition contains objects
+  function registerAddedTagsToEntries(tagsToAddToEntries) {
+    for (const [tagType, tagToEntriesMap] of Object.entries(
+      tagsToAddToEntries,
+    )) {
+      // Using a keyed set to avoid duplicates, since _additionToEntries contains objects
       let additionsSet = new Set(
-        (_itemsAddition[tagType] || []).map(
-          (entry) => `${entry.tag}|${entry.item}`,
+        (_additionToEntries[tagType] || []).map(
+          (entry) => `${entry.tag}|${entry.entry}`,
         ),
       );
 
-      for (const [tag, mods] of Object.entries(tagToItemsMap)) {
-        for (const [modId, items] of Object.entries(mods)) {
-          for (const item of items) {
-            let formattedItemId = _formatItemId(modId, item);
-            if (additionsSet.has(`${tag}|${formattedItemId}`)) {
+      for (const [tag, mods] of Object.entries(tagToEntriesMap)) {
+        for (const [modId, entries] of Object.entries(mods)) {
+          for (const entry of entries) {
+            let formattedEntryId = _formatEntryId(modId, entry);
+            if (additionsSet.has(`${tag}|${formattedEntryId}`)) {
               continue;
             }
-            _getOrCreateArrayForTagType(_itemsAddition, tagType).push({
+            _getOrCreateArrayForTagType(_additionToEntries, tagType).push({
               tag: tag,
-              item: formattedItemId,
+              entry: formattedEntryId,
             });
           }
         }
@@ -76,29 +77,29 @@ global.TagModule = (function () {
   }
 
   /**
-   * @param {Record<TagType, TagToItemsRecord>} tagsToRemoveFromItems
+   * @param {Record<TagType, TagToEntriesRecord>} tagsToRemoveFromEntries
    */
-  function registerRemovedTagsFromItems(tagsToRemoveFromItems) {
-    for (const [tagType, tagToItemsMap] of Object.entries(
-      tagsToRemoveFromItems,
+  function registerRemovedTagsFromEntries(tagsToRemoveFromEntries) {
+    for (const [tagType, tagToEntriesMap] of Object.entries(
+      tagsToRemoveFromEntries,
     )) {
-      // Using a keyed set to avoid duplicates, since removalsFromItems contains objects
-      let removalsFromItemsSet = new Set(
-        (__itemsRemoval[tagType] || []).map(
-          (entry) => `${entry.tag}|${entry.item}`,
+      // Using a keyed set to avoid duplicates, since removalsFromEntries contains objects
+      let removalsFromEntriesSet = new Set(
+        (__removalsFromEntries[tagType] || []).map(
+          (entry) => `${entry.tag}|${entry.entry}`,
         ),
       );
 
-      for (const [tag, mods] of Object.entries(tagToItemsMap)) {
-        for (const [modId, items] of Object.entries(mods)) {
-          for (const item of items) {
-            let formattedItemId = _formatItemId(modId, item);
-            if (removalsFromItemsSet.has(`${tag}|${formattedItemId}`)) {
+      for (const [tag, mods] of Object.entries(tagToEntriesMap)) {
+        for (const [modId, entries] of Object.entries(mods)) {
+          for (const entry of entries) {
+            let formattedEntryId = _formatEntryId(modId, entry);
+            if (removalsFromEntriesSet.has(`${tag}|${formattedEntryId}`)) {
               continue;
             }
-            _getOrCreateArrayForTagType(__itemsRemoval, tagType).push({
+            _getOrCreateArrayForTagType(__removalsFromEntries, tagType).push({
               tag: tag,
-              item: formattedItemId,
+              entry: formattedEntryId,
             });
           }
         }
@@ -107,24 +108,24 @@ global.TagModule = (function () {
   }
 
   function apply(event, tagType) {
-    const additions = _itemsAddition[tagType] || [];
+    const additions = _additionToEntries[tagType] || [];
     const removals = _removals[tagType] || [];
-    const removalsFromItems = __itemsRemoval[tagType] || [];
+    const removalsFromEntries = __removalsFromEntries[tagType] || [];
     for (const tag of removals) {
       event.removeAll(tag);
     }
-    for (const entry of removalsFromItems) {
-      event.remove(entry.tag, entry.item);
+    for (const entry of removalsFromEntries) {
+      event.remove(entry.tag, entry.entry);
     }
     for (const entry of additions) {
-      event.add(entry.tag, entry.item);
+      event.add(entry.tag, entry.entry);
     }
   }
 
   return {
-    registerAddedTagsToItems: registerAddedTagsToItems,
+    registerAddedTagsToEntries: registerAddedTagsToEntries,
     registerRemovedTags: registerRemovedTags,
-    registerRemovedTagsFromItems: registerRemovedTagsFromItems,
+    registerRemovedTagsFromEntries: registerRemovedTagsFromEntries,
     apply: apply,
   };
 })();

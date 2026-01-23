@@ -42,7 +42,7 @@
     },
   });
 
-  global.TagModule.registerRemovedTagsFromItems({
+  global.TagModule.registerRemovedTagsFromEntries({
     item: {
       "curios:belt": {
         supplementaries: ["#keys", "quiver"],
