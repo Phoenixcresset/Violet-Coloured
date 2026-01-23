@@ -68,9 +68,10 @@
     "fluid",
     "worldgen/structure",
   ];
-  for (const tagType of tagsTypes) {
+  // Uses forEach instead of a for of because of issues with the scope of tagType in ServerEvents.tags
+  tagsTypes.forEach((tagType) => {
     ServerEvents.tags(tagType, (event) => {
       global.TagModule.apply(event, tagType);
     });
-  }
+  });
 })();
