@@ -1,10 +1,4 @@
-ServerEvents.generateData("after_mods", (event) => {
-  event.json("minecraft:tags/block/mineable/pickaxe", {
-    replace: false,
-    values: ["#c:glass_blocks", "#c:glass_panes"],
-  });
-});
-
+/** @type {Array<string>} */
 const colors = [
   "white",
   "light_gray",
@@ -24,6 +18,7 @@ const colors = [
   "pink",
 ];
 
+/** @type {Array<string>} */
 const blocksToSelfDrop = ["minecraft:glass", "minecraft:glass_pane"];
 
 // Adding colored blocs to avoid repetition
