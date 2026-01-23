@@ -51,7 +51,11 @@ global.TagModule.registerRemovedTagsFromItems({
       supplementaries: ["key"],
     },
     "supplementaries:blackboard_black": {
-      minecraft: ["charcoal", "coal"],
+      minecraft: ["charcoal", "coal", "#coals"],
+    },
+    "supplementaries:blackboard_white": {
+      minecraft: ["quartz"],
+      c: ["#gems/quartz"],
     },
   },
 });
