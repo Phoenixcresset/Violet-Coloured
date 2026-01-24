@@ -8,8 +8,11 @@
 - Changed Noteblock to shift down pitch while sneak right-clicking
 ## Mods 
 ### Added
+- Advancement Frames
 - Better F1 Reborn
 - Cat Loaf
+- Chalk
+- Chimes
 - Click Through Plus
 - Dismount Entities
 - First Person Model
@@ -25,6 +28,7 @@
 - Not Enough Animations
 - Particular Reforged
 - Scaffoldings Drop Nearby
+- Sooty Chimneys
 - Supplementaries
 - Supplementaries Squared
 - Target Dummy
