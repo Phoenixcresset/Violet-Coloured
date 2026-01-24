@@ -14,6 +14,7 @@
       "mineable/axe": {
         minecraft: ["#beds"],
         c: ["#skulls"],
+        supplementaries: ["#flags"],
         // TODO: Glass ?
       },
       "mineable/hoe": {
@@ -26,5 +27,15 @@
       },
     },
   };
+
+  const removedEffectiveToolsBlocks = {
+    block: {
+      "farmersdelight:mineable/knife": {
+        supplementaries: ["#flags"],
+      },
+    },
+  };
+
   global.TagModule.registerAddedTagsToEntries(effectiveToolsBlocks);
+  global.TagModule.registerRemovedTagsFromEntries(removedEffectiveToolsBlocks);
 })();
