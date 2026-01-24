@@ -9,22 +9,6 @@
 
   const removedTags = {
     item: {
-      supplementaries: [
-        "blackboard_light_gray",
-        "blackboard_gray",
-        "blackboard_brown",
-        "blackboard_red",
-        "blackboard_orange",
-        "blackboard_yellow",
-        "blackboard_lime",
-        "blackboard_green",
-        "blackboard_cyan",
-        "blackboard_light_blue",
-        "blackboard_blue",
-        "blackboard_purple",
-        "blackboard_magenta",
-        "blackboard_pink",
-      ],
       sereneseasons: ["spring_crops"],
     },
     block: {
@@ -72,6 +56,54 @@
       // Removes the dragon head to count as an arthropod since Supplementaries adds a spider head
       "dummmmmmy:arthropod_heads": {
         minecraft: ["dragon_head"],
+      },
+      "c:dyes/white": {
+        chalk: ["white_chalk"],
+      },
+      "c:dyes/light_gray": {
+        chalk: ["light_gray_chalk"],
+      },
+      "c:dyes/gray": {
+        chalk: ["gray_chalk"],
+      },
+      "c:dyes/black": {
+        chalk: ["black_chalk"],
+      },
+      "c:dyes/brown": {
+        chalk: ["brown_chalk"],
+      },
+      "c:dyes/red": {
+        chalk: ["red_chalk"],
+      },
+      "c:dyes/orange": {
+        chalk: ["orange_chalk"],
+      },
+      "c:dyes/yellow": {
+        chalk: ["yellow_chalk"],
+      },
+      "c:dyes/lime": {
+        chalk: ["lime_chalk"],
+      },
+      "c:dyes/green": {
+        chalk: ["green_chalk"],
+      },
+      "c:dyes/cyan": {
+        chalk: ["cyan_chalk"],
+      },
+      "c:dyes/light_blue": {
+        chalk: ["light_blue_chalk"],
+      },
+      "c:dyes/blue": {
+        chalk: ["blue_chalk"],
+      },
+      "c:dyes/purple": {
+        chalk: ["purple_chalk"],
+      },
+      "c:dyes/magenta": {
+        chalk: ["magenta_chalk"],
+      },
+      "c:dyes/pink": {
+        chalk: ["pink_chalk"],
       },
     },
   };
