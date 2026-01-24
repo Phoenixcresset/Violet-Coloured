@@ -461,6 +461,54 @@
             ]
         },
         {
+            "pakku_id": "Z7rmgvwGgenDZJrr",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "better-f1-reborn"
+            },
+            "name": {
+                "curseforge": "Better F1 Reborn"
+            },
+            "id": {
+                "curseforge": "959591"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "betterf1-NeoForge-1.1-1.21.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.8",
+                        "1.21.5",
+                        "1.21.4",
+                        "1.21.1",
+                        "1.21.6",
+                        "1.21.3",
+                        "1.21.7",
+                        "1.21.2",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6707/94/betterf1-NeoForge-1.1-1.21.5.jar",
+                    "id": "6707094",
+                    "parent_id": "959591",
+                    "hashes": {
+                        "sha1": "43169a55c38ad29f611f08145d41250abd1cc302",
+                        "md5": "ba558382246d37f2da3959b815305315"
+                    },
+                    "required_dependencies": [],
+                    "size": 6411,
+                    "date_published": "2025-06-29T07:41:34.063Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qzW1pMQy7rxMwqcb",
             "type": "MOD",
             "side": "CLIENT",
@@ -1313,6 +1361,51 @@
                     ],
                     "size": 36277,
                     "date_published": "2024-06-27T03:44:06.770Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "epcWQTDbflI4P7jr",
+            "pakku_links": [
+                "BkMjMPSxhZZOKliy"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "dismount-entity"
+            },
+            "name": {
+                "curseforge": "Dismount Entity"
+            },
+            "id": {
+                "curseforge": "348262"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dismountentity-1.21.1-3.6.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6186/177/dismountentity-1.21.1-3.6.jar",
+                    "id": "6186177",
+                    "parent_id": "348262",
+                    "hashes": {
+                        "sha1": "d4450b6bda3c64927f317748819a38bfb0a4ceb3",
+                        "md5": "98ee22c88ed191797af3977c23629fa0"
+                    },
+                    "required_dependencies": [
+                        "342584"
+                    ],
+                    "size": 40190,
+                    "date_published": "2025-02-12T17:56:45.603Z"
                 }
             ]
         },
@@ -4886,6 +4979,47 @@
                     ],
                     "size": 123189,
                     "date_published": "2025-03-18T15:07:48.147Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "V92xKJ00jAQEh4LZ",
+            "pakku_links": [
+                "FcXXV2bWFUXfgJJr"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "universal-bone-meal"
+            },
+            "name": {
+                "curseforge": "Universal Bone Meal"
+            },
+            "id": {
+                "curseforge": "594013"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "UniversalBoneMeal-v21.1.0-1.21.1-NeoForge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5731/837/UniversalBoneMeal-v21.1.0-1.21.1-NeoForge.jar",
+                    "id": "5731837",
+                    "parent_id": "594013",
+                    "hashes": {
+                        "sha1": "bdf3f78f90b94e7557421421721d1ae5d355f689",
+                        "md5": "8842b7e3cb79f5de119254d94d5fc639"
+                    },
+                    "required_dependencies": [
+                        "495476"
+                    ],
+                    "size": 88949,
+                    "date_published": "2024-09-17T16:06:10.183Z"
                 }
             ]
         },

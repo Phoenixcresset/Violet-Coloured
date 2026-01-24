@@ -8,8 +8,10 @@
 - Changed Noteblock to shift down pitch while sneak right-clicking
 ## Mods 
 ### Added
+- Better F1 Reborn
 - Cat Loaf
 - Click Through Plus
+- Dismount Entities
 - First Person Model
 - Horseman
 - Immersive Overlays
@@ -25,6 +27,7 @@
 - Supplementaries
 - Supplementaries Squared
 - Target Dummy
+- Universal Bone Meal
 - Wakes Reforged
 ### Removed
 - Too Many Recipe Viewers

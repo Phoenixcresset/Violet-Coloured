@@ -188,6 +188,9 @@
         },
         "clickthrough-plus": {
             "side": "CLIENT"
+        },
+        "better-f1-reborn": {
+            "side": "CLIENT"
         }
     }
 }
