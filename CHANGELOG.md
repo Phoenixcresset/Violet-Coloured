@@ -21,6 +21,7 @@
 - No Animal Tempty Delay
 - Not Enough Animations
 - Particular Reforged
+- Scaffoldings Drop Nearby
 - Supplementaries
 - Supplementaries Squared
 - Target Dummy

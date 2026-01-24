@@ -4261,6 +4261,51 @@
             ]
         },
         {
+            "pakku_id": "yCc8TesSEEhn1iOK",
+            "pakku_links": [
+                "BkMjMPSxhZZOKliy"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "scaffolding-drops-nearby"
+            },
+            "name": {
+                "curseforge": "Scaffolding Drops Nearby"
+            },
+            "id": {
+                "curseforge": "412742"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "scaffoldingdropsnearby-1.21.1-3.4.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6185/222/scaffoldingdropsnearby-1.21.1-3.4.jar",
+                    "id": "6185222",
+                    "parent_id": "412742",
+                    "hashes": {
+                        "sha1": "209f6e7904922d981dabb4a17228522e14986dd7",
+                        "md5": "06e8a6105016c4d7e5259f4e5e44fade"
+                    },
+                    "required_dependencies": [
+                        "342584"
+                    ],
+                    "size": 33286,
+                    "date_published": "2025-02-12T13:48:49.843Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "uDQKuwfrCIVdrgqq",
             "type": "MOD",
             "slug": {
