@@ -33,6 +33,7 @@
         "frame_block_blacklist",
         "faucet_connection_blacklist",
         "water_holder",
+        "barnacles_blacklist",
       ],
       sereneseasons: ["spring_crops"],
     },

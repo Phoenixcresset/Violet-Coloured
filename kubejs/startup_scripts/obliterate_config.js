@@ -3,6 +3,7 @@ const obliteratedPatterns = {
   horseman: ["copper_horn"],
   supplementaries: [
     "bamboo_spikes_tipped",
+    "barnacles",
     "cage",
     "faucet",
     /.*gravel_bricks/,
