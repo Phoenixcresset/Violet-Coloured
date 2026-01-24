@@ -13,6 +13,7 @@
 - Click Through Plus
 - Dismount Entities
 - First Person Model
+- Hey Berry! SHUT UP
 - Horseman
 - Immersive Overlays
 - Jumpy Boats

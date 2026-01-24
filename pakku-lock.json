@@ -2275,6 +2275,43 @@
             ]
         },
         {
+            "pakku_id": "SFSCJ9wxqzmYxjz1",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "heyberryshutup"
+            },
+            "name": {
+                "curseforge": "Hey Berry! SHUT UP"
+            },
+            "id": {
+                "curseforge": "634227"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "heyberryshutup-1.21.0-2.0.4.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5517/177/heyberryshutup-1.21.0-2.0.4.jar",
+                    "id": "5517177",
+                    "parent_id": "634227",
+                    "hashes": {
+                        "sha1": "a897b4ac33d0fc5a2a533d56381c272f1e49520b",
+                        "md5": "395f1c098041c4a7752c1cd149d2bcf6"
+                    },
+                    "required_dependencies": [],
+                    "size": 6186,
+                    "date_published": "2024-07-09T16:15:26.647Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "2E3LZrokcB0pwWqC",
             "pakku_links": [
                 "BkMjMPSxhZZOKliy"
