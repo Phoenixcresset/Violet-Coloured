@@ -4,6 +4,7 @@
 
 ## Mods
 ### Added
+- Crate Delight
 - Farmer's Delight
 
 # [0.0.5] - Supplementaries and Particles Update

@@ -1399,6 +1399,43 @@
             ]
         },
         {
+            "pakku_id": "5uaw4Bf6Q4H63aRN",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "crate-delight-forge"
+            },
+            "name": {
+                "curseforge": "Crate Delight (Forge & Neoforge)"
+            },
+            "id": {
+                "curseforge": "958291"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cratedelight-25.09.22-1.21-neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7024/451/cratedelight-25.09.22-1.21-neoforge.jar",
+                    "id": "7024451",
+                    "parent_id": "958291",
+                    "hashes": {
+                        "sha1": "3cfe8feb1962e0b69d7a47e44458533489d62e4d",
+                        "md5": "94869d38883f5e92b9ed61cd7809ee34"
+                    },
+                    "required_dependencies": [],
+                    "size": 166931,
+                    "date_published": "2025-09-23T03:55:01.333Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "eZt8VP0q1uYGw6VS",
             "type": "MOD",
             "side": "CLIENT",
