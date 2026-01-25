@@ -51,51 +51,32 @@ const modContainers = {
     "sack_{COLOR}": createContainerConfig(
       "suppsquared:sack_{COLOR}",
       { height: 3, width: 3 },
-      "{COLOR}"
+      "{COLOR}",
     ),
   },
 };
-
-const COLORS = [
-  "black",
-  "blue",
-  "brown",
-  "cyan",
-  "gray",
-  "green",
-  "light_blue",
-  "light_gray",
-  "lime",
-  "magenta",
-  "orange",
-  "pink",
-  "purple",
-  "red",
-  "white",
-  "yellow",
-];
 
 ServerEvents.generateData("after_mods", (event) => {
   for (const [modid, containers] of Object.entries(modContainers)) {
     if (!Platform.isLoaded(modid)) {
       console.log(
-        `Easy Shulker Boxes compat : Skipping containers for ${modid} (mod not loaded)`
+        `Easy Shulker Boxes compat : Skipping containers for ${modid} (mod not loaded)`,
       );
       continue;
     }
 
     for (const [template, data] of Object.entries(containers)) {
       if (template.includes("{COLOR}")) {
-        for (const color of COLORS) {
+        Color.DYE.forEach((color) => {
           let itemName = template.replace("{COLOR}", color);
           let itemData = JSON.parse(
-            JSON.stringify(data).replace(/{COLOR}/g, color)
+            JSON.stringify(data).replace(/{COLOR}/g, color),
           );
           event.json(
             `easyshulkerboxes:item_contents_provider/${itemName}`,
-            itemData
+            itemData,
           );
-        }
+        });
       } else {
         event.json(`easyshulkerboxes:item_contents_provider/${template}`, data);
       }

@@ -1,31 +1,11 @@
 /** @type {Array<string>} */
-const colors = [
-  "white",
-  "light_gray",
-  "gray",
-  "black",
-  "brown",
-  "red",
-  "orange",
-  "yellow",
-  "lime",
-  "green",
-  "cyan",
-  "light_blue",
-  "blue",
-  "purple",
-  "magenta",
-  "pink",
-];
-
-/** @type {Array<string>} */
 const blocksToSelfDrop = ["minecraft:glass", "minecraft:glass_pane"];
 
 // Adding colored blocs to avoid repetition
-for (const color of colors) {
+Color.DYE.forEach((color) => {
   blocksToSelfDrop.push(`minecraft:${color}_stained_glass`);
   blocksToSelfDrop.push(`minecraft:${color}_stained_glass_pane`);
-}
+});
 
 /**
  * @param {import("com.almostreliable.lootjs.loot.LootTableEvent").$LootTableEvent$$Type} event
