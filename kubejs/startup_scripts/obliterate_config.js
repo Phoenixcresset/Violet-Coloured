@@ -7,6 +7,7 @@ const obliteratedPatterns = {
     "barnacles",
     "cage",
     "faucet",
+    "sugar_cube",
     /.*gravel_bricks/,
     /lapis_bricks.*/,
     /timber_.*/,
