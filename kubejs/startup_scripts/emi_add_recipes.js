@@ -22,7 +22,9 @@
     for (const [type, recipeAdditions] of Object.entries(recipeAddingConfig)) {
       for (const recipeAddition of recipeAdditions) {
         let shortType = type.split(":")[1];
-        let shortOutput = recipeAddition.output.split(":")[1];
+        // short output should be the namespace + _ + itemName
+        let splitOutputName = recipeAddition.output.split(":");
+        let shortOutput = `${splitOutputName[1]}_${splitOutputName[2]}`;
         JsonIO.write(
           `kubejs/assets/emi/recipe/additions/${shortType}_${shortOutput}.json`,
           buildRecipe(type, recipeAddition),
