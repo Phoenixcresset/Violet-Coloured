@@ -1,5 +1,11 @@
 # [Unreleased]
 ## Changes
+
+## Mods
+### Added
+
+# [0.0.5] - Supplementaries and Particles Update
+## Changes
 - Supplementaries addition !
 - Improved player animations
 - Many new particles
