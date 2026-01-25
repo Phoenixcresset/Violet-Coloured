@@ -16,6 +16,8 @@
         "autumn_crops",
       ],
       createaddition: ["plants", "plant_foods"],
+      origins: ["meat"],
+      tconstruct: ["seeds"],
     },
     block: {
       minecraft: ["enderman_holdable"], // Remove enderman griefing
