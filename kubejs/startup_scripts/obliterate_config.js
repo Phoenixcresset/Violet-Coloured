@@ -1,6 +1,6 @@
 /** @typedef {Object.<string, Array<string|RegExp>>} ObliteratedPatterns */
 const obliteratedPatterns = {
-  farmersdelight: ["rope"],
+  farmersdelight: ["rope", "tree_bark"],
   horseman: ["copper_horn"],
   supplementaries: [
     "bamboo_spikes_tipped",
