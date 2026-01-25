@@ -5,5 +5,6 @@
   "block.minecraft.campfire.condition1": "When placed",
   "block.minecraft.campfire.behaviour1": "This can hurt mobs that walk into it. Also can hurt the player.",
   "emi.category.supplementaries.galleons": "Galleons",
-  "emi.category.supplementaries.urn_loot": "Urn Loot"
+  "emi.category.supplementaries.urn_loot": "Urn Loot",
+  "emi.info.mushroom_colony": "A Mushroom Colony can grow from a Red or Brown Mushroom planted on Rich Soil, while under sufficient darkness."
 }
