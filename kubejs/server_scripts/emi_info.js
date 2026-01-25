@@ -5,4 +5,5 @@ RecipeViewerEvents.addInformation("item", (event) => {
   event.add("farmersdelight:brown_mushroom_colony", [
     Text.translatable("emi.info.mushroom_colony"),
   ]);
+  event.add("farmersdelight:tomato", [Text.translatable("emi.info.tomatoes")]);
 });
