@@ -73,9 +73,9 @@
       },
       "direction": {
         "x": "NONE",
-        "y": "NONE"
+        "y": "UP"
       },
-      "sync": "farmersdelight:comfort"
+      "sync": "minecraft:hotbar"
     },
     "farmersdelight:food_offset": {
       "displacement": {
@@ -106,9 +106,9 @@
       },
       "direction": {
         "x": "NONE",
-        "y": "NONE"
+        "y": "UP"
       },
-      "sync": "farmersdelight:nourishment"
+      "sync": "minecraft:hotbar"
     },
     "immersiveoverlays:biome": {
       "displacement": {
