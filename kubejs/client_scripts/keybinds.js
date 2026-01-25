@@ -78,6 +78,7 @@ const keybindsToRemove = [
   "treechop.key.toggle_chopping",
   "treechop.key.cycle_sneak_behavior",
   "treechop.key.open_settings_overlay",
+  "key.clickthrough.toggle",
 ];
 
 /**
