@@ -19,6 +19,7 @@ export default defineConfig([
         PlayerEvents: "readonly",
         RecipeViewerEvents: "readonly",
         Ingredient: "readonly",
+        Item: "readonly",
         Text: "readonly",
         Color: "readonly",
         Platform: "readonly",
