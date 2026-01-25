@@ -4,6 +4,7 @@
 
 ## Mods
 ### Added
+- Comfortable Campfires
 - Crate Delight
 - Farmer's Delight
 
