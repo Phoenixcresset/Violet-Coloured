@@ -10,6 +10,7 @@
           "lever",
         ],
         c: ["#glass_blocks", "#glass_panes"],
+        chimes: ["glass_bells"]
       },
       "mineable/axe": {
         minecraft: ["#beds"],
