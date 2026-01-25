@@ -9,7 +9,13 @@
 
   const removedTags = {
     item: {
-      sereneseasons: ["spring_crops"],
+      sereneseasons: [
+        "winter_crops",
+        "spring_crops",
+        "summer_crops",
+        "autumn_crops",
+      ],
+      createaddition: ["plants", "plant_foods"],
     },
     block: {
       minecraft: ["enderman_holdable"], // Remove enderman griefing
@@ -19,7 +25,13 @@
         "water_holder",
         "barnacles_blacklist",
       ],
-      sereneseasons: ["spring_crops"],
+      sereneseasons: [
+        "winter_crops",
+        "spring_crops",
+        "summer_crops",
+        "autumn_crops",
+        "unbreakable_infertile_crops",
+      ],
     },
     entity_type: {
       supplementaries: [
