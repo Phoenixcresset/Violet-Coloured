@@ -1,8 +1,10 @@
 # [Unreleased]
 ## Changes
+- Farmer's Delight addition
 
 ## Mods
 ### Added
+- Farmer's Delight
 
 # [0.0.5] - Supplementaries and Particles Update
 ## Changes

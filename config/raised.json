@@ -66,6 +66,50 @@
       },
       "sync": "minecraft:hotbar"
     },
+    "farmersdelight:comfort": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "farmersdelight:comfort"
+    },
+    "farmersdelight:food_offset": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "farmersdelight:food_offset"
+    },
+    "farmersdelight:health_offset": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "farmersdelight:health_offset"
+    },
+    "farmersdelight:nourishment": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "farmersdelight:nourishment"
+    },
     "immersiveoverlays:biome": {
       "displacement": {
         "x": 0,
