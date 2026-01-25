@@ -1,4 +1,7 @@
-const removedRecipesIds = ["supplementaries:cannon_boat_bamboo"];
+const removedRecipesIds = [
+  "supplementaries:cannon_boat_bamboo",
+  "minecraft:cake",
+];
 
 ServerEvents.recipes((event) => {
   removedRecipesIds.forEach((recipeId) => {
