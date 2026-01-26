@@ -1437,6 +1437,46 @@
             ]
         },
         {
+            "pakku_id": "gK02SubMzPOjVGN3",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "crash-assistant"
+            },
+            "name": {
+                "curseforge": "Crash Assistant"
+            },
+            "id": {
+                "curseforge": "1154099"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.28.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.4",
+                        "1.21.1",
+                        "1.21.3",
+                        "1.21.2"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7374/773/CrashAssistant-neoforge-1.20.6-1.21.4-1.10.28.jar",
+                    "id": "7374773",
+                    "parent_id": "1154099",
+                    "hashes": {
+                        "sha1": "8bb5bea9835d9c993648aee9c1c60510c3ad1b04",
+                        "md5": "16aa4cbeadfe64a08b91b76ab0f07e8a"
+                    },
+                    "required_dependencies": [],
+                    "size": 1230854,
+                    "date_published": "2025-12-25T00:08:35.787Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "5uaw4Bf6Q4H63aRN",
             "type": "MOD",
             "slug": {
@@ -3522,6 +3562,42 @@
                     "required_dependencies": [],
                     "size": 60347,
                     "date_published": "2025-12-11T00:14:18.233Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "xZufhKwWBkYz8LgE",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "mixintrace-resmithed"
+            },
+            "name": {
+                "curseforge": "MixinTrace Resmithed"
+            },
+            "id": {
+                "curseforge": "1192609"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "mixintracereforged-neoforge-1.0.0-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6152/627/mixintracereforged-neoforge-1.0.0-1.21.1.jar",
+                    "id": "6152627",
+                    "parent_id": "1192609",
+                    "hashes": {
+                        "sha1": "7184298a588d58d95ba18fb37d71809cf3b47cfb",
+                        "md5": "94a8e5e57899e044577d00f6aaa419b8"
+                    },
+                    "required_dependencies": [],
+                    "size": 91404,
+                    "date_published": "2025-02-03T05:01:22.527Z"
                 }
             ]
         },
