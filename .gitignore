@@ -1,70 +1,84 @@
 # Minecraft
-local/
-saves/
-mods/
-logs/
-crash-reports/
-backups/
-resourcepacks/
-server-resource-packs/
-screenshots/
-downloads/
-modernfix/
-fancymenu_data/
-ESM/
+/local/
+/saves/
+/mods/
+/logs/
+/crash-reports/
+/backups/
+/resourcepacks/
+/server-resource-packs/
+/screenshots/
+/downloads/
+/coremods/
+/texturepacks/
 
-icon.png
-options.txt
-rhino.local.properties
-usercache.json
-usernamecache.json
+/command_history.txt
+/emi.json
+/icon.png
+/options.txt
+/usercache.json
+/usernamecache.json
+
+# Misc. Mods
+/.cache/
+/.mixin.out/
+/cache/
+/config/dynamic_fps.json
+/config/ichunutil/
+/config/jade/sort-order.json
+/config/konkrete/
+/config/lithium.properties
+/config/lmft.json
+/config/midnightlib.json
+/config/modernfix-mixins.properties
+/config/neoforge-*
+/config/particle_effects.json5
+/config/resourceful-config-web.json
+/config/sodium-*
+/config/transition.json
+/config/trender.json
+/config/*.bak
+/data/
+/dynamic-data-pack-cache/
+/dynamic-resource-pack-cache/
+/cherishedworlds-favorites.dat
+/moddata/
+/TrashSlotSaveState.json
 
 # Pakku
-build/
-!.pakku/
-!pakku.jar
-!pakku.json
-!pakku-lock.json
+/build/
 
-# Node.js
-**/node_modules/
+# KubeJS
+.probe
+/kubejs/**/probe-settings.json
+/kubejs/node_modules/
+
+# Shaders
+/shaderpacks/
+/config/iris*
 
 # dotenv
-.env
+/.env
 
 # VSCode
-!/.vscode/*.code-workspace
-/.vscode/*
+/.vscode/**.code-snippets
 
-# ProbeJS
-/kubejs/probe/
-/kubejs/config/probejs.json
-/kubejs/config/probe-settings.json
-/kubejs/*/jsconfig.json
+# OS specific files
 
-# Client configs (with exceptions below)
-!/config/**/*client.*
+## Linux
+/*~
+/.fuse_hidden*
+/.directory
+/.Trash-*
 
+## Windows
+/Thumbs.db
+/ehthumbs.db
+/Desktop.ini
+/$RECYCLE.BIN/
+/*.lnk
 
-# Configs (generaly ones that tend to edit the date on launch)
-
-# Linux
-*~
-.fuse_hidden*
-.directory
-.Trash-*
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Zip files (mostly modpack exports)
-*.zip   
+## macOS
+/.DS_Store
+/.AppleDouble
+/.LSOverride

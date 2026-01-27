@@ -1,29 +1,196 @@
 {
-    "name": "Violet Coloured",
-    "version": "DEV",
-    "release_type": "release",
-    "description": "Test for description",
+    "name": "Violet Colored",
+    "version": "0.0.5",
+    "description": "A modpack made to play with Create and Spectrum together.",
     "author": "Violet Everbloom",
     "overrides": [
         "config",
         "defaultconfigs",
         "kubejs",
-        "!kubejs/probe/**"
-    ],
-    "server_overrides": [
-        "!kubejs/assets",
-        "forge-auto-install.txt",
-        "generate_auto_installation_file.bat",
-        "minecraft_server.jar",
-        "server.properties",
-        "server_starter.conf",
-        "server-icon.png",
-        "start_server.bat",
-        "README.md"
+        "!kubejs/**/probe-settings.json",
+        "!kubejs/**/jsconfig.json"
     ],
     "client_overrides": [
         "resourcepacks"
     ],
     "projects": {
+        "auth-me": {
+            "side": "CLIENT"
+        },
+        "better-modlist-neoforge": {
+            "side": "CLIENT"
+        },
+        "betterf3": {
+            "side": "CLIENT"
+        },
+        "crafting-tweaks": {
+            "side": "CLIENT"
+        },
+        "dynamic-fps": {
+            "side": "CLIENT"
+        },
+        "entityculling": {
+            "side": "CLIENT"
+        },
+        "euphoria-patches": {
+            "side": "CLIENT"
+        },
+        "immediatelyfast": {
+            "side": "CLIENT"
+        },
+        "iris": {
+            "side": "CLIENT"
+        },
+        "keybindjs": {
+            "side": "CLIENT"
+        },
+        "lighty": {
+            "side": "CLIENT"
+        },
+        "model-gap-fix": {
+            "side": "CLIENT"
+        },
+        "modernworldcreation": {
+            "side": "CLIENT"
+        },
+        "moreculling": {
+            "side": "CLIENT"
+        },
+        "mouse-tweaks": {
+            "side": "CLIENT"
+        },
+        "probejs": {
+            "side": "CLIENT",
+            "export": false
+        },
+        "raised": {
+            "side": "CLIENT"
+        },
+        "reeses-sodium-options": {
+            "side": "CLIENT"
+        },
+        "searchablestorage": {
+            "side": "CLIENT"
+        },
+        "sodium": {
+            "side": "CLIENT"
+        },
+        "yeetusexperimentus": {
+            "side": "CLIENT"
+        },
+        "better-world-loading-forge": {
+            "side": "CLIENT"
+        },
+        "particle-effects": {
+            "side": "CLIENT"
+        },
+        "stylish-effects": {
+            "side": "CLIENT"
+        },
+        "effect-insights": {
+            "side": "CLIENT"
+        },
+        "status-effect-bars-reforged": {
+            "side": "CLIENT"
+        },
+        "drop-confirm": {
+            "side": "CLIENT"
+        },
+        "rrls": {
+            "side": "CLIENT"
+        },
+        "skin-layers-3d": {
+            "side": "CLIENT"
+        },
+        "fading-night-vision": {
+            "side": "CLIENT"
+        },
+        "advancements-reloaded": {
+            "side": "CLIENT"
+        },
+        "cherished-worlds": {
+            "side": "CLIENT"
+        },
+        "controlling": {
+            "side": "CLIENT"
+        },
+        "ding": {
+            "side": "CLIENT"
+        },
+        "durability-tooltip": {
+            "side": "CLIENT"
+        },
+        "equipment-compare": {
+            "side": "CLIENT"
+        },
+        "fancy-toasts": {
+            "side": "CLIENT"
+        },
+        "irisshaders": {
+            "side": "CLIENT"
+        },
+        "searchables": {
+            "side": "CLIENT"
+        },
+        "jump-over-fences-forge": {
+            "side": "CLIENT"
+        },
+        "screenshot-viewer": {
+            "side": "CLIENT"
+        },
+        "delete-worlds-to-trash-forge": {
+            "side": "CLIENT"
+        },
+        "simple-music-control": {
+            "side": "CLIENT"
+        },
+        "sounds-be-gone": {
+            "side": "CLIENT"
+        },
+        "rebind-narrator": {
+            "side": "CLIENT"
+        },
+        "vanillin": {
+            "side": "CLIENT"
+        },
+        "colorwheel": {
+            "side": "CLIENT"
+        },
+        "colorwheel-patcher": {
+            "side": "CLIENT"
+        },
+        "smithing-template-viewer": {
+            "side": "CLIENT"
+        },
+        "justenoughbreeding": {
+            "side": "CLIENT"
+        },
+        "emi-plus-plus": {
+            "side": "CLIENT"
+        },
+        "first-person-model": {
+            "side": "CLIENT"
+        },
+        "not-enough-animations": {
+            "side": "CLIENT"
+        },
+        "immersive-overlays": {
+            "side": "CLIENT"
+        },
+        "particular-reforged": {
+            "side": "CLIENT"
+        },
+        "wakes-reforged": {
+            "side": "CLIENT"
+        },
+        "nbt-autocomplete": {
+            "side": "CLIENT"
+        },
+        "clickthrough-plus": {
+            "side": "CLIENT"
+        },
+        "better-f1-reborn": {
+            "side": "CLIENT"
+        }
     }
 }
