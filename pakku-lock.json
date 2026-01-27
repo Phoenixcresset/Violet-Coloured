@@ -708,6 +708,47 @@
             ]
         },
         {
+            "pakku_id": "CcC0oJQwNNXhDd9d",
+            "pakku_links": [
+                "iaTkK3XizBKd6o1R"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "brewin-and-chewin"
+            },
+            "name": {
+                "curseforge": "Brewin' And Chewin'"
+            },
+            "id": {
+                "curseforge": "637808"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "BrewinAndChewin-neoforge-4.4.2+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7523/542/BrewinAndChewin-neoforge-4.4.2+1.21.1.jar",
+                    "id": "7523542",
+                    "parent_id": "637808",
+                    "hashes": {
+                        "sha1": "c01b9e39b4c116c3ce4b1b66f87c1921997337a5",
+                        "md5": "be14ed36a350594d0bac22bcf1810556"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 1566859,
+                    "date_published": "2026-01-25T10:36:26.820Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "f7UCu3bOGQZrokFT",
             "type": "MOD",
             "slug": {
@@ -5578,6 +5619,47 @@
                     "required_dependencies": [],
                     "size": 1118651,
                     "date_published": "2026-01-09T16:34:33.460Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "uYIVU1LjZTeJI9U8",
+            "pakku_links": [
+                "1zliknSgHV8OJEPg"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "lets-do-vinery"
+            },
+            "name": {
+                "curseforge": "[Let's Do] Vinery"
+            },
+            "id": {
+                "curseforge": "704465"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "letsdo-vinery-neoforge-1.5.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7218/579/letsdo-vinery-neoforge-1.5.2.jar",
+                    "id": "7218579",
+                    "parent_id": "704465",
+                    "hashes": {
+                        "sha1": "961738ff66918dba154427140a299df7f7ba2b96",
+                        "md5": "4ea08b13804db46a900b2830d20d8083"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 1998527,
+                    "date_published": "2025-11-13T18:40:16.990Z"
                 }
             ]
         },
