@@ -13,6 +13,12 @@ const obliteratedPatterns = {
     /timber_.*/,
   ],
   suppsquared: ["heavy_key", /metal_.*/],
+  vinery: [
+    /.*savanna_grape.*/,
+    /.*taiga_grape.*/,
+    /.*jungle_grape.*/,
+    /.*lattice/,
+  ],
 };
 
 /** @type {Array<string>} */
