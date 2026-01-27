@@ -149,7 +149,7 @@
 
   function registerVineryFluid(event, fluid) {
     event
-      .create(`vinery:${fluid.id}`, "thin")
+      .create(`vinery:liquid_${fluid.id}`, "thin")
       .tint(fluid.color)
       .displayName(fluid.name)
       .tag(`vinery:${fluid.id}`);
