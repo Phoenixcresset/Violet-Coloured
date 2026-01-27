@@ -23,6 +23,8 @@
 /.cache/
 /.mixin.out/
 /cache/
+/config/crash_assistant/modlist.json
+/config/crash_assistant/problematic_mods_config.json
 /config/dynamic_fps.json
 /config/ichunutil/
 /config/jade/sort-order.json
