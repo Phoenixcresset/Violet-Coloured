@@ -5,6 +5,7 @@
 /** @typedef {"item"|"block"|"fluid"|"entity_type"|"worldgen/structure"} TagType */
 /** @typedef {Record<ModId, Array<ShortTagId>>} ModToTagsRecord */
 /** @typedef {Record<TagId, Record<ShortTagId, Array<EntryId>>>} TagToEntriesRecord */
+
 global.TagModule = (function () {
   /** @type {Record<TagType, Array<{tag: TagId, entry: EntryId}>>} */
   const _additionToEntries = {};
