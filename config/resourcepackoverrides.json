@@ -1,7 +1,8 @@
 {
   "schema_version": "2",
   "default_packs": [
-    "file/Authentic Shadows_1.21+.zip"
+    "file/Authentic Shadows_1.21+.zip",
+    "Let's Do - Pixel Perfect.zip"
   ],
   "pack_overrides": {
     "required_packs": [
@@ -12,7 +13,8 @@
       "scholar:chiseled_bookshelf_colored_books"
     ],
     "additional_packs": [
-      "file/Authentic Shadows_1.21+.zip"
+      "file/Authentic Shadows_1.21+.zip",
+      "Let's Do - Pixel Perfect.zip"
     ],
     "hidden_packs": [
       "supplementaries:darker_ropes"
@@ -20,7 +22,7 @@
     "$$required_packs": {
       "default_position": "BOTTOM",
       "fixed_position": true,
-      "required": true,
+      "required": true
     },
     "$$additional_packs": {
       "default_position": "TOP",

@@ -4385,6 +4385,43 @@
             ]
         },
         {
+            "pakku_id": "MruaC6BP6lJfNyfr",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "lets-do-pixel-perfect"
+            },
+            "name": {
+                "curseforge": "Pixel Perfect [Let's Do Addon]"
+            },
+            "id": {
+                "curseforge": "1114805"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Let's Do - Pixel Perfect.zip",
+                    "mc_versions": [
+                        "1.21.2-Snapshot",
+                        "1.21",
+                        "1.21.1-Snapshot",
+                        "1.21-Snapshot",
+                        "1.21.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5803/914/Let's Do - Pixel Perfect.zip",
+                    "id": "5803914",
+                    "parent_id": "1114805",
+                    "hashes": {
+                        "sha1": "ae80989546ec34d3a0cff587aa0204fce1b8a007",
+                        "md5": "402955fac5366e2632b7c5d5fcedcb3a"
+                    },
+                    "required_dependencies": [],
+                    "size": 14297,
+                    "date_published": "2024-10-11T20:19:34.743Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "8a0czkfVVZg6TyCC",
             "type": "MOD",
             "slug": {
