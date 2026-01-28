@@ -236,4 +236,20 @@
     });
     event.remove("vinery:liquid_mojang_noir");
   });
+
+  ServerEvents.generateData("after_mods", (event) => {
+    const dataToRemove = [
+      "vinery:worldgen/placed_feature/jungle_red_grape_bush__chance",
+      "vinery:worldgen/placed_feature/jungle_white_grape_bush__chance",
+      "vinery:worldgen/placed_feature/savanna_red_grape_bush__chance",
+      "vinery:worldgen/placed_feature/savanna_white_grape_bush__chance",
+      "vinery:worldgen/placed_feature/taiga_red_grape_bush__chance",
+      "vinery:worldgen/placed_feature/taiga_white_grape_bush__chance",
+    ];
+    for (const path of dataToRemove) {
+      event.json(`${path}.json`, {
+        "neoforge:conditions": [{ type: "neoforge:false" }],
+      });
+    }
+  });
 })();
