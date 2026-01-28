@@ -20,6 +20,7 @@ export default defineConfig([
         RecipeViewerEvents: "readonly",
         Ingredient: "readonly",
         Item: "readonly",
+        Fluid: "readonly",
         Text: "readonly",
         Color: "readonly",
         Platform: "readonly",
