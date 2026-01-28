@@ -21,7 +21,6 @@
       "default_position": "BOTTOM",
       "fixed_position": true,
       "required": true,
-      "hidden": true
     },
     "$$additional_packs": {
       "default_position": "TOP",
