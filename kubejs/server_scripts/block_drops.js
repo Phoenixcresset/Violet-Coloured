@@ -1,3 +1,5 @@
+/** @typedef {import("com.almostreliable.lootjs.loot.LootTableEvent").$LootTableEvent$$Type} LootTableEvent */
+
 (() => {
   /** @type {Array<string>} */
   const blocksToSelfDrop = ["minecraft:glass", "minecraft:glass_pane"];
@@ -16,7 +18,7 @@
   ];
 
   /**
-   * @param {import("com.almostreliable.lootjs.loot.LootTableEvent").$LootTableEvent$$Type} event
+   * @param {LootTableEvent} event
    * @param {string} blockId
    */
   function selfDrop(event, blockId) {
@@ -29,6 +31,11 @@
       });
   }
 
+  /**
+   * @param {LootTableEvent} event
+   * @param {string} blockId
+   * @param {string} defaultDropId
+   */
   function silkTouchDrop(event, blockId, defaultDropId) {
     const [namespace, path] = blockId.split(":");
     event
