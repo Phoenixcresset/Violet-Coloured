@@ -246,7 +246,7 @@
       "taiga_red_grape_bush__chance",
       "taiga_white_grape_bush__chance",
     ];
-    
+
     for (const path of placedFeaturesToRemove) {
       global
         .DataGenModule()
