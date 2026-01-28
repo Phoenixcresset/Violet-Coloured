@@ -238,18 +238,19 @@
   });
 
   ServerEvents.generateData("after_mods", (event) => {
-    const dataToRemove = [
-      "vinery:worldgen/placed_feature/jungle_red_grape_bush__chance",
-      "vinery:worldgen/placed_feature/jungle_white_grape_bush__chance",
-      "vinery:worldgen/placed_feature/savanna_red_grape_bush__chance",
-      "vinery:worldgen/placed_feature/savanna_white_grape_bush__chance",
-      "vinery:worldgen/placed_feature/taiga_red_grape_bush__chance",
-      "vinery:worldgen/placed_feature/taiga_white_grape_bush__chance",
+    const placedFeaturesToRemove = [
+      "jungle_red_grape_bush__chance",
+      "jungle_white_grape_bush__chance",
+      "savanna_red_grape_bush__chance",
+      "savanna_white_grape_bush__chance",
+      "taiga_red_grape_bush__chance",
+      "taiga_white_grape_bush__chance",
     ];
-    for (const path of dataToRemove) {
-      event.json(`${path}.json`, {
-        "neoforge:conditions": [{ type: "neoforge:false" }],
-      });
+    
+    for (const path of placedFeaturesToRemove) {
+      global
+        .DataGenModule()
+        .removeData(event, "placed_feature", "vinery", path);
     }
 
     const replacedAppleTreeWithOakLog = {
@@ -355,13 +356,17 @@
       },
     };
 
-    const replacedAppleTreeBasePath = "vinery:worldgen/configured_feature/";
     const appleTreeFileNames = ["apple", "apple_variant"];
     appleTreeFileNames.forEach((fileName) => {
-      event.json(
-        `${replacedAppleTreeBasePath}${fileName}.json`,
-        replacedAppleTreeWithOakLog
-      );
+      global
+        .DataGenModule()
+        .replaceData(
+          event,
+          "configured_feature",
+          "vinery",
+          `${fileName}`,
+          replacedAppleTreeWithOakLog
+        );
     });
   });
 })();
