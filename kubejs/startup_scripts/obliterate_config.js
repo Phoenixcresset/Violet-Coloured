@@ -15,10 +15,15 @@ const obliteratedPatterns = {
   suppsquared: ["heavy_key", /metal_.*/],
   vinery: [
     "fermentation_barrel",
-    /.*savanna_grape.*/,
-    /.*taiga_grape.*/,
+    "storage_pot",
+    "straw_hat",
+    "vinery_standard",
     /.*jungle_grape.*/,
     /.*lattice/,
+    /.*savanna_grape.*/,
+    /.*taiga_grape.*/,
+    /window.*/,
+    /winemaker.*/,
   ],
 };
 
