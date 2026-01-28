@@ -164,7 +164,7 @@
     {
       baseFluidTag: "#vinery:white_grapejuice",
       ingredients: [
-        { item: "vinery:apple_juice" },
+        { item: "vinery:apple_wine" },
         { item: "vinery:chenet_wine" },
         { item: "vinery:bolvar_wine" },
       ],
