@@ -3,8 +3,13 @@ const removedRecipesIds = [
   "minecraft:cake",
 ];
 
+const removedRecipesTypes = ["vinery:wine_fermentation"];
+
 ServerEvents.recipes((event) => {
   removedRecipesIds.forEach((recipeId) => {
     event.remove({ id: recipeId });
+  });
+  removedRecipesTypes.forEach((recipeType) => {
+    event.remove({ type: recipeType });
   });
 });
