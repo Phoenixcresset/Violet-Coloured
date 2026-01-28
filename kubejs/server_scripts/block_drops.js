@@ -20,9 +20,34 @@ function selfDrop(event, blockId) {
       pool.addEntry(LootEntry.of(blockId).survivesExplosion());
     });
 }
+  const silkTouchBlocks = [
+    {
+      id: "vinery:grass_slab",
+      defaultDropId: "vinery:dirt_slab",
+    },
+  ];
 
 LootJS.lootTables((event) => {
   for (const blockId of blocksToSelfDrop) {
     selfDrop(event, blockId);
   }
 });
+  function silkTouchDrop(event, blockId, defaultDropId) {
+    const [namespace, path] = blockId.split(":");
+    event
+      .getLootTable(`${namespace}:blocks/${path}`)
+      .clear()
+      .createPool((pool) => {
+        pool.addEntry(
+          LootEntry.alternative(
+            LootEntry.of(blockId).matchTool(
+              ItemFilter.hasEnchantment("minecraft:silk_touch")
+            ),
+            LootEntry.of(defaultDropId)
+          )
+        );
+      });
+  }
+    for (const { id, defaultDropId } of silkTouchBlocks) {
+      silkTouchDrop(event, id, defaultDropId);
+    }
