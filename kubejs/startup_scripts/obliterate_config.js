@@ -14,6 +14,8 @@ const obliteratedPatterns = {
   ],
   suppsquared: ["heavy_key", /metal_.*/],
   vinery: [
+    "apple_log",
+    "apple_wood",
     "fermentation_barrel",
     "storage_pot",
     "straw_hat",
