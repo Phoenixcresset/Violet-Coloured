@@ -3083,6 +3083,43 @@
             ]
         },
         {
+            "pakku_id": "RNv13ipsQFIPyVrC",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "just-enough-effect-descriptions-jeed"
+            },
+            "name": {
+                "curseforge": "Just Enough Effect Descriptions (JEED)"
+            },
+            "id": {
+                "curseforge": "532286"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "jeed-1.21-2.3.2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7346/553/jeed-1.21-2.3.2.jar",
+                    "id": "7346553",
+                    "parent_id": "532286",
+                    "hashes": {
+                        "sha1": "144ffaf459b58db14614a7e1ef3425c2594e30b6",
+                        "md5": "3d339a1ec7e94e8377894dedb210d99e"
+                    },
+                    "required_dependencies": [],
+                    "size": 164003,
+                    "date_published": "2025-12-17T20:43:38.367Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "HVaeCDrOWItCnJph",
             "type": "MOD",
             "slug": {
