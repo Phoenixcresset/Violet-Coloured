@@ -18,6 +18,7 @@ const obliteratedPatterns = {
     "apple_log",
     "apple_wood",
     "fermentation_barrel",
+    "grapevine_pot",
     "storage_pot",
     "straw_hat",
     "vinery_standard",

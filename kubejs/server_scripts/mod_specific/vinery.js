@@ -410,4 +410,62 @@
       });
     }
   });
+
+  const fruitPressFermentingRecipesToAdd = [
+    {
+      inputId: "vinery:crushed_red_grapes",
+      outputId: "vinery:red_grapejuice",
+    },
+    {
+      inputId: "vinery:crushed_white_grapes",
+      outputId: "vinery:white_grapejuice",
+    },
+  ];
+  ServerEvents.recipes((event) => {
+    for (const recipe of fruitPressFermentingRecipesToAdd) {
+      event
+        .custom({
+          type: "vinery:apple_fermenting",
+          input: {
+            item: recipe.inputId,
+          },
+          wine_bottle: {
+            required: true,
+          },
+          output: {
+            id: recipe.outputId,
+            count: 1,
+          },
+        })
+        .id(`vinery:apple_fermenting/${recipe.outputId.split(":")[1]}`);
+    }
+  });
+
+  const fruitPressMashingRecipesToAdd = [
+    {
+      inputId: "vinery:red_grape",
+      outputId: "vinery:crushed_red_grapes",
+    },
+    {
+      inputId: "vinery:white_grape",
+      outputId: "vinery:crushed_white_grapes",
+    },
+  ];
+
+  ServerEvents.recipes((event) => {
+    for (const recipe of fruitPressMashingRecipesToAdd) {
+      event
+        .custom({
+          type: "vinery:apple_mashing",
+          input: {
+            item: recipe.inputId,
+          },
+          output: {
+            id: recipe.outputId,
+            count: 1,
+          },
+        })
+        .id(`vinery:apple_mashing/${recipe.outputId.split(":")[1]}`);
+    }
+  });
 })();
