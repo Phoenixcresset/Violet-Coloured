@@ -13,6 +13,7 @@ const obliteratedPatterns = {
     /timber_.*/,
   ],
   suppsquared: ["heavy_key", /metal_.*/],
+  village_taverns: ["barrel"],
   vinery: [
     "apple_bag",
     "apple_log",
