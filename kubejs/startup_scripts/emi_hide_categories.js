@@ -26,6 +26,7 @@ const recipeHidingConfig = {
     "vinery:/blocks/potted_dark_cherry_sapling",
     "minecraft:/shearing/bogged",
     "minecraft:/gameplay/cat_morning_gift",
+    "minecraft:/gameplay/panda_sneeze",
   ],
   categorizedIds: {
     "ali:trial_chambers": [
