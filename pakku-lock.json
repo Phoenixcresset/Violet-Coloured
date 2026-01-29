@@ -2621,6 +2621,47 @@
             ]
         },
         {
+            "pakku_id": "POnqKYsRzNeGqlwe",
+            "pakku_links": [
+                "iaTkK3XizBKd6o1R"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "hearth-and-harvest"
+            },
+            "name": {
+                "curseforge": "Hearth and Harvest"
+            },
+            "id": {
+                "curseforge": "1212197"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "hearthandharvest-1.21.1-1.1.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7330/777/hearthandharvest-1.21.1-1.1.1.jar",
+                    "id": "7330777",
+                    "parent_id": "1212197",
+                    "hashes": {
+                        "sha1": "6253c8a0c7143ff55c7628dafba0c9cdddf70628",
+                        "md5": "01888fe46ed014ed59869854a07bec67"
+                    },
+                    "required_dependencies": [
+                        "398521"
+                    ],
+                    "size": 1545938,
+                    "date_published": "2025-12-14T02:36:15.443Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "SFSCJ9wxqzmYxjz1",
             "type": "MOD",
             "slug": {
