@@ -18,9 +18,9 @@
       },
       "direction": {
         "x": "NONE",
-        "y": "UP"
+        "y": "NONE"
       },
-      "sync": "minecraft:hotbar"
+      "sync": "appleskin:food_offset"
     },
     "appleskin:health_offset": {
       "displacement": {
@@ -29,9 +29,9 @@
       },
       "direction": {
         "x": "NONE",
-        "y": "UP"
+        "y": "NONE"
       },
-      "sync": "minecraft:hotbar"
+      "sync": "appleskin:health_offset"
     },
     "appleskin:health_restored": {
       "displacement": {
