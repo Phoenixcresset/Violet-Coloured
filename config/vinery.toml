@@ -88,6 +88,6 @@
 		#List of trades for Level 3. Format: item|price|quantity|maxUses|isSelling
 		level3Trades = ["vinery:white_grape_bag|7|1|10|true", "vinery:red_grape_bag|7|1|10|true"]
 		#List of trades for Level 4. Format: item|price|quantity|maxUses|isSelling
-		level4Trades = ["vinery:dark_cherry_beam|6|1|10|true"]
+		level4Trades = ["vinery:dark_cherry_log|6|1|10|true"]
 		#List of trades for Level 5. Format: item|price|quantity|maxUses|isSelling
 		level5Trades = ["vinery:wine_box|10|1|10|true", "vinery:lilitu_wine|4|1|10|true"]
