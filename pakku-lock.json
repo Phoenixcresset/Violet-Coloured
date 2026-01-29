@@ -2507,6 +2507,42 @@
             ]
         },
         {
+            "pakku_id": "73t5f3THAN9fY7Ax",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "forgified-fabric-api"
+            },
+            "name": {
+                "curseforge": "Forgified Fabric API"
+            },
+            "id": {
+                "curseforge": "889079"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "forgified-fabric-api-0.116.7+2.2.0+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7377/533/forgified-fabric-api-0.116.7+2.2.0+1.21.1.jar",
+                    "id": "7377533",
+                    "parent_id": "889079",
+                    "hashes": {
+                        "sha1": "aa5f962ae7788f2675da823ae4dfc98fd09bd7bc",
+                        "md5": "16c594229ea54cbed4e015aa423c6ac6"
+                    },
+                    "required_dependencies": [],
+                    "size": 5551427,
+                    "date_published": "2025-12-25T15:49:42.907Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "EcJC7JG6ZqDmqp2k",
             "pakku_links": [
                 "dSoLtANCGlBrPBja"
@@ -5265,6 +5301,42 @@
             ]
         },
         {
+            "pakku_id": "umwncFswSsxA5PZa",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "structure-pool-api"
+            },
+            "name": {
+                "curseforge": "Structure Pool API"
+            },
+            "id": {
+                "curseforge": "927915"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "structure_pool_api-neoforge-1.2.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7145/227/structure_pool_api-neoforge-1.2.1+1.21.1.jar",
+                    "id": "7145227",
+                    "parent_id": "927915",
+                    "hashes": {
+                        "sha1": "5150191b29de8462705e5aa715c2554a5744dc7b",
+                        "md5": "611a331200f31b9c971bad66c48c0fd6"
+                    },
+                    "required_dependencies": [],
+                    "size": 140459,
+                    "date_published": "2025-10-24T18:19:26.553Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "TbD2ARUF98dObTbr",
             "pakku_links": [
                 "FcXXV2bWFUXfgJJr"
@@ -5587,6 +5659,49 @@
                     "required_dependencies": [],
                     "size": 870344,
                     "date_published": "2025-04-21T04:25:34.820Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TCeEzHdKpLEwRZOf",
+            "pakku_links": [
+                "73t5f3THAN9fY7Ax",
+                "umwncFswSsxA5PZa"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "village-taverns"
+            },
+            "name": {
+                "curseforge": "Village Taverns (RPG Series)"
+            },
+            "id": {
+                "curseforge": "1178224"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "village_taverns-neoforge-1.1.5+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7203/402/village_taverns-neoforge-1.1.5+1.21.1.jar",
+                    "id": "7203402",
+                    "parent_id": "1178224",
+                    "hashes": {
+                        "sha1": "5dbee7ffe175e79b836ad01fedbebd8e69a2cd80",
+                        "md5": "a48f27ae42aadc49d5224318a848f638"
+                    },
+                    "required_dependencies": [
+                        "889079",
+                        "927915"
+                    ],
+                    "size": 119045,
+                    "date_published": "2025-11-09T15:30:29.873Z"
                 }
             ]
         },
