@@ -18,6 +18,7 @@
       createaddition: ["plants", "plant_foods"],
       origins: ["meat"],
       tconstruct: ["seeds"],
+      brewinandchewin: ["foods/horror_meat"],
     },
     block: {
       minecraft: ["enderman_holdable"], // Remove enderman griefing
