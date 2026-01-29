@@ -84,9 +84,9 @@
       },
       "direction": {
         "x": "NONE",
-        "y": "NONE"
+        "y": "UP"
       },
-      "sync": "brewinandchewin:intoxication"
+      "sync": "minecraft:hotbar"
     },
     "brewinandchewin:tipsy": {
       "displacement": {
