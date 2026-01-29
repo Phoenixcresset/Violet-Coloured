@@ -2948,7 +2948,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Jade-1.21.1-NeoForge-15.10.4.jar",
+                    "file_name": "Jade-1.21.1-NeoForge-15.10.5.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2956,16 +2956,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7428/884/Jade-1.21.1-NeoForge-15.10.4.jar",
-                    "id": "7428884",
+                    "url": "https://edge.forgecdn.net/files/7545/219/Jade-1.21.1-NeoForge-15.10.5.jar",
+                    "id": "7545219",
                     "parent_id": "324717",
                     "hashes": {
-                        "sha1": "7d23a1dd515872bd6498b8edd06bb84e61f2c4e7",
-                        "md5": "9631d88b936ea1c297ad52da3d0f4bed"
+                        "sha1": "d5bf134b3dbde9f5258666823900e21341dc0a50",
+                        "md5": "80f9186d25b02ebbfa5773416f5da410"
                     },
                     "required_dependencies": [],
-                    "size": 725725,
-                    "date_published": "2026-01-07T09:07:13.507Z"
+                    "size": 725742,
+                    "date_published": "2026-01-29T11:11:45.407Z"
                 }
             ]
         },
@@ -5714,7 +5714,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "letsdo-vinery-neoforge-1.5.2.jar",
+                    "file_name": "letsdo-vinery-neoforge-1.5.3.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5722,18 +5722,18 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7218/579/letsdo-vinery-neoforge-1.5.2.jar",
-                    "id": "7218579",
+                    "url": "https://edge.forgecdn.net/files/7539/914/letsdo-vinery-neoforge-1.5.3.jar",
+                    "id": "7539914",
                     "parent_id": "704465",
                     "hashes": {
-                        "sha1": "961738ff66918dba154427140a299df7f7ba2b96",
-                        "md5": "4ea08b13804db46a900b2830d20d8083"
+                        "sha1": "e920dbb720c2c010c45b137d195a5cc72a9afdd2",
+                        "md5": "a669653659a18677eb240353a0a135ab"
                     },
                     "required_dependencies": [
                         "419699"
                     ],
-                    "size": 1998527,
-                    "date_published": "2025-11-13T18:40:16.990Z"
+                    "size": 2001616,
+                    "date_published": "2026-01-28T07:40:49.523Z"
                 }
             ]
         },
