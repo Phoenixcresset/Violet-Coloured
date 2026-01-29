@@ -43,6 +43,10 @@ global.creativeTabs = [
   "minecraft:food_and_drinks",
   "minecraft:ingredients",
   "minecraft:spawn_eggs",
+  "farmersdelight:farmersdelight",
+  "vinery:vinery",
+  "cratedelight:cratedelight_tab",
+  "brewinandchewin:brewinandchewin",
 ];
 
 /** @type {Array<string|RegExp>} */
