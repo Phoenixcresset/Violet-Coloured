@@ -50,6 +50,7 @@
         "jar_baby_catchable",
         "tickable_when_captured",
       ],
+      hearthandharvest: ["can_be_butchered"],
     },
     "worldgen/structure": {
       amendments: ["add_potion_cauldron"],
