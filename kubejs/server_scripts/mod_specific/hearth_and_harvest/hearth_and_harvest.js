@@ -15,5 +15,8 @@
         .DataGenModule()
         .removeData(event, "biome_modifier", "hearthandharvest", path);
     }
+    LootJS.lootTables((event) => {
+      event.getLootTable("hearthandharvest:chests/corn_maze").clear();
+    });
   });
 })();
