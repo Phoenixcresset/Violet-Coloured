@@ -23,14 +23,17 @@ function obliterateItems() {
   // Remove tags
   ServerEvents.tags("item", (event) => {
     event.removeAllTagsFrom(obliteratedItems);
+    event.add("c:hidden_from_recipe_viewers", obliteratedItems);
   });
 
   ServerEvents.tags("fluid", (event) => {
     event.removeAllTagsFrom(obliteratedItems);
+    event.add("c:hidden_from_recipe_viewers", obliteratedItems);
   });
 
   ServerEvents.tags("block", (event) => {
     event.removeAllTagsFrom(obliteratedItems);
+    event.add("c:hidden_from_recipe_viewers", obliteratedItems);
   });
 
   // Append disabled tooltip
@@ -67,6 +70,15 @@ function obliterateItems() {
         output: Ingredient.of(obliteratedItems),
       });
     });
+    MoreJS.wandererTrades((event) => {
+      event.removeTrades({
+        input: Ingredient.of(obliteratedItems),
+      });
+      event.removeTrades({
+        output: Ingredient.of(obliteratedItems),
+      });
+    });
+
     MoreJS.registerPotionBrewing((event) => {
       event.removePotionBrewing({
         ingredient: Ingredient.of(obliteratedItems),
