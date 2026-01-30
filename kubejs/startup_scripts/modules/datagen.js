@@ -1,11 +1,12 @@
 /** @typedef {import(import("dev.latvian.mods.kubejs.script.data.GeneratedDataStage").$GeneratedDataStage$$Type)} GenerateDataEvent */
-/** @typedef {"placed_feature" | "configured_feature" | "biome_modifier"} DataType */
+/** @typedef {"placed_feature" | "configured_feature" | "biome_modifier" | "structure_set"} DataType */
 
 global.DataGenModule = function () {
   const dataTypePaths = {
     placed_feature: "worldgen/placed_feature",
     configured_feature: "worldgen/configured_feature",
     biome_modifier: "neoforge/biome_modifier",
+    structure_set: "worldgen/structure_set",
   };
 
   /**
