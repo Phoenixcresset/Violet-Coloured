@@ -25,6 +25,14 @@ function obliterateItems() {
     event.removeAllTagsFrom(obliteratedItems);
   });
 
+  ServerEvents.tags("fluid", (event) => {
+    event.removeAllTagsFrom(obliteratedItems);
+  });
+
+  ServerEvents.tags("block", (event) => {
+    event.removeAllTagsFrom(obliteratedItems);
+  });
+
   // Append disabled tooltip
   ItemEvents.modifyTooltips((event) => {
     event.add(obliteratedItems, Text.red("Disabled"));
