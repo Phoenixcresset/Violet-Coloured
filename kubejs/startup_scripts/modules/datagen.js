@@ -15,7 +15,7 @@ global.DataGenModule = function () {
    * @param {string} dataName
    * @returns {string}
    */
-  function resolveDataPath(dataType, namespace, dataName) {
+  function _resolveDataPath(dataType, namespace, dataName) {
     const basePath = dataTypePaths[dataType];
     return `${namespace}:${basePath}/${dataName}.json`;
   }
@@ -29,7 +29,7 @@ global.DataGenModule = function () {
    * @param {Object} newData
    */
   function replaceData(event, dataType, namespace, dataName, newData) {
-    const path = resolveDataPath(dataType, namespace, dataName);
+    const path = _resolveDataPath(dataType, namespace, dataName);
     event.json(path, newData);
   }
 
@@ -41,7 +41,7 @@ global.DataGenModule = function () {
    * @param {string} dataName
    */
   function removeData(event, dataType, namespace, dataName) {
-    const path = resolveDataPath(dataType, namespace, dataName);
+    const path = _resolveDataPath(dataType, namespace, dataName);
     event.json(path, {
       "neoforge:conditions": [{ type: "neoforge:false" }],
     });
