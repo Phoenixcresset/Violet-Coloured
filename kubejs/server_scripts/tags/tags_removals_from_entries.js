@@ -21,9 +21,6 @@
       "dummmmmmy:arthropod_heads": {
         minecraft: ["dragon_head"],
       },
-      "minecraft:fox_food": {
-        vinery: ["white_grape", "red_grape"],
-      },
       "c:dyes/white": {
         chalk: ["white_chalk"],
       },
