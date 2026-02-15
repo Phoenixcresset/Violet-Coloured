@@ -4651,6 +4651,47 @@
             ]
         },
         {
+            "pakku_id": "T0gKV3pvHM5LitZA",
+            "pakku_links": [
+                "rVpKMVHbEOQCLmNg"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "quark"
+            },
+            "name": {
+                "curseforge": "Quark"
+            },
+            "id": {
+                "curseforge": "243121"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Quark-4.1-473.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7625/365/Quark-4.1-473.jar",
+                    "id": "7625365",
+                    "parent_id": "243121",
+                    "hashes": {
+                        "sha1": "539fca4eb84c67d7f7397883c16f2ca5f50b4dd2",
+                        "md5": "531052096cab0b32cc15c3513dabe867"
+                    },
+                    "required_dependencies": [
+                        "968868"
+                    ],
+                    "size": 15488422,
+                    "date_published": "2026-02-14T20:37:10.130Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "VulzMUyUN8vEJWq4",
             "type": "MOD",
             "side": "CLIENT",
@@ -5854,6 +5895,42 @@
                     "required_dependencies": [],
                     "size": 1118651,
                     "date_published": "2026-01-09T16:34:33.460Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "rVpKMVHbEOQCLmNg",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "zeta"
+            },
+            "name": {
+                "curseforge": "Zeta"
+            },
+            "id": {
+                "curseforge": "968868"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Zeta-1.1-38.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7625/372/Zeta-1.1-38.jar",
+                    "id": "7625372",
+                    "parent_id": "968868",
+                    "hashes": {
+                        "sha1": "abc8d905f7037e4514547306b3d5b19535fa453d",
+                        "md5": "8c9b5680ac3532097434b4ae8725b635"
+                    },
+                    "required_dependencies": [],
+                    "size": 765400,
+                    "date_published": "2026-02-14T20:38:08.407Z"
                 }
             ]
         },
