@@ -99,12 +99,12 @@
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
 
 [building]
-	"Celebratory Lamps" = true
+	"Celebratory Lamps" = false
 	"Compressed Blocks" = true
 	"Duskbound Blocks" = true
 	"Framed Glass" = true
 	"Glass Item Frame" = true
-	"Gold Bars" = true
+	"Gold Bars" = false
 	Grate = true
 	Hedges = true
 	"Hollow Logs" = true
@@ -118,12 +118,12 @@
 	"Nether Brick Fence Gate" = true
 	"Rainbow Lamps" = true
 	"Raw Metal Bricks" = true
-	Rope = true
+	Rope = false
 	"Shear Vines" = true
 	Shingles = true
 	"Soul Sandstone" = true
 	Stools = true
-	"Sturdy Stone" = true
+	"Sturdy Stone" = false
 	Thatch = true
 	"Variant Bookshelves" = true
 	"Variant Chests" = true
@@ -138,7 +138,7 @@
 		"Light Level" = 15
 
 	[building.compressed_blocks]
-		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = true
+		"Charcoal Block and Blaze Lantern Stay On Fire Forever" = false
 		#Allowed values: [0,)
 		"Charcoal Block Fuel Time" = 16000
 		#Allowed values: [0,)
@@ -162,8 +162,8 @@
 		"Enable Berry Sack" = true
 		"Enable Glow Berry Sack" = true
 		"Enable Blaze Lantern" = true
-		"Enable Bonded Leather" = true
-		"Enable Bonded Rabbit Hide" = true
+		"Enable Bonded Leather" = false
+		"Enable Bonded Rabbit Hide" = false
 
 	[building.glass_item_frame]
 		"Glass Item Frames Update Maps" = true
@@ -184,7 +184,7 @@
 
 	[building.japanese_palette]
 		"Enable Paper Blocks" = true
-		"Enable Bamboo Mats" = true
+		"Enable Bamboo Mats" = false
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:

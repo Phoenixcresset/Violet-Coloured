@@ -52,6 +52,16 @@ const obliteratedPatterns = {
     // Automation
     "chute",
     "ender_watcher",
+    // Building
+    "stone_lamp",
+    "stone_brick_lamp",
+    "bonded_leather",
+    "bonded_rabbit_hide",
+    "gold_bars",
+    "bamboo_mat",
+    "bamboo_mat_carpet",
+    "rope",
+    "sturdy_stone",
     // Tweaks
     /.*shard/, // Glass shards
   ],
