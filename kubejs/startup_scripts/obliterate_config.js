@@ -3,7 +3,15 @@
 /** @typedef {Object.<string, Array<string|RegExp>>} ObliteratedPatterns */
 const obliteratedPatterns = {
   brewinandchewin: ["sweet_berry_jam"],
-  cratedelight: ["egg_crate"],
+  cratedelight: [
+    // Replaced by Quark and Hearth and Harvest
+    "egg_crate",
+    "berry_crate",
+    "glowberry_crate",
+    "red_mushroom_crate",
+    "brown_mushroom_crate",
+    "gunpowder_bag",
+  ],
   farmersdelight: ["rope", "tree_bark"],
   hearthandharvest: [
     /.*cleaver/,
@@ -35,14 +43,12 @@ const obliteratedPatterns = {
     /.*mum/,
     // Storage blocks replaced by Crate Delight
     "apple_crate",
-    "brown_mushroom_crate",
     "cocoa_bean_bag",
     "glow_berry_crate",
     "golden_apple_crate",
     "golden_carrot_crate",
     "gunpowder_bag",
     "poisonous_potato_crate",
-    "red_mushroom_crate",
     "sugar_bag",
     "sweet_berry_crate",
     "turtle_egg_crate", // Removed because Turtle Eggs are not food
@@ -62,6 +68,15 @@ const obliteratedPatterns = {
     "bamboo_mat_carpet",
     "rope",
     "sturdy_stone",
+    // Building - Storage Blocks
+    // Replaced by Crate Delight
+    "golden_apple_crate",
+    "apple_crate",
+    "potato_crate",
+    "carrot_crate",
+    "golden_carrot_crate",
+    "beetroot_crate",
+    "cocoa_beans_sack",
     // Tweaks
     /.*shard/, // Glass shards
   ],
