@@ -1,3 +1,5 @@
+// priority: 10
+
 /** @typedef {Object.<string, Array<string|RegExp>>} ObliteratedPatterns */
 const obliteratedPatterns = {
   cratedelight: ["egg_crate"],
