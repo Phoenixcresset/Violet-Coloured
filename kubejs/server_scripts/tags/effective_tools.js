@@ -29,6 +29,14 @@
           "cactus",
         ],
       },
+      "farmersdelight:mineable/knife": {
+        hearthandharvest: [
+          "unripe_cheddar_cheese_wheel",
+          "unripe_goat_cheese_wheel",
+          "cheddar_cheese_wheel",
+          "goat_cheese_wheel",
+        ],
+      },
     },
   };
 
