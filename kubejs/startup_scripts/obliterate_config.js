@@ -105,6 +105,8 @@ global.creativeTabs = [
   "vinery:vinery",
   "cratedelight:cratedelight_tab",
   "brewinandchewin:brewinandchewin",
+  "hearthandharvest:hearthandharvest",
+  "hearthandharvest:hearthandharvest_blocks"
 ];
 
 /** @type {Array<string|RegExp>} */
