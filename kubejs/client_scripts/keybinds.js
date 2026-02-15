@@ -122,12 +122,12 @@ KeyBindJSEvents.modify((event) => {
   }
 
   for (const [key, { key: newKey, modifier }] of Object.entries(
-    keybindsToRebind,
+    keybindsToRebind
   )) {
     event.modifyKey(key, newKey);
     event.modifyModifier(
       key,
-      modifier !== undefined ? modifier : KeyModifier.NONE,
+      modifier !== undefined ? modifier : KeyModifier.NONE
     );
   }
 
