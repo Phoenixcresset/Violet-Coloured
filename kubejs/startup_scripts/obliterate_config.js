@@ -49,6 +49,10 @@ const obliteratedPatterns = {
   ],
   horseman: ["copper_horn"],
   quark: [
+    // Automation
+    "chute",
+    "ender_watcher",
+    // Tweaks
     /.*shard/, // Glass shards
   ],
   supplementaries: [
