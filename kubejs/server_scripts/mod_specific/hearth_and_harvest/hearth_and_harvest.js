@@ -11,6 +11,7 @@
     ];
 
     const structureToRemove = "corn_maze";
+    
     for (const path of biomeModifiersToRemove) {
       global
         .DataGenModule()
