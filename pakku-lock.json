@@ -22,7 +22,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.7.1.jar",
+                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.7.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -30,16 +30,16 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7537/434/AdvancedLootInfo-neoforge-1.21.1-1.7.1.jar",
-                    "id": "7537434",
+                    "url": "https://edge.forgecdn.net/files/7600/918/AdvancedLootInfo-neoforge-1.21.1-1.7.2.jar",
+                    "id": "7600918",
                     "parent_id": "1205426",
                     "hashes": {
-                        "sha1": "c615eecdad99dff9cd0d2dd5c6667c3f05cd8003",
-                        "md5": "a912474b82d97812f0b8847cb9a42b0f"
+                        "sha1": "cf383014d2646376db9fa28bc81a4e2495d3a235",
+                        "md5": "7a2529d05b4934af5b01044b1fcb9a89"
                     },
                     "required_dependencies": [],
-                    "size": 749275,
-                    "date_published": "2026-01-27T19:52:59.390Z"
+                    "size": 749750,
+                    "date_published": "2026-02-09T20:02:56.190Z"
                 }
             ]
         },
@@ -410,8 +410,8 @@
                     "mc_versions": [
                         "1.21.5",
                         "1.21.4",
-                        "1.21.3",
                         "1.21.1",
+                        "1.21.3",
                         "1.21.2"
                     ],
                     "release_type": "release",
@@ -1493,7 +1493,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.28.jar",
+                    "file_name": "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.30.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.4",
@@ -1505,16 +1505,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7374/773/CrashAssistant-neoforge-1.20.6-1.21.4-1.10.28.jar",
-                    "id": "7374773",
+                    "url": "https://edge.forgecdn.net/files/7612/943/CrashAssistant-neoforge-1.20.6-1.21.4-1.10.30.jar",
+                    "id": "7612943",
                     "parent_id": "1154099",
                     "hashes": {
-                        "sha1": "8bb5bea9835d9c993648aee9c1c60510c3ad1b04",
-                        "md5": "16aa4cbeadfe64a08b91b76ab0f07e8a"
+                        "sha1": "456c17bb0701b5503f8dc9175a6ef62f2b988e47",
+                        "md5": "de5a95aa8d787b8593cfb3e1c667bc69"
                     },
                     "required_dependencies": [],
-                    "size": 1230854,
-                    "date_published": "2025-12-25T00:08:35.787Z"
+                    "size": 1283078,
+                    "date_published": "2026-02-12T05:24:40.113Z"
                 }
             ]
         },
@@ -2192,7 +2192,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "EuphoriaPatcher-1.8.4-r5.7.1-neoforge.jar",
+                    "file_name": "EuphoriaPatcher-1.8.6-r5.7.1-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.8",
@@ -2211,16 +2211,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7583/550/EuphoriaPatcher-1.8.4-r5.7.1-neoforge.jar",
-                    "id": "7583550",
+                    "url": "https://edge.forgecdn.net/files/7624/100/EuphoriaPatcher-1.8.6-r5.7.1-neoforge.jar",
+                    "id": "7624100",
                     "parent_id": "915902",
                     "hashes": {
-                        "sha1": "88313d8da18641dcca1b0f1a23daab2f85374156",
-                        "md5": "3b62d850e27c94349f3561121b076ea7"
+                        "sha1": "48e7c3aa59315069b79025f09bc2f291569c8a2a",
+                        "md5": "43c0c666dcab0a81c1a6337b14e29181"
                     },
                     "required_dependencies": [],
-                    "size": 2386744,
-                    "date_published": "2026-02-06T09:30:42.123Z"
+                    "size": 2773488,
+                    "date_published": "2026-02-14T15:06:24.940Z"
                 }
             ]
         },
@@ -2324,7 +2324,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "FarmersDelight-1.21.1-1.2.9.jar",
+                    "file_name": "FarmersDelight-1.21.1-1.2.10.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2332,16 +2332,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6917/256/FarmersDelight-1.21.1-1.2.9.jar",
-                    "id": "6917256",
+                    "url": "https://edge.forgecdn.net/files/7596/366/FarmersDelight-1.21.1-1.2.10.jar",
+                    "id": "7596366",
                     "parent_id": "398521",
                     "hashes": {
-                        "sha1": "9abe078f48781e4b87288dbc59691c8ba1152d8d",
-                        "md5": "7c500c9525ee5e872f14ccd1db21ee15"
+                        "sha1": "93f4de62fce2b90ee8c87e4f6d9b82edb132003d",
+                        "md5": "b1971a08ee136896c419d94c89702341"
                     },
                     "required_dependencies": [],
-                    "size": 2964387,
-                    "date_published": "2025-08-23T01:47:37.783Z"
+                    "size": 2935025,
+                    "date_published": "2026-02-08T21:08:17.640Z"
                 }
             ]
         },
@@ -2831,7 +2831,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "inventoryessentials-neoforge-1.21.1-21.1.12.jar",
+                    "file_name": "inventoryessentials-neoforge-1.21.1-21.1.13.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2839,18 +2839,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7316/139/inventoryessentials-neoforge-1.21.1-21.1.12.jar",
-                    "id": "7316139",
+                    "url": "https://edge.forgecdn.net/files/7613/388/inventoryessentials-neoforge-1.21.1-21.1.13.jar",
+                    "id": "7613388",
                     "parent_id": "368825",
                     "hashes": {
-                        "sha1": "e94fc29654ba02d1894233004adb04962942639d",
-                        "md5": "4d8d7855b491992d1aaa185772018846"
+                        "sha1": "bd35806e7e9c29be4a29967589826374bea96e00",
+                        "md5": "abc3c21936c91295a955c3b883842c7c"
                     },
                     "required_dependencies": [
                         "531761"
                     ],
-                    "size": 162020,
-                    "date_published": "2025-12-10T14:26:45.837Z"
+                    "size": 162383,
+                    "date_published": "2026-02-12T08:40:02.210Z"
                 }
             ]
         },
