@@ -26,6 +26,11 @@
         );
     });
 
+    // Removed to avoid recipe conflicts
+    event.remove({ id: "quark:building/crafting/chests/mixed_chest" });
+    event.remove({ id: "quark:building/crafting/chests/mixed_chest_wood" });
+    event.remove({ id: "minecraft:furnace" });
+
     event
       .shaped("quark:dirty_glass", ["GGG", "GAG", "GGG"], {
         G: "minecraft:glass",
