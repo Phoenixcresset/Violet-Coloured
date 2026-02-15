@@ -37,6 +37,7 @@
         "tickable_when_captured",
       ],
       hearthandharvest: ["can_be_butchered"],
+      horseman: ["cannot_swim"],
     },
     "worldgen/structure": {
       amendments: ["add_potion_cauldron"],

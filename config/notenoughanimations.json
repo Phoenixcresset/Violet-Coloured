@@ -66,7 +66,7 @@
   "holdUpItemOffset": 0.0,
   "itemSwapAnimation": true,
   "tweakElytraAnimation": true,
-  "petAnimation": true,
+  "petAnimation": false,
   "fallingAnimation": false,
   "freezingAnimation": true,
   "huggingAnimation": false,
