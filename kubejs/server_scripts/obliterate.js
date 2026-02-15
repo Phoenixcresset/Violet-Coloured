@@ -70,9 +70,10 @@ function obliterateItems() {
         output: Ingredient.of(obliteratedItems),
       });
     });
+
     MoreJS.wandererTrades((event) => {
       event.removeTrades({
-        input: Ingredient.of(obliteratedItems),
+        first: Ingredient.of(obliteratedItems),
       });
       event.removeTrades({
         output: Ingredient.of(obliteratedItems),
