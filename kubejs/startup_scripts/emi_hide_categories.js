@@ -7,7 +7,7 @@
 const recipeHidingConfig = {
   categories: [
     "ali:plant_loot",
-    "ali:block_loot",
+    // "ali:block_loot", // TODO: uncomment when modpack will be made public
     "ali:hero_loot",
     "emixx:villager_trades",
   ],
