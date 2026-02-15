@@ -1,62 +1,4 @@
 (() => {
-  const addedTagsToEntries = {
-    item: {
-      "dummmmmmy:arthropod_heads": {
-        supplementaries: ["spider_head"],
-      },
-      "hearthandharvest:cheese_slices": {
-        brewinandchewin: ["flaxen_cheese_wedge", "scarlet_cheese_wedge"],
-      },
-      "brewinandchewin:foods/cheese_wedge": {
-        hearthandharvest: ["cheddar_cheese_slice", "goat_cheese_slice"],
-      },
-    },
-  };
-
-  const removedTags = {
-    item: {
-      sereneseasons: [
-        "winter_crops",
-        "spring_crops",
-        "summer_crops",
-        "autumn_crops",
-      ],
-      createaddition: ["plants", "plant_foods"],
-      origins: ["meat"],
-      tconstruct: ["seeds"],
-      brewinandchewin: ["foods/horror_meat"],
-    },
-    block: {
-      minecraft: ["enderman_holdable"], // Remove enderman griefing
-      supplementaries: [
-        "frame_block_blacklist",
-        "faucet_connection_blacklist",
-        "water_holder",
-        "barnacles_blacklist",
-      ],
-      sereneseasons: [
-        "winter_crops",
-        "spring_crops",
-        "summer_crops",
-        "autumn_crops",
-        "unbreakable_infertile_crops",
-      ],
-    },
-    entity_type: {
-      supplementaries: [
-        "cage_catchable",
-        "cage_baby_catchable",
-        "jar_catchable",
-        "jar_baby_catchable",
-        "tickable_when_captured",
-      ],
-      hearthandharvest: ["can_be_butchered"],
-    },
-    "worldgen/structure": {
-      amendments: ["add_potion_cauldron"],
-    },
-  };
-
   const removedTagsFromEntries = {
     item: {
       "curios:belt": {
@@ -69,7 +11,7 @@
         supplementaries: ["key"],
       },
       "supplementaries:blackboard_black": {
-        minecraft: ["charcoal", "coal", "#coals"],
+        minecraft: ["#coals"],
       },
       "supplementaries:blackboard_white": {
         minecraft: ["quartz"],
@@ -133,7 +75,5 @@
     },
   };
 
-  global.TagModule.registerAddedTagsToEntries(addedTagsToEntries);
-  global.TagModule.registerRemovedTags(removedTags);
   global.TagModule.registerRemovedTagsFromEntries(removedTagsFromEntries);
 })();
