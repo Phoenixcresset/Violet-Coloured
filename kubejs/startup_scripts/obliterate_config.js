@@ -109,7 +109,7 @@ global.creativeTabs = [
   "cratedelight:cratedelight_tab",
   "brewinandchewin:brewinandchewin",
   "hearthandharvest:hearthandharvest",
-  "hearthandharvest:hearthandharvest_blocks"
+  "hearthandharvest:hearthandharvest_blocks",
 ];
 
 /** @type {Array<string|RegExp>} */
