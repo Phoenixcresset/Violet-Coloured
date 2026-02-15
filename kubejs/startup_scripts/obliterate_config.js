@@ -15,6 +15,7 @@ const obliteratedPatterns = {
     "trail_mix",
     "sunflower_seeds",
     // Vinery overlap and removed beverages
+    "cherry",
     /.*wine_rack/,
     /(?!.*(red|green)_grape_wine_crate$).*wine.*/,
     /(wild_)?(?:green|red)_grapes/,
@@ -44,7 +45,6 @@ const obliteratedPatterns = {
     "red_mushroom_crate",
     "sugar_bag",
     "sweet_berry_crate",
-    /cherry(?!_half_cabinet).*/,
     "turtle_egg_crate", // Removed because Turtle Eggs are not food
   ],
   horseman: ["copper_horn"],
@@ -84,6 +84,8 @@ const obliteratedPatterns = {
     /winemaker.*/,
     // Storage blocks replaced by Crate Delight or Hearth and Harvest
     "apple_bag",
+    "cherry_bag",
+    /.*grape_bag/,
   ],
 };
 
