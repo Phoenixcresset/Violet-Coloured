@@ -2,6 +2,7 @@
 
 /** @typedef {Object.<string, Array<string|RegExp>>} ObliteratedPatterns */
 const obliteratedPatterns = {
+  brewinandchewin: ["sweet_berry_jam"],
   cratedelight: ["egg_crate"],
   farmersdelight: ["rope", "tree_bark"],
   hearthandharvest: [
