@@ -48,6 +48,9 @@ const obliteratedPatterns = {
     "turtle_egg_crate", // Removed because Turtle Eggs are not food
   ],
   horseman: ["copper_horn"],
+  quark: [
+    /.*shard/, // Glass shards
+  ],
   supplementaries: [
     "bamboo_spikes_tipped",
     "barnacles",
