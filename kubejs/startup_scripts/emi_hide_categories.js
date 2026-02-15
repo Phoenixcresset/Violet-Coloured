@@ -6,7 +6,7 @@
  */
 const recipeHidingConfig = {
   categories: [
-    "ali:plant_loot", // Buggy visual preview
+    "ali:plant_loot",
     "ali:block_loot",
     "ali:hero_loot",
     "emixx:villager_trades",
