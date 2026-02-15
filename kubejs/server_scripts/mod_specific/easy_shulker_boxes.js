@@ -82,4 +82,7 @@ ServerEvents.generateData("after_mods", (event) => {
       }
     }
   }
+  event.json(`easyshulkerboxes:item_contents_provider/filled_map`, {
+    "neoforge:conditions": [{ type: "neoforge:false" }],
+  });
 });
