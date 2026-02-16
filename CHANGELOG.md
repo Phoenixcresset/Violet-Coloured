@@ -1,6 +1,7 @@
 # [Unreleased]
 ## Changes
 - Farmer's Delight addition
+- Updated Illager Outposts to use Target Dummy entities instead of blocks
 
 ## Mods
 ### Added
