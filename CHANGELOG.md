@@ -1,5 +1,11 @@
 # [Unreleased]
 ## Changes
+
+## Mods
+### Added
+
+# [0.0.6] - Farming Update
+## Changes
 - Farming expansion, with Farmer's Delight and some addons, Let's Do Vinery and Village Taverns
 - Updated Illager Outposts to use Target Dummy entities instead of blocks
 - It is now possible to see which items give each effect
