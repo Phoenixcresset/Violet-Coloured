@@ -340,7 +340,7 @@
 	"Pathfinder Maps" = true
 	Pickarang = true
 	"Seed Pouch" = true
-	"Skull Pikes" = true
+	"Skull Pikes" = false
 	"Slime In A Bucket" = true
 	"Torch Arrow" = true
 	Trowel = true
