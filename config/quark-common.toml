@@ -502,11 +502,11 @@
 
 [tweaks]
 	"Armed Armor Stands" = true
-	"Automatic Recipe Unlock" = true
+	"Automatic Recipe Unlock" = false
 	"Better Elytra Rocket" = true
 	"Campfires Boost Elytra" = true
 	"Compasses Work Everywhere" = true
-	"Coral On Cactus" = true
+	"Coral On Cactus" = false
 	"Diamond Repair" = true
 	"Double Door Opening" = true
 	"Dragon Scales" = true
@@ -520,11 +520,11 @@
 	"Horses Swim" = true
 	"Improved Sponges" = true
 	"Lock Rotation" = true
-	"Magma Keeps Concrete Powder" = true
-	"Map Washing" = true
+	"Magma Keeps Concrete Powder" = false
+	"Map Washing" = false
 	"More Banner Layers" = true
 	"More Note Block Sounds" = true
-	"More Villagers" = true
+	"More Villagers" = false
 	"No Durability On Cosmetics" = true
 	"Pat The Dogs" = true
 	"Petals On Water" = true
