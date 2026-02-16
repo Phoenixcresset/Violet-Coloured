@@ -70,8 +70,8 @@ const obliteratedPatterns = {
     "sturdy_stone",
     // Building - Storage Blocks
     // Replaced by Crate Delight
-    "golden_apple_crate",
     "apple_crate",
+    "golden_apple_crate",
     "potato_crate",
     "carrot_crate",
     "golden_carrot_crate",
