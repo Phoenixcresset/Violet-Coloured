@@ -1,10 +1,11 @@
 # [Unreleased]
 ## Changes
-- Added and configured Quark,
+- Added and configured Quark
 
 ## Mods
 ### Added
 - Quark
+- Quark Oddities
 
 # [0.0.6] - Farming Update
 ## Changes

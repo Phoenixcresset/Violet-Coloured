@@ -4692,6 +4692,47 @@
             ]
         },
         {
+            "pakku_id": "eIFYBpd8TpdyIBw3",
+            "pakku_links": [
+                "T0gKV3pvHM5LitZA"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "quark-oddities"
+            },
+            "name": {
+                "curseforge": "Quark Oddities"
+            },
+            "id": {
+                "curseforge": "301051"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "QuarkOddities-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7625/223/QuarkOddities-1.21.1.jar",
+                    "id": "7625223",
+                    "parent_id": "301051",
+                    "hashes": {
+                        "sha1": "45ed64b315f2cd3e1ef103b53faded6d45ec7117",
+                        "md5": "7a5ba69dc518a124d88737d8c9d68dba"
+                    },
+                    "required_dependencies": [
+                        "243121"
+                    ],
+                    "size": 936,
+                    "date_published": "2026-02-14T20:04:19.643Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "VulzMUyUN8vEJWq4",
             "type": "MOD",
             "side": "CLIENT",
