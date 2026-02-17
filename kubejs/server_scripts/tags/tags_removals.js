@@ -1,6 +1,9 @@
 (() => {
   const removedTags = {
     item: {
+      quark: [
+        "stone_tool_materials",
+      ],
       sereneseasons: [
         "winter_crops",
         "spring_crops",
