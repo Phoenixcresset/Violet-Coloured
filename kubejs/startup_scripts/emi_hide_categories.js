@@ -15,7 +15,7 @@ const recipeHidingConfig = {
     "minecraft:/chests/spawn_bonus_chest",
     "minecraft:/chests/village/*",
     "minecraft:/chests/jungle_temple_dispenser",
-    "emi:/anvil/enchanting/.*",
+    // "emi:/anvil/enchanting/.*", // TODO: uncomment when modpack will be made public
     "emi:/crafting/repairing/.*",
     "emi:/anvil/repairing/tool/.*",
     "emi:/anvil/repairing/material/vinery/.*",
