@@ -27,6 +27,8 @@ const recipeHidingConfig = {
     "minecraft:/shearing/bogged",
     "minecraft:/gameplay/cat_morning_gift",
     "minecraft:/gameplay/panda_sneeze",
+    "quark:/inject/gameplay/sniffer_digging",
+    "quark:/misc/monster_box_spawns",
   ],
   categorizedIds: {
     "ali:trial_chambers": [
