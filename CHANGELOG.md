@@ -3,7 +3,7 @@
 - Added and configured Quark
 - Ponders for Quark
 - Made HT's Tree Chop require an axe to work
-- Disabled Mending and Useful Spyglass enchants
+- Disabled Useful Spyglass enchants
 
 ## Mods
 ### Added

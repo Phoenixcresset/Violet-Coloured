@@ -3,6 +3,9 @@ version = 2
 
 [disabler]
 disabledEnchantmentsV2 = [
+    [ "usefulspyglass:marker", { table = false, loot = false, trade = false } ],
+    [ "usefulspyglass:spotter", { table = false, loot = false, trade = false } ],
+    [ "usefulspyglass:precision", { table = false, loot = false, trade = false } ]
 ]
 disabledEnchantments = [  ]
 
