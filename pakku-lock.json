@@ -3888,6 +3888,43 @@
             ]
         },
         {
+            "pakku_id": "GhcKKC0mJ5RsGzRE",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "modded-omelet"
+            },
+            "name": {
+                "curseforge": "Modded Omelet - Modern Spawn Eggs"
+            },
+            "id": {
+                "curseforge": "1296468"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Modded Omelet.zip",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.4",
+                        "1.21.1",
+                        "1.21.3",
+                        "1.21.2"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7621/144/Modded Omelet.zip",
+                    "id": "7621144",
+                    "parent_id": "1296468",
+                    "hashes": {
+                        "sha1": "e0f3de7eeca87a5ebf825d55b9a270f188a167f7",
+                        "md5": "575e0aae820628dcf85efdabd0982eb8"
+                    },
+                    "required_dependencies": [],
+                    "size": 1845948,
+                    "date_published": "2026-02-13T22:39:46.550Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "c2xHNEIBh912jAxT",
             "type": "MOD",
             "side": "CLIENT",
@@ -5471,6 +5508,45 @@
                     "required_dependencies": [],
                     "size": 2738125,
                     "date_published": "2024-08-09T20:21:10.680Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "QmZB9OzRLRVIRrtl",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "spawn-eggs-backport"
+            },
+            "name": {
+                "curseforge": "Spawn Eggs Backport"
+            },
+            "id": {
+                "curseforge": "1204275"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "SPEGG BP [1.20-1.x].zip",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.5",
+                        "1.21.4",
+                        "1.21.3",
+                        "1.21.1",
+                        "1.21.2"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6416/960/SPEGG BP [1.20-1.x].zip",
+                    "id": "6416960",
+                    "parent_id": "1204275",
+                    "hashes": {
+                        "sha1": "9b193640ccf3758ce9f0db0644ec025776486670",
+                        "md5": "c173c0890578f8e89070239a8ad9ded6"
+                    },
+                    "required_dependencies": [],
+                    "size": 225957,
+                    "date_published": "2025-04-13T01:36:41.020Z"
                 }
             ]
         },

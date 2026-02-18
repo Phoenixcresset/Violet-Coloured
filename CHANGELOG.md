@@ -4,6 +4,7 @@
 - Ponders for Quark
 - Made HT's Tree Chop require an axe to work
 - Disabled Useful Spyglass enchants
+- Backported 1.21.5 Spawn Eggs, as well as similar sprites for modded spawn eggs
 
 ## Mods
 ### Added
@@ -11,6 +12,11 @@
 - Quark
 - Quark Oddities
 - Quark Ponders
+
+## Resource Packs
+### Added
+- Spawn Eggs Backport
+- Modded Omelet
 
 # [0.0.6] - Farming Update
 ## Changes
