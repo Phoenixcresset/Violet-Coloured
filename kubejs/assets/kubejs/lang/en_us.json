@@ -6,6 +6,11 @@
   "block.minecraft.campfire.behaviour1": "This can hurt mobs that walk into it. Also can hurt the player.",
   "emi.category.supplementaries.galleons": "Galleons",
   "emi.category.supplementaries.urn_loot": "Urn Loot",
+  "emi.category.quark.monster_box": "Monster Box",
+  "emi.category.minecraft.piglin_bartering": "Piglin Bartering",
+  "emi.category.minecraft.sniffer_digging": "Sniffer Digging",
+  "emi.category.quark.oretoise": "Oretoise Ores",
+  "emi.category.quark.stoneling": "Stoneling Carried Items",
   "emi.info.mushroom_colony": "A Mushroom Colony can grow from a Red or Brown Mushroom planted on Rich Soil, while under sufficient darkness.",
   "emi.info.tomatoes": "Tomatoes can grow more than one block high on Sticks and Ropes.",
 

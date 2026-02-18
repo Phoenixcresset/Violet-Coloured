@@ -51,6 +51,15 @@
       ]
     },
     {
+      "key": "quark:monster_box",
+      "type": "GAMEPLAY",
+      "icon": "quark:monster_box",
+      "hide": false,
+      "pattern": [
+        "^quark:misc/monster_box$"
+      ]
+    },
+    {
       "key": "ali:trial_chambers",
       "type": "GAMEPLAY",
       "icon": "minecraft:trial_spawner",
@@ -99,6 +108,42 @@
       "hide": false,
       "pattern": [
         "^.*:gameplay/hero_of_the_village/.*$"
+      ]
+    },
+    {
+      "key": "minecraft:piglin_bartering",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:piglin_spawn_egg",
+      "hide": false,
+      "pattern": [
+        "^minecraft:gameplay/piglin_bartering$"
+      ]
+    },
+    {
+      "key": "minecraft:sniffer_digging",
+      "type": "GAMEPLAY",
+      "icon": "minecraft:sniffer_spawn_egg",
+      "hide": false,
+      "pattern": [
+        "^minecraft:gameplay/sniffer_digging$"
+      ]
+    },
+    {
+      "key": "quark:oretoise",
+      "type": "GAMEPLAY",
+      "icon": "quark:toretoise_spawn_egg",
+      "hide": false,
+      "pattern": [
+        "^quark:toretoise/.*$"
+      ]
+    },
+    {
+      "key": "quark:stoneling",
+      "type": "GAMEPLAY",
+      "icon": "quark:stoneling_spawn_egg",
+      "hide": false,
+      "pattern": [
+        "^quark:misc/stoneling_carry$"
       ]
     },
     {
