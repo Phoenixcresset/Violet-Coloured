@@ -79,6 +79,13 @@ const obliteratedPatterns = {
     "cocoa_beans_sack",
     // Tweaks
     /.*shard/, // Glass shards
+    // Oddities
+    "backpack",
+    "ravager_hide",
+    "bonded_ravager_hide",
+    "crate",
+    "pipe",
+    "encased_pipe",
   ],
   supplementaries: [
     "bamboo_spikes_tipped",
