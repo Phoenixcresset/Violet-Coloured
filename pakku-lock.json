@@ -4668,7 +4668,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Quark-4.1-473.jar",
+                    "file_name": "Quark-4.1-474.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -4676,18 +4676,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7625/365/Quark-4.1-473.jar",
-                    "id": "7625365",
+                    "url": "https://edge.forgecdn.net/files/7640/331/Quark-4.1-474.jar",
+                    "id": "7640331",
                     "parent_id": "243121",
                     "hashes": {
-                        "sha1": "539fca4eb84c67d7f7397883c16f2ca5f50b4dd2",
-                        "md5": "531052096cab0b32cc15c3513dabe867"
+                        "sha1": "a9634d9631d06a971b190c681bedebb77a7abb8d",
+                        "md5": "d06f7685ae84793565aa39af86b64c1a"
                     },
                     "required_dependencies": [
                         "968868"
                     ],
-                    "size": 15488422,
-                    "date_published": "2026-02-14T20:37:10.130Z"
+                    "size": 15482779,
+                    "date_published": "2026-02-17T19:51:02.573Z"
                 }
             ]
         },
@@ -5954,7 +5954,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Zeta-1.1-38.jar",
+                    "file_name": "Zeta-1.1-39.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5962,16 +5962,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7625/372/Zeta-1.1-38.jar",
-                    "id": "7625372",
+                    "url": "https://edge.forgecdn.net/files/7640/154/Zeta-1.1-39.jar",
+                    "id": "7640154",
                     "parent_id": "968868",
                     "hashes": {
-                        "sha1": "abc8d905f7037e4514547306b3d5b19535fa453d",
-                        "md5": "8c9b5680ac3532097434b4ae8725b635"
+                        "sha1": "ef6f2e1a625a9f8770a33576b682a228e441747a",
+                        "md5": "a14da62c7d2bf2a1f87472a17ded357e"
                     },
                     "required_dependencies": [],
-                    "size": 765400,
-                    "date_published": "2026-02-14T20:38:08.407Z"
+                    "size": 765399,
+                    "date_published": "2026-02-17T19:12:49.653Z"
                 }
             ]
         },

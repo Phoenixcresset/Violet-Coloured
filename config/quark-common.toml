@@ -743,7 +743,7 @@
 		"Compostable Toxins" = true
 		#Does Dragon Breath return a bottle when used as a reagent or material?
 		"Effective Dragon Breath" = true
-		#Can torches can be used as fuel in furnaces?
+		#Can torches be used as fuel in furnaces?
 		"Torches Burn" = true
 		#Can bones be smelted down to bone meal?
 		"Bone Meal Utility" = true
