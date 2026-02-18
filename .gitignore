@@ -36,6 +36,7 @@
 /config/modernfix-mixins.properties
 /config/neoforge-*
 /config/particle_effects.json5
+/config/ponder-client.toml
 /config/resourceful-config-web.json
 /config/sodium-*
 /config/transition.json

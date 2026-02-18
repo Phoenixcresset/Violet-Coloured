@@ -1,12 +1,14 @@
 # [Unreleased]
 ## Changes
 - Added and configured Quark
+- Ponders for Quark
 - Made HT's Tree Chop require an axe to work
 
 ## Mods
 ### Added
 - Quark
 - Quark Oddities
+- Quark Ponders
 
 # [0.0.6] - Farming Update
 ## Changes

@@ -4733,6 +4733,47 @@
             ]
         },
         {
+            "pakku_id": "hZPcNEb6osbHshIv",
+            "pakku_links": [
+                "T0gKV3pvHM5LitZA"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "quarkponders"
+            },
+            "name": {
+                "curseforge": "QuarkPonders"
+            },
+            "id": {
+                "curseforge": "1290960"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "QuarkPonders-1.3_NeoForge-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7620/378/QuarkPonders-1.3_NeoForge-1.21.1.jar",
+                    "id": "7620378",
+                    "parent_id": "1290960",
+                    "hashes": {
+                        "sha1": "76b6644801075dbfefab7864b654e88b653304fa",
+                        "md5": "c66d8ecb752d0476946a6916d7bb749b"
+                    },
+                    "required_dependencies": [
+                        "243121"
+                    ],
+                    "size": 1696368,
+                    "date_published": "2026-02-13T19:20:52.117Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "VulzMUyUN8vEJWq4",
             "type": "MOD",
             "side": "CLIENT",
