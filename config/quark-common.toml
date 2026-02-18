@@ -678,7 +678,7 @@
 		"Min Pig Litter Size" = 2
 		#Allowed values: [1,)
 		"Max Pig Litter Size" = 3
-		"Pigs Eat Golden Carrots" = true
+		"Pigs Eat Golden Carrots" = false
 		#Allowed values: [0,)
 		"Min Golden Carrot Boost" = 0
 		#Allowed values: [0,)
