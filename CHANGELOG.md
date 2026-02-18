@@ -1,6 +1,7 @@
 # [Unreleased]
 ## Changes
 - Added and configured Quark
+- Made HT's Tree Chop require an axe to work
 
 ## Mods
 ### Added
