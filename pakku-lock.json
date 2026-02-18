@@ -2102,6 +2102,48 @@
             ]
         },
         {
+            "pakku_id": "ZBBe7A0IlJ48bfJD",
+            "pakku_links": [
+                "aPRYdmHPaqOd0Vsd"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "enchantmentdisabler"
+            },
+            "name": {
+                "curseforge": "EnchantmentDisabler"
+            },
+            "id": {
+                "curseforge": "912326"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "enchantmentdisabler-3.4.3+1.21.1-neoforge.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7375/027/enchantmentdisabler-3.4.3+1.21.1-neoforge.jar",
+                    "id": "7375027",
+                    "parent_id": "912326",
+                    "hashes": {
+                        "sha1": "97291aa42908428801a4ad41069f2a3201c22af1",
+                        "md5": "b4b29cc2196c2ae85b55d986a4014495"
+                    },
+                    "required_dependencies": [
+                        "1005914"
+                    ],
+                    "size": 135113,
+                    "date_published": "2025-12-25T02:12:09.777Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "RJknOVURuTO7XMtJ",
             "type": "MOD",
             "side": "CLIENT",
@@ -2539,6 +2581,48 @@
                     "required_dependencies": [],
                     "size": 5563901,
                     "date_published": "2026-02-04T16:53:42.507Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "aPRYdmHPaqOd0Vsd",
+            "pakku_links": [
+                "q5a7GQQQWj8CzNvn"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fzzy-config"
+            },
+            "name": {
+                "curseforge": "Fzzy Config"
+            },
+            "id": {
+                "curseforge": "1005914"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fzzy_config-0.7.6+1.21+neoforge.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7568/897/fzzy_config-0.7.6+1.21+neoforge.jar",
+                    "id": "7568897",
+                    "parent_id": "1005914",
+                    "hashes": {
+                        "sha1": "c0910f9b975aaab8545ce950539748fb33d704d1",
+                        "md5": "cd0823556e6d24046bd0f4ba74cd4981"
+                    },
+                    "required_dependencies": [
+                        "351264"
+                    ],
+                    "size": 2369895,
+                    "date_published": "2026-02-03T01:49:37.233Z"
                 }
             ]
         },
