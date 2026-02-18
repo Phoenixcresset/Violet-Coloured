@@ -13,7 +13,7 @@
   "emi.category.quark.stoneling": "Stoneling Carried Items",
   "emi.info.mushroom_colony": "A Mushroom Colony can grow from a Red or Brown Mushroom planted on Rich Soil, while under sufficient darkness.",
   "emi.info.tomatoes": "Tomatoes can grow more than one block high on Sticks and Ropes.",
-
+  "ali/loot_table/loot/urn_loot/urn_loot": "Urn Loot",
   "tooltip.vinery.next_upgrade": "Days Left to Improve Effect Rank: %s",
   "effect.vinery.experience_effect.description": "Amplifies experience acquisition.",
   "effect.vinery.trippy.description": "Applies a random visual effect to the target's view.",
