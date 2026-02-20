@@ -14,6 +14,11 @@
         minecraft: ["golden_carrot"],
       },
     },
+    block: {
+      "farmersdelight:heat_sources": {
+        quark: ["blaze_lantern"],
+      },
+    },
   };
 
   global.TagModule.registerAddedTagsToEntries(addedTagsToEntries);
