@@ -79,6 +79,15 @@ const obliteratedPatterns = {
     "cocoa_beans_sack",
     // Tweaks
     /.*shard/, // Glass shards
+    // Mobs
+    "crab_spawn_egg",
+    "crab_bucket",
+    "crab_leg",
+    "cooked_crab_leg",
+    "crab_shell",
+    "foxhound_spawn_egg",
+    "stoneling_spawn_egg",
+    "diamond_heart",
     // Oddities
     "backpack",
     "ravager_hide",

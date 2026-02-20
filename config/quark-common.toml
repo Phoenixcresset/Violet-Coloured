@@ -1337,11 +1337,11 @@
 				"Is Blacklist" = false
 
 [mobs]
-	Crabs = true
+	Crabs = false
 	Forgotten = true
-	Foxhound = true
+	Foxhound = false
 	Shiba = true
-	Stonelings = true
+	Stonelings = false
 	Toretoise = true
 	Wraith = true
 

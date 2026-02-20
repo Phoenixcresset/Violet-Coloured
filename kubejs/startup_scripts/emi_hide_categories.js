@@ -31,6 +31,11 @@ const recipeHidingConfig = {
     "quark:/misc/monster_box_spawns",
   ],
   categorizedIds: {
+    "ali:entity_loot": [
+      "quark:/entities/crab",
+      "quark:/entities/foxhound",
+      "quark:/entities/stoneling",
+    ],
     "ali:trial_chambers": [
       "minecraft:/dispensers/.*",
       "minecraft:/chests/trial_chambers/reward(?:_ominous)?_(?:common|rare|unique)",

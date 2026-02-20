@@ -3,6 +3,8 @@
     item: {
       quark: [
         "stone_tool_materials",
+        "crab_tempt_items",
+        "glow_shroom_feedables", // Stoneling tempt items
       ],
       sereneseasons: [
         "winter_crops",
@@ -17,6 +19,7 @@
     },
     block: {
       minecraft: ["enderman_holdable"], // Remove enderman griefing
+      quark: ["crab_spawnable", "foxhound_spawnable"],
       supplementaries: [
         "frame_block_blacklist",
         "faucet_connection_blacklist",
