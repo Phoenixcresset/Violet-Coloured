@@ -7,7 +7,7 @@ BlockEvents.rightClicked("minecraft:note_block", (event) => {
   let block = event.getBlock();
   let level = event.getLevel();
 
-  if (!player.isShiftKeyDown()) return;
+  if (!player.isCrouching()) return;
 
   // Allows placing heads on note blocks
   for (let tag of item.getTags()) {
