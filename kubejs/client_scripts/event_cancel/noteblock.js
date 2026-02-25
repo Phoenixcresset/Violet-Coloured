@@ -1,4 +1,4 @@
-// Necessary to cancel the event on the client side as well, to avoir visual bugs
+// Necessary to cancel the event on the client side as well, to avoid visual bugs
 BlockEvents.rightClicked("minecraft:note_block", (event) => {
   let player = event.getPlayer();
   let item = event.getItem();
