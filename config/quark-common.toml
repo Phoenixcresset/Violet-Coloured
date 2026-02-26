@@ -1531,7 +1531,7 @@
 	"Auto Walk Keybind" = true
 	"Back Button Keybind" = true
 	"Buckets Show Inhabitants" = true
-	Camera = true
+	Camera = false
 	"Chest Searching" = false
 	"Elytra Indicator" = true
 	"Greener Grass" = false
@@ -1540,7 +1540,7 @@
 	"Microcrafting Helper" = false
 	"Soul Candles" = true
 	"Usage Ticker" = true
-	"Uses For Curses" = true
+	"Uses For Curses" = false
 	"Variant Animal Textures" = true
 	"Wool Shuts Up Minecarts" = true
 
@@ -1611,7 +1611,7 @@
 
 	[client.usage_ticker]
 		#Switch the armor display to the off hand side and the hand display to the main hand side
-		Invert = false
+		Invert = true
 		"Shift Left" = 0
 		"Shift Right" = 0
 		"Enable Main Hand" = true
