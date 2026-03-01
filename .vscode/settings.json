@@ -3,18 +3,15 @@
     "typescript.disableAutomaticTypeAcquisition": true,
     "typescript.surveys.enabled": false,
     "typescript.validate.enable": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "oxc.oxc-vscode",
     "editor.formatOnSave": true,
-    "eslint.validate": [
-        "javascript"
-    ],
-    "eslint.workingDirectories": [
-        "./kubejs"
-    ],
     "files.exclude": {
         ".cache/": true,
         ".mixin.out/": true,
         ".probe/": true,
+        "kubejs/**/jsconfig.json": true,
+        "node_modules/": true,
+        "pnpm-lock.yaml": true,
         "cache/": true,
         "cherishedworlds-favorites.dat": true,
         "command_history.txt": true,
@@ -48,7 +45,8 @@
         "texturepacks/": true,
         "TrashSlotSaveState.json": true,
         "usercache.json": true,
-        "usernamecache.json": true
+        "usernamecache.json": true,
+        "pakku-lock.json": true
     },
     "json.schemas": [
         {
