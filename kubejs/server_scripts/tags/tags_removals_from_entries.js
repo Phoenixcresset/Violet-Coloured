@@ -11,7 +11,7 @@
         supplementaries: ["key"],
       },
       "supplementaries:blackboard_black": {
-        minecraft: ["#coals"],
+        minecraft: ["#coals", "coal", "charcoal"],
       },
       "supplementaries:blackboard_white": {
         minecraft: ["quartz"],
