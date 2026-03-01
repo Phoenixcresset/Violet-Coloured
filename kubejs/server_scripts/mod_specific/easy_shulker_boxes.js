@@ -59,9 +59,7 @@ const modContainers = {
 ServerEvents.generateData("after_mods", (event) => {
   for (const [modid, containers] of Object.entries(modContainers)) {
     if (!Platform.isLoaded(modid)) {
-      console.log(
-        `Easy Shulker Boxes compat : Skipping containers for ${modid} (mod not loaded)`
-      );
+      console.log(`Easy Shulker Boxes compat : Skipping containers for ${modid} (mod not loaded)`);
       continue;
     }
 
@@ -69,13 +67,8 @@ ServerEvents.generateData("after_mods", (event) => {
       if (template.includes("{COLOR}")) {
         Color.DYE.forEach((color) => {
           let itemName = template.replace("{COLOR}", color);
-          let itemData = JSON.parse(
-            JSON.stringify(data).replace(/{COLOR}/g, color)
-          );
-          event.json(
-            `easyshulkerboxes:item_contents_provider/${itemName}`,
-            itemData
-          );
+          let itemData = JSON.parse(JSON.stringify(data).replace(/{COLOR}/g, color));
+          event.json(`easyshulkerboxes:item_contents_provider/${itemName}`, itemData);
         });
       } else {
         event.json(`easyshulkerboxes:item_contents_provider/${template}`, data);

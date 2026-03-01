@@ -2,28 +2,18 @@
   ServerEvents.recipes((event) => {
     Color.DYE.forEach((color) => {
       event
-        .shaped(
-          Item.of(`quark:${color}_framed_glass`, 8),
-          ["GGG", "GDG", "GGG"],
-          {
-            G: "quark:framed_glass",
+        .shaped(Item.of(`quark:${color}_framed_glass`, 8), ["GGG", "GDG", "GGG"], {
+          G: "quark:framed_glass",
 
-            D: `minecraft:${color}_dye`,
-          }
-        )
+          D: `minecraft:${color}_dye`,
+        })
         .id(`quark:building/crafting/glass/${color}_framed_glass`);
       event
-        .shaped(
-          Item.of(`quark:${color}_framed_glass_pane`, 8),
-          ["PPP", "PDP", "PPP"],
-          {
-            P: "quark:framed_glass_pane",
-            D: `minecraft:${color}_dye`,
-          }
-        )
-        .id(
-          `quark:building/crafting/panes/${color}_framed_glass_pane_from_framed_glass_pane`
-        );
+        .shaped(Item.of(`quark:${color}_framed_glass_pane`, 8), ["PPP", "PDP", "PPP"], {
+          P: "quark:framed_glass_pane",
+          D: `minecraft:${color}_dye`,
+        })
+        .id(`quark:building/crafting/panes/${color}_framed_glass_pane_from_framed_glass_pane`);
     });
 
     // Removed to avoid recipe conflicts

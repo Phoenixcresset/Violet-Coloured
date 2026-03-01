@@ -5,43 +5,43 @@
       "label": "Run Pakku",
       "type": "shell",
       "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar ${input:arg}",
-      "group": "build",
+      "group": "build"
     },
     {
       "label": "Add project",
       "type": "shell",
       "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar add ${input:project_to_add}",
-      "group": "build",
+      "group": "build"
     },
     {
       "label": "Set project to client side",
       "type": "shell",
       "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar cfg prj -s CLIENT ${input:project_to_set_side}",
-      "group": "build",
+      "group": "build"
     },
     {
       "label": "Remove project",
       "type": "shell",
       "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar rm ${input:project_to_remove}",
-      "group": "build",
+      "group": "build"
     },
     {
       "label": "Get the status of the projects",
       "type": "shell",
       "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar status",
-      "group": "build",
+      "group": "build"
     },
     {
       "label": "List installed projects",
       "type": "shell",
       "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar ls",
-      "group": "build",
+      "group": "build"
     },
     {
       "label": "Update installed projects",
       "type": "shell",
       "command": "java --enable-native-access=ALL-UNNAMED -jar pakku.jar update ${input:projects_to_update}",
-      "group": "build",
+      "group": "build"
     },
     {
       "label": "Copy prism pre-launch command to clipboard",
@@ -52,7 +52,7 @@
         "shell": {
           "executable": "powershell.exe"
         }
-      },
+      }
     }
   ],
   "inputs": [

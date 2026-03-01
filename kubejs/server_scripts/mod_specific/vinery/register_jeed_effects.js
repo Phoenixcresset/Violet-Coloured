@@ -14,10 +14,7 @@
     "vinery:creeper_effect": ["vinery:creepers_crush"],
     "vinery:water_walker": ["vinery:kelp_cider"],
     "vinery:party_effect": ["vinery:lilitu_wine"],
-    "vinery:climbing_effect": [
-      "vinery:jo_special_mixture",
-      "vinery:chenet_wine",
-    ],
+    "vinery:climbing_effect": ["vinery:jo_special_mixture", "vinery:chenet_wine"],
     "vinery:frosty_armor": ["vinery:eiswein"],
     "vinery:armor_effect": ["vinery:aegis_wine"],
     "vinery:lava_walker": ["vinery:bolvar_wine"],

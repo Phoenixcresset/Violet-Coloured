@@ -22,16 +22,8 @@
 
   ServerEvents.recipes((event) => {
     for (const item of replacedItems) {
-      event.replaceInput(
-        { input: item.old_item },
-        item.old_item,
-        item.new_item
-      );
-      event.replaceOutput(
-        { output: item.old_item },
-        item.old_item,
-        item.new_item
-      );
+      event.replaceInput({ input: item.old_item }, item.old_item, item.new_item);
+      event.replaceOutput({ output: item.old_item }, item.old_item, item.new_item);
     }
   });
   LootJS.lootTables((event) => {

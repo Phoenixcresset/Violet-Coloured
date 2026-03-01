@@ -15,9 +15,7 @@ global.TagModule = (function () {
   const __removalsFromEntries = {};
 
   function _formatEntryId(modId, entryId) {
-    return entryId.startsWith("#")
-      ? `#${modId}:${entryId.substring(1)}`
-      : `${modId}:${entryId}`;
+    return entryId.startsWith("#") ? `#${modId}:${entryId.substring(1)}` : `${modId}:${entryId}`;
   }
 
   function _getOrCreateArrayForTagType(record, tagType) {
@@ -31,14 +29,10 @@ global.TagModule = (function () {
    * @param {Record<TagType, TagToEntriesRecord>} tagsToAddToEntries
    */
   function registerAddedTagsToEntries(tagsToAddToEntries) {
-    for (const [tagType, tagToEntriesMap] of Object.entries(
-      tagsToAddToEntries,
-    )) {
+    for (const [tagType, tagToEntriesMap] of Object.entries(tagsToAddToEntries)) {
       // Using a keyed set to avoid duplicates: Since _additionToEntries contains objects, a set cannot be created directly
       let additionsSet = new Set(
-        (_additionToEntries[tagType] || []).map(
-          (entry) => `${entry.tag}|${entry.entry}`,
-        ),
+        (_additionToEntries[tagType] || []).map((entry) => `${entry.tag}|${entry.entry}`)
       );
 
       for (const [tag, mods] of Object.entries(tagToEntriesMap)) {
@@ -81,14 +75,10 @@ global.TagModule = (function () {
    * @param {Record<TagType, TagToEntriesRecord>} tagsToRemoveFromEntries
    */
   function registerRemovedTagsFromEntries(tagsToRemoveFromEntries) {
-    for (const [tagType, tagToEntriesMap] of Object.entries(
-      tagsToRemoveFromEntries,
-    )) {
+    for (const [tagType, tagToEntriesMap] of Object.entries(tagsToRemoveFromEntries)) {
       // Using a keyed set to avoid duplicates: Since _removalsFromEntries contains objects, a set cannot be created directly
       let removalsFromEntriesSet = new Set(
-        (__removalsFromEntries[tagType] || []).map(
-          (entry) => `${entry.tag}|${entry.entry}`,
-        ),
+        (__removalsFromEntries[tagType] || []).map((entry) => `${entry.tag}|${entry.entry}`)
       );
 
       for (const [tag, mods] of Object.entries(tagToEntriesMap)) {

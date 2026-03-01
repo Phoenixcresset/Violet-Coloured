@@ -66,9 +66,7 @@ function validateTooltipConfig(config) {
   });
 
   if (errors.length > 0) {
-    throw new Error(
-      `Tooltip configuration validation failed:\n- ${errors.join("\n- ")}`
-    );
+    throw new Error(`Tooltip configuration validation failed:\n- ${errors.join("\n- ")}`);
   }
 }
 
@@ -83,10 +81,9 @@ function holdShiftLine(isHeld) {
       );
 
   return Text.of(
-    Text.translatable(
-      "violetcolored.tooltip.holdForDescription",
-      shiftKey
-    ).color(colorPalette.hint.default)
+    Text.translatable("violetcolored.tooltip.holdForDescription", shiftKey).color(
+      colorPalette.hint.default
+    )
   );
 }
 
@@ -106,9 +103,7 @@ function createTooltipHandler(itemId, segments, shiftRequired) {
 
       tooltip.insert(2, "");
 
-      const generatedLines = segments.map((segment) =>
-        generateTooltipLine(segment)
-      );
+      const generatedLines = segments.map((segment) => generateTooltipLine(segment));
       tooltip.insert(3, generatedLines);
     });
   });

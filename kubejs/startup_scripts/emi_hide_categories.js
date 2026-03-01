@@ -45,9 +45,7 @@ const recipeHidingConfig = {
       "supplementaries:/loot/galleon/cannon",
       "supplementaries:/loot/galleon/key",
     ],
-    "supplementaries:urn_loot": [
-      "supplementaries:/loot/urn_loot/(?!urn_loot$).*",
-    ],
+    "supplementaries:urn_loot": ["supplementaries:/loot/urn_loot/(?!urn_loot$).*"],
     "ali:fishing_loot": ["minecraft:/gameplay/fishing/(junk|treasure|fish)"],
     "minecraft:smithing": [".*armor_trim.*"],
   },
@@ -72,9 +70,7 @@ function buildRecipeFilters(recipeHidingConfig) {
     });
   }
 
-  for (const [category, ids] of Object.entries(
-    recipeHidingConfig.categorizedIds
-  )) {
+  for (const [category, ids] of Object.entries(recipeHidingConfig.categorizedIds)) {
     for (const id of ids) {
       filters.push({
         category: category,

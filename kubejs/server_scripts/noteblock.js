@@ -25,8 +25,7 @@ BlockEvents.rightClicked("minecraft:note_block", (event) => {
 
   // Set the block note to the previous note
   const blockProperties = block.getProperties();
-  const newNote =
-    (parseInt(blockProperties.getOrDefault("note", "0"), 10) + 24) % 25;
+  const newNote = (parseInt(blockProperties.getOrDefault("note", "0"), 10) + 24) % 25;
   const instrument = blockProperties.getOrDefault("instrument", "harp");
   block.set(block.getId(), {
     instrument: new String(instrument),

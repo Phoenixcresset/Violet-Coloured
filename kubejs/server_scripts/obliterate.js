@@ -52,9 +52,7 @@ function obliterateItems() {
       event.modifyLootTables(/.*/).removeItem(obliteratedItems);
     });
   } else {
-    console.warn(
-      "[Obliterate Items] LootJS not loaded, skipping loot table removals."
-    );
+    console.warn("[Obliterate Items] LootJS not loaded, skipping loot table removals.");
   }
 
   if (Platform.isLoaded("morejs")) {
@@ -129,15 +127,8 @@ function obliterateItems() {
   PlayerEvents.inventoryChanged((event) => {
     let { item, player } = event;
     if (isObliterated(item.getId())) {
-      event.player.statusMessage = Text.yellow(item.getId()).append(
-        " is disabled"
-      );
-      event.player.playNotifySound(
-        "entity.experience_orb.pickup",
-        "ambient",
-        0.2,
-        1
-      );
+      event.player.statusMessage = Text.yellow(item.getId()).append(" is disabled");
+      event.player.playNotifySound("entity.experience_orb.pickup", "ambient", 0.2, 1);
       player.inventory.clear(item);
     }
   });

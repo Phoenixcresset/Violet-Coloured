@@ -6,12 +6,7 @@
         "crab_tempt_items",
         "glow_shroom_feedables", // Stoneling tempt items
       ],
-      sereneseasons: [
-        "winter_crops",
-        "spring_crops",
-        "summer_crops",
-        "autumn_crops",
-      ],
+      sereneseasons: ["winter_crops", "spring_crops", "summer_crops", "autumn_crops"],
       createaddition: ["plants", "plant_foods"],
       origins: ["meat"],
       tconstruct: ["seeds"],

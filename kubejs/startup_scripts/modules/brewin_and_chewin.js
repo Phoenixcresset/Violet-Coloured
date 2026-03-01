@@ -83,13 +83,7 @@ global.BrewinAndChewinModule = (function () {
    * @param {number} outputItemAmount
    * @returns {PouringRecipe}
    */
-  function _createPouringRecipe(
-    fluidId,
-    outputItemId,
-    containerId,
-    fluidAmount,
-    outputItemAmount
-  ) {
+  function _createPouringRecipe(fluidId, outputItemId, containerId, fluidAmount, outputItemAmount) {
     if (outputItemAmount === undefined) {
       outputItemAmount = 1;
     }

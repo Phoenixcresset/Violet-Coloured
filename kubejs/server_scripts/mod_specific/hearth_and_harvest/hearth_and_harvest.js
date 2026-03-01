@@ -11,11 +11,9 @@
     ];
 
     const structureToRemove = "corn_maze";
-    
+
     for (const path of biomeModifiersToRemove) {
-      global
-        .DataGenModule()
-        .removeData(event, "biome_modifier", "hearthandharvest", path);
+      global.DataGenModule().removeData(event, "biome_modifier", "hearthandharvest", path);
     }
     global
       .DataGenModule()

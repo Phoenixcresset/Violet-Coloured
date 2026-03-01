@@ -1,5 +1,7 @@
 # [Unreleased]
+
 ## Changes
+
 - Added and configured Quark
 - Ponders for Quark
 - Made HT's Tree Chop require an axe to work
@@ -7,19 +9,25 @@
 - Backported 1.21.5 Spawn Eggs, as well as similar sprites for modded spawn eggs
 
 ## Mods
+
 ### Added
+
 - Enchantment Disabler
 - Quark
 - Quark Oddities
 - Quark Ponders
 
 ## Resource Packs
+
 ### Added
+
 - Spawn Eggs Backport
 - Modded Omelet
 
 # [0.0.6] - Farming Update
+
 ## Changes
+
 - Farming expansion, with Farmer's Delight and some addons, Let's Do Vinery and Village Taverns
 - Updated Illager Outposts to use Target Dummy entities instead of blocks
 - It is now possible to see which items give each effect
@@ -27,7 +35,9 @@
 - Changed the project's license, now that all imported code has been removed
 
 ## Mods
+
 ### Added
+
 - Brewin' and Chewin'
 - Comfortable Campfires
 - Crash Assistant
@@ -40,15 +50,20 @@
 - Village Taverns
 
 # [0.0.5] - Supplementaries and Particles Update
+
 ## Changes
+
 - Supplementaries addition !
 - Improved player animations
 - Many new particles
 - Immersive Overlays for seeing the time and coordinates in the HUD
 - Replaced JEI by TMRV for now because of recipes registration
 - Changed Noteblock to shift down pitch while sneak right-clicking
-## Mods 
+
+## Mods
+
 ### Added
+
 - Advancement Frames
 - Better F1 Reborn
 - Cat Loaf
@@ -75,20 +90,30 @@
 - Target Dummy
 - Universal Bone Meal
 - Wakes Reforged
+
 ### Removed
+
 - Too Many Recipe Viewers
+
 ## Resource Packs
+
 ### Added
+
 - Authentic Shadows
 
 # [0.0.4]
+
 ## Changes
+
 - Better compat between EMI and Stylish Effects
 - Changed EMI left panel to be both craftables and favorites
 - Custom Tooltips logic
 - Power Item Obliterator
+
 ## Mods
+
 ### Added
+
 - Alternate Current
 - Async Locator Refined
 - Better Climbing
@@ -119,13 +144,17 @@
 - Vanillin
 
 ### Removed
+
 - Accelerated Decay
 - Structure Essentials
 - Yeetus Experimentus
 
 # [0.0.3]
+
 ## Mods
+
 ### Added
+
 - Accelerated Decay
 - Advanced Loot Info
 - Amendments
@@ -147,7 +176,7 @@
 - Jump Over Fences
 - Just Enough Breeding
 - Lighty
-- Load My F***ing Tags
+- Load My F\*\*\*ing Tags
 - Model Gap Fix
 - Modern World Creation
 - Mouse Tweaks
@@ -168,10 +197,13 @@
 - Yeetus Experimentus
 
 ### Removed
+
 - Drop-Down Keybindings
 
 # [0.0.2]
+
 ## Added
+
 - Shaders ! (and a better Sodium UI)
 - Better Advancement Menu and Toasts
 - Customized EMI Interface
@@ -179,8 +211,11 @@
 - Better Tooltips with food values
 - Better F3 layout, close to the 1.21.9 one
 - Better Keybinds management, removal of some useless keybinds and rebinding of others
+
 ## Mods
+
 ### Added
+
 - Better F3
 - Better Modlist
 - Configured
@@ -198,14 +233,21 @@
 - AppleSkin
 
 ## Shaders
+
 ### Added
+
 - Complementary Reimagined
 
 # [0.0.1]
+
 ## Changes
+
 - Setup a base minecraft in place, with a few optimization mods.
+
 ## Mods
+
 ### Added
+
 - All The Leaks
 - Clot Config
 - C2ME

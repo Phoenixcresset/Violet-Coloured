@@ -47,7 +47,7 @@
         let shortOutput = `${splitOutputName[1]}_${splitOutputName[2]}`;
         JsonIO.write(
           `kubejs/assets/emi/recipe/additions/${shortType}_${shortOutput}.json`,
-          buildRecipe(type, recipeAddition),
+          buildRecipe(type, recipeAddition)
         );
       }
     }

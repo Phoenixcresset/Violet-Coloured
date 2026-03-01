@@ -141,14 +141,9 @@ KeyBindJSEvents.modify((event) => {
     event.remove(key);
   }
 
-  for (const [key, { key: newKey, modifier }] of Object.entries(
-    keybindsToRebind
-  )) {
+  for (const [key, { key: newKey, modifier }] of Object.entries(keybindsToRebind)) {
     event.modifyKey(key, newKey);
-    event.modifyModifier(
-      key,
-      modifier !== undefined ? modifier : KeyModifier.NONE
-    );
+    event.modifyModifier(key, modifier !== undefined ? modifier : KeyModifier.NONE);
   }
 
   for (const [category, keys] of Object.entries(keybindsToCategorize)) {

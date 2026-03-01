@@ -50,9 +50,7 @@
       .createPool((pool) => {
         pool.addEntry(
           LootEntry.alternative(
-            LootEntry.of(blockId).matchTool(
-              ItemFilter.hasEnchantment("minecraft:silk_touch")
-            ),
+            LootEntry.of(blockId).matchTool(ItemFilter.hasEnchantment("minecraft:silk_touch")),
             LootEntry.of(defaultDropId)
           )
         );
