@@ -3,7 +3,7 @@
 /** @typedef {number} FluidColor */
 /** @typedef {string} FluidName */
 
-global.FluidModule = (function () {
+global.FluidModule = (function FluidModule() {
   /**
    * @param {FluidEvent} event
    * @param {{
@@ -31,9 +31,9 @@ global.FluidModule = (function () {
    * }[]} fluids
    */
   function registerVineryFluids(event, fluids) {
-    fluids.forEach((fluid) => {
+    for (const fluid of fluids) {
       _registerVineryFluid(event, fluid);
-    });
+    }
   }
 
   return {

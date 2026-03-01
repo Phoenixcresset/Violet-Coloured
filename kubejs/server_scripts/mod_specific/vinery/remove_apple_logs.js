@@ -105,16 +105,14 @@
   const appleTreeFileNames = ["apple", "apple_variant"];
 
   ServerEvents.generateData("after_mods", (event) => {
-    appleTreeFileNames.forEach((fileName) => {
-      global
-        .DataGenModule()
-        .replaceData(
-          event,
-          "configured_feature",
-          "vinery",
-          `${fileName}`,
-          replacedAppleTreeWithOakLog
-        );
-    });
+    for (const fileName of appleTreeFileNames) {
+      global.DataGenModule.replaceData(
+        event,
+        "configured_feature",
+        "vinery",
+        `${fileName}`,
+        replacedAppleTreeWithOakLog
+      );
+    }
   });
 })();

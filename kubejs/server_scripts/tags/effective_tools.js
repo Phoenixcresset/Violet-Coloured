@@ -2,7 +2,13 @@
   const effectiveToolsBlocks = {
     block: {
       "mineable/pickaxe": {
-        minecraft: ["sea_lantern", "glowstone", "redstone_lamp", "beacon", "lever"],
+        minecraft: [
+          "sea_lantern",
+          "glowstone",
+          "redstone_lamp",
+          "beacon",
+          "lever",
+        ],
         c: ["#glass_blocks", "#glass_panes"],
         chimes: ["glass_bells"],
       },
@@ -16,7 +22,12 @@
         vinery: ["dirt_path_slab"],
       },
       "mineable/hoe": {
-        minecraft: ["ochre_froglight", "verdant_froglight", "pearlescent_froglight", "cactus"],
+        minecraft: [
+          "ochre_froglight",
+          "verdant_froglight",
+          "pearlescent_froglight",
+          "cactus",
+        ],
       },
       "farmersdelight:mineable/knife": {
         hearthandharvest: [

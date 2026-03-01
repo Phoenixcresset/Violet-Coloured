@@ -10,7 +10,7 @@
     ];
 
     for (const path of placedFeaturesToRemove) {
-      global.DataGenModule().removeData(event, "placed_feature", "vinery", path);
+      global.DataGenModule.removeData(event, "placed_feature", "vinery", path);
     }
   });
 })();

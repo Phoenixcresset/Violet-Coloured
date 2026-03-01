@@ -9,7 +9,7 @@
 /** @typedef {Object} FermentingRecipe */
 /** @typedef {Object} PouringRecipe */
 
-global.BrewinAndChewinModule = (function () {
+global.BrewinAndChewinModule = (function BrewinAndChewinModule() {
   /**
    * Startup Script - To use at init
    * @param {string} jsonFileName
@@ -42,15 +42,10 @@ global.BrewinAndChewinModule = (function () {
     baseFluidAmount,
     resultFluidAmount
   ) {
-    if (experience === undefined) {
-      experience = 1.0;
-    }
-    if (baseFluidAmount === undefined) {
-      baseFluidAmount = 1000;
-    }
-    if (resultFluidAmount === undefined) {
-      resultFluidAmount = 1000;
-    }
+    experience = experience !== undefined ? experience : 1;
+    baseFluidAmount = baseFluidAmount !== undefined ? baseFluidAmount : 1000;
+    resultFluidAmount =
+      resultFluidAmount !== undefined ? resultFluidAmount : 1000;
 
     const recipe = {
       type: "brewinandchewin:fermenting",
@@ -83,13 +78,15 @@ global.BrewinAndChewinModule = (function () {
    * @param {number} outputItemAmount
    * @returns {PouringRecipe}
    */
-  function _createPouringRecipe(fluidId, outputItemId, containerId, fluidAmount, outputItemAmount) {
-    if (outputItemAmount === undefined) {
-      outputItemAmount = 1;
-    }
-    if (fluidAmount === undefined) {
-      fluidAmount = 250;
-    }
+  function _createPouringRecipe(
+    fluidId,
+    outputItemId,
+    containerId,
+    fluidAmount,
+    outputItemAmount
+  ) {
+    outputItemAmount = outputItemAmount !== undefined ? outputItemAmount : 1;
+    fluidAmount = fluidAmount !== undefined ? fluidAmount : 250;
 
     const recipe = {
       type: "brewinandchewin:keg_pouring",
@@ -123,7 +120,7 @@ global.BrewinAndChewinModule = (function () {
    * }[]} recipes
    */
   function createPouringRecipes(event, recipes) {
-    recipes.forEach((recipe) => {
+    for (const recipe of recipes) {
       event
         .custom(
           _createPouringRecipe(
@@ -135,7 +132,7 @@ global.BrewinAndChewinModule = (function () {
           )
         )
         .id(`vinery:pouring/${recipe.outputItemId.split(":")[1]}`);
-    });
+    }
   }
 
   /**
@@ -147,7 +144,7 @@ global.BrewinAndChewinModule = (function () {
    * }[]} recipes
    */
   function createFermentingRecipes(event, recipes) {
-    recipes.forEach((recipe) => {
+    for (const recipe of recipes) {
       event
         .custom(
           _createFluidFermentingRecipe(
@@ -163,7 +160,7 @@ global.BrewinAndChewinModule = (function () {
         .id(
           `vinery:fermenting/${recipe.resultFluidId.split(":")[1]}_from_${recipe.baseFluidTag.split(":")[1]}`
         );
-    });
+    }
   }
 
   return {

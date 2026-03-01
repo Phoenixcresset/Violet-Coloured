@@ -16,6 +16,9 @@
   }
 
   ServerEvents.recipes((event) => {
-    global.BrewinAndChewinModule.createPouringRecipes(event, pouringRecipesToAdd);
+    global.BrewinAndChewinModule.createPouringRecipes(
+      event,
+      pouringRecipesToAdd
+    );
   });
 })();

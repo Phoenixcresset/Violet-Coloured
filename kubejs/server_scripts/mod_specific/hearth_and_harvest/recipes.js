@@ -1,5 +1,143 @@
 (() => {
+  const cheeseRecipes = [
+    {
+      slice: "hearthandharvest:cheddar_cheese_slice",
+      wheel: "hearthandharvest:cheddar_cheese_wheel",
+    },
+    {
+      slice: "hearthandharvest:goat_cheese_slice",
+      wheel: "hearthandharvest:goat_cheese_wheel",
+    },
+  ];
+
+  const bottleRecipes = [
+    {
+      bottle: "vinery:red_grapejuice",
+      crate: "hearthandharvest:red_grape_wine_crate",
+    },
+    {
+      bottle: "vinery:white_grapejuice",
+      crate: "hearthandharvest:green_grape_wine_crate",
+    },
+    {
+      bottle: "hearthandharvest:syrup_bottle",
+      crate: "hearthandharvest:syrup_crate",
+    },
+  ];
+
+  const cookingRecipes = [
+    {
+      ingredients: [
+        { item: "vinery:red_grape" },
+        { item: "vinery:red_grape" },
+        { item: "vinery:red_grape" },
+        { item: "minecraft:sugar" },
+        { item: "minecraft:sugar" },
+        { item: "minecraft:sugar" },
+      ],
+      result: "hearthandharvest:grape_jam",
+      container: "hearthandharvest:jar",
+      time: 400,
+    },
+    {
+      ingredients: [
+        { item: "vinery:cherry" },
+        { item: "vinery:cherry" },
+        { item: "vinery:cherry" },
+        { item: "minecraft:sugar" },
+        { item: "minecraft:sugar" },
+        { item: "minecraft:sugar" },
+      ],
+      result: "hearthandharvest:cherry_jam",
+      container: "hearthandharvest:jar",
+      time: 400,
+    },
+    {
+      ingredients: [
+        { item: "minecraft:cooked_porkchop" },
+        { tag: "c:dusts/salt" },
+        { tag: "c:foods/milk" },
+        { tag: "c:flours" },
+      ],
+      result: "hearthandharvest:biscuits_and_gravy",
+      container: "minecraft:bowl",
+    },
+  ];
+
+  function cheeseSliceToWheelRecipe(event, sliceId, cheeseId) {
+    event
+      .shaped(cheeseId, ["SS", "SS"], {
+        S: sliceId,
+      })
+      .id(`${cheeseId}_from_wedges`);
+  }
+
+  function bottleToCrateRecipe(event, inputBottle, outputCrate) {
+    event
+      .custom({
+        type: "hearthandharvest:bottle_crate",
+        category: "building",
+        input: {
+          item: inputBottle,
+        },
+        result: {
+          id: outputCrate,
+          count: 1,
+        },
+      })
+      .id(outputCrate);
+  }
+
+  function cookingRecipe(
+    event,
+    ingredients,
+    resultId,
+    containerId,
+    cookingTime,
+    experience
+  ) {
+    cookingTime = cookingTime !== undefined ? cookingTime : 200;
+    experience = experience !== undefined ? experience : 1;
+    const [, shortenedResultId] = resultId.split(":");
+    event
+      .custom({
+        type: "farmersdelight:cooking",
+        container: {
+          count: 1,
+          id: containerId,
+        },
+        cookingtime: cookingTime,
+        experience: experience,
+        ingredients: ingredients,
+        recipe_book_tab: "meals",
+        result: {
+          count: 1,
+          id: resultId,
+        },
+      })
+      .id(`farmersdelight:cooking/${shortenedResultId}`);
+  }
+
   ServerEvents.recipes((event) => {
+    for (const cheeseRecipe of cheeseRecipes) {
+      cheeseSliceToWheelRecipe(event, cheeseRecipe.slice, cheeseRecipe.wheel);
+    }
+
+    for (const bottleRecipe of bottleRecipes) {
+      bottleToCrateRecipe(event, bottleRecipe.bottle, bottleRecipe.crate);
+    }
+
+    for (const recipe of cookingRecipes) {
+      cookingRecipe(
+        event,
+        recipe.ingredients,
+        recipe.result,
+        recipe.container,
+        recipe.time
+      );
+    }
+
+    // TODO: Extract shaped and shapeless recipes
     event
       .shaped("hearthandharvest:cotton_candy", [" W ", "SSS", " T "], {
         W: "minecraft:wind_charge",
@@ -8,17 +146,6 @@
       })
       .id("hearthandharvest:cotton_candy");
     event
-      .shaped("hearthandharvest:cheddar_cheese_wheel", ["AA ", "AA ", "   "], {
-        A: "hearthandharvest:cheddar_cheese_slice",
-      })
-      .id("hearthandharvest:cheddar_cheese_wheel_from_wedges");
-    event
-      .shaped("hearthandharvest:goat_cheese_wheel", ["AA ", "AA ", "   "], {
-        A: "hearthandharvest:goat_cheese_slice",
-      })
-      .id("hearthandharvest:goat_cheese_wheel_from_wedges");
-
-    event
       .shapeless("hearthandharvest:cherry_juice", [
         "vinery:cherry",
         "vinery:cherry",
@@ -26,151 +153,5 @@
         "minecraft:glass_bottle",
       ])
       .id("hearthandharvest:cherry_juice");
-
-    event
-      .custom({
-        type: "hearthandharvest:bottle_crate",
-        category: "building",
-        input: {
-          item: "vinery:red_grapejuice",
-        },
-        result: {
-          id: "hearthandharvest:red_grape_wine_crate",
-          count: 1,
-        },
-      })
-      .id("hearthandharvest:red_grape_wine_crate");
-
-    event
-      .custom({
-        type: "hearthandharvest:bottle_crate",
-        category: "building",
-        input: {
-          item: "vinery:white_grapejuice",
-        },
-        result: {
-          id: "hearthandharvest:green_grape_wine_crate",
-          count: 1,
-        },
-      })
-      .id("hearthandharvest:green_grape_wine_crate");
-
-    event
-      .custom({
-        type: "hearthandharvest:bottle_crate",
-        category: "building",
-        input: {
-          item: "hearthandharvest:syrup_bottle",
-        },
-        result: {
-          id: "hearthandharvest:syrup_crate",
-          count: 1,
-        },
-      })
-      .id("hearthandharvest:syrup_crate");
-
-    event
-      .custom({
-        type: "farmersdelight:cooking",
-        container: {
-          count: 1,
-          id: "hearthandharvest:jar",
-        },
-        cookingtime: 400,
-        experience: 1.0,
-        ingredients: [
-          {
-            item: "vinery:red_grape",
-          },
-          {
-            item: "vinery:red_grape",
-          },
-          {
-            item: "vinery:red_grape",
-          },
-          {
-            item: "minecraft:sugar",
-          },
-          {
-            item: "minecraft:sugar",
-          },
-          {
-            item: "minecraft:sugar",
-          },
-        ],
-        recipe_book_tab: "meals",
-        result: {
-          count: 1,
-          id: "hearthandharvest:grape_jam",
-        },
-      })
-      .id("farmersdelight:cooking/grape_jam");
-
-    event
-      .custom({
-        type: "farmersdelight:cooking",
-        container: {
-          count: 1,
-          id: "hearthandharvest:jar",
-        },
-        cookingtime: 400,
-        experience: 1.0,
-        ingredients: [
-          {
-            item: "vinery:cherry",
-          },
-          {
-            item: "vinery:cherry",
-          },
-          {
-            item: "vinery:cherry",
-          },
-          {
-            item: "minecraft:sugar",
-          },
-          {
-            item: "minecraft:sugar",
-          },
-          {
-            item: "minecraft:sugar",
-          },
-        ],
-        recipe_book_tab: "meals",
-        result: {
-          count: 1,
-          id: "hearthandharvest:cherry_jam",
-        },
-      })
-      .id("farmersdelight:cooking/cherry_jam");
-
-    event
-      .custom({
-        type: "farmersdelight:cooking",
-        container: {
-          count: 1,
-          id: "minecraft:bowl",
-        },
-        experience: 1.0,
-        ingredients: [
-          {
-            item: "minecraft:cooked_porkchop",
-          },
-          {
-            tag: "c:dusts/salt",
-          },
-          {
-            tag: "c:foods/milk",
-          },
-          {
-            tag: "c:flours",
-          },
-        ],
-        recipe_book_tab: "meals",
-        result: {
-          count: 1,
-          id: "hearthandharvest:biscuits_and_gravy",
-        },
-      })
-      .id("farmersdelight:cooking/biscuits_and_gravy");
   });
 })();

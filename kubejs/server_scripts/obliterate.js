@@ -1,10 +1,13 @@
-/** @type {Array<string|RegExp>} */
-const obliteratedItems = global.obliteratedItems;
+(() => {
+  /** @type {Array<string|RegExp>} */
+  const { obliteratedItems } = global;
 
-/** @type {function(string): boolean} */
-const isObliterated = global.isObliterated;
+  /** @type {function(string): boolean} */
+  const { isObliterated } = global;
 
-function obliterateItems() {
+  if (global.obliteratedItems.length === 0) {
+    return;
+  }
   // Remove recipes
   ServerEvents.recipes((event) => {
     event.remove({ input: obliteratedItems });
@@ -14,10 +17,10 @@ function obliterateItems() {
   // Remove compostable recipes
   ServerEvents.compostableRecipes((event) => {
     // Iterates over obliteratedItems since it does not work if we pass the array directly
-    obliteratedItems.forEach((item) => {
+    for (const item of obliteratedItems) {
       // Correctly removes the recipe, even though it is not shown in EMI, issue on  their part (#1098)
       event.remove(item);
-    });
+    }
   });
 
   // Remove tags
@@ -52,7 +55,9 @@ function obliterateItems() {
       event.modifyLootTables(/.*/).removeItem(obliteratedItems);
     });
   } else {
-    console.warn("[Obliterate Items] LootJS not loaded, skipping loot table removals.");
+    console.warn(
+      "[Obliterate Items] LootJS not loaded, skipping loot table removals."
+    );
   }
 
   if (Platform.isLoaded("morejs")) {
@@ -109,7 +114,9 @@ function obliterateItems() {
   // Destroy on pickup
   ItemEvents.canPickUp((event) => {
     let { item, itemEntity } = event;
-    if (itemEntity.hasPickUpDelay()) return;
+    if (itemEntity.hasPickUpDelay()) {
+      return;
+    }
     if (isObliterated(item.id)) {
       item.setCount(0);
     }
@@ -127,13 +134,16 @@ function obliterateItems() {
   PlayerEvents.inventoryChanged((event) => {
     let { item, player } = event;
     if (isObliterated(item.getId())) {
-      event.player.statusMessage = Text.yellow(item.getId()).append(" is disabled");
-      event.player.playNotifySound("entity.experience_orb.pickup", "ambient", 0.2, 1);
+      event.player.statusMessage = Text.yellow(item.getId()).append(
+        " is disabled"
+      );
+      event.player.playNotifySound(
+        "entity.experience_orb.pickup",
+        "ambient",
+        0.2,
+        1
+      );
       player.inventory.clear(item);
     }
   });
-}
-
-if (global.obliteratedItems.length > 0) {
-  obliterateItems();
-}
+})();

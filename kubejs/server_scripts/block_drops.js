@@ -11,10 +11,10 @@
   ];
 
   // Adding colored blocs to avoid repetition
-  Color.DYE.forEach((color) => {
+  for (const color of Color.DYE.values()) {
     blocksToSelfDrop.push(`minecraft:${color}_stained_glass`);
     blocksToSelfDrop.push(`minecraft:${color}_stained_glass_pane`);
-  });
+  }
 
   const silkTouchBlocks = [
     {
@@ -50,7 +50,9 @@
       .createPool((pool) => {
         pool.addEntry(
           LootEntry.alternative(
-            LootEntry.of(blockId).matchTool(ItemFilter.hasEnchantment("minecraft:silk_touch")),
+            LootEntry.of(blockId).matchTool(
+              ItemFilter.hasEnchantment("minecraft:silk_touch")
+            ),
             LootEntry.of(defaultDropId)
           )
         );

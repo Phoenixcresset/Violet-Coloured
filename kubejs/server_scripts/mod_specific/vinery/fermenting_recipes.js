@@ -2,7 +2,10 @@
   const fermentingRecipesToAdd = [
     {
       baseFluidTag: "#minecraft:water",
-      ingredients: [{ item: "minecraft:honey_bottle" }, { item: "minecraft:sugar" }],
+      ingredients: [
+        { item: "minecraft:honey_bottle" },
+        { item: "minecraft:sugar" },
+      ],
       resultFluidId: "vinery:liquid_mead",
     },
     {
@@ -17,7 +20,10 @@
     },
     {
       baseFluidTag: "#vinery:white_grapejuice",
-      ingredients: [{ item: "minecraft:sugar" }, { item: "minecraft:glowstone_dust" }],
+      ingredients: [
+        { item: "minecraft:sugar" },
+        { item: "minecraft:glowstone_dust" },
+      ],
       resultFluidId: "vinery:liquid_mellohi_wine",
     },
     {
@@ -27,7 +33,10 @@
     },
     {
       baseFluidTag: "#vinery:white_grapejuice",
-      ingredients: [{ item: "minecraft:glow_berries" }, { item: "minecraft:honey_bottle" }],
+      ingredients: [
+        { item: "minecraft:glow_berries" },
+        { item: "minecraft:honey_bottle" },
+      ],
       resultFluidId: "vinery:liquid_solaris_wine",
     },
     {
@@ -42,7 +51,10 @@
     },
     {
       baseFluidTag: "#vinery:red_grapejuice",
-      ingredients: [{ item: "minecraft:cocoa_beans" }, { item: "minecraft:sugar" }],
+      ingredients: [
+        { item: "minecraft:cocoa_beans" },
+        { item: "minecraft:sugar" },
+      ],
       resultFluidId: "vinery:liquid_strad_wine",
     },
     {
@@ -71,7 +83,10 @@
     },
     {
       baseFluidTag: "#vinery:red_grapejuice",
-      ingredients: [{ item: "minecraft:honey_bottle" }, { item: "vinery:cherry" }],
+      ingredients: [
+        { item: "minecraft:honey_bottle" },
+        { item: "vinery:cherry" },
+      ],
       resultFluidId: "vinery:liquid_lilitu_wine",
     },
     {
@@ -124,17 +139,26 @@
     },
     {
       baseFluidTag: "#vinery:red_grapejuice",
-      ingredients: [{ item: "minecraft:glistering_melon_slice" }, { item: "minecraft:sugar" }],
+      ingredients: [
+        { item: "minecraft:glistering_melon_slice" },
+        { item: "minecraft:sugar" },
+      ],
       resultFluidId: "vinery:liquid_stal_wine",
     },
     {
       baseFluidTag: "#vinery:red_grapejuice",
-      ingredients: [{ item: "minecraft:spider_eye" }, { item: "minecraft:sugar" }],
+      ingredients: [
+        { item: "minecraft:spider_eye" },
+        { item: "minecraft:sugar" },
+      ],
       resultFluidId: "vinery:liquid_chenet_wine",
     },
     {
       baseFluidTag: "#vinery:red_wine",
-      ingredients: [{ item: "minecraft:honey_bottle" }, { item: "vinery:cherry" }],
+      ingredients: [
+        { item: "minecraft:honey_bottle" },
+        { item: "vinery:cherry" },
+      ],
       resultFluidId: "vinery:liquid_mojang_noir",
     },
     {
@@ -149,6 +173,9 @@
   ];
 
   ServerEvents.recipes((event) => {
-    global.BrewinAndChewinModule.createFermentingRecipes(event, fermentingRecipesToAdd);
+    global.BrewinAndChewinModule.createFermentingRecipes(
+      event,
+      fermentingRecipesToAdd
+    );
   });
 })();

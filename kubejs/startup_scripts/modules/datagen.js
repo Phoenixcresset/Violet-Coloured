@@ -1,7 +1,7 @@
 /** @typedef {import(import("dev.latvian.mods.kubejs.script.data.GeneratedDataStage").$GeneratedDataStage$$Type)} GenerateDataEvent */
 /** @typedef {"placed_feature" | "configured_feature" | "biome_modifier" | "structure_set"} DataType */
 
-global.DataGenModule = function () {
+global.DataGenModule = (function DataGenModule() {
   const dataTypePaths = {
     placed_feature: "worldgen/placed_feature",
     configured_feature: "worldgen/configured_feature",
@@ -48,4 +48,4 @@ global.DataGenModule = function () {
     });
   }
   return { replaceData: replaceData, removeData: removeData };
-};
+})();
