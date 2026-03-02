@@ -23,6 +23,17 @@ function obliterateItems() {
   // Remove tags
   ServerEvents.tags("item", (event) => {
     event.removeAllTagsFrom(obliteratedItems);
+    event.add("c:hidden_from_recipe_viewers", obliteratedItems);
+  });
+
+  ServerEvents.tags("fluid", (event) => {
+    event.removeAllTagsFrom(obliteratedItems);
+    event.add("c:hidden_from_recipe_viewers", obliteratedItems);
+  });
+
+  ServerEvents.tags("block", (event) => {
+    event.removeAllTagsFrom(obliteratedItems);
+    event.add("c:hidden_from_recipe_viewers", obliteratedItems);
   });
 
   // Append disabled tooltip
@@ -42,7 +53,7 @@ function obliterateItems() {
     });
   } else {
     console.warn(
-      "[Obliterate Items] LootJS not loaded, skipping loot table removals.",
+      "[Obliterate Items] LootJS not loaded, skipping loot table removals."
     );
   }
 
@@ -59,6 +70,16 @@ function obliterateItems() {
         output: Ingredient.of(obliteratedItems),
       });
     });
+
+    MoreJS.wandererTrades((event) => {
+      event.removeTrades({
+        first: Ingredient.of(obliteratedItems),
+      });
+      event.removeTrades({
+        output: Ingredient.of(obliteratedItems),
+      });
+    });
+
     MoreJS.registerPotionBrewing((event) => {
       event.removePotionBrewing({
         ingredient: Ingredient.of(obliteratedItems),
@@ -67,7 +88,7 @@ function obliterateItems() {
     });
   } else {
     console.warn(
-      "[Obliterate Items] MoreJS not loaded, skipping villager trade and potion brewing removals.",
+      "[Obliterate Items] MoreJS not loaded, skipping villager trade and potion brewing removals."
     );
   }
 
@@ -109,13 +130,13 @@ function obliterateItems() {
     let { item, player } = event;
     if (isObliterated(item.getId())) {
       event.player.statusMessage = Text.yellow(item.getId()).append(
-        " is disabled",
+        " is disabled"
       );
       event.player.playNotifySound(
         "entity.experience_orb.pickup",
         "ambient",
         0.2,
-        1,
+        1
       );
       player.inventory.clear(item);
     }

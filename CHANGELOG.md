@@ -1,12 +1,29 @@
 # [Unreleased]
 ## Changes
-- Farmer's Delight addition
 
 ## Mods
 ### Added
+
+# [0.0.6] - Farming Update
+## Changes
+- Farming expansion, with Farmer's Delight and some addons, Let's Do Vinery and Village Taverns
+- Updated Illager Outposts to use Target Dummy entities instead of blocks
+- It is now possible to see which items give each effect
+- Better debugging
+- Changed the project's license, now that all imported code has been removed
+
+## Mods
+### Added
+- Brewin' and Chewin'
 - Comfortable Campfires
+- Crash Assistant
 - Crate Delight
 - Farmer's Delight
+- Hearth and Harvest
+- Just Enough Effects Descriptions
+- Let's Do Vinery
+- Mixin Trace Resmithed
+- Village Taverns
 
 # [0.0.5] - Supplementaries and Particles Update
 ## Changes

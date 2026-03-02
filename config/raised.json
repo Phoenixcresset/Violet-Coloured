@@ -18,9 +18,9 @@
       },
       "direction": {
         "x": "NONE",
-        "y": "UP"
+        "y": "NONE"
       },
-      "sync": "minecraft:hotbar"
+      "sync": "appleskin:food_offset"
     },
     "appleskin:health_offset": {
       "displacement": {
@@ -29,9 +29,9 @@
       },
       "direction": {
         "x": "NONE",
-        "y": "UP"
+        "y": "NONE"
       },
-      "sync": "minecraft:hotbar"
+      "sync": "appleskin:health_offset"
     },
     "appleskin:health_restored": {
       "displacement": {
@@ -65,6 +65,39 @@
         "y": "UP"
       },
       "sync": "minecraft:hotbar"
+    },
+    "brewinandchewin:food_offset": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "brewinandchewin:food_offset"
+    },
+    "brewinandchewin:intoxication": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "UP"
+      },
+      "sync": "minecraft:hotbar"
+    },
+    "brewinandchewin:tipsy": {
+      "displacement": {
+        "x": 0,
+        "y": 0
+      },
+      "direction": {
+        "x": "NONE",
+        "y": "NONE"
+      },
+      "sync": "brewinandchewin:tipsy"
     },
     "farmersdelight:comfort": {
       "displacement": {

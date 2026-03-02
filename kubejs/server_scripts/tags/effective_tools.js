@@ -10,13 +10,16 @@
           "lever",
         ],
         c: ["#glass_blocks", "#glass_panes"],
-        chimes: ["glass_bells"]
+        chimes: ["glass_bells"],
       },
       "mineable/axe": {
         minecraft: ["#beds"],
         c: ["#skulls"],
         supplementaries: ["#flags"],
         // TODO: Glass ?
+      },
+      "mineable/shovel": {
+        vinery: ["dirt_path_slab"],
       },
       "mineable/hoe": {
         minecraft: [

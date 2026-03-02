@@ -6,7 +6,7 @@
  */
 const recipeHidingConfig = {
   categories: [
-    "ali:plant_loot", // Buggy visual preview
+    "ali:plant_loot",
     "ali:block_loot",
     "ali:hero_loot",
     "emixx:villager_trades",
@@ -18,12 +18,15 @@ const recipeHidingConfig = {
     "emi:/anvil/enchanting/.*",
     "emi:/crafting/repairing/.*",
     "emi:/anvil/repairing/tool/.*",
+    "emi:/anvil/repairing/material/vinery/.*",
     "emi:/grindstone/repairing/.*",
     "emi:/grindstone/disenchanting/.*",
     "supplementaries:/tipped_spikes.*",
     "supplementaries:/inject/test",
+    "vinery:/blocks/potted_dark_cherry_sapling",
     "minecraft:/shearing/bogged",
     "minecraft:/gameplay/cat_morning_gift",
+    "minecraft:/gameplay/panda_sneeze",
   ],
   categorizedIds: {
     "ali:trial_chambers": [

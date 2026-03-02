@@ -20,4 +20,19 @@ beaconBeamCulling = true
 useOnModdedBlocksByDefault = true
 
 [modCompatibility]
+sootychimneys = true
+chalk = true
+farmersdelight = true
+cratedelight = true
+supplementaries = true
+suppsquared = true
+amendments = true
+advancementframes = true
+easymagic = true
+brewinandchewin = true
+chimes = true
+moonlight = true
+easyanvils = true
+vinery = true
+treechop = true
 minecraft = true
