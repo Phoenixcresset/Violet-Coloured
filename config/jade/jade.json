@@ -12,7 +12,7 @@
     "extendedReach": 0.0,
     "debug": false,
     "displayBosses": false,
-    "displayMode": "TOGGLE",
+    "displayMode": "LITE",
     "enableTextToSpeech": false,
     "ttsMode": "PRESS",
     "previewOverlay": true,
@@ -29,11 +29,11 @@
     "flipMainHand": false,
     "autoScaleThreshold": 0.4,
     "overlayScale": 1.0,
-    "overlayAnchorX": 0.5,
+    "overlayAnchorX": 0.0,
     "overlayAnchorY": 0.0,
-    "activeTheme": "jade:dark",
-    "overlayPosX": 0.5,
-    "overlayPosY": 1.0
+    "activeTheme": "violet_coloured:immersive",
+    "overlayPosX": 0.003515625,
+    "overlayPosY": 0.99407846
   },
   "formatting": {
     "itemModNameStyle": {
@@ -42,6 +42,7 @@
     }
   },
   "history": {
-    "themesHash": -328442023
+    "hintOverlayToggle": false,
+    "themesHash": -2087278888
   }
 }
