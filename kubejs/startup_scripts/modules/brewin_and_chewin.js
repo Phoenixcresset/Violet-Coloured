@@ -15,9 +15,9 @@ global.BrewinAndChewinModule = (function BrewinAndChewinModule() {
    * @param {string} jsonFileName
    * @param {Record<FluidTag, ItemId>} displays
    */
-  function registerFluidItemDisplays(jsonFileName, displays) {
-    JsonIO.write(
-      `kubejs/assets/brewinandchewin/brewinandchewin/fluid_item_displays/${jsonFileName}.json`,
+  function registerFluidItemDisplays(event, registryName, displays) {
+    event.json(
+      `violetcoloured:brewinandchewin/fluid_item_displays/${registryName}`,
       displays
     );
   }

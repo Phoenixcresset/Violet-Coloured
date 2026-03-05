@@ -87,8 +87,8 @@
   /** @type {Array<Object.<string, string>>} */
   const recipeFilters = buildRecipeFilters(recipeHidingConfig);
 
-  StartupEvents.init(() => {
-    JsonIO.write("kubejs/assets/emi/recipe/filters/filters.json", {
+  ClientEvents.generateAssets("after_mods", (event) => {
+    event.json("emi:recipe/filters/filters", {
       filters: recipeFilters,
     });
   });

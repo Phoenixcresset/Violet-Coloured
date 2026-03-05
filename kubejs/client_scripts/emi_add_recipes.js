@@ -39,7 +39,7 @@
       };
     }
 
-    StartupEvents.init(() => {
+    ClientEvents.generateAssets("after_mods", (event) => {
       for (const [type, recipeAdditions] of Object.entries(
         recipeAddingConfig
       )) {
@@ -48,8 +48,8 @@
           // short output should be the namespace + _ + itemName
           let splitOutputName = recipeAddition.output.split(":");
           let shortOutput = `${splitOutputName[1]}_${splitOutputName[2]}`;
-          JsonIO.write(
-            `kubejs/assets/emi/recipe/additions/${shortType}_${shortOutput}.json`,
+          event.json(
+            `emi:recipe/additions/${shortType}_${shortOutput}`,
             buildRecipe(type, recipeAddition)
           );
         }

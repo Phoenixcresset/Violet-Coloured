@@ -77,16 +77,16 @@
    */
   function holdShiftLine(isHeld) {
     const shiftKey = isHeld
-      ? Text.of(Text.translatable("violetcolored.tooltip.keyShift")).color(
+      ? Text.of(Text.translatable("violetcoloured.tooltip.keyShift")).color(
           colorPalette.hint.highlightStrong
         )
-      : Text.of(Text.translatable("violetcolored.tooltip.keyShift")).color(
+      : Text.of(Text.translatable("violetcoloured.tooltip.keyShift")).color(
           colorPalette.hint.highlight
         );
 
     return Text.of(
       Text.translatable(
-        "violetcolored.tooltip.holdForDescription",
+        "violetcoloured.tooltip.holdForDescription",
         shiftKey
       ).color(colorPalette.hint.default)
     );

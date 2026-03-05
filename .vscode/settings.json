@@ -5,6 +5,13 @@
     "typescript.validate.enable": false,
     "editor.defaultFormatter": "oxc.oxc-vscode",
     "editor.formatOnSave": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.minimap.markSectionHeaderRegex": "#region\\s*(?<separator>-?)\\s*(?<label>.*)$"
+    },
     "files.exclude": {
         ".cache/": true,
         ".mixin.out/": true,
