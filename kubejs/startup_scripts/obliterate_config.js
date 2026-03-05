@@ -25,7 +25,6 @@
       "sunflower_seeds",
       // Vinery overlap and removed beverages
       "cherry",
-      /.*wine_rack/,
       /(?!.*(red|green)_grape_wine_crate$).*wine.*/,
       /(wild_)?(?:green|red)_grapes/,
       // /(?:green|red)_grape_crate/,

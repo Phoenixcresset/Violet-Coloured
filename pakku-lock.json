@@ -2720,7 +2720,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "hearthandharvest-1.21.1-1.1.1.jar",
+                    "file_name": "hearthandharvest-1.21.1-1.1.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2728,18 +2728,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7330/777/hearthandharvest-1.21.1-1.1.1.jar",
-                    "id": "7330777",
+                    "url": "https://edge.forgecdn.net/files/7710/240/hearthandharvest-1.21.1-1.1.2.jar",
+                    "id": "7710240",
                     "parent_id": "1212197",
                     "hashes": {
-                        "sha1": "6253c8a0c7143ff55c7628dafba0c9cdddf70628",
-                        "md5": "01888fe46ed014ed59869854a07bec67"
+                        "sha1": "3be26438a27e87e4d1370965b43c25b259fefdec",
+                        "md5": "0371374a95b8d5e2c61ccbaebee1d0df"
                     },
                     "required_dependencies": [
                         "398521"
                     ],
-                    "size": 1545938,
-                    "date_published": "2025-12-14T02:36:15.443Z"
+                    "size": 1566561,
+                    "date_published": "2026-03-04T14:08:27.257Z"
                 }
             ]
         },
