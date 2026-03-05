@@ -565,7 +565,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "better_modlist-1.1.21.jar",
+                    "file_name": "better_modlist-1.1.22.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -573,16 +573,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7535/259/better_modlist-1.1.21.jar",
-                    "id": "7535259",
+                    "url": "https://edge.forgecdn.net/files/7711/471/better_modlist-1.1.22.jar",
+                    "id": "7711471",
                     "parent_id": "1089803",
                     "hashes": {
-                        "sha1": "9da2a1c4f5450695dd3cef2b760ef6ddb3f3e031",
-                        "md5": "29b12a0dd1b3b8dbf2d028f9a22680aa"
+                        "sha1": "c5c49876cf0e036c631b0909fed6903d7e28cc45",
+                        "md5": "bf4fbf95b72b0c1726164669db6b3a1e"
                     },
                     "required_dependencies": [],
-                    "size": 806109,
-                    "date_published": "2026-01-27T11:34:41.333Z"
+                    "size": 805721,
+                    "date_published": "2026-03-04T20:01:41.077Z"
                 }
             ]
         },
@@ -2951,7 +2951,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "immersiveoverlays-1.5.1+1.21.1-neoforge.jar",
+                    "file_name": "immersiveoverlays-1.5.2+1.21.1-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2959,16 +2959,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7578/224/immersiveoverlays-1.5.1+1.21.1-neoforge.jar",
-                    "id": "7578224",
+                    "url": "https://edge.forgecdn.net/files/7706/558/immersiveoverlays-1.5.2+1.21.1-neoforge.jar",
+                    "id": "7706558",
                     "parent_id": "1245453",
                     "hashes": {
-                        "sha1": "9cd0b0e94dd51be8570fee2d4d4dfceafc3926d7",
-                        "md5": "666421f65499cb05e3053d6d5490f804"
+                        "sha1": "704d59ab22d1651aaef744560133fced9a586766",
+                        "md5": "2bd5eeba7b29d2f7ed9033b45628cad9"
                     },
                     "required_dependencies": [],
-                    "size": 270727,
-                    "date_published": "2026-02-05T04:15:55.990Z"
+                    "size": 283840,
+                    "date_published": "2026-03-03T17:57:22.080Z"
                 }
             ]
         },
@@ -4099,16 +4099,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7695/620/moonlight-1.21-2.29.20-neoforge.jar",
-                    "id": "7695620",
+                    "url": "https://edge.forgecdn.net/files/7708/176/moonlight-1.21-2.29.20-neoforge.jar",
+                    "id": "7708176",
                     "parent_id": "499980",
                     "hashes": {
-                        "sha1": "07a5ff9e0a1b05cd78ecfcade4754978f62e3725",
-                        "md5": "5005508c3fd41a2b059592b7225a220a"
+                        "sha1": "99f9973f69460a772a4e8beccb9ca3f69e0a1291",
+                        "md5": "ca9aa486c66e116367850ecc87035889"
                     },
                     "required_dependencies": [],
-                    "size": 1584603,
-                    "date_published": "2026-03-01T11:54:59.617Z"
+                    "size": 1586350,
+                    "date_published": "2026-03-04T00:50:53.667Z"
                 }
             ]
         },
