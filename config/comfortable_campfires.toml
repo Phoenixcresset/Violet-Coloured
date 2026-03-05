@@ -1,6 +1,6 @@
 # Maximum distance from campfire
 # default: 3
-distance = 3
+distance = 1
 # Maximum duration of effect
 # default: 5
 duration = 5
