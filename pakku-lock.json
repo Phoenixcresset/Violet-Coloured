@@ -3886,6 +3886,43 @@
             ]
         },
         {
+            "pakku_id": "BACwfmMNW2ePd2lz",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "mod-name-tooltip"
+            },
+            "name": {
+                "curseforge": "Mod Name Tooltip"
+            },
+            "id": {
+                "curseforge": "238747"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "modnametooltip-1.21.1-neoforge-2.3.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6593/948/modnametooltip-1.21.1-neoforge-2.3.0.jar",
+                    "id": "6593948",
+                    "parent_id": "238747",
+                    "hashes": {
+                        "sha1": "9d9897541c798d379d2b586f28a4b414dab224c7",
+                        "md5": "66bb28271469263672e94c0302b8857c"
+                    },
+                    "required_dependencies": [],
+                    "size": 11780,
+                    "date_published": "2025-05-29T13:00:59.593Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "GhcKKC0mJ5RsGzRE",
             "type": "RESOURCE_PACK",
             "slug": {

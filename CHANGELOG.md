@@ -7,6 +7,7 @@
 - Made HT's Tree Chop require an axe to work
 - Disabled Useful Spyglass enchants
 - Backported 1.21.5 Spawn Eggs, as well as similar sprites for modded spawn eggs
+- Changed mod name color in item tooltips to dark gray
 
 ## Mods
 
@@ -16,6 +17,7 @@
 - Quark
 - Quark Oddities
 - Quark Ponders
+- Mod Name Tooltip
 
 ## Resource Packs
 
