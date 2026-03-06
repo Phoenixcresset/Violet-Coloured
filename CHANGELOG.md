@@ -21,6 +21,7 @@
 - Quark Oddities
 - Quark Ponders
 - Mod Name Tooltip
+- Reliable Remover
 
 ## Resource Packs
 

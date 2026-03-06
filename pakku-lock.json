@@ -5011,6 +5011,42 @@
             ]
         },
         {
+            "pakku_id": "bxel7eQXXp34DkNm",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "reliable-remover"
+            },
+            "name": {
+                "curseforge": "Reliable Remover"
+            },
+            "id": {
+                "curseforge": "1420447"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "reliable_remover-neoforge-1.21.1-1.5.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7689/476/reliable_remover-neoforge-1.21.1-1.5.1.jar",
+                    "id": "7689476",
+                    "parent_id": "1420447",
+                    "hashes": {
+                        "sha1": "f81bb362b3859fc19ebb827a75406273e66d44ee",
+                        "md5": "8d35710b460b0819c5ac5e5f50ceebcc"
+                    },
+                    "required_dependencies": [],
+                    "size": 148251,
+                    "date_published": "2026-02-28T06:27:37.133Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "vjenGCXbzmmiXxst",
             "type": "MOD",
             "side": "CLIENT",
