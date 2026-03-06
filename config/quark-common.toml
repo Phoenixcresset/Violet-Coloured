@@ -1623,9 +1623,9 @@
 		"Bind Armor Stands With Player Heads" = true
 
 	[client.variant_animal_textures]
-		"Enable Cow" = true
-		"Enable Pig" = true
-		"Enable Chicken" = true
+		"Enable Cow" = false
+		"Enable Pig" = false
+		"Enable Chicken" = false
 		"Enable Allay" = true
 		"Enable Shiny Rabbit" = true
 		"Enable Shiny Llama" = true
