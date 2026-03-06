@@ -28,6 +28,19 @@
     },
   ];
 
+  const bricksRecipes = [
+    {
+      ingredient: "minecraft:dirt",
+      output: "quark:dirt_bricks",
+      recipeId: "quark:building/crafting/dirt_bricks",
+    },
+    {
+      ingredient: "minecraft:netherrack",
+      output: "quark:netherrack_bricks",
+      recipeId: "quark:building/crafting/netherrack_bricks",
+    },
+  ];
+
   const removedRecipesIds = [
     // Removed to avoid recipe conflicts
     "quark:building/crafting/chests/mixed_chest",
@@ -59,6 +72,14 @@
     }
   }
 
+  function bricksRecipe(event, ingredient, output, recipeId) {
+    event
+      .shaped(Item.of(output, 4), ["II", "II"], {
+        I: ingredient,
+      })
+      .id(recipeId);
+  }
+
   ServerEvents.recipes((event) => {
     for (const recipe of surroundedRecipes) {
       surroundWithItemRecipe(
@@ -72,6 +93,10 @@
 
     for (const recipe of dyedRecipes) {
       dyedRecipe(event, recipe.ingredient, recipe.output, recipe.recipeId);
+    }
+
+    for (const recipe of bricksRecipes) {
+      bricksRecipe(event, recipe.ingredient, recipe.output, recipe.recipeId);
     }
 
     for (const recipeId of removedRecipesIds) {
