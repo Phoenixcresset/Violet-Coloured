@@ -64,6 +64,14 @@
     },
   ];
 
+  const removedFermentingRecipesIds = [
+    "moonshine",
+    "sweet_berry_wine",
+    "mead",
+    "hard_cider",
+    "root_beer",
+  ];
+
   function cheeseSliceToWheelRecipe(event, sliceId, cheeseId) {
     event
       .shaped(cheeseId, ["SS", "SS"], {
@@ -153,5 +161,9 @@
         "minecraft:glass_bottle",
       ])
       .id("hearthandharvest:cherry_juice");
+    for (const recipeId of removedFermentingRecipesIds) {
+      let fullRecipeId = `hearthandharvest:integration/brewinandchewin/fermenting/${recipeId}`;
+      event.remove({ id: fullRecipeId });
+    }
   });
 })();
