@@ -1,6 +1,11 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["eslint", "unicorn", "oxc", "jsdoc"],
+  "plugins": [
+    "eslint",
+    "unicorn",
+    "oxc",
+    "jsdoc"
+  ],
   "categories": {
     "perf": "error",
     "restriction": "error",
@@ -15,7 +20,6 @@
     "eslint/no-param-reassign": "off", // KubeJS - Rhino does not allow conventionnal function default parameters
     "eslint/no-plusplus": "off", // Preference
     "eslint/no-undefined": "off", // Preference - Also conflicts with unicorn's no-typeof-undefined and the method to emulate default function parameters
-
     // Pedantic
     "eslint/no-inline-comments": "off", // Preference - Useful if comments are used sparingly
     "eslint/no-negated-condition": "off", // Preference
@@ -28,10 +32,12 @@
     "jsdoc/require-returns-description": "warn", // Preference
     "jsdoc/require-returns-type": "warn", // Preference
     "unicorn/prefer-string-replace-all": "off", // KubeJS - replaceAll does not exist on Rhino's strings
-
     // Style
     "eslint/capitalized-comments": "off", // KubeJS - Cannot use KubeJS special comments like priority if enabled
-    "eslint/func-style": ["error", "declaration"], // Preference
+    "eslint/func-style": [
+      "error",
+      "declaration"
+    ], // Preference
     "eslint/id-length": "off", // Preference - Like using i as index
     "eslint/max-params": "off", // TODO See if relevant
     "eslint/max-statements": "off", // TODO See if configured is better
