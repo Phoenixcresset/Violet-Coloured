@@ -3,7 +3,10 @@
 (() => {
   /** @typedef {Object.<string, Array<string|RegExp>>} ObliteratedPatterns */
   const obliteratedPatterns = {
-    brewinandchewin: ["sweet_berry_jam"],
+    brewinandchewin: [
+      "sweet_berry_jam",
+      "kombucha", // Disabled normally, but still appears in some places
+    ],
     cratedelight: [
       // Replaced by Quark and Hearth and Harvest
       "egg_crate",

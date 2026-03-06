@@ -13,7 +13,7 @@
         "autumn_crops",
       ],
       createaddition: ["plants", "plant_foods"],
-      origins: ["meat"],
+      origins: ["meat", "ignore_diet"],
       tconstruct: ["seeds"],
       brewinandchewin: ["foods/horror_meat"],
     },
