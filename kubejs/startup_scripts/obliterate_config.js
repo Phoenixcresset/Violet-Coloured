@@ -110,6 +110,7 @@
     village_taverns: ["barrel"],
     vinery: [
       "apple_log",
+      "apple_press",
       "apple_wood",
       "dark_cherry_beam",
       "dark_cherry_floorboard",

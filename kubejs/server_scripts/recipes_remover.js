@@ -8,7 +8,11 @@
     "farmersdelight:cooking/unripe_goat_cheese_wheel",
   ];
 
-  const removedRecipesTypes = ["vinery:wine_fermentation"];
+  const removedRecipesTypes = [
+    "vinery:wine_fermentation",
+    "vinery:apple_fermenting",
+    "vinery:apple_mashing",
+  ];
 
   ServerEvents.recipes((event) => {
     for (const recipeId of removedRecipesIds) {

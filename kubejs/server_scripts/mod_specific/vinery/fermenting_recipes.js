@@ -3,7 +3,32 @@
     {
       baseFluidTag: "#minecraft:water",
       ingredients: [
+        { item: "vinery:red_grape" },
+        { item: "vinery:red_grape" },
+        { item: "vinery:red_grape" },
+        { item: "minecraft:nether_wart" },
       ],
+      resultFluidId: "vinery:liquid_red_grapejuice",
+    },
+    {
+      baseFluidTag: "#minecraft:water",
+      ingredients: [
+        { item: "vinery:white_grape" },
+        { item: "vinery:white_grape" },
+        { item: "vinery:white_grape" },
+        { item: "minecraft:nether_wart" },
+      ],
+      resultFluidId: "vinery:liquid_white_grapejuice",
+    },
+    {
+      baseFluidTag: "#minecraft:water",
+      ingredients: [
+        { item: "minecraft:apple" },
+        { item: "minecraft:apple" },
+        { item: "minecraft:apple" },
+        { item: "minecraft:nether_wart" },
+      ],
+      resultFluidId: "vinery:liquid_apple_juice",
     },
     {
       baseFluidTag: "#vinery:apple_juice",
