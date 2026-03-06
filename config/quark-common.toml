@@ -202,7 +202,7 @@
 		#This also includes Mossy Cobblestone Bricks
 		"Enable Cobblestone Bricks" = true
 		#Requires Cobblestone Bricks to be enabled
-		"Enable Blackstone Bricks" = true
+		"Enable Blackstone Bricks" = false
 		#Requires Cobblestone Bricks to be enabled
 		"Enable Dirt Bricks" = true
 		#Requires Cobblestone Bricks to be enabled

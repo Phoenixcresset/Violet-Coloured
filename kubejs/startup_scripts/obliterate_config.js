@@ -71,6 +71,7 @@
       "bamboo_mat_carpet",
       "rope",
       "sturdy_stone",
+      /blackstone_bricks.*/,
       // Building - Storage Blocks
       // Replaced by Crate Delight
       "apple_crate",
