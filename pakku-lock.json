@@ -1491,7 +1491,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "CrashAssistant-neoforge-1.20.6-1.21.4-1.10.30.jar",
+                    "file_name": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.0.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.4",
@@ -1503,16 +1503,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7612/943/CrashAssistant-neoforge-1.20.6-1.21.4-1.10.30.jar",
-                    "id": "7612943",
+                    "url": "https://edge.forgecdn.net/files/7717/595/CrashAssistant-neoforge-1.20.6-1.21.4-1.11.0.jar",
+                    "id": "7717595",
                     "parent_id": "1154099",
                     "hashes": {
-                        "sha1": "456c17bb0701b5503f8dc9175a6ef62f2b988e47",
-                        "md5": "de5a95aa8d787b8593cfb3e1c667bc69"
+                        "sha1": "34aee29c7738861a61ff8fc4789ee490112364af",
+                        "md5": "8894ed436221e0201b8ae5a6527ab41b"
                     },
                     "required_dependencies": [],
-                    "size": 1283078,
-                    "date_published": "2026-02-12T05:24:40.113Z"
+                    "size": 3003710,
+                    "date_published": "2026-03-06T03:55:14.053Z"
                 }
             ]
         },
