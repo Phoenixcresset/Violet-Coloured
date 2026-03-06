@@ -1,4 +1,12 @@
 (() => {
+  const shapelessRecipes = [
+    {
+      ingredients: ["minecraft:nether_bricks", "minecraft:nether_wart_block"],
+      output: "minecraft:red_nether_bricks",
+      outputCount: 2,
+      recipeId: "minecraft:red_nether_bricks",
+    },
+  ];
   const surroundedRecipes = [
     {
       ingredient: "minecraft:glass",
@@ -81,6 +89,20 @@
   }
 
   ServerEvents.recipes((event) => {
+    for (const recipe of shapelessRecipes) {
+      event
+        .shapeless(
+          Item.of(recipe.output, recipe.outputCount),
+          recipe.ingredients
+        )
+        .id(recipe.recipeId);
+    }
+    // event
+    //   .shapeless(Item.of("minecraft:red_nether_bricks"), [
+    //     "minecraft:nether_bricks",
+    //     "minecraft:nether_wart_block",
+    //   ])
+    //   .id("minecraft:red_nether_bricks");
     for (const recipe of surroundedRecipes) {
       surroundWithItemRecipe(
         event,
