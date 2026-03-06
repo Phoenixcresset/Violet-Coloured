@@ -142,7 +142,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "alltheleaks-1.1.6+1.21.1-neoforge.jar",
+                    "file_name": "alltheleaks-1.1.7+1.21.1-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -150,16 +150,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7398/946/alltheleaks-1.1.6+1.21.1-neoforge.jar",
-                    "id": "7398946",
+                    "url": "https://edge.forgecdn.net/files/7719/9/alltheleaks-1.1.7+1.21.1-neoforge.jar",
+                    "id": "7719009",
                     "parent_id": "1091339",
                     "hashes": {
-                        "sha1": "1621f1bff2b96f8a20c6085ce1af52f7044f8f36",
-                        "md5": "7863cb800c23248e9131083cf4711390"
+                        "sha1": "a36da3b274d7612f3696788434cb5a717e065d70",
+                        "md5": "9a2166c934867cd8adfd5e588bd30e7b"
                     },
                     "required_dependencies": [],
-                    "size": 527501,
-                    "date_published": "2025-12-31T03:05:08.780Z"
+                    "size": 536829,
+                    "date_published": "2026-03-06T12:43:19.320Z"
                 }
             ]
         },
@@ -5799,7 +5799,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "supplementaries-1.21-3.5.26-neoforge.jar",
+                    "file_name": "supplementaries-1.21-3.5.27-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5807,18 +5807,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7688/722/supplementaries-1.21-3.5.26-neoforge.jar",
-                    "id": "7688722",
+                    "url": "https://edge.forgecdn.net/files/7715/630/supplementaries-1.21-3.5.27-neoforge.jar",
+                    "id": "7715630",
                     "parent_id": "412082",
                     "hashes": {
-                        "sha1": "14e5539225e45764200e56091507a9220efda9be",
-                        "md5": "5886626370c6c3ed8491e2d477dad387"
+                        "sha1": "ddc7007ca224ec367d9ffe0516d0f9978c0e6d18",
+                        "md5": "90f4994234ace769b2e0ad6acd44a03a"
                     },
                     "required_dependencies": [
                         "499980"
                     ],
-                    "size": 13354404,
-                    "date_published": "2026-02-28T01:56:09.667Z"
+                    "size": 13354405,
+                    "date_published": "2026-03-05T18:31:55.817Z"
                 }
             ]
         },
