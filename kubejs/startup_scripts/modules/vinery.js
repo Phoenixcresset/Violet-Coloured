@@ -4,7 +4,6 @@ global.VineryModule = (function VineryModule() {
     "red_grapejuice",
     "white_grapejuice",
     "apple_juice",
-    "mead",
     "apple_cider",
     "apple_wine",
     "mellohi_wine",

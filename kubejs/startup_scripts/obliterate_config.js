@@ -121,6 +121,7 @@
       "dark_cherry_barrel",
       "fermentation_barrel",
       "grapevine_pot",
+      "mead",
       "storage_pot",
       "straw_hat",
       "vinery_standard",

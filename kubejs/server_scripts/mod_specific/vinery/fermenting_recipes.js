@@ -3,10 +3,7 @@
     {
       baseFluidTag: "#minecraft:water",
       ingredients: [
-        { item: "minecraft:honey_bottle" },
-        { item: "minecraft:sugar" },
       ],
-      resultFluidId: "vinery:liquid_mead",
     },
     {
       baseFluidTag: "#vinery:apple_juice",

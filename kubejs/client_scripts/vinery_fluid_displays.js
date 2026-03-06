@@ -3,7 +3,6 @@
     "#vinery:red_grapejuice": "vinery:red_grapejuice",
     "#vinery:white_grapejuice": "vinery:white_grapejuice",
     "#vinery:apple_juice": "vinery:apple_juice",
-    "#vinery:mead": "vinery:mead",
     "#vinery:apple_cider": "vinery:apple_cider",
     "#vinery:apple_wine": "vinery:apple_wine",
     "#vinery:mellohi_wine": "vinery:mellohi_wine",

@@ -13,10 +13,6 @@
       color: 0xeed4a7,
     },
     {
-      id: "mead",
-      color: 0xfbbf67,
-    },
-    {
       id: "apple_cider",
       color: 0x9c6140,
     },
