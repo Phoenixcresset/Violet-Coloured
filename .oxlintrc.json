@@ -67,6 +67,7 @@
     "builtin": true
   },
   "globals": {
+    "Java": "readonly",
     "StartupEvents": "readonly",
     "ServerEvents": "readonly",
     "ClientEvents": "readonly",

@@ -11,6 +11,7 @@
 - Moved Immersive Overlays and Jade to the left side
 - Added a custom Jade Theme
 - Made Spyglass overlay to be transparent
+- Removed Hearth and Harvest effects
 
 ## Mods
 
