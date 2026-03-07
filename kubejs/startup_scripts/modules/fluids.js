@@ -12,11 +12,11 @@ global.FluidModule = (function FluidModule() {
    * name: FluidName
    * }} fluid
    */
-  function _registerVineryFluid(event, fluid) {
+  function _registerFluid(event, namespace, fluid) {
     event
-      .create(`vinery:liquid_${fluid.id}`, "thin")
+      .create(`${namespace}:liquid_${fluid.id}`, "thin")
       .tint(fluid.color)
-      .tag(`vinery:${fluid.id}`)
+      .tag(`${namespace}:${fluid.id}`)
       .displayName(fluid.name)
       .noBucket()
       .noBlock();
@@ -30,13 +30,13 @@ global.FluidModule = (function FluidModule() {
    * name: FluidName
    * }[]} fluids
    */
-  function registerVineryFluids(event, fluids) {
+  function registerFluids(event, namespace, fluids) {
     for (const fluid of fluids) {
-      _registerVineryFluid(event, fluid);
+      _registerFluid(event, namespace, fluid);
     }
   }
 
   return {
-    registerVineryFluids: registerVineryFluids,
+    registerFluids: registerFluids,
   };
 })();

@@ -12,11 +12,11 @@
 
   const bottleRecipes = [
     {
-      bottle: "vinery:red_grapejuice",
+      bottle: "violetcoloured:red_grape_juice",
       crate: "hearthandharvest:red_grape_wine_crate",
     },
     {
-      bottle: "vinery:white_grapejuice",
+      bottle: "violetcoloured:white_grape_juice",
       crate: "hearthandharvest:green_grape_wine_crate",
     },
     {

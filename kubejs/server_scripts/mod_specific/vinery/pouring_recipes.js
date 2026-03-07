@@ -6,11 +6,17 @@
       containerId: "vinery:wine_bottle",
     },
   ];
-
-  for (const liquid of global.VineryModule.vineryLiquids) {
+  for (const fluid of global.VineryModule.customFluids) {
     pouringRecipesToAdd.push({
-      fluidId: `vinery:liquid_${liquid}`,
-      outputItemId: `vinery:${liquid}`,
+      fluidId: `violetcoloured:liquid_${fluid}`,
+      outputItemId: `violetcoloured:${fluid}`,
+      containerId: "vinery:wine_bottle",
+    });
+  }
+  for (const fluid of global.VineryModule.vineryFluids) {
+    pouringRecipesToAdd.push({
+      fluidId: `vinery:liquid_${fluid}`,
+      outputItemId: `vinery:${fluid}`,
       containerId: "vinery:wine_bottle",
     });
   }

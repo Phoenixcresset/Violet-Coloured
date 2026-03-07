@@ -1,8 +1,8 @@
 (() => {
   const vineryFluidItemDisplays = {
-    "#vinery:red_grapejuice": "vinery:red_grapejuice",
-    "#vinery:white_grapejuice": "vinery:white_grapejuice",
-    "#vinery:apple_juice": "vinery:apple_juice",
+    "#violetcoloured:red_grape_juice": "violetcoloured:red_grape_juice",
+    "#violetcoloured:white_grape_juice": "violetcoloured:white_grape_juice",
+    "#violetcoloured:apple_juice": "violetcoloured:apple_juice",
     "#vinery:apple_cider": "vinery:apple_cider",
     "#vinery:apple_wine": "vinery:apple_wine",
     "#vinery:mellohi_wine": "vinery:mellohi_wine",

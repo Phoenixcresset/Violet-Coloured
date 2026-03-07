@@ -1,17 +1,19 @@
 (() => {
-  const vineryFluids = [
+  const customFluids = [
     {
-      id: "red_grapejuice",
+      id: "red_grape_juice",
       color: 0x6b3871,
     },
     {
-      id: "white_grapejuice",
+      id: "white_grape_juice",
       color: 0xb1d4ae,
     },
     {
       id: "apple_juice",
       color: 0xeed4a7,
     },
+  ];
+  const vineryFluids = [
     {
       id: "apple_cider",
       color: 0x9c6140,
@@ -115,6 +117,7 @@
   ];
 
   StartupEvents.registry("fluid", (event) => {
-    global.FluidModule.registerVineryFluids(event, vineryFluids);
+    global.FluidModule.registerFluids(event, "violetcoloured", customFluids);
+    global.FluidModule.registerFluids(event, "vinery", vineryFluids);
   });
 })();

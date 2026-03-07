@@ -136,6 +136,8 @@
       /.*taiga_grape.*/,
       /window.*/,
       /winemaker.*/,
+      /.*_grapejuice/,
+      "apple_juice",
       // Storage blocks replaced by Crate Delight or Hearth and Harvest
       "apple_bag",
       "cherry_bag",

@@ -1,7 +1,10 @@
 (() => {
   RecipeViewerEvents.removeEntries("fluid", (event) => {
-    for (const liquid of global.VineryModule.vineryLiquids) {
-      event.remove(`vinery:liquid_${liquid}`);
+    for (const fluid of global.VineryModule.customFluids) {
+      event.remove(`violetcoloured:liquid_${fluid}`);
+    }
+    for (const fluid of global.VineryModule.vineryFluids) {
+      event.remove(`vinery:liquid_${fluid}`);
     }
     event.remove("vinery:liquid_mojang_noir");
   });
