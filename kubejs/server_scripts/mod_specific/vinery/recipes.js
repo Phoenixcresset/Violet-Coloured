@@ -32,5 +32,10 @@
         S: "minecraft:stick",
       })
       .id("vinery:grapevine_stem");
+
+      event.shaped(Item.of("vinery:wine_bottle", 5), [" G ", "G G", "G G"], {
+        G: "minecraft:glass"
+      })
+      .id("vinery:wine_bottle")
   });
 })();
