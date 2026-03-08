@@ -26,6 +26,10 @@
 - Quark Ponders
 - Reliable Remover
 
+### Removed
+
+- Drop Confirm
+
 ## Resource Packs
 
 ### Added

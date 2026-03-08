@@ -32,7 +32,6 @@
     "key.findme.pull_one",
     "key.findme.pull_stack",
     "key.lighty.enable",
-    "key.drop_confirm.toggle",
     "key.fadingnightvision.toggle_night_vision",
     "key.carbon_config.key",
     "key.scholar.toggle_book_tools",
