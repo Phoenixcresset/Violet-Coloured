@@ -12,16 +12,18 @@
 - Added a custom Jade Theme
 - Made Spyglass overlay to be transparent
 - Removed Hearth and Harvest effects
+- Inventory Sorting, Transfer and Item Locking
 
 ## Mods
 
 ### Added
 
 - Enchantment Disabler
+- Inventory Profiles Next
+- Mod Name Tooltip
 - Quark
 - Quark Oddities
 - Quark Ponders
-- Mod Name Tooltip
 - Reliable Remover
 
 ## Resource Packs

@@ -3014,6 +3014,49 @@
             ]
         },
         {
+            "pakku_id": "cBR6FvZ12yNyt1qH",
+            "pakku_links": [
+                "5KmmlYVeLbdm58G8",
+                "q5a7GQQQWj8CzNvn"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "inventory-profiles-next"
+            },
+            "name": {
+                "curseforge": "Inventory Profiles Next"
+            },
+            "id": {
+                "curseforge": "495267"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "InventoryProfilesNext-neoforge-1.21.1-2.2.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7395/955/InventoryProfilesNext-neoforge-1.21.1-2.2.3.jar",
+                    "id": "7395955",
+                    "parent_id": "495267",
+                    "hashes": {
+                        "sha1": "62e9fdf2c150b8caaf9ec071d545258fb3681ba6",
+                        "md5": "02140f3bbeab52dae069449476817a7b"
+                    },
+                    "required_dependencies": [
+                        "679177",
+                        "351264"
+                    ],
+                    "size": 1282332,
+                    "date_published": "2025-12-30T10:56:27.730Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "sth4KjyGLsjLFQFW",
             "pakku_links": [
                 "nGoI2ktXUDnnYdBu"
@@ -6321,6 +6364,47 @@
                     "required_dependencies": [],
                     "size": 688343,
                     "date_published": "2024-12-18T00:58:03.477Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "5KmmlYVeLbdm58G8",
+            "pakku_links": [
+                "q5a7GQQQWj8CzNvn"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "libipn"
+            },
+            "name": {
+                "curseforge": "libIPN"
+            },
+            "id": {
+                "curseforge": "679177"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "libIPN-neoforge-1.21.1-6.6.2.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7327/448/libIPN-neoforge-1.21.1-6.6.2.jar",
+                    "id": "7327448",
+                    "parent_id": "679177",
+                    "hashes": {
+                        "sha1": "b67f700bb76d44fbc7161a3466e1db85d60edec7",
+                        "md5": "88f65c6001888d8547497dd90ac67af6"
+                    },
+                    "required_dependencies": [
+                        "351264"
+                    ],
+                    "size": 626176,
+                    "date_published": "2025-12-13T08:49:13.437Z"
                 }
             ]
         },

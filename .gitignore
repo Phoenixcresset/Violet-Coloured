@@ -42,6 +42,7 @@
 /config/transition.json
 /config/trender.json
 /config/*.bak
+/config/inventoryprofilesnext/Quark/
 /data/
 /debug/
 /dynamic-data-pack-cache/
