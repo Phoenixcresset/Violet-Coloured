@@ -188,6 +188,9 @@
         },
         "better-f1-reborn": {
             "side": "CLIENT"
+        },
+        "modlistmemory": {
+            "side": "CLIENT"
         }
     }
 }

@@ -20,6 +20,7 @@
 
 - Enchantment Disabler
 - Inventory Profiles Next
+- Mod List Memory
 - Mod Name Tooltip
 - Quark
 - Quark Oddities

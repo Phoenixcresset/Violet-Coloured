@@ -3921,6 +3921,50 @@
             ]
         },
         {
+            "pakku_id": "86pC7rFOfWqvcLnF",
+            "pakku_links": [
+                "Egg5io7aGVEFrupt",
+                "qzW1pMQy7rxMwqcb"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "modlistmemory"
+            },
+            "name": {
+                "curseforge": "ModListMemory"
+            },
+            "id": {
+                "curseforge": "1180596"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "modlistmemory-neoforge-1.0.0+1.21+bm-1.1.15.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6282/899/modlistmemory-neoforge-1.0.0+1.21+bm-1.1.15.jar",
+                    "id": "6282899",
+                    "parent_id": "1180596",
+                    "hashes": {
+                        "sha1": "7a29ac8aa2c6be0e8426be729a47169d2c98cc04",
+                        "md5": "cc85717806e1ca24d04240859417be5f"
+                    },
+                    "required_dependencies": [
+                        "348521",
+                        "1089803"
+                    ],
+                    "size": 47774,
+                    "date_published": "2025-03-09T06:31:48.123Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "GhcKKC0mJ5RsGzRE",
             "type": "RESOURCE_PACK",
             "slug": {
