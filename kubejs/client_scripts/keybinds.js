@@ -170,4 +170,29 @@
       }
     }
   });
+
+  KeyBindJSEvents.register((event) => {
+    // TODO Fix wrong key assignment when trying to assign Mouse Buttons
+    event.create(
+      "sort_inventory",
+      "key.ipn.sort_inventory",
+      GLFW.GLFW_MOUSE_BUTTON_MIDDLE,
+      "key.categories.inventory"
+    );
+
+    event.create(
+      "move_all_items",
+      "key.ipn.move_all_items",
+      GLFW.GLFW_KEY_S,
+      "key.categories.inventory"
+    );
+    event
+      .create(
+        "copy_item_id",
+        "key.ipn.copy_item_id",
+        GLFW.GLFW_KEY_C,
+        "key.categories.misc"
+      )
+      .addModifier(KeyModifier.CONTROL);
+  });
 })();
