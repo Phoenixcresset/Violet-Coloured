@@ -99,6 +99,14 @@
     "quark.keybind.patreon_emote.zombie",
     "quark.keybind.change_hotbar",
     "quark.keybind.shift_lock",
+    "quark.keybind.camera_mode",
+    "quark.keybind.transfer_insert",
+    "quark.keybind.transfer_extract",
+    "quark.keybind.sort_player",
+    "quark.keybind.sort_container",
+    "quark.keybind.variant_selector",
+    "key.jade.show_recipes",
+    "key.jade.show_uses",
   ];
 
   /**
