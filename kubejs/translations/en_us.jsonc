@@ -12,6 +12,11 @@
     "item.hearthandharvest.cheddar_cheese_slice": "Cheddar Cheese Wedge",
     "item.hearthandharvest.goat_cheese_slice": "Goat Cheese Wedge"
   },
+  "inventoryprofilesnext": {
+    "inventoryprofiles.tooltip.sort_button": "Sort",
+    "inventoryprofiles.tooltip.sort_button.current_order": "",
+    "inventoryprofiles.tooltip.move_all_button.move_all": "§8§o%s§r§8 - Move All"
+  },
   "sootychimneys": {
     "message.sootychimneys.blocked": "",
     "message.sootychimneys.open": ""
