@@ -246,6 +246,9 @@
         }
     },
     "Tweaks": {
+        "prevent_close_gui_drop_item": {
+            "value": true
+        },
         "container_swipe_moving_items": {
             "value": false
         }
