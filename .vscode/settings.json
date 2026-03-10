@@ -62,6 +62,7 @@
         "dynamic-resource-pack-cache/": true,
         "kubejs/**/jsconfig.json": true,
         "local/": true,
+        "logs/telemetry/": true,
         "moddata/": true,
         "mods/.index/": true,
         "node_modules/": true,
