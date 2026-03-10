@@ -50,6 +50,7 @@
 /cherishedworlds-favorites.dat
 /moddata/
 /TrashSlotSaveState.json
+.qmenu_opened.marker
 
 # Pakku
 /build/

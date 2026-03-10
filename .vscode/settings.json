@@ -50,6 +50,7 @@
         "screenshots/": true,
         "server-resource-packs/": true,
         "texturepacks/": true,
+        ".qmenu_opened.marker": true,
         "TrashSlotSaveState.json": true,
         "usercache.json": true,
         "usernamecache.json": true,
