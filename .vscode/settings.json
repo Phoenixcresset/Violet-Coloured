@@ -12,6 +12,14 @@
         "editor.defaultFormatter": "vscode.json-language-features",
         "editor.minimap.markSectionHeaderRegex": "#region\\s*(?<separator>-?)\\s*(?<label>.*)$"
     },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        ".gitignore": ".gitattributes",
+        "package.json": ".oxfmtrc.json, .oxlintrc.json",
+        "CHANGELOG.md": "CREDITS.md, LICENSE, README.md",
+        "pakku.json": "pakku.jar"
+    },
     "files.exclude": {
         ".cache/": true,
         ".mixin.out/": true,
