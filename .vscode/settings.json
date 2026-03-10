@@ -20,6 +20,9 @@
         "CHANGELOG.md": "CREDITS.md, LICENSE, README.md",
         "pakku.json": "pakku.jar"
     },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
     "files.exclude": {
         ".cache/": true,
         ".mixin.out/": true,
