@@ -1,31 +1,40 @@
 # Minecraft
-/local/
-/saves/
-/mods/
-/logs/
-/crash-reports/
-/backups/
-/resourcepacks/
-/server-resource-packs/
-/screenshots/
-/downloads/
 /coremods/
+/crash-reports/
+/downloads/
+/local/
+/logs/
+/mods/
+/resourcepacks/
+/saves/
+/server-resource-packs/
+/shaderpacks/
+/screenshots/
 /texturepacks/
 
 /command_history.txt
-/emi.json
 /icon.png
 /options.txt
 /usercache.json
 /usernamecache.json
 
-# Misc. Mods
+# Mods generated files
 /.cache/
 /.mixin.out/
 /cache/
-/config/alltheleaks.json
+/data/
+/debug/
+/dynamic-data-pack-cache/
+/dynamic-resource-pack-cache/
+/moddata/
+
+/cherishedworlds-favorites.dat
+/.qmenu_opened.marker
+/emi.json
+/TrashSlotSaveState.json
+
+# Configs
 /config/crash_assistant/modlist.json
-/config/dynamic_fps.json
 /config/fabric/
 /config/fzzy_config/
 /config/ichunutil/
@@ -34,6 +43,13 @@
 /config/jade/sort-order.json
 /config/jei/
 /config/konkrete/
+/config/quark_emotes/
+/config/reliable_recipes/
+
+/config/*.bak
+/config/alltheleaks.json
+/config/dynamic_fps.json
+/config/iris*
 /config/lithium.properties
 /config/lmft.json
 /config/midnightlib.json
@@ -42,39 +58,19 @@
 /config/nerb/
 /config/particle_effects.json5
 /config/ponder-client.toml
-/config/quark_emotes/
-/config/reliable_recipes/
 /config/resourceful-config-web.json
 /config/sodium-*
 /config/transition.json
 /config/trender.json
-/config/*.bak
-/data/
-/debug/
-/dynamic-data-pack-cache/
-/dynamic-resource-pack-cache/
-/cherishedworlds-favorites.dat
-/moddata/
-/TrashSlotSaveState.json
-.qmenu_opened.marker
-
-# Pakku
-/build/
 
 # KubeJS
-.probe
+/.probe/
+/.vscode/**.code-snippets
 /kubejs/**/probe-settings.json
 /node_modules/
 
-# Shaders
-/shaderpacks/
-/config/iris*
-
-# dotenv
-/.env
-
-# VSCode
-/.vscode/**.code-snippets
+# Pakku
+/build/
 
 # OS specific files
 
