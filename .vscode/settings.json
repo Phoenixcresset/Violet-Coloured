@@ -12,6 +12,15 @@
         "editor.defaultFormatter": "vscode.json-language-features",
         "editor.minimap.markSectionHeaderRegex": "#region\\s*(?<separator>-?)\\s*(?<label>.*)$"
     },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "bdq460.shell-formatter"
+    },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.expand": false,
     "explorer.fileNesting.patterns": {
@@ -19,9 +28,6 @@
         "package.json": ".oxfmtrc.json, .oxlintrc.json",
         "README.md": "LICENSE",
         "pakku.json": "pakku.jar"
-    },
-    "[javascript]": {
-        "editor.tabSize": 2
     },
     "files.exclude": {
         ".cache/": true,
