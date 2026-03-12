@@ -31,12 +31,12 @@
       resultFluidId: "violetcoloured:liquid_apple_juice",
     },
     {
-      baseFluidTag: "#violetcoloured:white_grape_juice",
+      baseFluidTag: "#violetcoloured:apple_juice",
       ingredients: [{ item: "minecraft:apple" }],
       resultFluidId: "vinery:liquid_apple_cider",
     },
     {
-      baseFluidTag: "#violetcoloured:white_grape_juice",
+      baseFluidTag: "#violetcoloured:apple_juice",
       ingredients: [{ item: "minecraft:sugar" }],
       resultFluidId: "vinery:liquid_apple_wine",
     },
