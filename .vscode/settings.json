@@ -21,6 +21,10 @@
     "[shellscript]": {
         "editor.defaultFormatter": "bdq460.shell-formatter"
     },
+    "markdownlint.config": {
+        "no-duplicate-heading": false,
+        "single-h1": false
+    },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.expand": false,
     "explorer.fileNesting.patterns": {
