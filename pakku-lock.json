@@ -22,7 +22,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.7.3.jar",
+                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.8.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -30,16 +30,16 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7686/698/AdvancedLootInfo-neoforge-1.21.1-1.7.3.jar",
-                    "id": "7686698",
+                    "url": "https://edge.forgecdn.net/files/7735/193/AdvancedLootInfo-neoforge-1.21.1-1.8.1.jar",
+                    "id": "7735193",
                     "parent_id": "1205426",
                     "hashes": {
-                        "sha1": "a38d560c280b37410609a7cdf2a9219f3f7bfec0",
-                        "md5": "df98e27d5082ce693fb2ba2927c8b6d3"
+                        "sha1": "aaf72829304439afb737e4c8bad579c8d2f6713d",
+                        "md5": "4b26c8813f844b5502a5e3a221c39640"
                     },
                     "required_dependencies": [],
-                    "size": 749001,
-                    "date_published": "2026-02-27T17:13:45.027Z"
+                    "size": 752697,
+                    "date_published": "2026-03-09T20:07:11.260Z"
                 }
             ]
         },
@@ -3615,25 +3615,24 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "lithium-neoforge-0.15.2+mc1.21.1.jar",
+                    "file_name": "lithium-neoforge-0.15.3+mc1.21.1.jar",
                     "mc_versions": [
-                        "1.21",
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7581/452/lithium-neoforge-0.15.2+mc1.21.1.jar",
-                    "id": "7581452",
+                    "url": "https://edge.forgecdn.net/files/7740/400/lithium-neoforge-0.15.3+mc1.21.1.jar",
+                    "id": "7740400",
                     "parent_id": "360438",
                     "hashes": {
-                        "sha1": "54457ba68b0066a5b6034655f8d31a29a3e5e6b1",
-                        "md5": "ea8a0699fa86f4c9642bdc369546a7a6"
+                        "sha1": "9fd5fa9076044180ae7f51672de74669196ec72e",
+                        "md5": "8207aaae8fea906c7eb2447da40b8c83"
                     },
                     "required_dependencies": [],
-                    "size": 773944,
-                    "date_published": "2026-02-05T21:34:06.287Z"
+                    "size": 774148,
+                    "date_published": "2026-03-10T22:02:15.497Z"
                 }
             ]
         },
@@ -3927,6 +3926,7 @@
                 "qzW1pMQy7rxMwqcb"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "modlistmemory"
             },
@@ -5067,7 +5067,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "reliable_remover-neoforge-1.21.1-1.5.1.jar",
+                    "file_name": "reliable_remover-neoforge-1.21.1-1.6.0.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5075,16 +5075,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7689/476/reliable_remover-neoforge-1.21.1-1.5.1.jar",
-                    "id": "7689476",
+                    "url": "https://edge.forgecdn.net/files/7736/795/reliable_remover-neoforge-1.21.1-1.6.0.jar",
+                    "id": "7736795",
                     "parent_id": "1420447",
                     "hashes": {
-                        "sha1": "f81bb362b3859fc19ebb827a75406273e66d44ee",
-                        "md5": "8d35710b460b0819c5ac5e5f50ceebcc"
+                        "sha1": "a127bca0f028d3d621ff530479589bf95ce9062d",
+                        "md5": "81691fc7c22b449a8abac5fddeffbc30"
                     },
                     "required_dependencies": [],
-                    "size": 148251,
-                    "date_published": "2026-02-28T06:27:37.133Z"
+                    "size": 154346,
+                    "date_published": "2026-03-10T04:01:47.733Z"
                 }
             ]
         },
@@ -5377,7 +5377,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "OctoLib-NEOFORGE-0.6.0.4+1.21.jar",
+                    "file_name": "OctoLib-NEOFORGE-0.6.1+1.21.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5385,18 +5385,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6932/487/OctoLib-NEOFORGE-0.6.0.4+1.21.jar",
-                    "id": "6932487",
+                    "url": "https://edge.forgecdn.net/files/7724/6/OctoLib-NEOFORGE-0.6.1+1.21.jar",
+                    "id": "7724006",
                     "parent_id": "916747",
                     "hashes": {
-                        "sha1": "106ca4d0a3597e1a5c6489e98361c81436c528e0",
-                        "md5": "a4d9392dc783763815e350b9392ddd51"
+                        "sha1": "052b71b4897b3a76b4b10afda4d9342e66fb19f1",
+                        "md5": "53c6cec036a9670c72da4de560bb8984"
                     },
                     "required_dependencies": [
                         "419699"
                     ],
-                    "size": 507443,
-                    "date_published": "2025-08-27T00:27:22.627Z"
+                    "size": 540285,
+                    "date_published": "2026-03-07T12:08:19.807Z"
                 }
             ]
         },
@@ -5877,7 +5877,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "supplementaries-1.21-3.5.27-neoforge.jar",
+                    "file_name": "supplementaries-1.21-3.5.28-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5885,18 +5885,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7715/630/supplementaries-1.21-3.5.27-neoforge.jar",
-                    "id": "7715630",
+                    "url": "https://edge.forgecdn.net/files/7723/451/supplementaries-1.21-3.5.28-neoforge.jar",
+                    "id": "7723451",
                     "parent_id": "412082",
                     "hashes": {
-                        "sha1": "ddc7007ca224ec367d9ffe0516d0f9978c0e6d18",
-                        "md5": "90f4994234ace769b2e0ad6acd44a03a"
+                        "sha1": "27f53205b6f4824264c27cdc622269ef880a8ee3",
+                        "md5": "533c7e6ebaea35987b9b48e4927ca6ed"
                     },
                     "required_dependencies": [
                         "499980"
                     ],
-                    "size": 13354405,
-                    "date_published": "2026-03-05T18:31:55.817Z"
+                    "size": 13355642,
+                    "date_published": "2026-03-07T09:32:52.490Z"
                 }
             ]
         },
