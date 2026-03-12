@@ -11,6 +11,7 @@
     "lint:fix": "oxlint --fix",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
+    "toggle-worktree": "./scripts/git-worktree-toggle.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
