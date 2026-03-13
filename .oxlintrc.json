@@ -86,6 +86,7 @@
     "LootEntry": "readonly",
     "ItemFilter": "readonly",
     "MoreJS": "readonly",
+    "KJSTweaks": "readonly",
     "KeyBindJSEvents": "readonly",
     "GLFW": "readonly",
     "KeyModifier": "readonly",
