@@ -64,7 +64,7 @@
 /config/trender.json
 
 # KubeJS
-/.probe/
+.probe
 /.vscode/**.code-snippets
 /kubejs/**/probe-settings.json
 /node_modules/
