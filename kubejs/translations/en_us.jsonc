@@ -23,11 +23,12 @@
     "block.supplementaries.item_shelf": "Oak Item Shelf"
   },
   "vinery": {
+    "block.vinery.red_wine": "Rosé Wine",
     "block.vinery.stackable_log": "Stacked Logs"
   },
   "violetcoloured": {
-    "item.violetcoloured.red_grape_juice": "Red Grape Juice",
-    "item.violetcoloured.white_grape_juice": "White Grape Juice",
+    "item.violetcoloured.red_grape_juice": "Red Wine",
+    "item.violetcoloured.white_grape_juice": "White Wine",
     "item.violetcoloured.apple_juice": "Apple Juice",
     "key.ipn.sort_inventory": "Sort Inventory",
     "key.ipn.move_all_items": "Move Items In Chest",
