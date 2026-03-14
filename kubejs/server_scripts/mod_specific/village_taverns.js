@@ -3,9 +3,6 @@
     if (!String(event.id).startsWith("village_taverns:")) {
       return;
     }
-    console.log("Structure load :");
-    console.log(event.id);
-    console.log("Replacing village_taverns:barrel with brewinandchewin:keg");
     const palette = event.getPalette(0);
     // palette is a $PaletteWrapper, that exposes a forEach function, but does not implement the iterable protocol
     // oxlint-disable-next-line unicorn/no-array-for-each
