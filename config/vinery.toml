@@ -36,6 +36,18 @@
 	# Range: 0.0 ~ 10.0
 	grapeGrowthMultiplier = 1.0
 
+	[Items.WanderingTrader]
+		#Chance for the custom trader to spawn. Range: 0.0 to 1.0
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		spawnChance = 0.0
+		#If true, the trader will spawn with mules.
+		spawnWithMules = true
+		#Spawn delay for the trader in ticks.
+		# Default: 48000
+		# Range: > 1
+		spawnDelay = 48000
+
 	[Items.Wine]
 		#Maximum level for wine
 		# Default: 5
@@ -68,26 +80,14 @@
 		#Set to false to hide the banner's tooltip. If giveEffect is false, showTooltip is automatically false.
 		showTooltip = true
 
-	[Items.WanderingTrader]
-		#Chance for the custom trader to spawn. Range: 0.0 to 1.0
-		# Default: 0.5
-		# Range: 0.0 ~ 1.0
-		spawnChance = 0.5
-		#If true, the trader will spawn with mules.
-		spawnWithMules = true
-		#Spawn delay for the trader in ticks.
-		# Default: 48000
-		# Range: > 1
-		spawnDelay = 48000
-
 	[Items.VillagerTrades]
 		#List of trades for Level 1. Format: item|price|quantity|maxUses|isSelling
 		level1Trades = ["vinery:red_grape|5|4|5|false", "vinery:white_grape|5|4|5|false", "vinery:red_grape_seeds|2|1|1|true", "vinery:white_grape_seeds|2|1|1|true"]
 		#List of trades for Level 2. Format: item|price|quantity|maxUses|isSelling
-		level2Trades = ["vinery:wine_bottle|1|2|7|true"]
+		level2Trades = ["vinery:wine_bottle|1|1|4|true"]
 		#List of trades for Level 3. Format: item|price|quantity|maxUses|isSelling
-		level3Trades = ["vinery:white_grape_bag|7|1|10|true", "vinery:red_grape_bag|7|1|10|true"]
+		level3Trades = ["vinery:white_grape_bag|7|1|2|true", "vinery:red_grape_bag|7|1|2|true"]
 		#List of trades for Level 4. Format: item|price|quantity|maxUses|isSelling
-		level4Trades = ["vinery:dark_cherry_log|6|1|10|true"]
+		level4Trades = []
 		#List of trades for Level 5. Format: item|price|quantity|maxUses|isSelling
-		level5Trades = ["vinery:wine_box|10|1|10|true", "vinery:lilitu_wine|4|1|10|true"]
+		level5Trades = ["vinery:wine_box|10|1|2|true", "vinery:lilitu_wine|4|1|2|true"]

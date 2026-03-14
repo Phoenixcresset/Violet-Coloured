@@ -138,6 +138,8 @@
       /winemaker.*/,
       /.*_grapejuice/,
       "apple_juice",
+      "wandering_winemaker_spawn_egg",
+      "mule_spawn_egg",
       /.*_wine_rack_mid/, // Not intuitive to use, can be replaced by just placing the wine down (works with aging)
       // Storage blocks replaced by Crate Delight or Hearth and Harvest
       "apple_bag",
