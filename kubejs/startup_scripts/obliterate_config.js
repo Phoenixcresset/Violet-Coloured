@@ -55,6 +55,15 @@
       "sugar_bag",
       "sweet_berry_crate",
       "turtle_egg_crate", // Removed because Turtle Eggs are not food
+      // Deprecated Crates
+      "egg_crate",
+      "milk_crate",
+      "goat_milk_crate",
+      "red_grape_wine_crate",
+      "green_grape_wine_crate",
+      "water_crate",
+      "honey_crate",
+      "syrup_crate",
     ],
     horseman: ["copper_horn"],
     quark: [
@@ -140,7 +149,7 @@
       "apple_juice",
       "wandering_winemaker_spawn_egg",
       "mule_spawn_egg",
-      /.*_wine_rack_mid/, // Not intuitive to use, can be replaced by just placing the wine down (works with aging)
+      /.*_wine_rack_.*/, // Replaced by HnH Bottle Rack / Crate or just placing the bottle
       // Storage blocks replaced by Crate Delight or Hearth and Harvest
       "apple_bag",
       "cherry_bag",

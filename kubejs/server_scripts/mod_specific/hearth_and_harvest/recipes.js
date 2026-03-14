@@ -10,21 +10,6 @@
     },
   ];
 
-  const bottleRecipes = [
-    {
-      bottle: "violetcoloured:red_grape_juice",
-      crate: "hearthandharvest:red_grape_wine_crate",
-    },
-    {
-      bottle: "violetcoloured:white_grape_juice",
-      crate: "hearthandharvest:green_grape_wine_crate",
-    },
-    {
-      bottle: "hearthandharvest:syrup_bottle",
-      crate: "hearthandharvest:syrup_crate",
-    },
-  ];
-
   const cookingRecipes = [
     {
       ingredients: [
@@ -80,22 +65,6 @@
       .id(`${cheeseId}_from_wedges`);
   }
 
-  function bottleToCrateRecipe(event, inputBottle, outputCrate) {
-    event
-      .custom({
-        type: "hearthandharvest:bottle_crate",
-        category: "building",
-        input: {
-          item: inputBottle,
-        },
-        result: {
-          id: outputCrate,
-          count: 1,
-        },
-      })
-      .id(outputCrate);
-  }
-
   function cookingRecipe(
     event,
     ingredients,
@@ -129,10 +98,6 @@
   ServerEvents.recipes((event) => {
     for (const cheeseRecipe of cheeseRecipes) {
       cheeseSliceToWheelRecipe(event, cheeseRecipe.slice, cheeseRecipe.wheel);
-    }
-
-    for (const bottleRecipe of bottleRecipes) {
-      bottleToCrateRecipe(event, bottleRecipe.bottle, bottleRecipe.crate);
     }
 
     for (const recipe of cookingRecipes) {
