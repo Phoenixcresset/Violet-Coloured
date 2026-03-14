@@ -13,6 +13,7 @@
 - Made Spyglass overlay to be transparent
 - Removed Hearth and Harvest effects
 - Inventory Sorting, Transfer and Item Locking
+- Better Vinery integration with Hearth and Harvest
 
 ## Mods
 
