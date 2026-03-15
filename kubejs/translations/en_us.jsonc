@@ -15,6 +15,9 @@
     "inventoryprofiles.tooltip.sort_button.current_order": "",
     "inventoryprofiles.tooltip.move_all_button.move_all": "§8§o%s§r§8 - Move All"
   },
+  "measurements": {
+    "item.measurements.tape_measure": "Abacus"
+  },
   "sootychimneys": {
     "message.sootychimneys.blocked": "",
     "message.sootychimneys.open": ""
@@ -45,6 +48,7 @@
     "emi.category.minecraft.sniffer_digging": "Sniffer Digging",
     "emi.category.quark.oretoise": "Oretoise Ores",
     "emi.category.quark.stoneling": "Stoneling Carried Items",
+    "emi.info.abacus": "Use this on a block and it'll count the distance between this block and the block you're looking at (or the next one you'll click on). Sneak + Right click to remove the last measurement.",
     "emi.info.mushroom_colony": "A Mushroom Colony can grow from a Red or Brown Mushroom planted on Rich Soil, while under sufficient darkness.",
     "emi.info.tomatoes": "Tomatoes can grow more than one block high on Sticks and Ropes.",
     "ali/loot_table/loot/urn_loot/urn_loot": "Urn Loot",

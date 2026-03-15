@@ -90,6 +90,8 @@
       "golden_carrot_crate",
       "beetroot_crate",
       "cocoa_beans_sack",
+      // Tools
+      "abacus",
       // Tweaks
       /.*shard/, // Glass shards
       // Mobs

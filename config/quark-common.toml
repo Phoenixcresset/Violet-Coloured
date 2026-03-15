@@ -329,7 +329,7 @@
 		"Swap Off Hand" = true
 
 [tools]
-	Abacus = true
+	Abacus = false
 	"Ambient Discs" = true
 	"Ancient Tomes" = true
 	"Beacon Redirection" = true
