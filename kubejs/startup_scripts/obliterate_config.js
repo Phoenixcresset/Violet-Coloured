@@ -26,6 +26,8 @@
       "tamale",
       "trail_mix",
       "sunflower_seeds",
+      "hay_rug",
+      "straw_rug",
       // Vinery overlap and removed beverages
       "cherry",
       /(?!.*(red|green)_grape_wine_crate$).*wine.*/,
@@ -54,9 +56,9 @@
       "poisonous_potato_crate",
       "sugar_bag",
       "sweet_berry_crate",
-      "turtle_egg_crate", // Removed because Turtle Eggs are not food
       // Deprecated Crates
       "egg_crate",
+      "turtle_egg_crate",
       "milk_crate",
       "goat_milk_crate",
       "red_grape_wine_crate",
