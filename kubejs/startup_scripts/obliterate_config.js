@@ -137,6 +137,7 @@
       "dark_cherry_barrel",
       "fermentation_barrel",
       "grapevine_pot",
+      "wine_box",
       "mead",
       "storage_pot",
       "straw_hat",
@@ -149,6 +150,7 @@
       /winemaker.*/,
       /.*_grapejuice/,
       "apple_juice",
+      "apple_mash",
       "wandering_winemaker_spawn_egg",
       "mule_spawn_egg",
       /.*_wine_rack_.*/, // Replaced by HnH Bottle Rack / Crate or just placing the bottle
