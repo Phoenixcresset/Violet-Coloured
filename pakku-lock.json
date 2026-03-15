@@ -1139,7 +1139,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "colorwheel-neoforge-1.2.1+mc1.21.1.jar",
+                    "file_name": "colorwheel-neoforge-1.2.2+mc1.21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -1147,18 +1147,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7490/349/colorwheel-neoforge-1.2.1+mc1.21.1.jar",
-                    "id": "7490349",
+                    "url": "https://edge.forgecdn.net/files/7757/229/colorwheel-neoforge-1.2.2+mc1.21.1.jar",
+                    "id": "7757229",
                     "parent_id": "1254143",
                     "hashes": {
-                        "sha1": "395962772bd24b0b7e07c2d39dbf498599a8b901",
-                        "md5": "54bdc8345be83bf73e7c73283fe79306"
+                        "sha1": "e3678d8172da6792d193ae1b9c20b53d23c480d4",
+                        "md5": "548b4e4b9b2f07df4ce43272d82a913f"
                     },
                     "required_dependencies": [
                         "455508"
                     ],
-                    "size": 372917,
-                    "date_published": "2026-01-19T20:11:36.207Z"
+                    "size": 374610,
+                    "date_published": "2026-03-14T17:11:44.317Z"
                 }
             ]
         },
@@ -4525,7 +4525,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ParticleEffects-1.2.0+1.21.1+neoforge.jar",
+                    "file_name": "ParticleEffects-1.3.0+1.21.1+neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -4533,16 +4533,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7382/485/ParticleEffects-1.2.0+1.21.1+neoforge.jar",
-                    "id": "7382485",
+                    "url": "https://edge.forgecdn.net/files/7756/465/ParticleEffects-1.3.0+1.21.1+neoforge.jar",
+                    "id": "7756465",
                     "parent_id": "1120746",
                     "hashes": {
-                        "sha1": "c25e8a75900521762ab077b3821335c1a1ad0708",
-                        "md5": "fa598a36b97efa77dac6a30984e05764"
+                        "sha1": "9a772d7d113dee4de79ef00cce5654442545f94a",
+                        "md5": "3a2c52374387712fd4c41154c3ee433a"
                     },
                     "required_dependencies": [],
-                    "size": 294636,
-                    "date_published": "2025-12-26T22:24:15.990Z"
+                    "size": 309063,
+                    "date_published": "2026-03-14T14:37:57.123Z"
                 }
             ]
         },
@@ -5068,7 +5068,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "reliable_remover-neoforge-1.21.1-1.6.0.jar",
+                    "file_name": "reliable_remover-neoforge-1.21.1-1.7.0.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5076,16 +5076,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7736/795/reliable_remover-neoforge-1.21.1-1.6.0.jar",
-                    "id": "7736795",
+                    "url": "https://edge.forgecdn.net/files/7755/66/reliable_remover-neoforge-1.21.1-1.7.0.jar",
+                    "id": "7755066",
                     "parent_id": "1420447",
                     "hashes": {
-                        "sha1": "a127bca0f028d3d621ff530479589bf95ce9062d",
-                        "md5": "81691fc7c22b449a8abac5fddeffbc30"
+                        "sha1": "10c69ff3670939f5d6240c2d9baaa06791b7286a",
+                        "md5": "9a3769a6db48b9609ae26aa33811ff7f"
                     },
                     "required_dependencies": [],
-                    "size": 154346,
-                    "date_published": "2026-03-10T04:01:47.733Z"
+                    "size": 155997,
+                    "date_published": "2026-03-14T08:34:17.383Z"
                 }
             ]
         },
