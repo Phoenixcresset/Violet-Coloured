@@ -3768,6 +3768,42 @@
             ]
         },
         {
+            "pakku_id": "tcnADM2Df2fXkykF",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "measurements"
+            },
+            "name": {
+                "curseforge": "Measurements"
+            },
+            "id": {
+                "curseforge": "478559"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Measurements-neoforge-1.21.1-3.0.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6956/811/Measurements-neoforge-1.21.1-3.0.3.jar",
+                    "id": "6956811",
+                    "parent_id": "478559",
+                    "hashes": {
+                        "sha1": "4c415df21ffe02b6619c204b84d20dbe94b5f3b1",
+                        "md5": "9c3eca79d134eb06409f9078e49fc681"
+                    },
+                    "required_dependencies": [],
+                    "size": 47632,
+                    "date_published": "2025-09-02T19:00:50.610Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ZBH2avmTqV7NpnrL",
             "type": "MOD",
             "slug": {

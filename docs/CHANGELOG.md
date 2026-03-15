@@ -21,6 +21,7 @@
 
 - Enchantment Disabler
 - Inventory Profiles Next
+- Measurements
 - Mod List Memory
 - Mod Name Tooltip
 - Quark
