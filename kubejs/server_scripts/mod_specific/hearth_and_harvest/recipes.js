@@ -98,6 +98,14 @@
         T: "minecraft:stick",
       },
     },
+    {
+      result: Item.of("hearthandharvest:jar", 10),
+      pattern: ["GCG", "G G", "GGG"],
+      key: {
+        G: "minecraft:glass",
+        C: "farmersdelight:canvas",
+      },
+    },
   ];
 
   const REMOVED_FERMENTING_RECIPE_IDS = [
