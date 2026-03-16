@@ -4,8 +4,6 @@
     "minecraft:cake",
     "hearthandharvest:cake_from_batter",
     "hearthandharvest:carrot_cake_from_batter",
-    "farmersdelight:cooking/unripe_cheddar_cheese_wheel",
-    "farmersdelight:cooking/unripe_goat_cheese_wheel",
   ];
 
   const removedRecipesTypes = [

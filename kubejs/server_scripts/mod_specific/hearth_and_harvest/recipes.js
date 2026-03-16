@@ -1,15 +1,4 @@
 (() => {
-  const cheeseRecipes = [
-    {
-      slice: "hearthandharvest:cheddar_cheese_slice",
-      wheel: "hearthandharvest:cheddar_cheese_wheel",
-    },
-    {
-      slice: "hearthandharvest:goat_cheese_slice",
-      wheel: "hearthandharvest:goat_cheese_wheel",
-    },
-  ];
-
   const cookingRecipes = [
     {
       ingredients: [
@@ -47,6 +36,35 @@
       result: "hearthandharvest:biscuits_and_gravy",
       container: "minecraft:bowl",
     },
+    {
+      ingredients: [
+        { item: "farmersdelight:raw_pasta" },
+        { item: "hearthandharvest:salt" },
+        { tag: "c:drinks/milk" },
+        { item: "hearthandharvest:butter" },
+        { tag: "brewinandchewin:foods/cheese_wedge" },
+      ],
+      result: "hearthandharvest:macaroni_and_cheese",
+      container: "minecraft:bowl",
+    },
+    {
+      ingredients: [
+        {
+          item: "farmersdelight:onion",
+        },
+        {
+          item: "farmersdelight:onion",
+        },
+        {
+          tag: "c:drinks/milk",
+        },
+        {
+          tag: "brewinandchewin:foods/cheese_wedge",
+        },
+      ],
+      result: "hearthandharvest:onion_soup",
+      container: "minecraft:bowl",
+    },
   ];
 
   const removedFermentingRecipesIds = [
@@ -56,14 +74,6 @@
     "hard_cider",
     "root_beer",
   ];
-
-  function cheeseSliceToWheelRecipe(event, sliceId, cheeseId) {
-    event
-      .shaped(cheeseId, ["SS", "SS"], {
-        S: sliceId,
-      })
-      .id(`${cheeseId}_from_wedges`);
-  }
 
   function cookingRecipe(
     event,
@@ -96,9 +106,15 @@
   }
 
   ServerEvents.recipes((event) => {
-    for (const cheeseRecipe of cheeseRecipes) {
-      cheeseSliceToWheelRecipe(event, cheeseRecipe.slice, cheeseRecipe.wheel);
-    }
+    event
+      .shapeless("hearthandharvest:taco", [
+        "hearthandharvest:tortilla",
+        "farmersdelight:beef_patty",
+        "#brewinandchewin:foods/cheese_wedge",
+        "farmersdelight:tomato",
+        "#c:foods/cabbage",
+      ])
+      .id("hearthandharvest:taco");
 
     for (const recipe of cookingRecipes) {
       cookingRecipe(

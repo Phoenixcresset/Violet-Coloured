@@ -28,6 +28,14 @@
       "sunflower_seeds",
       "hay_rug",
       "straw_rug",
+      // Milk and cheese
+      "goat_milk_bottle",
+      "unripe_cheddar_cheese_wheel",
+      "cheddar_cheese_wheel",
+      "cheddar_cheese_slice",
+      "unripe_goat_cheese_wheel",
+      "goat_cheese_wheel",
+      "goat_cheese_slice",
       // Vinery overlap and removed beverages
       "cherry",
       /(?!.*(red|green)_grape_wine_crate$).*wine.*/,

@@ -6,9 +6,7 @@
     "key.firstperson.toggle": "Toggle First Person Model"
   },
   "hearthandharvest": {
-    "block.hearthandharvest.green_grape_crate": "White Grape Crate",
-    "item.hearthandharvest.cheddar_cheese_slice": "Cheddar Cheese Wedge",
-    "item.hearthandharvest.goat_cheese_slice": "Goat Cheese Wedge"
+    "block.hearthandharvest.green_grape_crate": "White Grape Crate"
   },
   "inventoryprofilesnext": {
     "inventoryprofiles.tooltip.sort_button": "Sort",
