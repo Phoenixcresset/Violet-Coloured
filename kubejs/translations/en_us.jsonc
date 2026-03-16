@@ -6,7 +6,8 @@
     "key.firstperson.toggle": "Toggle First Person Model"
   },
   "hearthandharvest": {
-    "block.hearthandharvest.green_grape_crate": "White Grape Crate"
+    "block.hearthandharvest.green_grape_crate": "White Grape Crate",
+    "block.hearthandharvest.jar": "Jam Jar"
   },
   "inventoryprofilesnext": {
     "inventoryprofiles.tooltip.sort_button": "Sort",
