@@ -22,3 +22,6 @@ crowScareRadius = 6
 stackWaterBottles = true
 #Whether corn mazes should spawn in the world
 generateCornMazes = true
+#Disables milking cows and goats with glass bottels. 
+#Be aware that setting this can cause goat milk bottles to be unobtainable unless handled otherwise
+disableBottleMilking = false

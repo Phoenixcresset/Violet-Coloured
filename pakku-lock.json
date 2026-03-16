@@ -2675,7 +2675,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "hearthandharvest-1.21.1-1.1.4.jar",
+                    "file_name": "hearthandharvest-1.21.1-1.1.5.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2683,18 +2683,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7753/962/hearthandharvest-1.21.1-1.1.4.jar",
-                    "id": "7753962",
+                    "url": "https://edge.forgecdn.net/files/7764/941/hearthandharvest-1.21.1-1.1.5.jar",
+                    "id": "7764941",
                     "parent_id": "1212197",
                     "hashes": {
-                        "sha1": "5f6da8dd43ce64e210e88e2ac92065a879a67475",
-                        "md5": "49f5db62f95f1eb5288fb413c54b9020"
+                        "sha1": "31f2a15828d645f0147bdda70981a301c152d0eb",
+                        "md5": "28dc5f267761053f0a1f34fa2f308b31"
                     },
                     "required_dependencies": [
                         "398521"
                     ],
-                    "size": 1642166,
-                    "date_published": "2026-03-14T01:33:03.573Z"
+                    "size": 1644718,
+                    "date_published": "2026-03-16T02:41:25.817Z"
                 }
             ]
         },
@@ -5104,7 +5104,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "reliable_remover-neoforge-1.21.1-1.7.0.jar",
+                    "file_name": "reliable_remover-neoforge-1.21.1-1.7.3.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5112,16 +5112,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7755/66/reliable_remover-neoforge-1.21.1-1.7.0.jar",
-                    "id": "7755066",
+                    "url": "https://edge.forgecdn.net/files/7765/420/reliable_remover-neoforge-1.21.1-1.7.3.jar",
+                    "id": "7765420",
                     "parent_id": "1420447",
                     "hashes": {
-                        "sha1": "10c69ff3670939f5d6240c2d9baaa06791b7286a",
-                        "md5": "9a3769a6db48b9609ae26aa33811ff7f"
+                        "sha1": "f71c5e9aae1cf8fa6a4bf34c5fcb64d92df6ec14",
+                        "md5": "ea014d147e896da8fd9530b1900b3d19"
                     },
                     "required_dependencies": [],
-                    "size": 155997,
-                    "date_published": "2026-03-14T08:34:17.383Z"
+                    "size": 159252,
+                    "date_published": "2026-03-16T05:34:19.940Z"
                 }
             ]
         },
