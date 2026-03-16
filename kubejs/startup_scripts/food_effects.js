@@ -20,7 +20,38 @@
     "hearthandharvest:onion_soup",
   ];
 
-  const foodsToEdit = [];
+  const foodsToEdit = [
+    // Makes it more in line with other fruits/berries
+    {
+      id: "minecraft:apple",
+      nutrition: 2,
+    },
+    // Make the jams a little more worth to make
+    {
+      id: "hearthandharvest:apple_jam",
+      nutrition: 7,
+    },
+    {
+      id: "hearthandharvest:cherry_jam",
+      nutrition: 7,
+    },
+    {
+      id: "hearthandharvest:glow_berry_jam",
+      nutrition: 7,
+    },
+    {
+      id: "hearthandharvest:grape_jam",
+      nutrition: 7,
+    },
+    {
+      id: "hearthandharvest:melon_jam",
+      nutrition: 7,
+    },
+    {
+      id: "hearthandharvest:sweet_berry_jam",
+      nutrition: 7,
+    },
+  ];
 
   function effectConfig(id, duration, amplifier, probability) {
     if (amplifier === undefined) {
