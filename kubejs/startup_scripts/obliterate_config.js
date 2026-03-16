@@ -33,6 +33,11 @@
       "jerky",
       "cask",
       "jug",
+      "tortilla",
+      "batter",
+      "flour",
+      "corn_meal",
+      "butter",
       // Milk and cheese
       "goat_milk_bottle",
       "unripe_cheddar_cheese_wheel",

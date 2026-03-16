@@ -38,7 +38,7 @@
         "minecraft:cooked_porkchop",
         "#c:dusts/salt",
         "#c:foods/milk",
-        "#c:flours",
+        "minecraft:wheat",
       ],
       result: "hearthandharvest:biscuits_and_gravy",
       container: "minecraft:bowl",
@@ -48,7 +48,6 @@
         "farmersdelight:raw_pasta",
         "hearthandharvest:salt",
         "#c:drinks/milk",
-        "hearthandharvest:butter",
         "#brewinandchewin:foods/cheese_wedge",
       ],
       result: "hearthandharvest:macaroni_and_cheese",
@@ -63,6 +62,31 @@
       ],
       result: "hearthandharvest:onion_soup",
       container: "minecraft:bowl",
+    },
+    {
+      ingredients: [
+        "farmersdelight:wheat_dough",
+        "hearthandharvest:syrup_bottle",
+      ],
+      result: "hearthandharvest:waffle",
+    },
+    {
+      ingredients: [
+        "hearthandharvest:corn",
+        "hearthandharvest:salt",
+        "#c:eggs",
+        "#c:drinks/milk",
+      ],
+      result: "hearthandharvest:corn_bread",
+    },
+    {
+      ingredients: [
+        "minecraft:potato",
+        "minecraft:potato",
+        "hearthandharvest:salt",
+        "#c:drinks/milk",
+      ],
+      result: "hearthandharvest:mashed_potatoes",
     },
   ];
 
@@ -92,7 +116,7 @@
     {
       result: "hearthandharvest:taco",
       ingredients: [
-        "hearthandharvest:tortilla",
+        "farmersdelight:wheat_dough",
         "farmersdelight:beef_patty",
         "#brewinandchewin:foods/cheese_wedge",
         "farmersdelight:tomato",
@@ -107,6 +131,10 @@
         "minecraft:sugar",
         "minecraft:glass_bottle",
       ],
+    },
+    {
+      result: "hearthandharvest:uncooked_corn_on_the_cob",
+      ingredients: ["hearthandharvest:corn", "minecraft:stick"],
     },
   ];
 
@@ -157,7 +185,8 @@
       .custom({
         type: DEFAULTS.cookingType,
         result: { count: 1, id: result },
-        container: { count: 1, id: container },
+        container:
+          container !== undefined ? { count: 1, id: container } : undefined,
         ingredients: ingredients.map((ingredient) =>
           toIngredientObject(ingredient)
         ),
