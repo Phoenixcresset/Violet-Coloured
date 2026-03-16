@@ -1,13 +1,20 @@
 (() => {
-  const cookingRecipes = [
+  const DEFAULTS = {
+    cookingTime: 200,
+    experience: 1,
+    recipeBookTab: "meals",
+    cookingType: "farmersdelight:cooking",
+  };
+
+  const COOKING_RECIPES = [
     {
       ingredients: [
-        { item: "vinery:red_grape" },
-        { item: "vinery:red_grape" },
-        { item: "vinery:red_grape" },
-        { item: "minecraft:sugar" },
-        { item: "minecraft:sugar" },
-        { item: "minecraft:sugar" },
+        "vinery:red_grape",
+        "vinery:red_grape",
+        "vinery:red_grape",
+        "minecraft:sugar",
+        "minecraft:sugar",
+        "minecraft:sugar",
       ],
       result: "hearthandharvest:grape_jam",
       container: "hearthandharvest:jar",
@@ -15,12 +22,12 @@
     },
     {
       ingredients: [
-        { item: "vinery:cherry" },
-        { item: "vinery:cherry" },
-        { item: "vinery:cherry" },
-        { item: "minecraft:sugar" },
-        { item: "minecraft:sugar" },
-        { item: "minecraft:sugar" },
+        "vinery:cherry",
+        "vinery:cherry",
+        "vinery:cherry",
+        "minecraft:sugar",
+        "minecraft:sugar",
+        "minecraft:sugar",
       ],
       result: "hearthandharvest:cherry_jam",
       container: "hearthandharvest:jar",
@@ -28,46 +35,72 @@
     },
     {
       ingredients: [
-        { item: "minecraft:cooked_porkchop" },
-        { tag: "c:dusts/salt" },
-        { tag: "c:foods/milk" },
-        { tag: "c:flours" },
+        "minecraft:cooked_porkchop",
+        "#c:dusts/salt",
+        "#c:foods/milk",
+        "#c:flours",
       ],
       result: "hearthandharvest:biscuits_and_gravy",
       container: "minecraft:bowl",
     },
     {
       ingredients: [
-        { item: "farmersdelight:raw_pasta" },
-        { item: "hearthandharvest:salt" },
-        { tag: "c:drinks/milk" },
-        { item: "hearthandharvest:butter" },
-        { tag: "brewinandchewin:foods/cheese_wedge" },
+        "farmersdelight:raw_pasta",
+        "hearthandharvest:salt",
+        "#c:drinks/milk",
+        "hearthandharvest:butter",
+        "#brewinandchewin:foods/cheese_wedge",
       ],
       result: "hearthandharvest:macaroni_and_cheese",
       container: "minecraft:bowl",
     },
     {
       ingredients: [
-        {
-          item: "farmersdelight:onion",
-        },
-        {
-          item: "farmersdelight:onion",
-        },
-        {
-          tag: "c:drinks/milk",
-        },
-        {
-          tag: "brewinandchewin:foods/cheese_wedge",
-        },
+        "farmersdelight:onion",
+        "farmersdelight:onion",
+        "#c:drinks/milk",
+        "#brewinandchewin:foods/cheese_wedge",
       ],
       result: "hearthandharvest:onion_soup",
       container: "minecraft:bowl",
     },
   ];
 
-  const removedFermentingRecipesIds = [
+  const SHAPELESS_RECIPES = [
+    {
+      result: "hearthandharvest:taco",
+      ingredients: [
+        "hearthandharvest:tortilla",
+        "farmersdelight:beef_patty",
+        "#brewinandchewin:foods/cheese_wedge",
+        "farmersdelight:tomato",
+        "#c:foods/cabbage",
+      ],
+    },
+    {
+      result: "hearthandharvest:cherry_juice",
+      ingredients: [
+        "vinery:cherry",
+        "vinery:cherry",
+        "minecraft:sugar",
+        "minecraft:glass_bottle",
+      ],
+    },
+  ];
+
+  const SHAPED_RECIPES = [
+    {
+      result: "hearthandharvest:cotton_candy",
+      pattern: [" W ", "SSS", " T "],
+      key: {
+        W: "minecraft:wind_charge",
+        S: "minecraft:sugar",
+        T: "minecraft:stick",
+      },
+    },
+  ];
+
+  const REMOVED_FERMENTING_RECIPE_IDS = [
     "moonshine",
     "sweet_berry_wine",
     "mead",
@@ -75,76 +108,65 @@
     "root_beer",
   ];
 
-  function cookingRecipe(
+  function toIngredientObject(ingredient) {
+    return ingredient.startsWith("#")
+      ? { tag: ingredient.slice(1) }
+      : { item: ingredient };
+  }
+
+  function cookingRecipeId(resultId) {
+    const [, shortId] = resultId.split(":");
+    return `${DEFAULTS.cookingType}/${shortId}`;
+  }
+
+  function registerCookingRecipe(
     event,
-    ingredients,
-    resultId,
-    containerId,
-    cookingTime,
-    experience
+    { result, container, ingredients, cookingTime, experience }
   ) {
-    cookingTime = cookingTime !== undefined ? cookingTime : 200;
-    experience = experience !== undefined ? experience : 1;
-    const [, shortenedResultId] = resultId.split(":");
     event
       .custom({
-        type: "farmersdelight:cooking",
-        container: {
-          count: 1,
-          id: containerId,
-        },
-        cookingtime: cookingTime,
-        experience: experience,
-        ingredients: ingredients,
-        recipe_book_tab: "meals",
-        result: {
-          count: 1,
-          id: resultId,
-        },
+        type: DEFAULTS.cookingType,
+        result: { count: 1, id: result },
+        container: { count: 1, id: container },
+        ingredients: ingredients.map((ingredient) =>
+          toIngredientObject(ingredient)
+        ),
+        cookingTime: cookingTime ?? DEFAULTS.cookingTime,
+        experience: experience ?? DEFAULTS.experience,
+        recipe_book_tab: DEFAULTS.recipeBookTab,
       })
-      .id(`farmersdelight:cooking/${shortenedResultId}`);
+      .id(cookingRecipeId(result));
+  }
+
+  function registerShapelessRecipe(event, { result, ingredients }) {
+    event.shapeless(result, ingredients).id(result);
+  }
+
+  function registerShapedRecipe(event, { result, pattern, key }) {
+    event.shaped(result, pattern, key).id(result);
+  }
+
+  function removeBnCFermentingRecipeIntegration(event, recipeId) {
+    event.remove(
+      `hearthandharvest:integration/brewinandchewin/fermenting/${recipeId}`
+    );
   }
 
   ServerEvents.recipes((event) => {
-    event
-      .shapeless("hearthandharvest:taco", [
-        "hearthandharvest:tortilla",
-        "farmersdelight:beef_patty",
-        "#brewinandchewin:foods/cheese_wedge",
-        "farmersdelight:tomato",
-        "#c:foods/cabbage",
-      ])
-      .id("hearthandharvest:taco");
-
-    for (const recipe of cookingRecipes) {
-      cookingRecipe(
-        event,
-        recipe.ingredients,
-        recipe.result,
-        recipe.container,
-        recipe.time
-      );
+    for (const recipe of COOKING_RECIPES) {
+      registerCookingRecipe(event, recipe);
     }
 
-    // TODO: Extract shaped and shapeless recipes
-    event
-      .shaped("hearthandharvest:cotton_candy", [" W ", "SSS", " T "], {
-        W: "minecraft:wind_charge",
-        S: "minecraft:sugar",
-        T: "minecraft:stick",
-      })
-      .id("hearthandharvest:cotton_candy");
-    event
-      .shapeless("hearthandharvest:cherry_juice", [
-        "vinery:cherry",
-        "vinery:cherry",
-        "minecraft:sugar",
-        "minecraft:glass_bottle",
-      ])
-      .id("hearthandharvest:cherry_juice");
-    for (const recipeId of removedFermentingRecipesIds) {
-      let fullRecipeId = `hearthandharvest:integration/brewinandchewin/fermenting/${recipeId}`;
-      event.remove({ id: fullRecipeId });
+    for (const recipe of SHAPELESS_RECIPES) {
+      registerShapelessRecipe(event, recipe);
+    }
+
+    for (const recipe of SHAPED_RECIPES) {
+      registerShapedRecipe(event, recipe);
+    }
+
+    for (const recipeId of REMOVED_FERMENTING_RECIPE_IDS) {
+      removeBnCFermentingRecipeIntegration(event, recipeId);
     }
   });
 })();
