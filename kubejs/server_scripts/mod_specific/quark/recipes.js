@@ -58,10 +58,7 @@
 
   function surroundWithItemRecipe(
     event,
-    ingredient,
-    surroundedItem,
-    output,
-    recipeId
+    { ingredient, surroundedItem, output, recipeId }
   ) {
     event
       .shaped(Item.of(output, 8), ["III", "ISI", "III"], {
@@ -71,16 +68,21 @@
       .id(recipeId);
   }
 
-  function dyedRecipe(event, ingredient, output, recipeId) {
+  function dyedRecipe(event, { ingredient, output, recipeId }) {
     for (const color of Color.DYE.values()) {
       let dyedOutput = output.replace("{color}", color);
       let dyedRecipeId = recipeId.replace("{color}", color);
       let dye = `minecraft:${color}_dye`;
-      surroundWithItemRecipe(event, ingredient, dye, dyedOutput, dyedRecipeId);
+      surroundWithItemRecipe(event, {
+        ingredient: ingredient,
+        surroundedItem: dye,
+        output: dyedOutput,
+        recipeId: dyedRecipeId,
+      });
     }
   }
 
-  function bricksRecipe(event, ingredient, output, recipeId) {
+  function bricksRecipe(event, { ingredient, output, recipeId }) {
     event
       .shaped(Item.of(output, 4), ["II", "II"], {
         I: ingredient,
@@ -97,28 +99,18 @@
         )
         .id(recipe.recipeId);
     }
-    // event
-    //   .shapeless(Item.of("minecraft:red_nether_bricks"), [
-    //     "minecraft:nether_bricks",
-    //     "minecraft:nether_wart_block",
-    //   ])
-    //   .id("minecraft:red_nether_bricks");
+
     for (const recipe of surroundedRecipes) {
-      surroundWithItemRecipe(
-        event,
-        recipe.ingredient,
-        recipe.surroundedItem,
-        recipe.output,
-        recipe.recipeId
-      );
+      console.log(recipe);
+      surroundWithItemRecipe(event, recipe);
     }
 
     for (const recipe of dyedRecipes) {
-      dyedRecipe(event, recipe.ingredient, recipe.output, recipe.recipeId);
+      dyedRecipe(event, recipe);
     }
 
     for (const recipe of bricksRecipes) {
-      bricksRecipe(event, recipe.ingredient, recipe.output, recipe.recipeId);
+      bricksRecipe(event, recipe);
     }
 
     for (const recipeId of removedRecipesIds) {

@@ -39,7 +39,7 @@
       "declaration"
     ], // Preference
     "eslint/id-length": "off", // Preference - Like using i as index
-    "eslint/max-params": "off", // TODO See if relevant
+    // "eslint/max-params": "off", // TODO See if relevant
     "eslint/max-statements": "off", // TODO See if configured is better
     "eslint/no-magic-numbers": "off", // TODO See configuration Avoids having to manually declare some basic numbers
     "eslint/no-continue": "off", // Preference

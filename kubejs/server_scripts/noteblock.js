@@ -12,11 +12,9 @@
     if (!player.isCrouching()) {
       return;
     }
-
     if (item.getId() === "minecraft:note_block") {
       return;
     }
-
     // Allows placing heads on note blocks
     for (let tag of item.getTags()) {
       if (tag === "minecraft:noteblock_top_instruments") {
@@ -43,7 +41,10 @@
       powered: String(blockProperties.getOrDefault("powered", "false")),
     });
 
-    playNoteSound(server, block, newNote, instrument);
+    playNoteSound(server, block, {
+      newNote: newNote,
+      instrument: instrument,
+    });
 
     spawnNoteParticle(level, block, newNote);
     player.swing();
@@ -52,7 +53,7 @@
     event.cancel();
   });
 
-  function playNoteSound(server, block, newNote, instrument) {
+  function playNoteSound(server, block, { newNote, instrument }) {
     // Play the note sound manually
     const soundEvent = `block.note_block.${instrument}`;
     const pitch = 2 ** ((newNote - 12) / 12);

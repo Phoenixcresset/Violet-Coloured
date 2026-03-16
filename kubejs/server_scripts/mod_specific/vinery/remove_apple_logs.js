@@ -106,13 +106,12 @@
 
   ServerEvents.generateData("after_mods", (event) => {
     for (const fileName of appleTreeFileNames) {
-      global.DataGenModule.replaceData(
-        event,
-        "configured_feature",
-        "vinery",
-        `${fileName}`,
-        replacedAppleTreeWithOakLog
-      );
+      global.DataGenModule.replaceData(event, {
+        dataType: "configured_feature",
+        namespace: "vinery",
+        dataName: `${fileName}`,
+        newData: replacedAppleTreeWithOakLog,
+      });
     }
   });
 })();

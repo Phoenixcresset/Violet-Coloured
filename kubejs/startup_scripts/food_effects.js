@@ -53,7 +53,7 @@
     },
   ];
 
-  function effectConfig(id, duration, amplifier, probability) {
+  function effectConfig({ id, duration, amplifier, probability }) {
     if (amplifier === undefined) {
       amplifier = 0;
     }
