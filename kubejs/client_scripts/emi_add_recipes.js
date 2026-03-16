@@ -27,6 +27,11 @@
           right: "item:minecraft:bowl",
           output: "item:farmersdelight:shepherds_pie",
         },
+        {
+          left: "item:brewinandchewin:fiery_fondue_pot",
+          right: "item:minecraft:bowl",
+          output: "item:brewinandchewin:fiery_fondue",
+        },
       ],
     };
 
