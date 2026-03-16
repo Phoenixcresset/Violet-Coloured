@@ -30,6 +30,7 @@
       "sunflower_seeds",
       "hay_rug",
       "straw_rug",
+      "jerky",
       // Milk and cheese
       "goat_milk_bottle",
       "unripe_cheddar_cheese_wheel",
