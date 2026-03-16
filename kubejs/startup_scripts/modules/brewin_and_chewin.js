@@ -1,128 +1,23 @@
 global.BrewinAndChewinModule = (function BrewinAndChewinModule() {
   const DEFAULTS = {
     fluidAmount: 1000,
+    pouringFluidAmount: 250,
     experience: 1,
     fermentingMealsCategory: "meals",
     fermentingType: "brewinandchewin:fermenting",
+    pouringType: "brewinandchewin:keg_pouring",
+    pouringRecipePrefix: "brewinandchewin:pouring",
     temperature: 3,
+    unit: "millibuckets",
   };
 
-  function registerFluidItemDisplays(event, registryName, displays) {
-    event.json(
-      `violetcoloured:brewinandchewin/fluid_item_displays/${registryName}`,
-      displays
-    );
-  }
-
-  function _createFluidFermentingRecipe(
-    baseFluidTag,
-    ingredients,
-    resultFluidId,
-    temperature,
-    experience,
-    baseFluidAmount,
-    resultFluidAmount
-  ) {
-    experience = experience !== undefined ? experience : 1;
-    baseFluidAmount = baseFluidAmount !== undefined ? baseFluidAmount : 1000;
-    resultFluidAmount =
-      resultFluidAmount !== undefined ? resultFluidAmount : 1000;
-
-    const recipe = {
-      type: "brewinandchewin:fermenting",
-      base_fluid: {
-        amount: baseFluidAmount,
-        ingredient: {
-          tag: baseFluidTag,
-        },
-        unit: "millibuckets",
-      },
-      experience: experience,
-      ingredients: ingredients,
-      result: {
-        amount: resultFluidAmount,
-        id: resultFluidId,
-      },
-    };
-    if (temperature !== undefined) {
-      recipe.temperature = temperature;
-    }
-    return recipe;
-  }
-
-  function _createPouringRecipe(
-    fluidId,
-    outputItemId,
-    containerId,
-    fluidAmount,
-    outputItemAmount
-  ) {
-    outputItemAmount = outputItemAmount !== undefined ? outputItemAmount : 1;
-    fluidAmount = fluidAmount !== undefined ? fluidAmount : 250;
-
-    const recipe = {
-      type: "brewinandchewin:keg_pouring",
-      fluid: {
-        amount: fluidAmount,
-        id: fluidId,
-      },
-      output: {
-        count: outputItemAmount,
-        id: outputItemId,
-      },
-      unit: "millibuckets",
-    };
-    if (containerId !== undefined) {
-      recipe.container = {
-        count: 1,
-        id: containerId,
-      };
-    }
-    return recipe;
-  }
-
-  function createPouringRecipes(event, recipes) {
-    for (const recipe of recipes) {
-      event
-        .custom(
-          _createPouringRecipe(
-            recipe.fluidId,
-            recipe.outputItemId,
-            recipe.containerId,
-            recipe.fluidAmount,
-            recipe.outputItemAmount
-          )
-        )
-        .id(`vinery:pouring/${recipe.outputItemId.split(":")[1]}`);
-    }
-  }
-
-  function createFermentingRecipes(event, recipes) {
-    for (const recipe of recipes) {
-      event
-        .custom(
-          _createFluidFermentingRecipe(
-            recipe.baseFluidTag,
-            recipe.ingredients,
-            recipe.resultFluidId,
-            recipe.temperature,
-            recipe.experience,
-            recipe.baseFluidAmount,
-            recipe.resultFluidAmount
-          )
-        )
-        .id(
-          `vinery:fermenting/${recipe.resultFluidId.split(":")[1]}_from_${recipe.baseFluidTag.split(":")[1]}`
-        );
-    }
-  }
   function toIngredientObject(ingredient) {
     return ingredient.startsWith("#")
       ? { tag: ingredient.slice(1) }
       : { item: ingredient };
   }
 
-  function fermentingRecipeId(resultId) {
+  function itemFermentingRecipeId(resultId) {
     const [, shortId] = resultId.split(":");
     return `${DEFAULTS.fermentingType}/${shortId}`;
   }
@@ -142,13 +37,86 @@ global.BrewinAndChewinModule = (function BrewinAndChewinModule() {
         temperature: temperature ?? DEFAULTS.temperature,
         experience: experience ?? DEFAULTS.experience,
       })
-      .id(fermentingRecipeId(result));
+      .id(itemFermentingRecipeId(result));
+  }
+
+  function fluidFermentingRecipeId(resultId, baseId) {
+    const [, shortResultId] = resultId.split(":");
+    const [, shortBaseId] = baseId.split(":");
+    return `${DEFAULTS.fermentingType}/${shortResultId}_from_${shortBaseId}`;
+  }
+
+  function registerFluidFermentingRecipe(
+    event,
+    {
+      base,
+      ingredients,
+      result,
+      temperature,
+      experience,
+      baseAmount,
+      resultAmount,
+    }
+  ) {
+    event
+      .custom({
+        type: DEFAULTS.fermentingType,
+        base_fluid: {
+          amount: baseAmount ?? DEFAULTS.fluidAmount,
+          ingredient: toIngredientObject(base),
+          unit: DEFAULTS.unit,
+        },
+        experience: experience ?? DEFAULTS.experience,
+        ingredients: ingredients.map((ingredient) =>
+          toIngredientObject(ingredient)
+        ),
+        result: {
+          amount: resultAmount ?? DEFAULTS.fluidAmount,
+          id: result,
+        },
+        temperature: temperature ?? DEFAULTS.temperature,
+      })
+      .id(fluidFermentingRecipeId(result, base));
+  }
+
+  function pouringRecipeId(resultId) {
+    const [, shortId] = resultId.split(":");
+    return `${DEFAULTS.pouringRecipePrefix}/${shortId}`;
+  }
+
+  function registerPouringRecipe(
+    event,
+    { fluid, result, container, fluidAmount, outputAmount }
+  ) {
+    event
+      .custom({
+        type: DEFAULTS.pouringType,
+        fluid: {
+          amount: fluidAmount ?? DEFAULTS.pouringFluidAmount,
+          id: fluid,
+        },
+        output: {
+          count: outputAmount ?? 1,
+          id: result,
+        },
+        unit: DEFAULTS.unit,
+        container:
+          container !== undefined ? { count: 1, id: container } : undefined,
+      })
+      .id(pouringRecipeId(result));
+  }
+
+  function registerFluidItemDisplays(event, registryName, displays) {
+    event.json(
+      `violetcoloured:brewinandchewin/fluid_item_displays/${registryName}`,
+      displays
+    );
   }
 
   return {
-    registerFluidItemDisplays: registerFluidItemDisplays,
-    createPouringRecipes: createPouringRecipes,
-    createFermentingRecipes: createFermentingRecipes,
     registerItemFermentingRecipe: registerItemFermentingRecipe,
+    registerFluidFermentingRecipe: registerFluidFermentingRecipe,
+    registerPouringRecipe: registerPouringRecipe,
+    registerFluidItemDisplays: registerFluidItemDisplays,
   };
 })();

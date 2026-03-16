@@ -1,203 +1,181 @@
 (() => {
   const fermentingRecipesToAdd = [
     {
-      baseFluidTag: "#minecraft:water",
+      base: "#minecraft:water",
       ingredients: [
-        { item: "vinery:red_grape" },
-        { item: "vinery:red_grape" },
-        { item: "vinery:red_grape" },
-        { item: "minecraft:nether_wart" },
+        "vinery:red_grape",
+        "vinery:red_grape",
+        "vinery:red_grape",
+        "minecraft:nether_wart",
       ],
-      resultFluidId: "violetcoloured:liquid_red_grape_juice",
+      result: "violetcoloured:liquid_red_grape_juice",
     },
     {
-      baseFluidTag: "#minecraft:water",
+      base: "#minecraft:water",
       ingredients: [
-        { item: "vinery:white_grape" },
-        { item: "vinery:white_grape" },
-        { item: "vinery:white_grape" },
-        { item: "minecraft:nether_wart" },
+        "vinery:white_grape",
+        "vinery:white_grape",
+        "vinery:white_grape",
+        "minecraft:nether_wart",
       ],
-      resultFluidId: "violetcoloured:liquid_white_grape_juice",
+      result: "violetcoloured:liquid_white_grape_juice",
     },
     {
-      baseFluidTag: "#minecraft:water",
+      base: "#minecraft:water",
       ingredients: [
-        { item: "minecraft:apple" },
-        { item: "minecraft:apple" },
-        { item: "minecraft:apple" },
-        { item: "minecraft:nether_wart" },
+        "minecraft:apple",
+        "minecraft:apple",
+        "minecraft:apple",
+        "minecraft:nether_wart",
       ],
-      resultFluidId: "violetcoloured:liquid_apple_juice",
+      result: "violetcoloured:liquid_apple_juice",
     },
     {
-      baseFluidTag: "#violetcoloured:apple_juice",
-      ingredients: [{ item: "minecraft:apple" }],
-      resultFluidId: "vinery:liquid_apple_cider",
+      base: "#violetcoloured:apple_juice",
+      ingredients: ["minecraft:apple"],
+      result: "vinery:liquid_apple_cider",
     },
     {
-      baseFluidTag: "#violetcoloured:apple_juice",
-      ingredients: [{ item: "minecraft:sugar" }],
-      resultFluidId: "vinery:liquid_apple_wine",
+      base: "#violetcoloured:apple_juice",
+      ingredients: ["minecraft:sugar"],
+      result: "vinery:liquid_apple_wine",
     },
     {
-      baseFluidTag: "#violetcoloured:white_grape_juice",
+      base: "#violetcoloured:white_grape_juice",
+      ingredients: ["minecraft:sugar", "minecraft:glowstone_dust"],
+      result: "vinery:liquid_mellohi_wine",
+    },
+    {
+      base: "#violetcoloured:white_grape_juice",
+      ingredients: ["minecraft:glow_berries"],
+      result: "vinery:liquid_glowing_wine",
+    },
+    {
+      base: "#violetcoloured:white_grape_juice",
+      ingredients: ["minecraft:glow_berries", "minecraft:honey_bottle"],
+      result: "vinery:liquid_solaris_wine",
+    },
+    {
+      base: "#violetcoloured:red_grape_juice",
+      ingredients: ["minecraft:sweet_berries"],
+      result: "vinery:liquid_noir_wine",
+    },
+    {
+      base: "#violetcoloured:red_grape_juice",
+      ingredients: ["minecraft:sugar"],
+      result: "vinery:liquid_red_wine",
+    },
+    {
+      base: "#violetcoloured:red_grape_juice",
+      ingredients: ["minecraft:cocoa_beans", "minecraft:sugar"],
+      result: "vinery:liquid_strad_wine",
+    },
+    {
+      base: "#violetcoloured:red_grape_juice",
+      ingredients: ["vinery:cherry"],
+      result: "vinery:liquid_cherry_wine",
+    },
+    {
+      base: "#violetcoloured:red_grape_juice",
       ingredients: [
-        { item: "minecraft:sugar" },
-        { item: "minecraft:glowstone_dust" },
+        "minecraft:sugar",
+        "minecraft:feather",
+        "minecraft:blaze_rod",
       ],
-      resultFluidId: "vinery:liquid_mellohi_wine",
+      result: "vinery:liquid_cristel_wine",
     },
     {
-      baseFluidTag: "#violetcoloured:white_grape_juice",
-      ingredients: [{ item: "minecraft:glow_berries" }],
-      resultFluidId: "vinery:liquid_glowing_wine",
+      base: "#violetcoloured:white_grape_juice",
+      ingredients: ["minecraft:gunpowder"],
+      result: "vinery:liquid_creepers_crush",
     },
     {
-      baseFluidTag: "#violetcoloured:white_grape_juice",
+      base: "#violetcoloured:white_grape_juice",
+      ingredients: ["minecraft:kelp"],
+      result: "vinery:liquid_kelp_cider",
+    },
+    {
+      base: "#violetcoloured:red_grape_juice",
+      ingredients: ["minecraft:honey_bottle", "vinery:cherry"],
+      result: "vinery:liquid_lilitu_wine",
+    },
+    {
+      base: "#violetcoloured:red_grape_juice",
+      ingredients: ["minecraft:fermented_spider_eye"],
+      result: "vinery:liquid_jo_special_mixture",
+    },
+    {
+      base: "#violetcoloured:white_grape_juice",
+      ingredients: ["minecraft:snowball"],
+      result: "vinery:liquid_eiswein",
+    },
+    {
+      base: "#violetcoloured:white_grape_juice",
       ingredients: [
-        { item: "minecraft:glow_berries" },
-        { item: "minecraft:honey_bottle" },
+        "minecraft:sugar",
+        "minecraft:kelp",
+        "minecraft:iron_ingot",
       ],
-      resultFluidId: "vinery:liquid_solaris_wine",
+      result: "vinery:liquid_aegis_wine",
     },
     {
-      baseFluidTag: "#violetcoloured:red_grape_juice",
-      ingredients: [{ item: "minecraft:sweet_berries" }],
-      resultFluidId: "vinery:liquid_noir_wine",
-    },
-    {
-      baseFluidTag: "#violetcoloured:red_grape_juice",
-      ingredients: [{ item: "minecraft:sugar" }],
-      resultFluidId: "vinery:liquid_red_wine",
-    },
-    {
-      baseFluidTag: "#violetcoloured:red_grape_juice",
+      base: "#violetcoloured:red_grape_juice",
       ingredients: [
-        { item: "minecraft:cocoa_beans" },
-        { item: "minecraft:sugar" },
+        "minecraft:sugar",
+        "minecraft:blaze_powder",
+        "minecraft:gold_ingot",
       ],
-      resultFluidId: "vinery:liquid_strad_wine",
+      result: "vinery:liquid_bolvar_wine",
     },
     {
-      baseFluidTag: "#violetcoloured:red_grape_juice",
-      ingredients: [{ item: "vinery:cherry" }],
-      resultFluidId: "vinery:liquid_cherry_wine",
+      base: "#violetcoloured:red_grape_juice",
+      ingredients: ["minecraft:chorus_fruit"],
+      result: "vinery:liquid_chorus_wine",
     },
     {
-      baseFluidTag: "#violetcoloured:red_grape_juice",
+      base: "#violetcoloured:white_grape_juice",
+      ingredients: ["minecraft:arrow"],
+      result: "vinery:liquid_villagers_fright",
+    },
+    {
+      base: "#violetcoloured:white_grape_juice",
+      ingredients: ["minecraft:sugar"],
+      result: "vinery:liquid_clark_wine",
+    },
+    {
+      base: "#violetcoloured:red_grape_juice",
+      ingredients: ["minecraft:iron_ingot"],
+      result: "vinery:liquid_magnetic_wine",
+    },
+    {
+      base: "#violetcoloured:red_grape_juice",
+      ingredients: ["minecraft:glistering_melon_slice", "minecraft:sugar"],
+      result: "vinery:liquid_stal_wine",
+    },
+    {
+      base: "#violetcoloured:red_grape_juice",
+      ingredients: ["minecraft:spider_eye", "minecraft:sugar"],
+      result: "vinery:liquid_chenet_wine",
+    },
+    {
+      base: "#vinery:red_wine",
+      ingredients: ["minecraft:honey_bottle", "vinery:cherry"],
+      result: "vinery:liquid_mojang_noir",
+    },
+    {
+      base: "#violetcoloured:white_grape_juice",
       ingredients: [
-        { item: "minecraft:sugar" },
-        { item: "minecraft:feather" },
-        { item: "minecraft:blaze_rod" },
+        "vinery:apple_wine",
+        "vinery:chenet_wine",
+        "vinery:bolvar_wine",
       ],
-      resultFluidId: "vinery:liquid_cristel_wine",
-    },
-    {
-      baseFluidTag: "#violetcoloured:white_grape_juice",
-      ingredients: [{ item: "minecraft:gunpowder" }],
-      resultFluidId: "vinery:liquid_creepers_crush",
-    },
-    {
-      baseFluidTag: "#violetcoloured:white_grape_juice",
-      ingredients: [{ item: "minecraft:kelp" }],
-      resultFluidId: "vinery:liquid_kelp_cider",
-    },
-    {
-      baseFluidTag: "#violetcoloured:red_grape_juice",
-      ingredients: [
-        { item: "minecraft:honey_bottle" },
-        { item: "vinery:cherry" },
-      ],
-      resultFluidId: "vinery:liquid_lilitu_wine",
-    },
-    {
-      baseFluidTag: "#violetcoloured:red_grape_juice",
-      ingredients: [{ item: "minecraft:fermented_spider_eye" }],
-      resultFluidId: "vinery:liquid_jo_special_mixture",
-    },
-    {
-      baseFluidTag: "#violetcoloured:white_grape_juice",
-      ingredients: [{ item: "minecraft:snowball" }],
-      resultFluidId: "vinery:liquid_eiswein",
-    },
-    {
-      baseFluidTag: "#violetcoloured:white_grape_juice",
-      ingredients: [
-        { item: "minecraft:sugar" },
-        { item: "minecraft:kelp" },
-        { item: "minecraft:iron_ingot" },
-      ],
-      resultFluidId: "vinery:liquid_aegis_wine",
-    },
-    {
-      baseFluidTag: "#violetcoloured:red_grape_juice",
-      ingredients: [
-        { item: "minecraft:sugar" },
-        { item: "minecraft:blaze_powder" },
-        { item: "minecraft:gold_ingot" },
-      ],
-      resultFluidId: "vinery:liquid_bolvar_wine",
-    },
-    {
-      baseFluidTag: "#violetcoloured:red_grape_juice",
-      ingredients: [{ item: "minecraft:chorus_fruit" }],
-      resultFluidId: "vinery:liquid_chorus_wine",
-    },
-    {
-      baseFluidTag: "#violetcoloured:white_grape_juice",
-      ingredients: [{ item: "minecraft:arrow" }],
-      resultFluidId: "vinery:liquid_villagers_fright",
-    },
-    {
-      baseFluidTag: "#violetcoloured:white_grape_juice",
-      ingredients: [{ item: "minecraft:sugar" }],
-      resultFluidId: "vinery:liquid_clark_wine",
-    },
-    {
-      baseFluidTag: "#violetcoloured:red_grape_juice",
-      ingredients: [{ item: "minecraft:iron_ingot" }],
-      resultFluidId: "vinery:liquid_magnetic_wine",
-    },
-    {
-      baseFluidTag: "#violetcoloured:red_grape_juice",
-      ingredients: [
-        { item: "minecraft:glistering_melon_slice" },
-        { item: "minecraft:sugar" },
-      ],
-      resultFluidId: "vinery:liquid_stal_wine",
-    },
-    {
-      baseFluidTag: "#violetcoloured:red_grape_juice",
-      ingredients: [
-        { item: "minecraft:spider_eye" },
-        { item: "minecraft:sugar" },
-      ],
-      resultFluidId: "vinery:liquid_chenet_wine",
-    },
-    {
-      baseFluidTag: "#vinery:red_wine",
-      ingredients: [
-        { item: "minecraft:honey_bottle" },
-        { item: "vinery:cherry" },
-      ],
-      resultFluidId: "vinery:liquid_mojang_noir",
-    },
-    {
-      baseFluidTag: "#violetcoloured:white_grape_juice",
-      ingredients: [
-        { item: "vinery:apple_wine" },
-        { item: "vinery:chenet_wine" },
-        { item: "vinery:bolvar_wine" },
-      ],
-      resultFluidId: "vinery:liquid_jellie_wine",
+      result: "vinery:liquid_jellie_wine",
     },
   ];
 
   ServerEvents.recipes((event) => {
-    global.BrewinAndChewinModule.createFermentingRecipes(
-      event,
-      fermentingRecipesToAdd
-    );
+    for (const recipe of fermentingRecipesToAdd) {
+      global.BrewinAndChewinModule.registerFluidFermentingRecipe(event, recipe);
+    }
   });
 })();
