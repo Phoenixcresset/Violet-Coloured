@@ -4,6 +4,8 @@
   /** @typedef {Object.<string, Array<string|RegExp>>} ObliteratedPatterns */
   const obliteratedPatterns = {
     brewinandchewin: [
+      "apple_jelly",
+      "glow_berry_marmalade",
       "sweet_berry_jam",
       "kombucha", // Disabled normally, but still appears in some places
     ],
