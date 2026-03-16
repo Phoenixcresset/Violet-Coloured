@@ -1,5 +1,4 @@
 /** @typedef {import(import("dev.latvian.mods.kubejs.script.data.GeneratedDataStage").$GeneratedDataStage$$Type)} GenerateDataEvent */
-/** @typedef {"placed_feature" | "configured_feature" | "biome_modifier" | "structure_set"} DataType */
 
 global.DataGenModule = (function DataGenModule() {
   const dataTypePaths = {
@@ -11,7 +10,7 @@ global.DataGenModule = (function DataGenModule() {
 
   /**
    *
-   * @param {DataType} dataType
+   * @param {"placed_feature" | "configured_feature" | "biome_modifier" | "structure_set"} dataType
    * @param {string} namespace
    * @param {string} dataName
    * @returns {string}
