@@ -199,6 +199,8 @@
       registerShapedRecipe(event, recipe);
     }
 
+    event.remove({ type: "hearthandharvest:aging" });
+
     for (const recipeId of REMOVED_FERMENTING_RECIPE_IDS) {
       removeBnCFermentingRecipeIntegration(event, recipeId);
     }
