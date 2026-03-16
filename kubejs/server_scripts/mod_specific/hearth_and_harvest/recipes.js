@@ -66,6 +66,28 @@
     },
   ];
 
+  const ITEM_FERMENTING_RECIPES = [];
+
+  const PICKLED_ITEMS = {
+    "minecraft:beetroot": "hearthandharvest:pickled_beetroots",
+    "farmersdelight:cabbage": "hearthandharvest:pickled_cabbage",
+    "minecraft:carrot": "hearthandharvest:pickled_carrots",
+    "farmersdelight:onion": "hearthandharvest:pickled_onions",
+    "minecraft:potato": "hearthandharvest:pickled_potatoes",
+  };
+
+  for (const [baseItem, pickledItem] of Object.entries(PICKLED_ITEMS)) {
+    ITEM_FERMENTING_RECIPES.push({
+      result: pickledItem,
+      ingredients: [
+        baseItem,
+        baseItem,
+        "hearthandharvest:salt",
+        "hearthandharvest:jar",
+      ],
+    });
+  }
+
   const SHAPELESS_RECIPES = [
     {
       result: "hearthandharvest:taco",
@@ -163,6 +185,10 @@
   ServerEvents.recipes((event) => {
     for (const recipe of COOKING_RECIPES) {
       registerCookingRecipe(event, recipe);
+    }
+
+    for (const recipe of ITEM_FERMENTING_RECIPES) {
+      global.BrewinAndChewinModule.registerItemFermentingRecipe(event, recipe);
     }
 
     for (const recipe of SHAPELESS_RECIPES) {

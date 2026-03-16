@@ -1,20 +1,12 @@
-/** @typedef {string} FluidTag */
-/** @typedef {import("net.minecraft.world.item.crafting.Ingredient").$Ingredient$$Type} Ingredient */
-/** @typedef {string} FluidId */
-/** @typedef {string} ItemId */
-/** @typedef {number} Temperature */
-/** @typedef {number} Experience */
-/** @typedef {number} FluidAmount */
-/** @typedef {import("dev.latvian.mods.kubejs.recipe.RecipesKubeEvent").$RecipesKubeEvent$$Type} RecipeEvent */
-/** @typedef {Object} FermentingRecipe */
-/** @typedef {Object} PouringRecipe */
-
 global.BrewinAndChewinModule = (function BrewinAndChewinModule() {
-  /**
-   * Startup Script - To use at init
-   * @param {string} jsonFileName
-   * @param {Record<FluidTag, ItemId>} displays
-   */
+  const DEFAULTS = {
+    fluidAmount: 1000,
+    experience: 1,
+    fermentingMealsCategory: "meals",
+    fermentingType: "brewinandchewin:fermenting",
+    temperature: 3,
+  };
+
   function registerFluidItemDisplays(event, registryName, displays) {
     event.json(
       `violetcoloured:brewinandchewin/fluid_item_displays/${registryName}`,
@@ -22,17 +14,6 @@ global.BrewinAndChewinModule = (function BrewinAndChewinModule() {
     );
   }
 
-  /**
-   *
-   * @param {FluidTag} baseFluidTag
-   * @param {Ingredient[]} ingredients
-   * @param {FluidId} resultFluidId
-   * @param {Temperature} temperature
-   * @param {Experience} experience
-   * @param {FluidAmount} baseFluidAmount
-   * @param {FluidAmount} resultFluidAmount
-   * @returns {FermentingRecipe}
-   */
   function _createFluidFermentingRecipe(
     baseFluidTag,
     ingredients,
@@ -69,15 +50,6 @@ global.BrewinAndChewinModule = (function BrewinAndChewinModule() {
     return recipe;
   }
 
-  /**
-   *
-   * @param {FluidId} fluidId
-   * @param {ItemId} outputItemId
-   * @param {ItemId} containerId
-   * @param {FluidAmount} fluidAmount
-   * @param {number} outputItemAmount
-   * @returns {PouringRecipe}
-   */
   function _createPouringRecipe(
     fluidId,
     outputItemId,
@@ -109,16 +81,6 @@ global.BrewinAndChewinModule = (function BrewinAndChewinModule() {
     return recipe;
   }
 
-  /**
-   * @param {RecipeEvent} event
-   * @param {{
-   * fluidId: FluidId,
-   * outputItemId: ItemId,
-   * containerId?: ItemId,
-   * fluidAmount?: FluidAmount,
-   * outputItemAmount?: number
-   * }[]} recipes
-   */
   function createPouringRecipes(event, recipes) {
     for (const recipe of recipes) {
       event
@@ -135,14 +97,6 @@ global.BrewinAndChewinModule = (function BrewinAndChewinModule() {
     }
   }
 
-  /**
-   * @param {RecipeEvent} event
-   * @param {{
-   * baseFluidTag: FluidTag,
-   * ingredients: Ingredient[],
-   * resultFluidId: FluidId,
-   * }[]} recipes
-   */
   function createFermentingRecipes(event, recipes) {
     for (const recipe of recipes) {
       event
@@ -162,10 +116,39 @@ global.BrewinAndChewinModule = (function BrewinAndChewinModule() {
         );
     }
   }
+  function toIngredientObject(ingredient) {
+    return ingredient.startsWith("#")
+      ? { tag: ingredient.slice(1) }
+      : { item: ingredient };
+  }
+
+  function fermentingRecipeId(resultId) {
+    const [, shortId] = resultId.split(":");
+    return `${DEFAULTS.fermentingType}/${shortId}`;
+  }
+
+  function registerItemFermentingRecipe(
+    event,
+    { result, resultCount, ingredients, temperature, experience }
+  ) {
+    event
+      .custom({
+        type: DEFAULTS.fermentingType,
+        result: { count: resultCount ?? 1, id: result },
+        category: DEFAULTS.fermentingMealsCategory,
+        ingredients: ingredients.map((ingredient) =>
+          toIngredientObject(ingredient)
+        ),
+        temperature: temperature ?? DEFAULTS.temperature,
+        experience: experience ?? DEFAULTS.experience,
+      })
+      .id(fermentingRecipeId(result));
+  }
 
   return {
     registerFluidItemDisplays: registerFluidItemDisplays,
     createPouringRecipes: createPouringRecipes,
     createFermentingRecipes: createFermentingRecipes,
+    registerItemFermentingRecipe: registerItemFermentingRecipe,
   };
 })();
