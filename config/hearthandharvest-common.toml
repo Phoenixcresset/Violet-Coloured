@@ -24,4 +24,4 @@ stackWaterBottles = true
 generateCornMazes = true
 #Disables milking cows and goats with glass bottels. 
 #Be aware that setting this can cause goat milk bottles to be unobtainable unless handled otherwise
-disableBottleMilking = false
+disableBottleMilking = true
