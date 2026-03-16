@@ -32,6 +32,7 @@
       "straw_rug",
       "jerky",
       "cask",
+      "jug",
       // Milk and cheese
       "goat_milk_bottle",
       "unripe_cheddar_cheese_wheel",
