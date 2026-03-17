@@ -1,6 +1,14 @@
 /** @typedef {"item"|"block"|"fluid"|"entity_type"|"worldgen/structure"} TagType */
 
 global.Tags = (function Tags() {
+  const TYPES = {
+    ITEM: "item",
+    BLOCK: "block",
+    ENTITY: "entity_type",
+    FLUID: "fluid",
+    STRUCTURE: "worldgen/structure",
+  };
+
   /** @type {Record<TagType, Map<string, Set<string>>>} */
   const _entryAdditions = {};
 
@@ -100,6 +108,7 @@ global.Tags = (function Tags() {
   }
 
   return {
+    TYPES: TYPES,
     registerAddedTagsToEntries: registerAddedTagsToEntries,
     registerRemovedTags: registerRemovedTags,
     registerRemovedTagsFromEntries: registerRemovedTagsFromEntries,
