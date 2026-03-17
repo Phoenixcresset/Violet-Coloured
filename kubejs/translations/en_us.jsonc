@@ -26,6 +26,9 @@
   },
   "vinery": {
     "block.vinery.red_wine": "Rosé Wine",
+    "block.vinery.creepers_crush": "Creepers' Crush",
+    "block.vinery.villagers_fright": "Villagers' Fright",
+    "block.vinery.bottle_mojang_noir": "Mojang Noir",
     "block.vinery.stackable_log": "Stacked Logs"
   },
   "violetcoloured": {
