@@ -27,6 +27,7 @@
       "quark:/misc/monster_box_spawns",
     ],
     categorizedIds: {
+      "minecraft:brewing": [".*/hearthandharvest/.*"],
       "ali:entity_loot": [
         "quark:/entities/crab",
         "quark:/entities/foxhound",
