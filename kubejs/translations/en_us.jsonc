@@ -2,6 +2,9 @@
   "brewinandchewin": {
     "item.brewinandchewin.horror_lasagna": "Lasagna"
   },
+  "chimes": {
+    "item.glass_wind_bell.customizable": "Dyeable"
+  },
   "firstperson": {
     "key.firstperson.toggle": "Toggle First Person Model"
   },
