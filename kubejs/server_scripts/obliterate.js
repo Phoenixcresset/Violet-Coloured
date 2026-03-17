@@ -80,13 +80,6 @@
         output: Ingredient.of(obliteratedItems),
       });
     });
-
-    MoreJS.registerPotionBrewing((event) => {
-      event.removePotionBrewing({
-        ingredient: Ingredient.of(obliteratedItems),
-      });
-      // TODO : test with input and output potions if needed
-    });
   } else {
     console.warn(
       "[Obliterate Items] MoreJS not loaded, skipping villager trade and potion brewing removals."
