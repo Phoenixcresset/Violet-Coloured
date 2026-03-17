@@ -136,6 +136,10 @@
       result: "hearthandharvest:uncooked_corn_on_the_cob",
       ingredients: ["hearthandharvest:corn", "minecraft:stick"],
     },
+    {
+      result: "hearthandharvest:corn_kernels",
+      ingredients: ["hearthandharvest:corn"],
+    },
   ];
 
   const SHAPED_RECIPES = [
@@ -229,6 +233,7 @@
     }
 
     event.remove({ type: "hearthandharvest:aging" });
+    event.remove({ id: "farmersdelight:cutting/corn" });
 
     for (const recipeId of REMOVED_FERMENTING_RECIPE_IDS) {
       removeBnCFermentingRecipeIntegration(event, recipeId);
