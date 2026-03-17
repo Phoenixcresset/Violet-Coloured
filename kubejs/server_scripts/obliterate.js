@@ -1,8 +1,6 @@
 (() => {
-  /** @type {Array<string|RegExp>} */
   const { obliteratedItems } = global;
 
-  /** @type {function(string): boolean} */
   const { isObliterated } = global;
 
   if (global.obliteratedItems.length === 0) {

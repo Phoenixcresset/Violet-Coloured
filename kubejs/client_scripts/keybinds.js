@@ -1,5 +1,4 @@
 (() => {
-  /** @type {Array<string>} */
   const keybindsToRemove = [
     "key.kubejs.kubedex",
     "key.configured.open_mod_list",
@@ -109,13 +108,6 @@
     "key.jade.show_uses",
   ];
 
-  /**
-   * @typedef {Object} ModifiedKeybind
-   * @property {number} key
-   * @property {import("net.neoforged.neoforge.client.settings.KeyModifier").$KeyModifier$$Type} [modifier]
-   */
-
-  /** @type {Object.<string, ModifiedKeybind>} */
   const keybindsToRebind = {
     "iris.keybind.reload": {
       key: GLFW.GLFW_KEY_O,
@@ -129,7 +121,6 @@
     "key.lighty.toggle": { key: GLFW.GLFW_KEY_F7 },
   };
 
-  /** @type {Object.<string, Array<string>>} */
   const keybindsToCategorize = {
     "key.categories.gameplay": ["key.spyglass-improvements.use"],
     "key.categories.inventory": [

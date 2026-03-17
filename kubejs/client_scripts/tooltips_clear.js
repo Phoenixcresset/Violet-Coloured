@@ -1,8 +1,8 @@
 (() => {
   /**
-   * @typedef {Object} TooltipClearingConfig
-   * @property {string|RegExp} itemId
-   * @property {number} linesToClear
+   * @param {string|RegExp} itemId
+   * @param {number} linesToClear
+   * @returns {{itemId: string|RegExp, linesToClear: number}}
    */
   function createTooltipClearingConfig(itemId, linesToClear) {
     return {
@@ -23,7 +23,7 @@
     return `${modId}:${itemId}`;
   }
 
-  /** @type {Object.<string, Array<TooltipClearingConfig>>} */
+  /** @type {Object.<string, Array<{itemId: string|RegExp, linesToClear: number}>>} */
   const tooltipClearingConfig = {
     supplementaries: [createTooltipClearingConfig("sack", 6)],
     suppsquared: [createTooltipClearingConfig(/sack_.*/, 6)],

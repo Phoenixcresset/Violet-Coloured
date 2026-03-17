@@ -1,7 +1,6 @@
 /** @typedef {import("com.almostreliable.lootjs.loot.LootTableEvent").$LootTableEvent$$Type} LootTableEvent */
 
 (() => {
-  /** @type {Array<string>} */
   const blocksToSelfDrop = [
     "minecraft:glass",
     "minecraft:glass_pane",

@@ -1,10 +1,4 @@
 (() => {
-  /**
-   * @typedef {Object} RecipeHidingConfig
-   * @property {Array<string>} categories
-   * @property {Array<string>} recipeIds
-   * @property {Object.<string, Array<string>>} categorizedIds
-   */
   const recipeHidingConfig = {
     categories: [
       "ali:plant_loot",
@@ -55,8 +49,8 @@
   };
 
   /**
-   * @param {RecipeHidingConfig} config Categories, recipe IDs, and categorized IDs to hide
-   * @returns {Array<Object>} Array of recipe filter objects
+   * @param {{categories: Array<string>, recipeIds: Array<string>, categorizedIds: Record<string, Array<string>>}} config Categories, recipe IDs, and categorized IDs to hide
+   * @returns {Array<{id?: string, category?: string}>} Array of recipe filter objects
    */
   function buildRecipeFilters(config) {
     const filters = [];
@@ -84,7 +78,7 @@
     return filters;
   }
 
-  /** @type {Array<Object.<string, string>>} */
+  /** @type {Array<Record<string, string>>} */
   const recipeFilters = buildRecipeFilters(recipeHidingConfig);
 
   ClientEvents.generateAssets("after_mods", (event) => {

@@ -1,11 +1,4 @@
 (() => {
-  /**
-   * @typedef {Object} TooltipSegment
-   * @property {string} type
-   * @property {string} translationKey
-   */
-
-  /** @typedef {Object.<string, Array<TooltipSegment>>} TooltipConfig */
   const tooltipConfig = {
     "minecraft:soul_campfire": [
       {
@@ -19,16 +12,6 @@
     ],
   };
 
-  /** @typedef {Object} ColorPalette
-   * @property {Object} hint
-   * @property {number} hint.default
-   * @property {number} hint.highlight
-   * @property {number} hint.highlightStrong
-   * @property {Object} description
-   * @property {number} description.default
-   * @property {number} description.highlight
-   * @property {number} description.condition
-   */
   const colorPalette = {
     hint: {
       default: 0x555555,
@@ -42,12 +25,12 @@
     },
   };
 
-  /** @type {Set<string>} */
   const VALID_TYPES = new Set(["condition", "behaviour"]);
 
-  /** @param {TooltipConfig} config */
+  /**
+   * @param {Record<string, {type: string, translationKey: string}} config
+   */
   function validateTooltipConfig(config) {
-    /** @type {Array<string>} */
     const errors = [];
 
     for (const [itemId, segments] of Object.entries(config)) {
@@ -94,7 +77,7 @@
 
   /**
    * @param {string} itemId
-   * @param {Array<TooltipSegment>} segments
+   * @param {Array<{type: string, translationKey: string}>} segments
    * @param {boolean} shiftRequired
    */
   function createTooltipHandler(itemId, segments, shiftRequired) {
@@ -117,7 +100,7 @@
   }
 
   /**
-   * @param {TooltipSegment} segment
+   * @param {{type: string, translationKey: string}} segment
    * @returns {import("net.minecraft.network.chat.MutableComponent").$MutableComponent$$Type}
    * */
   function generateTooltipLine(segment) {

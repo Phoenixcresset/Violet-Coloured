@@ -5,7 +5,7 @@
     "dev.latvian.mods.kubejs.item.FoodBuilder"
   );
 
-  const DURATION = {
+  const _DURATION = {
     SLOW: 2.4,
     NORMAL: 1.6,
     FAST: 0.8,
@@ -53,7 +53,7 @@
     },
   ];
 
-  function effectConfig({ id, duration, amplifier, probability }) {
+  function _effectConfig({ id, duration, amplifier, probability }) {
     if (amplifier === undefined) {
       amplifier = 0;
     }

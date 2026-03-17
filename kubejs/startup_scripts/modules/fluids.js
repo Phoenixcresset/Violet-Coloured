@@ -1,15 +1,13 @@
 /** @typedef {import("moe.wolfgirl.probejs.generated.registry.minecraft.Fluid").$Fluid$$Type} FluidEvent */
-/** @typedef {string} FluidID */
-/** @typedef {number} FluidColor */
-/** @typedef {string} FluidName */
 
 global.FluidModule = (function FluidModule() {
   /**
    * @param {FluidEvent} event
+   * @param {string} namespace
    * @param {{
-   * id: FluidID,
-   * color: FluidColor,
-   * name: FluidName
+   * id: string,
+   * color: number,
+   * name: string
    * }} fluid
    */
   function _registerFluid(event, namespace, fluid) {
@@ -24,10 +22,11 @@ global.FluidModule = (function FluidModule() {
 
   /**
    * @param {FluidEvent} event
+   * @param {string} namespace
    * @param {{
-   * id: FluidID,
-   * color: FluidColor,
-   * name: FluidName
+   * id: string,
+   * color: number,
+   * name: string
    * }[]} fluids
    */
   function registerFluids(event, namespace, fluids) {
