@@ -19,6 +19,10 @@
       stacks: ["item:measurements:tape_measure"],
       translationKey: "emi.info.abacus",
     },
+    {
+      stacks: ["item:hearthandharvest:corn"],
+      translationKey: "emi.info.corn",
+    },
   ];
 
   ClientEvents.generateAssets("after_mods", (event) => {
