@@ -47,6 +47,7 @@
       ],
       "ali:fishing_loot": ["minecraft:/gameplay/fishing/(junk|treasure|fish)"],
       "minecraft:smithing": [".*armor_trim.*"],
+      // "emi:info": ["null"], // Uncomment to remove all info except for the ones added by the modpack
     },
   };
 
