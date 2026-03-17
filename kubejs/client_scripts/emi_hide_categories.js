@@ -16,6 +16,7 @@
       "emi:/anvil/repairing/material/vinery/.*",
       "emi:/grindstone/repairing/.*",
       "emi:/grindstone/disenchanting/.*",
+      "supplementaries:ash_burn",
       "supplementaries:/tipped_spikes.*",
       "supplementaries:/inject/test",
       "vinery:/blocks/potted_dark_cherry_sapling",

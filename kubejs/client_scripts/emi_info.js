@@ -25,7 +25,6 @@
         text: information.translationKey,
       };
       let recipeId = information.translationKey.replace(/\./g, "_");
-      console.log(recipeId);
       event.json(`emi:recipe/additions/${recipeId}`, informationRecipe);
     }
   });
