@@ -101,7 +101,6 @@
     }
 
     for (const recipe of surroundedRecipes) {
-      console.log(recipe);
       surroundWithItemRecipe(event, recipe);
     }
 
