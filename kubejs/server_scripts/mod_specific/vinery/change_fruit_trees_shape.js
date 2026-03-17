@@ -206,7 +206,7 @@
 
   ServerEvents.generateData("after_mods", (event) => {
     for (const fileName of appleTreeFileNames) {
-      global.DataGenModule.replaceData(event, {
+      global.Datagen.replaceData(event, {
         dataType: "configured_feature",
         namespace: "vinery",
         dataName: `${fileName}`,
@@ -214,7 +214,7 @@
       });
     }
     for (const fileName of darkCherryTreeFileNames) {
-      global.DataGenModule.replaceData(event, {
+      global.Datagen.replaceData(event, {
         dataType: "configured_feature",
         namespace: "vinery",
         dataName: `${fileName}`,

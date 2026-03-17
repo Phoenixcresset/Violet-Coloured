@@ -1,4 +1,4 @@
-global.BrewinAndChewinModule = (function BrewinAndChewinModule() {
+global.BrewinAndChewin = (function BrewinAndChewin() {
   const DEFAULTS = {
     fluidAmount: 1000,
     pouringFluidAmount: 250,

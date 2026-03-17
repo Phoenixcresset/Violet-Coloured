@@ -1,6 +1,6 @@
 /** @typedef {import(import("dev.latvian.mods.kubejs.script.data.GeneratedDataStage").$GeneratedDataStage$$Type)} GenerateDataEvent */
 
-global.DataGenModule = (function DataGenModule() {
+global.Datagen = (function Datagen() {
   const dataTypePaths = {
     placed_feature: "worldgen/placed_feature",
     configured_feature: "worldgen/configured_feature",

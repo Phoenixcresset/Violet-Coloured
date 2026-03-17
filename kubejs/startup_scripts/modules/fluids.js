@@ -1,6 +1,6 @@
 /** @typedef {import("moe.wolfgirl.probejs.generated.registry.minecraft.Fluid").$Fluid$$Type} FluidEvent */
 
-global.FluidModule = (function FluidModule() {
+global.Fluids = (function Fluids() {
   /**
    * @param {FluidEvent} event
    * @param {string} namespace

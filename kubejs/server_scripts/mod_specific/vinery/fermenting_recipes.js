@@ -175,7 +175,7 @@
 
   ServerEvents.recipes((event) => {
     for (const recipe of fermentingRecipesToAdd) {
-      global.BrewinAndChewinModule.registerFluidFermentingRecipe(event, recipe);
+      global.BrewinAndChewin.registerFluidFermentingRecipe(event, recipe);
     }
   });
 })();

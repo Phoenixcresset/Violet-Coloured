@@ -7,7 +7,7 @@
       fluid_amount: 500,
     },
   ];
-  for (const fluid of global.VineryModule.customFluids) {
+  for (const fluid of global.Vinery.customFluids) {
     pouringRecipesToAdd.push({
       fluid: `violetcoloured:liquid_${fluid}`,
       result: `violetcoloured:${fluid}`,
@@ -15,7 +15,7 @@
       fluidAmount: 500,
     });
   }
-  for (const fluid of global.VineryModule.vineryFluids) {
+  for (const fluid of global.Vinery.vineryFluids) {
     pouringRecipesToAdd.push({
       fluid: `vinery:liquid_${fluid}`,
       result: `vinery:${fluid}`,
@@ -26,7 +26,7 @@
 
   ServerEvents.recipes((event) => {
     for (const recipe of pouringRecipesToAdd) {
-      global.BrewinAndChewinModule.registerPouringRecipe(event, recipe);
+      global.BrewinAndChewin.registerPouringRecipe(event, recipe);
     }
   });
 })();

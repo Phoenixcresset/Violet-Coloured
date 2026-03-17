@@ -10,7 +10,7 @@
     ];
 
     for (const path of biomeModifiersToRemove) {
-      global.DataGenModule.removeData(event, {
+      global.Datagen.removeData(event, {
         dataType: "biome_modifier",
         namespace: "vinery",
         dataName: path,

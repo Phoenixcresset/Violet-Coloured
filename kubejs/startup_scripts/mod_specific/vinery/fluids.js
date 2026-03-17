@@ -117,7 +117,7 @@
   ];
 
   StartupEvents.registry("fluid", (event) => {
-    global.FluidModule.registerFluids(event, "violetcoloured", customFluids);
-    global.FluidModule.registerFluids(event, "vinery", vineryFluids);
+    global.Fluids.registerFluids(event, "violetcoloured", customFluids);
+    global.Fluids.registerFluids(event, "vinery", vineryFluids);
   });
 })();

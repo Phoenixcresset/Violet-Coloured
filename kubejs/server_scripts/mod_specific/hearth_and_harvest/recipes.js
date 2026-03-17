@@ -221,7 +221,7 @@
     }
 
     for (const recipe of ITEM_FERMENTING_RECIPES) {
-      global.BrewinAndChewinModule.registerItemFermentingRecipe(event, recipe);
+      global.BrewinAndChewin.registerItemFermentingRecipe(event, recipe);
     }
 
     for (const recipe of SHAPELESS_RECIPES) {

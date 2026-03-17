@@ -31,7 +31,7 @@
   };
 
   ClientEvents.generateAssets("after_mods", (event) => {
-    global.BrewinAndChewinModule.registerFluidItemDisplays(
+    global.BrewinAndChewin.registerFluidItemDisplays(
       event,
       "vinery_displays",
       vineryFluidItemDisplays
