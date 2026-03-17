@@ -38,6 +38,7 @@
       "flour",
       "corn_meal",
       "butter",
+      "crow_feather",
       // Milk and cheese
       "goat_milk_bottle",
       "unripe_cheddar_cheese_wheel",
