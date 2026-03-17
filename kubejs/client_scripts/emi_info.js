@@ -15,6 +15,10 @@
       stacks: ["item:vinery:red_grape", "item:vinery:white_grape"],
       translationKey: "hearthandharvest.jei.info.wild_grapes",
     },
+    {
+      stacks: ["item:measurements:tape_measure"],
+      translationKey: "emi.info.abacus",
+    },
   ];
 
   ClientEvents.generateAssets("after_mods", (event) => {

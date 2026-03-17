@@ -8,10 +8,4 @@
       })
       .id("measurements:tape_measure");
   });
-
-  RecipeViewerEvents.addInformation("item", (event) =>
-    event.add("measurements:tape_measure", [
-      Text.translatable("emi.info.abacus"),
-    ])
-  );
 })();
