@@ -2,11 +2,9 @@
   const removedTagsFromEntries = {
     item: {
       // Turtle eggs are not food
-      "hearthandharvest:crateable_items": {
-        minecraft: ["turtle_egg"],
-      },
+      "hearthandharvest:crateable_items": ["minecraft:turtle_egg"],
     },
   };
 
-  global.TagModule.registerRemovedTagsFromEntries(removedTagsFromEntries);
+  global.Tags.registerRemovedTagsFromEntries(removedTagsFromEntries);
 })();

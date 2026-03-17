@@ -1,76 +1,26 @@
 (() => {
   const removedTagsFromEntries = {
     item: {
-      "curios:belt": {
-        supplementaries: ["#keys", "quiver"],
-      },
-      "trinkets:legs/quiver": {
-        supplementaries: ["quiver"],
-      },
-      "trinkets:legs/key": {
-        supplementaries: ["key"],
-      },
-      "supplementaries:blackboard_black": {
-        minecraft: ["#coals", "coal", "charcoal"],
-      },
-      "supplementaries:blackboard_white": {
-        minecraft: ["quartz"],
-        c: ["#gems/quartz"],
-      },
+      "curios:belt": ["supplementaries:quiver", "#supplementaries:keys"],
       // Removes the dragon head to count as an arthropod since Supplementaries adds a spider head
-      "dummmmmmy:arthropod_heads": {
-        minecraft: ["dragon_head"],
-      },
-      "c:dyes/white": {
-        chalk: ["white_chalk"],
-      },
-      "c:dyes/light_gray": {
-        chalk: ["light_gray_chalk"],
-      },
-      "c:dyes/gray": {
-        chalk: ["gray_chalk"],
-      },
-      "c:dyes/black": {
-        chalk: ["black_chalk"],
-      },
-      "c:dyes/brown": {
-        chalk: ["brown_chalk"],
-      },
-      "c:dyes/red": {
-        chalk: ["red_chalk"],
-      },
-      "c:dyes/orange": {
-        chalk: ["orange_chalk"],
-      },
-      "c:dyes/yellow": {
-        chalk: ["yellow_chalk"],
-      },
-      "c:dyes/lime": {
-        chalk: ["lime_chalk"],
-      },
-      "c:dyes/green": {
-        chalk: ["green_chalk"],
-      },
-      "c:dyes/cyan": {
-        chalk: ["cyan_chalk"],
-      },
-      "c:dyes/light_blue": {
-        chalk: ["light_blue_chalk"],
-      },
-      "c:dyes/blue": {
-        chalk: ["blue_chalk"],
-      },
-      "c:dyes/purple": {
-        chalk: ["purple_chalk"],
-      },
-      "c:dyes/magenta": {
-        chalk: ["magenta_chalk"],
-      },
-      "c:dyes/pink": {
-        chalk: ["pink_chalk"],
-      },
+      "dummmmmmy:arthropod_heads": ["minecraft:dragon_head"],
+      "supplementaries:blackboard_black": [
+        "minecraft:charcoal",
+        "minecraft:coal",
+        "#minecraft:coals",
+      ],
+      "supplementaries:blackboard_white": [
+        "minecraft:quartz",
+        "#c:gems/quartz",
+      ],
+      "trinkets:legs/key": ["supplementaries:key"],
+      "trinkets:legs/quiver": ["supplementaries:quiver"],
     },
   };
 
-  global.TagModule.registerRemovedTagsFromEntries(removedTagsFromEntries);
+  for (const color of Color.DYE.values()) {
+    removedTagsFromEntries.item[`c:dyes/${color}`] = [`chalk:${color}_chalk`];
+  }
+
+  global.Tags.registerRemovedTagsFromEntries(removedTagsFromEntries);
 })();

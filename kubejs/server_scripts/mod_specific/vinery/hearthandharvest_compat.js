@@ -1,20 +1,20 @@
 (() => {
-  const largeBottles = {
-    violetcoloured: ["red_grape_juice", "white_grape_juice"],
-    vinery: [
-      "wine_bottle",
-      "solaris_wine",
-      "noir_wine",
-      "red_wine",
-      "cherry_wine",
-      "kelp_cider",
-      "bolvar_wine",
-      "villagers_fright",
-      "clark_wine",
-      "bottle_mojang_noir",
-    ],
-  };
-  global.TagModule.registerAddedTagsToEntries({
+  const largeBottles = [
+    "violetcoloured:red_grape_juice",
+    "violetcoloured:white_grape_juice",
+    "vinery:wine_bottle",
+    "vinery:solaris_wine",
+    "vinery:noir_wine",
+    "vinery:red_wine",
+    "vinery:cherry_wine",
+    "vinery:kelp_cider",
+    "vinery:bolvar_wine",
+    "vinery:villagers_fright",
+    "vinery:clark_wine",
+    "vinery:bottle_mojang_noir",
+  ];
+
+  global.Tags.registerAddedTagsToEntries({
     item: {
       "hearthandharvest:tall_bottles": largeBottles,
     },
