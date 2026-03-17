@@ -22,7 +22,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.8.1.jar",
+                    "file_name": "AdvancedLootInfo-neoforge-1.21.1-1.8.2.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -30,16 +30,16 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7735/193/AdvancedLootInfo-neoforge-1.21.1-1.8.1.jar",
-                    "id": "7735193",
+                    "url": "https://edge.forgecdn.net/files/7767/452/AdvancedLootInfo-neoforge-1.21.1-1.8.2.jar",
+                    "id": "7767452",
                     "parent_id": "1205426",
                     "hashes": {
-                        "sha1": "aaf72829304439afb737e4c8bad579c8d2f6713d",
-                        "md5": "4b26c8813f844b5502a5e3a221c39640"
+                        "sha1": "dffdf271a8b01cb9f951a3cb6ac27de66467181d",
+                        "md5": "444ca717cf382b0b5d0fdd78268c4c1b"
                     },
                     "required_dependencies": [],
-                    "size": 752697,
-                    "date_published": "2026-03-09T20:07:11.260Z"
+                    "size": 752962,
+                    "date_published": "2026-03-16T16:24:22.820Z"
                 }
             ]
         },
@@ -5104,7 +5104,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "reliable_remover-neoforge-1.21.1-1.7.3.jar",
+                    "file_name": "reliable_remover-neoforge-1.21.1-1.7.4.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5112,16 +5112,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7765/420/reliable_remover-neoforge-1.21.1-1.7.3.jar",
-                    "id": "7765420",
+                    "url": "https://edge.forgecdn.net/files/7767/822/reliable_remover-neoforge-1.21.1-1.7.4.jar",
+                    "id": "7767822",
                     "parent_id": "1420447",
                     "hashes": {
-                        "sha1": "f71c5e9aae1cf8fa6a4bf34c5fcb64d92df6ec14",
-                        "md5": "ea014d147e896da8fd9530b1900b3d19"
+                        "sha1": "b1c4bec79a483b4d95226c35757efd2dafbc255a",
+                        "md5": "c7dc3d4119be22ceabf10a7c2975659d"
                     },
                     "required_dependencies": [],
-                    "size": 159252,
-                    "date_published": "2026-03-16T05:34:19.940Z"
+                    "size": 159185,
+                    "date_published": "2026-03-16T17:43:56.017Z"
                 }
             ]
         },
