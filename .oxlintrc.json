@@ -1,0 +1,97 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": [
+    "eslint",
+    "unicorn",
+    "oxc",
+    "jsdoc"
+  ],
+  "categories": {
+    "perf": "error",
+    "restriction": "error",
+    "suspicious": "error",
+    "pedantic": "error",
+    "style": "error",
+    "nursery": "error"
+  },
+  "rules": {
+    // Restriction
+    "eslint/no-console": "off", // Production
+    "eslint/no-param-reassign": "off", // KubeJS - Rhino does not allow conventionnal function default parameters
+    "eslint/no-plusplus": "off", // Preference
+    "eslint/no-undefined": "off", // Preference - Also conflicts with unicorn's no-typeof-undefined and the method to emulate default function parameters
+    // Pedantic
+    "eslint/no-inline-comments": "off", // Preference - Useful if comments are used sparingly
+    "eslint/no-negated-condition": "off", // Preference
+    "eslint/no-warning-comments": "off", // Production
+    "jsdoc/require-param": "warn", // Preference
+    "jsdoc/require-param-description": "off", // Preference
+    "jsdoc/require-param-name": "warn", // Preference
+    "jsdoc/require-param-type": "warn", // Preference
+    "jsdoc/require-returns": "warn", // Preference
+    "jsdoc/require-returns-description": "off", // Preference
+    "jsdoc/require-returns-type": "warn", // Preference
+    "unicorn/prefer-string-replace-all": "off", // KubeJS - replaceAll does not exist on Rhino's strings
+    // Style
+    "eslint/capitalized-comments": "off", // KubeJS - Cannot use KubeJS special comments like priority if enabled
+    "eslint/func-style": [
+      "error",
+      "declaration"
+    ], // Preference
+    "eslint/id-length": "off", // Preference - Like using i as index
+    // "eslint/max-params": "off", // TODO See if relevant
+    "eslint/max-statements": "off", // TODO See if configured is better
+    "eslint/no-magic-numbers": "off", // TODO See configuration Avoids having to manually declare some basic numbers
+    "eslint/no-continue": "off", // Preference
+    "eslint/no-ternary": "off", // Preference - Like ternaries with formatter and moderate usage
+    "eslint/prefer-const": "off", // KubeJS - Rhino needs to use a let for constants defined in for loops
+    "eslint/sort-keys": "off", // Preference - Like having objects keys sorted by order
+    "unicorn/filename-case": "off", // Preference - Like snake_case
+    "unicorn/number-literal-case": "off", // Oxfmt - It auto formats to lowercase
+    "unicorn/numeric-separators-style": "off", // KubeJS - Doesn't work
+    "unicorn/prefer-global-this": "off" // KubeJS - KubeJS exposes a global object that is needed, and Rhino doesn't have a globalThis
+  },
+  "settings": {
+    "jsdoc": {
+      "ignorePrivate": false,
+      "ignoreInternal": false,
+      "ignoreReplacesDocs": true,
+      "overrideReplacesDocs": true,
+      "augmentsExtendsReplacesDocs": false,
+      "implementsReplacesDocs": false,
+      "exemptDestructuredRootsFromChecks": false,
+      "tagNamePreference": {}
+    }
+  },
+  "env": {
+    "builtin": true
+  },
+  "globals": {
+    "Java": "readonly",
+    "StartupEvents": "readonly",
+    "ServerEvents": "readonly",
+    "ClientEvents": "readonly",
+    "ItemEvents": "readonly",
+    "BlockEvents": "readonly",
+    "PlayerEvents": "readonly",
+    "RecipeViewerEvents": "readonly",
+    "Ingredient": "readonly",
+    "Item": "readonly",
+    "Fluid": "readonly",
+    "Text": "readonly",
+    "Color": "readonly",
+    "Platform": "readonly",
+    "JsonIO": "readonly",
+    "LootJS": "readonly",
+    "LootEntry": "readonly",
+    "ItemFilter": "readonly",
+    "MoreJS": "readonly",
+    "KJSTweaks": "readonly",
+    "KeyBindJSEvents": "readonly",
+    "GLFW": "readonly",
+    "KeyModifier": "readonly",
+    "console": "readonly",
+    "global": "readonly"
+  },
+  "ignorePatterns": []
+}

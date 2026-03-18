@@ -29,8 +29,8 @@
   };
 
   ServerEvents.generateData("after_mods", (event) => {
-    for (const chimney in CHIMNEYS) {
-      let config = createScrapingConfig(chimney, CHIMNEYS[chimney]);
+    for (const [chimney, ashChance] of Object.entries(CHIMNEYS)) {
+      let config = createScrapingConfig(chimney, ashChance);
       event.json(`sootychimneys:recipe/soot_scraping/${chimney}`, config);
     }
   });

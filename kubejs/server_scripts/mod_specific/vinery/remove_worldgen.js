@@ -1,18 +1,20 @@
 (() => {
   ServerEvents.generateData("after_mods", (event) => {
-    const placedFeaturesToRemove = [
-      "jungle_red_grape_bush__chance",
-      "jungle_white_grape_bush__chance",
-      "savanna_red_grape_bush__chance",
-      "savanna_white_grape_bush__chance",
-      "taiga_red_grape_bush__chance",
-      "taiga_white_grape_bush__chance",
+    const biomeModifiersToRemove = [
+      "add_jungle_red_grape",
+      "add_jungle_white_grape",
+      "add_savanna_red_grape",
+      "add_savanna_white_grape",
+      "add_taiga_red_grape",
+      "add_taiga_white_grape",
     ];
 
-    for (const path of placedFeaturesToRemove) {
-      global
-        .DataGenModule()
-        .removeData(event, "placed_feature", "vinery", path);
+    for (const path of biomeModifiersToRemove) {
+      global.Datagen.removeData(event, {
+        dataType: "biome_modifier",
+        namespace: "vinery",
+        dataName: path,
+      });
     }
   });
 })();

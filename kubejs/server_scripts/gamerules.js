@@ -1,3 +1,5 @@
-ServerEvents.loaded((event) => {
-  event.getServer().getGameRules().set("spawnChunkRadius", 0);
-});
+(() => {
+  ServerEvents.loaded((event) => {
+    event.getServer().getGameRules().set("spawnChunkRadius", 0);
+  });
+})();

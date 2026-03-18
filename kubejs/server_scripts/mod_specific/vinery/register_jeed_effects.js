@@ -1,6 +1,5 @@
 (() => {
   const registeredJEEDEffects = {
-    "minecraft:haste": ["vinery:mead"],
     "minecraft:strength": ["vinery:apple_cider"],
     "minecraft:resistance": ["vinery:apple_wine"],
     "minecraft:instant_health": ["vinery:mellohi_wine"],

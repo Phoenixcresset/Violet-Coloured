@@ -1,10 +1,11 @@
-/** @type {Array<string|RegExp>} */
-const obliteratedItems = global.obliteratedItems;
+(() => {
+  const { obliteratedItems } = global;
 
-/** @type {function(string): boolean} */
-const isObliterated = global.isObliterated;
+  const { isObliterated } = global;
 
-function obliterateItems() {
+  if (global.obliteratedItems.length === 0) {
+    return;
+  }
   // Remove recipes
   ServerEvents.recipes((event) => {
     event.remove({ input: obliteratedItems });
@@ -14,10 +15,10 @@ function obliterateItems() {
   // Remove compostable recipes
   ServerEvents.compostableRecipes((event) => {
     // Iterates over obliteratedItems since it does not work if we pass the array directly
-    obliteratedItems.forEach((item) => {
+    for (const item of obliteratedItems) {
       // Correctly removes the recipe, even though it is not shown in EMI, issue on  their part (#1098)
       event.remove(item);
-    });
+    }
   });
 
   // Remove tags
@@ -79,13 +80,6 @@ function obliterateItems() {
         output: Ingredient.of(obliteratedItems),
       });
     });
-
-    MoreJS.registerPotionBrewing((event) => {
-      event.removePotionBrewing({
-        ingredient: Ingredient.of(obliteratedItems),
-      });
-      // TODO : test with input and output potions if needed
-    });
   } else {
     console.warn(
       "[Obliterate Items] MoreJS not loaded, skipping villager trade and potion brewing removals."
@@ -111,7 +105,9 @@ function obliterateItems() {
   // Destroy on pickup
   ItemEvents.canPickUp((event) => {
     let { item, itemEntity } = event;
-    if (itemEntity.hasPickUpDelay()) return;
+    if (itemEntity.hasPickUpDelay()) {
+      return;
+    }
     if (isObliterated(item.id)) {
       item.setCount(0);
     }
@@ -141,8 +137,4 @@ function obliterateItems() {
       player.inventory.clear(item);
     }
   });
-}
-
-if (global.obliteratedItems.length > 0) {
-  obliterateItems();
-}
+})();

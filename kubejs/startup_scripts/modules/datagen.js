@@ -1,7 +1,6 @@
 /** @typedef {import(import("dev.latvian.mods.kubejs.script.data.GeneratedDataStage").$GeneratedDataStage$$Type)} GenerateDataEvent */
-/** @typedef {"placed_feature" | "configured_feature" | "biome_modifier" | "structure_set"} DataType */
 
-global.DataGenModule = function () {
+global.Datagen = (function Datagen() {
   const dataTypePaths = {
     placed_feature: "worldgen/placed_feature",
     configured_feature: "worldgen/configured_feature",
@@ -11,7 +10,7 @@ global.DataGenModule = function () {
 
   /**
    *
-   * @param {DataType} dataType
+   * @param {"placed_feature" | "configured_feature" | "biome_modifier" | "structure_set"} dataType
    * @param {string} namespace
    * @param {string} dataName
    * @returns {string}
@@ -24,12 +23,12 @@ global.DataGenModule = function () {
   /**
    *
    * @param {GenerateDataEvent} event
-   * @param {DataType} dataType
+   * @param {"placed_feature" | "configured_feature" | "biome_modifier" | "structure_set"} dataType
    * @param {string} namespace
    * @param {string} dataName
    * @param {Object} newData
    */
-  function replaceData(event, dataType, namespace, dataName, newData) {
+  function replaceData(event, { dataType, namespace, dataName, newData }) {
     const path = _resolveDataPath(dataType, namespace, dataName);
     event.json(path, newData);
   }
@@ -37,15 +36,15 @@ global.DataGenModule = function () {
   /**
    *
    * @param {GenerateDataEvent} event
-   * @param {DataType} dataType
+   * @param {"placed_feature" | "configured_feature" | "biome_modifier" | "structure_set"} dataType
    * @param {string} namespace
    * @param {string} dataName
    */
-  function removeData(event, dataType, namespace, dataName) {
+  function removeData(event, { dataType, namespace, dataName }) {
     const path = _resolveDataPath(dataType, namespace, dataName);
     event.json(path, {
       "neoforge:conditions": [{ type: "neoforge:false" }],
     });
   }
   return { replaceData: replaceData, removeData: removeData };
-};
+})();

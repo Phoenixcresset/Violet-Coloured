@@ -18,3 +18,10 @@ crowSpawnRadius = 8
 # Default: 6
 # Range: 0 ~ 192
 crowScareRadius = 6
+#Whether water bottles should stack up to 16
+stackWaterBottles = true
+#Whether corn mazes should spawn in the world
+generateCornMazes = true
+#Disables milking cows and goats with glass bottels. 
+#Be aware that setting this can cause goat milk bottles to be unobtainable unless handled otherwise
+disableBottleMilking = true

@@ -34,7 +34,7 @@
     "note_block": true,
     "fluid_storage.style": "PROGRESS_BAR",
     "beehive": true,
-    "item_storage.detailed_amount": 54,
+    "item_storage.detailed_amount": 27,
     "player_head": true,
     "lectern": true,
     "entity_armor": false,

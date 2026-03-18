@@ -1,24 +1,32 @@
 (() => {
   const pouringRecipesToAdd = [
     {
-      fluidId: "vinery:liquid_mojang_noir",
-      outputItemId: "vinery:bottle_mojang_noir",
-      containerId: "vinery:wine_bottle",
+      fluid: "vinery:liquid_mojang_noir",
+      result: "vinery:bottle_mojang_noir",
+      container: "vinery:wine_bottle",
+      fluid_amount: 500,
     },
   ];
-
-  for (const liquid of global.VineryModule.vineryLiquids) {
+  for (const fluid of global.Vinery.customFluids) {
     pouringRecipesToAdd.push({
-      fluidId: `vinery:liquid_${liquid}`,
-      outputItemId: `vinery:${liquid}`,
-      containerId: "vinery:wine_bottle",
+      fluid: `violetcoloured:liquid_${fluid}`,
+      result: `violetcoloured:${fluid}`,
+      container: "vinery:wine_bottle",
+      fluidAmount: 500,
+    });
+  }
+  for (const fluid of global.Vinery.vineryFluids) {
+    pouringRecipesToAdd.push({
+      fluid: `vinery:liquid_${fluid}`,
+      result: `vinery:${fluid}`,
+      container: "vinery:wine_bottle",
+      fluidAmount: 500,
     });
   }
 
   ServerEvents.recipes((event) => {
-    global.BrewinAndChewinModule.createPouringRecipes(
-      event,
-      pouringRecipesToAdd
-    );
+    for (const recipe of pouringRecipesToAdd) {
+      global.BrewinAndChewin.registerPouringRecipe(event, recipe);
+    }
   });
 })();

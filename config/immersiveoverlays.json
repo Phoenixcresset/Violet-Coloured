@@ -2,17 +2,17 @@
   "version": 4,
   "enabled": true,
   "avoid_overlapping": true,
-  "moved_by_effects": true,
+  "moved_by_effects": false,
   "require_item": true,
   "require_item_in_hand": false,
   "search_containers": true,
-  "search_containers_for_containers": true,
+  "search_containers_for_containers": false,
   "render_background": true,
   "render_endcap": true,
   "hide_from_debug": true,
   "compass_enable": true,
-  "compass_vertical_position": 140,
-  "compass_horizontal_position_left": false,
+  "compass_vertical_position": 141,
+  "compass_horizontal_position_left": true,
   "compass_direction": false,
   "compass_direction_text_colour": 16755200,
   "compass_text_colour": 14737632,
@@ -42,8 +42,8 @@
   "clock_24_hour": true,
   "clock_seasons": true,
   "clock_text_colour": 14737632,
-  "clock_vertical_position": 85,
-  "clock_horizontal_position_left": false,
+  "clock_vertical_position": 93,
+  "clock_horizontal_position_left": true,
   "clock_items": [
     "minecraft:clock"
   ],
@@ -119,5 +119,6 @@
   "compat_breezy": true,
   "wind_items": [
     "breezy:gust_gauge"
-  ]
+  ],
+  "compat_dead_reckoning": true
 }

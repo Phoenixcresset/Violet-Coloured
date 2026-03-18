@@ -1,54 +1,95 @@
 {
+    "json.schemaDownload.enable": true,
+    "json.schemaDownload.trustedDomains": {
+        "https://raw.githubusercontent.com/DavidAnson/markdownlint/v0.40.0/schema/markdownlint-config-schema.json": true
+    },
     "typescript.tsserver.maxTsServerMemory": 4096,
     "typescript.disableAutomaticTypeAcquisition": true,
     "typescript.surveys.enabled": false,
     "typescript.validate.enable": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "oxc.oxc-vscode",
     "editor.formatOnSave": true,
-    "eslint.validate": [
-        "javascript"
-    ],
-    "eslint.workingDirectories": [
-        "./kubejs"
-    ],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.minimap.markSectionHeaderRegex": "#region\\s*(?<separator>-?)\\s*(?<label>.*)$"
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "markdownlint.config": {
+        "no-duplicate-heading": false,
+        "single-h1": false
+    },
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        ".gitignore": ".gitattributes",
+        "package.json": ".oxfmtrc.json, .oxlintrc.json",
+        "README.md": "LICENSE",
+        "pakku.json": "pakku.jar"
+    },
     "files.exclude": {
         ".cache/": true,
         ".mixin.out/": true,
         ".probe/": true,
         "cache/": true,
-        "cherishedworlds-favorites.dat": true,
-        "command_history.txt": true,
         "config/*.bak": true,
+        "config/alltheleaks.json": true,
+        "config/crash_assistant/modlist.json": true,
         "config/dynamic_fps.json": true,
+        "config/fabric/": true,
+        "config/fzzy_config/": true,
         "config/ichunutil/": true,
         "config/iris*": true,
         "config/jade/sort-order.json": true,
+        "config/jei": true,
         "config/konkrete/": true,
         "config/lithium.properties": true,
         "config/lmft.json": true,
         "config/midnightlib.json": true,
         "config/modernfix-mixins.properties": true,
+        "config/nerb/": true,
         "config/particle_effects.json5": true,
+        "config/ponder-client.toml": true,
+        "config/quark_emotes/": true,
+        "config/reliable_recipes/": true,
         "config/resourceful-config-web.json": true,
         "config/sodium-fingerprint.json": true,
         "config/sodium-mixins.properties": true,
+        "config/sodium-options.json": true,
         "config/transition.json": true,
         "config/trender.json": true,
         "coremods/": true,
         "data/": true,
+        "defaultconfigs/": true,
         "downloads/": true,
         "dynamic-data-pack-cache/": true,
         "dynamic-resource-pack-cache/": true,
-        "emi.json": true,
+        "kubejs/**/jsconfig.json": true,
         "local/": true,
+        "logs/telemetry/": true,
         "moddata/": true,
+        "mods/.index/": true,
+        "node_modules/": true,
         "saves/": true,
         "screenshots/": true,
         "server-resource-packs/": true,
         "texturepacks/": true,
+        ".qmenu_opened.marker": true,
+        "cherishedworlds-favorites.dat": true,
+        "command_history.txt": true,
+        "emi.json": true,
+        "pakku-lock.json": true,
+        "pnpm-lock.yaml": true,
         "TrashSlotSaveState.json": true,
         "usercache.json": true,
-        "usernamecache.json": true
+        "usernamecache.json": true,
     },
     "json.schemas": [
         {

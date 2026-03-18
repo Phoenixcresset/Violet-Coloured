@@ -1,10 +1,7 @@
-global.VineryModule = (function () {
+global.Vinery = (function Vinery() {
   // Every Vinery liquid, except for mojang_noir, which is a special case and needs to be handled separately
-  const vineryLiquids = [
-    "red_grapejuice",
-    "white_grapejuice",
-    "apple_juice",
-    "mead",
+  const customFluids = ["red_grape_juice", "white_grape_juice", "apple_juice"];
+  const vineryFluids = [
     "apple_cider",
     "apple_wine",
     "mellohi_wine",
@@ -31,6 +28,7 @@ global.VineryModule = (function () {
     "jellie_wine",
   ];
   return {
-    vineryLiquids: vineryLiquids,
+    customFluids: customFluids,
+    vineryFluids: vineryFluids,
   };
 })();

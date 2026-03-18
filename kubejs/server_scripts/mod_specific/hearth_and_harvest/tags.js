@@ -1,12 +1,10 @@
 (() => {
   const removedTagsFromEntries = {
-    block: {
-      "hearthandharvest:tappable": {
-        biomesoplenty: ["fir_log", "maple_log", "pine_log"],
-        autumnity: ["maple_log", "sappy_maple_log"], // TODO: remove if/when Autumnity is added to the modpack, but for now this is needed to prevent errors from the missing tag
-      },
+    item: {
+      // Turtle eggs are not food
+      "hearthandharvest:crateable_items": ["minecraft:turtle_egg"],
     },
   };
 
-  global.TagModule.registerRemovedTagsFromEntries(removedTagsFromEntries);
+  global.Tags.registerRemovedTagsFromEntries(removedTagsFromEntries);
 })();

@@ -1,45 +1,38 @@
 (() => {
   const effectiveToolsBlocks = {
     block: {
-      "mineable/pickaxe": {
-        minecraft: [
-          "sea_lantern",
-          "glowstone",
-          "redstone_lamp",
-          "beacon",
-          "lever",
-        ],
-        c: ["#glass_blocks", "#glass_panes"],
-        chimes: ["glass_bells"],
-      },
-      "mineable/axe": {
-        minecraft: ["#beds"],
-        c: ["#skulls"],
-        supplementaries: ["#flags"],
+      "mineable/pickaxe": [
+        "chimes:glass_bells",
+        "minecraft:beacon",
+        "minecraft:glowstone",
+        "minecraft:lever",
+        "minecraft:redstone_lamp",
+        "minecraft:sea_lantern",
+        "#c:glass_blocks",
+        "#c:glass_panes",
+      ],
+      "mineable/axe": [
+        "#c:skulls",
+        "#minecraft:beds",
+        "#supplementaries:flags",
         // TODO: Glass ?
-      },
-      "mineable/shovel": {
-        vinery: ["dirt_path_slab"],
-      },
-      "mineable/hoe": {
-        minecraft: [
-          "ochre_froglight",
-          "verdant_froglight",
-          "pearlescent_froglight",
-          "cactus",
-        ],
-      },
+      ],
+      "mineable/shovel": ["vinery:dirt_path_slab"],
+      "mineable/hoe": [
+        "minecraft:cactus",
+        "minecraft:ochre_froglight",
+        "minecraft:pearlescent_froglight",
+        "minecraft:verdant_froglight",
+      ],
     },
   };
 
   const removedEffectiveToolsBlocks = {
     block: {
-      "farmersdelight:mineable/knife": {
-        supplementaries: ["#flags"],
-      },
+      "farmersdelight:mineable/knife": ["#supplementaries:flags"],
     },
   };
 
-  global.TagModule.registerAddedTagsToEntries(effectiveToolsBlocks);
-  global.TagModule.registerRemovedTagsFromEntries(removedEffectiveToolsBlocks);
+  global.Tags.registerAddedTagsToEntries(effectiveToolsBlocks);
+  global.Tags.registerRemovedTagsFromEntries(removedEffectiveToolsBlocks);
 })();

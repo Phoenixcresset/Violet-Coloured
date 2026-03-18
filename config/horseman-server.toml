@@ -22,7 +22,7 @@
 	# Range: 0.0 ~ 1.0
 	increase_horse_airborne_speed_amount = 0.5
 	#Horse-type mobs are able to swim when ridden by holding a jump key. Exact types that cannot swim can be controlled by '#horseman:cannot_swim' entity tag. Default: true.
-	horse_swim_when_ridden = true
+	horse_swim_when_ridden = false
 	#When mounting a horse, rotate it to match player looking direction, instead of rotating the player. Default: true
 	rotate_horse_instead_of_player = true
 	#Max distance (in blocks) from last dismount position that saddled horse can wander to. Set to -1 for vanilla behavior. Default: 16

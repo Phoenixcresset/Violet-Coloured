@@ -1,22 +1,20 @@
 /** @typedef {import("moe.wolfgirl.probejs.generated.registry.minecraft.Fluid").$Fluid$$Type} FluidEvent */
-/** @typedef {string} FluidID */
-/** @typedef {number} FluidColor */
-/** @typedef {string} FluidName */
 
-global.FluidModule = (function () {
+global.Fluids = (function Fluids() {
   /**
    * @param {FluidEvent} event
+   * @param {string} namespace
    * @param {{
-   * id: FluidID,
-   * color: FluidColor,
-   * name: FluidName
+   * id: string,
+   * color: number,
+   * name: string
    * }} fluid
    */
-  function _registerVineryFluid(event, fluid) {
+  function _registerFluid(event, namespace, fluid) {
     event
-      .create(`vinery:liquid_${fluid.id}`, "thin")
+      .create(`${namespace}:liquid_${fluid.id}`, "thin")
       .tint(fluid.color)
-      .tag(`vinery:${fluid.id}`)
+      .tag(`${namespace}:${fluid.id}`)
       .displayName(fluid.name)
       .noBucket()
       .noBlock();
@@ -24,19 +22,20 @@ global.FluidModule = (function () {
 
   /**
    * @param {FluidEvent} event
+   * @param {string} namespace
    * @param {{
-   * id: FluidID,
-   * color: FluidColor,
-   * name: FluidName
+   * id: string,
+   * color: number,
+   * name: string
    * }[]} fluids
    */
-  function registerVineryFluids(event, fluids) {
-    fluids.forEach((fluid) => {
-      _registerVineryFluid(event, fluid);
-    });
+  function registerFluids(event, namespace, fluids) {
+    for (const fluid of fluids) {
+      _registerFluid(event, namespace, fluid);
+    }
   }
 
   return {
-    registerVineryFluids: registerVineryFluids,
+    registerFluids: registerFluids,
   };
 })();

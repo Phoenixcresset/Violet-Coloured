@@ -1,47 +1,48 @@
 (() => {
   const removedTags = {
-    item: {
-      sereneseasons: [
-        "winter_crops",
-        "spring_crops",
-        "summer_crops",
-        "autumn_crops",
-      ],
-      createaddition: ["plants", "plant_foods"],
-      origins: ["meat"],
-      tconstruct: ["seeds"],
-      brewinandchewin: ["foods/horror_meat"],
-    },
-    block: {
-      minecraft: ["enderman_holdable"], // Remove enderman griefing
-      supplementaries: [
-        "frame_block_blacklist",
-        "faucet_connection_blacklist",
-        "water_holder",
-        "barnacles_blacklist",
-      ],
-      sereneseasons: [
-        "winter_crops",
-        "spring_crops",
-        "summer_crops",
-        "autumn_crops",
-        "unbreakable_infertile_crops",
-      ],
-    },
-    entity_type: {
-      supplementaries: [
-        "cage_catchable",
-        "cage_baby_catchable",
-        "jar_catchable",
-        "jar_baby_catchable",
-        "tickable_when_captured",
-      ],
-      hearthandharvest: ["can_be_butchered"],
-    },
-    "worldgen/structure": {
-      amendments: ["add_potion_cauldron"],
-    },
+    item: [
+      "brewinandchewin:foods/horror_meat",
+      "createaddition:plants",
+      "createaddition:plant_foods",
+      "quark:stone_tool_materials",
+      "quark:crab_tempt_items",
+      "quark:glow_shroom_feedables", // Stoneling tempt items
+      "origins:meat",
+      "origins:ignore_diet",
+      "sereneseasons:winter_crops",
+      "sereneseasons:spring_crops",
+      "sereneseasons:summer_crops",
+      "sereneseasons:autumn_crops",
+      "supplementaries:flower_box_plantable",
+      "tconstruct:seeds",
+    ],
+    block: [
+      "quark:crab_spawnable",
+      "quark:foxhound_spawnable",
+      "minecraft:enderman_holdable", // Remove enderman griefing
+      "sereneseasons:winter_crops",
+      "sereneseasons:spring_crops",
+      "sereneseasons:summer_crops",
+      "sereneseasons:autumn_crops",
+      "sereneseasons:unbreakable_infertile_crops",
+      "supplementaries:barnacles_blacklist",
+      "supplementaries:faucet_connection_blacklist",
+      "supplementaries:frame_block_blacklist",
+      "supplementaries:ignores_planter_offset",
+      "supplementaries:prevents_offset_above",
+      "supplementaries:water_holder",
+    ],
+    entity_type: [
+      "hearthandharvest:can_be_butchered",
+      "horseman:cannot_swim",
+      "supplementaries:cage_catchable",
+      "supplementaries:cage_baby_catchable",
+      "supplementaries:jar_catchable",
+      "supplementaries:jar_baby_catchable",
+      "supplementaries:tickable_when_captured",
+    ],
+    "worldgen/structure": ["amendments:add_potion_cauldron"],
   };
 
-  global.TagModule.registerRemovedTags(removedTags);
+  global.Tags.registerRemovedTags(removedTags);
 })();
