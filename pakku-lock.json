@@ -1491,7 +1491,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.0.jar",
+                    "file_name": "CrashAssistant-neoforge-1.20.6-1.21.4-1.11.3.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.4",
@@ -1503,16 +1503,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7717/595/CrashAssistant-neoforge-1.20.6-1.21.4-1.11.0.jar",
-                    "id": "7717595",
+                    "url": "https://edge.forgecdn.net/files/7770/74/CrashAssistant-neoforge-1.20.6-1.21.4-1.11.3.jar",
+                    "id": "7770074",
                     "parent_id": "1154099",
                     "hashes": {
-                        "sha1": "34aee29c7738861a61ff8fc4789ee490112364af",
-                        "md5": "8894ed436221e0201b8ae5a6527ab41b"
+                        "sha1": "066f8a15b88d37380fe76c58b57c1b041e152d10",
+                        "md5": "114f5dc405a865720e9dc6b312f4635a"
                     },
                     "required_dependencies": [],
-                    "size": 3003710,
-                    "date_published": "2026-03-06T03:55:14.053Z"
+                    "size": 3026953,
+                    "date_published": "2026-03-17T03:48:15.867Z"
                 }
             ]
         },
@@ -5997,27 +5997,26 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "trashslot-neoforge-1.21.1-21.1.4.jar",
+                    "file_name": "trashslot-neoforge-1.21.1-21.1.6.jar",
                     "mc_versions": [
-                        "1.21",
                         "1.21.1"
                     ],
                     "loaders": [
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6319/145/trashslot-neoforge-1.21.1-21.1.4.jar",
-                    "id": "6319145",
+                    "url": "https://edge.forgecdn.net/files/7772/379/trashslot-neoforge-1.21.1-21.1.6.jar",
+                    "id": "7772379",
                     "parent_id": "235577",
                     "hashes": {
-                        "sha1": "0b7004a166834ae9a33cc37d769947436bb3f956",
-                        "md5": "ecaf023c276ce3e4c3faee79a6a820f8"
+                        "sha1": "b977a4df7de826ac7a56aeb10fbd4185394e6ae7",
+                        "md5": "c9165ba7646507aeb5168ab81744c050"
                     },
                     "required_dependencies": [
                         "531761"
                     ],
-                    "size": 123189,
-                    "date_published": "2025-03-18T15:07:48.147Z"
+                    "size": 123802,
+                    "date_published": "2026-03-17T17:19:09.493Z"
                 }
             ]
         },
