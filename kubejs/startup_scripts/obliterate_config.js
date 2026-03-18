@@ -145,6 +145,7 @@
       "flax_seeds",
       "flax",
       "flax_block",
+      "planter",
     ],
     suppsquared: ["heavy_key", /metal_.*/],
     village_taverns: ["barrel"],
