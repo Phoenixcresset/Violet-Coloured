@@ -13,6 +13,7 @@
       "sereneseasons:spring_crops",
       "sereneseasons:summer_crops",
       "sereneseasons:autumn_crops",
+      "supplementaries:flower_box_plantable",
       "tconstruct:seeds",
     ],
     block: [
