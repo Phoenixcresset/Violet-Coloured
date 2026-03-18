@@ -67,6 +67,7 @@
 .probe
 /.vscode/**.code-snippets
 /kubejs/**/probe-settings.json
+/kubejs/**/jsconfig.json
 /node_modules/
 
 # Pakku
