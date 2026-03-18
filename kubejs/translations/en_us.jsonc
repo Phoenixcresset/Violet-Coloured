@@ -78,6 +78,8 @@
     "effect.vinery.climbing_effect.description": "Grants the ability to climb all blocks like a ladder.",
     "effect.vinery.health_effect.description": "Increases max health.",
     "effect.vinery.resistance_effect.description": "Increases armor toughness and knockback resistance.",
-    "effect.vinery.armor_effect.description": "Increases armor toughness and armor level."
+    "effect.vinery.armor_effect.description": "Increases armor toughness and armor level.",
+    "wood_type.quark.ancient": "Ashen",
+    "wood_type.quark.blossom": "Trumpet"
   }
 }
