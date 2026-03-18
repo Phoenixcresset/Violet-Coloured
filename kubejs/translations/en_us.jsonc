@@ -21,11 +21,14 @@
     "item.measurements.tape_measure": "Abacus"
   },
   "sootychimneys": {
+    // Prevents the open / close messages when interacting with a chimney
     "message.sootychimneys.blocked": "",
     "message.sootychimneys.open": ""
   },
   "supplementaries": {
-    "block.supplementaries.item_shelf": "Oak Item Shelf"
+    "block.supplementaries.item_shelf": "Oak Item Shelf",
+    "message.supplementaries.altimeter": "", // Prevents the Y-level message when using an altimeter
+    "message.supplementaries.compass": "" // Prevents the coordinates message when using a globe
   },
   "vinery": {
     "block.vinery.red_wine": "Rosé Wine",
