@@ -1,7 +1,6 @@
 (() => {
   const recipeHidingConfig = {
     categories: [
-      "ali:plant_loot",
       // "ali:block_loot", // TODO: uncomment when modpack will be made public
       "ali:hero_loot",
       "emixx:villager_trades",
@@ -51,6 +50,70 @@
       // "emi:info": ["null"], // Uncomment to remove all info except for the ones added by the modpack
     },
   };
+
+  const hiddenPlantLoot = [
+    ".*:.*sapling",
+    "minecraft:mangrove_propagule",
+    "minecraft:.*grass",
+    "minecraft:dead_bush",
+    "minecraft:fern",
+    "minecraft:dandelion",
+    "minecraft:torchflower",
+    "minecraft:poppy",
+    "minecraft:blue_orchid",
+    "minecraft:allium",
+    "minecraft:azure_bluet",
+    "minecraft:red_tulip",
+    "minecraft:orange_tulip",
+    "minecraft:white_tulip",
+    "minecraft:pink_tulip",
+    "minecraft:oxeye_daisy",
+    "minecraft:cornflower",
+    "minecraft:wither_rose",
+    "minecraft:lily_of_the_valley",
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:attached_pumpkin_stem",
+    "minecraft:attached_melon_stem",
+    "minecraft:pumpkin_stem",
+    "minecraft:melon_stem",
+    "minecraft:lily_pad",
+    "minecraft:sunflower",
+    "minecraft:lilac",
+    "minecraft:rose_bush",
+    "minecraft:peony",
+    "minecraft:large_fern",
+    "minecraft:torchflower_seeds",
+    "minecraft:pitcher_plant",
+    "minecraft:sea_pickle",
+    "minecraft:warped_fungus",
+    "minecraft:warped_roots",
+    "minecraft:nether_sprouts",
+    "minecraft:crimson_fungus",
+    "minecraft:crimson_roots",
+    "minecraft:azalea",
+    "minecraft:flowering_azalea",
+    "minecraft:small_dripleaf",
+    "minecraft:pink_petals",
+    "hearthandharvest:wild_red_grapes",
+    "hearthandharvest:wild_green_grapes",
+    "hearthandharvest:red_grapes",
+    "hearthandharvest:green_grapes",
+    "quark:glow_shroom",
+    "quark:glow_lichen_growth",
+    "quark:water_pink_petals",
+    "farmersdelight:budding_tomatoes",
+    "farmersdelight:rice",
+    "vinery:red_grape_bush",
+    "vinery:white_grape_bush",
+  ];
+
+  const parsedPlantLoot = [];
+  for (const plantLoot of hiddenPlantLoot) {
+    let [namespace, id] = plantLoot.split(":");
+    parsedPlantLoot.push(`${namespace}:/blocks/${id}`);
+  }
+  recipeHidingConfig.categorizedIds["ali:plant_loot"] = parsedPlantLoot;
 
   /**
    * @param {{categories: Array<string>, recipeIds: Array<string>, categorizedIds: Record<string, Array<string>>}} config Categories, recipe IDs, and categorized IDs to hide
