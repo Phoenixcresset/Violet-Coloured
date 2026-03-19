@@ -1,6 +1,15 @@
 (() => {
   const mappedRemovedAdvancements = {
-    "brewinandchewin:main": ["crafting_problem", "brew_drink"],
+    "brewinandchewin:main": [
+      "brew_drink",
+      "chef_of_the_ages",
+      "cook_fiery_fondue",
+      "crafting_problem",
+      "ferment_cheese",
+      "place_keg",
+      "place_temperature_block_near_keg",
+      "root",
+    ],
     "vinery:main": [
       "budding_grapes",
       "cherry_picker",
