@@ -1411,7 +1411,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ConvenientEffects-v21.1.3-1.21.1-NeoForge.jar",
+                    "file_name": "ConvenientEffects-v21.1.4-1.21.1-NeoForge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -1419,18 +1419,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7473/54/ConvenientEffects-v21.1.3-1.21.1-NeoForge.jar",
-                    "id": "7473054",
+                    "url": "https://edge.forgecdn.net/files/7775/661/ConvenientEffects-v21.1.4-1.21.1-NeoForge.jar",
+                    "id": "7775661",
                     "parent_id": "1259240",
                     "hashes": {
-                        "sha1": "0541cd2f1f5c5dd3865bba9262d8c2c6e90d8d51",
-                        "md5": "54b4f59f086f1f7c1342d10cf8eadec7"
+                        "sha1": "7ecc7477275a38b71884d1066174fb711761201a",
+                        "md5": "556b131f6ba7ba2945ff5554ea95ec82"
                     },
                     "required_dependencies": [
                         "495476"
                     ],
-                    "size": 58435,
-                    "date_published": "2026-01-17T11:57:21.173Z"
+                    "size": 58640,
+                    "date_published": "2026-03-18T11:29:51.183Z"
                 }
             ]
         },
@@ -4862,7 +4862,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Quark-4.1-474.jar",
+                    "file_name": "Quark-4.1-475.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -4870,18 +4870,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7640/331/Quark-4.1-474.jar",
-                    "id": "7640331",
+                    "url": "https://edge.forgecdn.net/files/7777/937/Quark-4.1-475.jar",
+                    "id": "7777937",
                     "parent_id": "243121",
                     "hashes": {
-                        "sha1": "a9634d9631d06a971b190c681bedebb77a7abb8d",
-                        "md5": "d06f7685ae84793565aa39af86b64c1a"
+                        "sha1": "ad9f7c9ab935f70d431ceea35976a52f9bcd26e9",
+                        "md5": "fa184f5d9c92636af69334844d66508f"
                     },
                     "required_dependencies": [
                         "968868"
                     ],
-                    "size": 15482779,
-                    "date_published": "2026-02-17T19:51:02.573Z"
+                    "size": 15499932,
+                    "date_published": "2026-03-18T23:00:46.793Z"
                 }
             ]
         },
@@ -4944,7 +4944,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "QuarkPonders-1.3_NeoForge-1.21.1.jar",
+                    "file_name": "QuarkPonders-1.4_NeoForge-1.21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -4952,18 +4952,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7620/378/QuarkPonders-1.3_NeoForge-1.21.1.jar",
-                    "id": "7620378",
+                    "url": "https://edge.forgecdn.net/files/7778/340/QuarkPonders-1.4_NeoForge-1.21.1.jar",
+                    "id": "7778340",
                     "parent_id": "1290960",
                     "hashes": {
-                        "sha1": "76b6644801075dbfefab7864b654e88b653304fa",
-                        "md5": "c66d8ecb752d0476946a6916d7bb749b"
+                        "sha1": "aee59f6f3c419b4ed5d19da80a71ff0a8b015c01",
+                        "md5": "967551ee9e291a851ef5167f309f3a0d"
                     },
                     "required_dependencies": [
                         "243121"
                     ],
-                    "size": 1696368,
-                    "date_published": "2026-02-13T19:20:52.117Z"
+                    "size": 1705703,
+                    "date_published": "2026-03-19T00:38:31.067Z"
                 }
             ]
         },
