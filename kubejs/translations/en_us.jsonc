@@ -38,6 +38,10 @@
     "block.vinery.stackable_log": "Stacked Logs"
   },
   "violetcoloured": {
+    "advancement.violetcoloured.farming_and_cooking.root.title": "Farming and Cooking",
+    "advancement.violetcoloured.farming_and_cooking.root.description": "The world is full of food!",
+    "advancement.violetcoloured.farming_and_cooking.place_keg.title": "Here Starts the Process",
+    "advancement.violetcoloured.farming_and_cooking.place_keg.description": "Place a Keg",
     "item.violetcoloured.red_grape_juice": "Red Wine",
     "item.violetcoloured.white_grape_juice": "White Wine",
     "item.violetcoloured.apple_juice": "Apple Juice",
