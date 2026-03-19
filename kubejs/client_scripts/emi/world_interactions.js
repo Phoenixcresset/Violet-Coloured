@@ -50,6 +50,16 @@
       right: "item:minecraft:flint_and_steel",
       output: "item:supplementaries:ash",
     },
+    {
+      left: "item:vinery:red_grape_seeds",
+      right: "item:vinery:grapevine_stem",
+      output: "item:vinery:red_grape",
+    },
+    {
+      left: "item:vinery:white_grape_seeds",
+      right: "item:vinery:grapevine_stem",
+      output: "item:vinery:white_grape",
+    },
   ];
 
   function buildWorldInteraction(recipeAddition) {
