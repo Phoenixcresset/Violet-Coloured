@@ -1,6 +1,7 @@
 #!/bin/bash
 
 FILES=(
+  "config/advancements_reloaded.toml"
     "config/emi.css"
     "config/modlistmemory.json"
 )
