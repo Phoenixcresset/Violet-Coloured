@@ -1,6 +1,6 @@
-# [Unreleased]
+# [Unreleased] - Advancements Update
 
-# [0.0.7] - Quark and Polishing update
+# [0.0.7] - Quark and Polishing Update
 
 ## Changes
 
