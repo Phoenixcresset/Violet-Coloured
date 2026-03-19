@@ -1,9 +1,33 @@
 (() => {
-  const removedAdvancements = [
-    "vinery:main/fruits_of_the_field",
-    "vinery:main/overgrown_lattices",
-    "vinery:main/budding_grapes",
-  ];
+  const mappedRemovedAdvancements = {
+    "brewinandchewin:main": ["crafting_problem", "brew_drink"],
+    "vinery:main": [
+      "budding_grapes",
+      "cherry_picker",
+      "forbidden_fruit",
+      "fruits_of_the_field",
+      "grape_picker",
+      "juice_it_up",
+      "juicy_success",
+      "mashy_success",
+      "nectar_of_life",
+      "overgrown_lattices",
+      "purely_apple",
+      "the_first_press",
+      "the_magic_of_the_barrel",
+      "the_noble_drop",
+      "vineyard_visionary",
+      "vintage_perfection",
+      "wine_somelier",
+    ],
+  };
+  const removedAdvancements = [];
+
+  for (const [path, ids] of Object.entries(mappedRemovedAdvancements)) {
+    for (const id of ids) {
+      removedAdvancements.push(`${path}/${id}`);
+    }
+  }
 
   /**
    * Remove advancement(s) with the given ID(s)

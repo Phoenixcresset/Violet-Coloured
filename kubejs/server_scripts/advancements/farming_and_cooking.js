@@ -23,6 +23,23 @@
         placed_keg: placeBlockCondition("brewinandchewin:keg"),
       },
     },
+    {
+      id: "brew_drink",
+      parent: "place_keg",
+      icon: "brewinandchewin:beer",
+      criteria: {
+        has_drink: itemCondition("#brewinandchewin:fermented_drinks"),
+      },
+    },
+    {
+      id: "all_fermented_drinks",
+      parent: "brew_drink",
+      icon: "vinery:noir_wine",
+      type: "challenge",
+      criteria: consumeAllCondition(
+        Ingredient.of("#brewinandchewin:fermented_drinks").getItemIds()
+      ),
+    },
   ];
 
   function buildRoot(root) {
@@ -53,6 +70,7 @@
         icon: {
           id: advancement.icon,
         },
+        frame: advancement.type,
         title: {
           translate: `advancement.${namespace}.${categoryId}.${advancement.id}.title`,
         },
@@ -62,6 +80,46 @@
       },
       criteria: advancement.criteria,
     };
+  }
+
+  function itemCondition(items) {
+    return {
+      conditions: {
+        items: [
+          {
+            items: items,
+          },
+        ],
+      },
+      trigger: "minecraft:inventory_changed",
+    };
+  }
+
+  function allItemsCondition(items) {
+    let itemConditionMap = {};
+    for (const item of items) {
+      itemConditionMap[item] = itemCondition(item);
+    }
+    return itemConditionMap;
+  }
+
+  function consumeCondition(items) {
+    return {
+      conditions: {
+        item: {
+          items: items,
+        },
+      },
+      trigger: "minecraft:consume_item",
+    };
+  }
+
+  function consumeAllCondition(items) {
+    let consumeConditionMap = {};
+    for (const item of items) {
+      consumeConditionMap[item] = consumeCondition(item);
+    }
+    return consumeConditionMap;
   }
 
   /**
