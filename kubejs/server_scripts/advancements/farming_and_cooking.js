@@ -35,7 +35,7 @@
       parent: "place_keg",
       icon: "brewinandchewin:beer",
       criteria: {
-        has_drink: itemCondition("#brewinandchewin:fermented_drinks"),
+        has_drink: itemCriteria("#brewinandchewin:fermented_drinks"),
       },
     },
     {
@@ -43,7 +43,7 @@
       parent: "brew_drink",
       icon: "vinery:noir_wine",
       type: "challenge",
-      criteria: consumeAllCondition(
+      criteria: consumeAllCriteria(
         Ingredient.of("#brewinandchewin:fermented_drinks").getItemIds()
       ),
     },
@@ -52,7 +52,7 @@
       parent: "place_keg",
       icon: "brewinandchewin:unripe_flaxen_cheese_wheel",
       criteria: {
-        unripe_cheese_wheel: itemCondition(
+        unripe_cheese_wheel: itemCriteria(
           "#brewinandchewin:cheese_wheels/unripe"
         ),
       },
@@ -130,6 +130,12 @@
     };
   }
 
+  /**
+   * Description placeholder
+   *
+   * @param {*} advancement
+   * @returns {Object}
+   */
   function buildAdvancement(advancement) {
     return {
       parent: `${CONFIG.categoryPath}/${advancement.parent}`,
@@ -150,7 +156,11 @@
     };
   }
 
-  function itemCondition(items) {
+  /**
+   * @param {string | string[]} items // An ID, a tag with #, or an array containing IDs
+   * @returns {Object}
+   */
+  function itemCriteria(items) {
     return {
       conditions: {
         items: [
@@ -163,15 +173,23 @@
     };
   }
 
-  function allItemsCondition(items) {
+  /**
+   * @param {string | string[]} items // An ID, a tag with #, or an array containing IDs
+   * @returns {Object}
+   */
+  function allItemsCriteria(items) {
     let itemConditionMap = {};
     for (const item of items) {
-      itemConditionMap[item] = itemCondition(item);
+      itemConditionMap[item] = itemCriteria(item);
     }
     return itemConditionMap;
   }
 
-  function consumeCondition(items) {
+  /**
+   * @param {string | string[]} items // An ID, a tag with #, or an array containing IDs
+   * @returns {Object}
+   */
+  function consumeCriteria(items) {
     return {
       conditions: {
         item: {
@@ -182,10 +200,14 @@
     };
   }
 
-  function consumeAllCondition(items) {
+  /**
+   * @param {string | string[]} items An ID, a tag with `#`, or an array containing IDs
+   * @returns {Object}
+   */
+  function consumeAllCriteria(items) {
     let consumeConditionMap = {};
     for (const item of items) {
-      consumeConditionMap[item] = consumeCondition(item);
+      consumeConditionMap[item] = consumeCriteria(item);
     }
     return consumeConditionMap;
   }
@@ -245,7 +267,7 @@
   }
 
   /**
-   * @param {string | string[]} blocks
+   * @param {string | string[]} blocks An ID, a tag with `#`, or an array containing IDs
    * @returns {{ conditions: { location: {block: string | string[], condition: string}[]} trigger: string }}
    */
   function placeBlockCondition(blocks) {
@@ -262,6 +284,11 @@
     };
   }
 
+  /**
+   * Creates an optional Block State condition. This condition is always true if the block does not have the given keys
+   * @param {Array<{key: string, value: string}>} entries An array of objects with `key` as the blockstate to check and `value` as the expected value of this blockstate
+   * @returns {Object}
+   */
   function optionalBlockStateCondition(entries) {
     if (!Array.isArray(entries)) {
       entries = [entries];
@@ -270,12 +297,10 @@
     for (const entry of entries) {
       states[entry.key] = entry.value;
     }
-    const returned = {
+    return {
       condition: "brewinandchewin:null_true_block_state",
       state: states,
     };
-    console.log("Returned :", returned);
-    return returned;
   }
 
   ServerEvents.generateData("after_mods", (event) => {
