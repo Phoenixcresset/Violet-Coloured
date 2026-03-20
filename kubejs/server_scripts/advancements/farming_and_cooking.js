@@ -1,6 +1,7 @@
 (() => {
   const { Conditions, Criteria, registerRoot, registerAdvancements } =
     global.Advancements;
+  const { Registry } = global;
 
   const category = {
     namespace: "violetcoloured",
@@ -40,9 +41,7 @@
       parent: "brew_drink",
       icon: "brewinandchewin:steel_toe_stout",
       type: "challenge",
-      criteria: Criteria.consumeAll(
-        Ingredient.of("#brewinandchewin:fermented_drinks").getItemIds()
-      ),
+      criteria: Criteria.consumeAll(Registry.fermentedDrinks),
     },
     {
       id: "have_all_wines",
@@ -50,9 +49,7 @@
       icon: "vinery:noir_wine",
       type: "challenge",
       criteria: {
-        wines: Criteria.hasAllItems(
-          Ingredient.of("#vinery:wines").getItemIds()
-        ),
+        wines: Criteria.hasAllItems(Registry.wines),
       },
     },
     {
