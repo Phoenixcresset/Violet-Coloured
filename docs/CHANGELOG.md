@@ -1,5 +1,9 @@
 # [Unreleased] - Advancements Update
 
+## Changes
+
+- Replaced Brewin and Chewin and Vinery advancements by custom made ones
+
 # [0.0.7] - Quark and Polishing Update
 
 ## Changes
