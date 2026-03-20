@@ -1,4 +1,4 @@
-// priority: 10
+// priority: 1
 
 (() => {
   /** @typedef {Object.<string, Array<string|RegExp>>} ObliteratedPatterns */

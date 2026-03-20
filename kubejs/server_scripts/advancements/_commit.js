@@ -1,4 +1,4 @@
-// priority: -12
+// priority: -1
 // Advancements need to be registered first
 
 (() => {

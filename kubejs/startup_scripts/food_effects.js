@@ -1,5 +1,3 @@
-// priority: 10
-// Allows other food modification scripts to take place after this script
 (() => {
   const $FoodBuilder = Java.loadClass(
     "dev.latvian.mods.kubejs.item.FoodBuilder"

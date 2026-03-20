@@ -1,4 +1,4 @@
-// priority: 10
+// priority: 1
 // Loads first so that the HnH Bottle Rack / Crate compat can use the correct model
 
 (() => {

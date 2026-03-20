@@ -1,4 +1,4 @@
-// priority: -10
+// priority: -1
 // Ensures other scripts' tag registrations are properly finished
 
 (() => {

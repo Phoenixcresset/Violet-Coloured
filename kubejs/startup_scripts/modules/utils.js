@@ -1,4 +1,5 @@
-// priority: 100
+// priority: 10
+// Allows all startup scripts to use this module
 
 global.Utils = (function Utils() {
   function toArray(x) {

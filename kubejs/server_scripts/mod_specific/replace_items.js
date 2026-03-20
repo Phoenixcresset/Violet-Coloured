@@ -1,4 +1,4 @@
-// priority: 10
+// priority: 1
 // Takes place before the replaced the item is completely removed and other scripts that may affect recipes
 
 (() => {
