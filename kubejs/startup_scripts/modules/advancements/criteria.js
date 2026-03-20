@@ -6,7 +6,7 @@ global.Advancements.Criteria = (function Criteria() {
   const { toArray } = global.Utils;
 
   /**
-   * @param {string | string[]} items // An ID, a tag with #, or an array containing IDs
+   * @param {string | string[]} items An ID, a tag with #, or an array containing IDs
    * @returns {Object}
    */
   function hasItem(items) {
@@ -23,10 +23,36 @@ global.Advancements.Criteria = (function Criteria() {
   }
 
   /**
-   * @param {string | string[]} items // An ID, a tag with #, or an array containing IDs
+   * Checks if every item is in the player inventory at the same time
+   * @param {string | string[]} items An ID, a tag with #, or an array containing IDs or tags
    * @returns {Object}
    */
   function hasAllItems(items) {
+    const neededItems = [];
+    for (const item of items) {
+      neededItems.push({ items: item });
+    }
+    console.log(neededItems);
+    console.log({
+      conditions: {
+        items: neededItems,
+      },
+      trigger: "minecraft:inventory_changed",
+    });
+    return {
+      conditions: {
+        items: neededItems,
+      },
+      trigger: "minecraft:inventory_changed",
+    };
+  }
+
+  /**
+   * Tracks if the player had each item at least one
+   * @param {string | string[]} items An ID, a tag with #, or an array containing IDs
+   * @returns {Object}
+   */
+  function gotAllItems(items) {
     let itemConditionMap = {};
     for (const item of items) {
       itemConditionMap[item] = hasItem(item);
@@ -35,7 +61,7 @@ global.Advancements.Criteria = (function Criteria() {
   }
 
   /**
-   * @param {string | string[]} items // An ID, a tag with #, or an array containing IDs
+   * @param {string | string[]} items An ID, a tag with #, or an array containing IDs
    * @returns {Object}
    */
   function consume(items) {
@@ -178,6 +204,7 @@ global.Advancements.Criteria = (function Criteria() {
   return {
     hasItem: hasItem,
     hasAllItems: hasAllItems,
+    gotAllItems: gotAllItems,
     consume: consume,
     consumeAll: consumeAll,
     blockInRadius: blockInRadius,

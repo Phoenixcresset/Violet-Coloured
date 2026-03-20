@@ -35,13 +35,24 @@
       },
     },
     {
-      id: "all_fermented_drinks",
+      id: "drink_all_fermented_drinks",
       parent: "brew_drink",
-      icon: "vinery:noir_wine",
+      icon: "brewinandchewin:steel_toe_stout",
       type: "challenge",
       criteria: Criteria.consumeAll(
         Ingredient.of("#brewinandchewin:fermented_drinks").getItemIds()
       ),
+    },
+    {
+      id: "have_all_wines",
+      parent: "brew_drink",
+      icon: "vinery:noir_wine",
+      type: "challenge",
+      criteria: {
+        wines: Criteria.hasAllItems(
+          Ingredient.of("#vinery:wines").getItemIds()
+        ),
+      },
     },
     {
       id: "ferment_cheese",

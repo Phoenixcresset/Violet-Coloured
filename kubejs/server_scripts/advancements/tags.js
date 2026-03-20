@@ -1,7 +1,7 @@
 (() => {
   const addedTagsToEntries = {
     item: {
-      "brewinandchewin:fermented_drinks": [
+      "vinery:wines": [
         "violetcoloured:red_grape_juice",
         "violetcoloured:white_grape_juice",
         "violetcoloured:apple_juice",
