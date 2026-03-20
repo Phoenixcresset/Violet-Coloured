@@ -6,7 +6,7 @@
     // IIFE needed here; otherwise, the following function call will only apply to the last element of tagTypes due to asynchronous registration.
     ((type) => {
       ServerEvents.tags(type, (event) => {
-        global.Tags.apply(event, type);
+        global.Tags.commit(event, type);
       });
     })(tagType);
   }

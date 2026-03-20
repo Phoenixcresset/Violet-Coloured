@@ -80,7 +80,7 @@ global.Tags = (function Tags() {
     _registerTagEntries(_entryAdditions, data);
   }
 
-  function apply(event, tagType) {
+  function commit(event, tagType) {
     const removals = _removals[tagType];
     if (removals) {
       for (const tag of removals) {
@@ -112,6 +112,6 @@ global.Tags = (function Tags() {
     registerAddedTagsToEntries: registerAddedTagsToEntries,
     registerRemovedTags: registerRemovedTags,
     registerRemovedTagsFromEntries: registerRemovedTagsFromEntries,
-    apply: apply,
+    commit: commit,
   };
 })();
