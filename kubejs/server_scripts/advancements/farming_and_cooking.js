@@ -18,7 +18,6 @@
     },
   };
 
-  console.log("Registering advancements...");
   const advancements = [
     {
       id: "place_keg",
