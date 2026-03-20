@@ -8,7 +8,6 @@
   };
 
   const categoryRoot = {
-    id: "root",
     background: "minecraft:block/bricks",
     icon: "minecraft:hay_block",
     criteria: {
@@ -18,6 +17,7 @@
     },
   };
 
+  console.log("Registering advancements...");
   const advancements = [
     {
       id: "place_keg",
@@ -113,8 +113,6 @@
     },
   ];
 
-  ServerEvents.generateData("after_mods", (event) => {
-    registerRoot(event, category, categoryRoot);
-    registerAdvancements(event, category, advancements);
-  });
+  registerRoot(category, categoryRoot);
+  registerAdvancements(category, advancements);
 })();

@@ -43,7 +43,5 @@
     }
   }
 
-  ServerEvents.generateData("after_mods", (event) => {
-    removeAdvancements(event, removedAdvancements);
-  });
+  removeAdvancements(removedAdvancements);
 })();
