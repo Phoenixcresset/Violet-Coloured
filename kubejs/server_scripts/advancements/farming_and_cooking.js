@@ -1,5 +1,6 @@
 (() => {
-  const { Criteria, registerRoot, registerAdvancements } = global.Advancements;
+  const { Conditions, Criteria, registerRoot, registerAdvancements } =
+    global.Advancements;
 
   const category = {
     namespace: "violetcoloured",
@@ -74,7 +75,7 @@
           blocksToCheckFor: "brewinandchewin:keg",
           range: 2,
           trigger: "minecraft:placed_block",
-          additionalBaseBlocksConditions: Criteria.optionalBlockStateCondition({
+          additionalBaseBlocksConditions: Conditions.optionalBlockState({
             key: "lit",
             value: "true",
           }),
@@ -85,11 +86,10 @@
           blocksToCheckFor: "#brewinandchewin:temperature_sources",
           range: 2,
           trigger: "minecraft:placed_block",
-          additionalBlocksToCheckForConditions:
-            Criteria.optionalBlockStateCondition({
-              key: "lit",
-              value: "true",
-            }),
+          additionalBlocksToCheckForConditions: Conditions.optionalBlockState({
+            key: "lit",
+            value: "true",
+          }),
         }),
 
         updated_temperature_source_near_keg: Criteria.blockInRadius({
@@ -97,7 +97,7 @@
           blocksToCheckFor: "brewinandchewin:keg",
           range: 2,
           trigger: "minecraft:item_used_on_block",
-          additionalBaseBlocksConditions: Criteria.optionalBlockStateCondition({
+          additionalBaseBlocksConditions: Conditions.optionalBlockState({
             key: "lit",
             value: "true",
           }),
