@@ -141,6 +141,26 @@ global.Advancements.Criteria = (function Criteria() {
     };
   }
 
+  function useItemOnEntity(item, entity) {
+    return {
+      trigger: "minecraft:player_interacted_with_entity",
+      conditions: {
+        item: {
+          items: [item],
+        },
+        entity: [
+          {
+            conditions: "minecraft:entity_properties",
+            entity: "this",
+            predicate: {
+              type: entity,
+            },
+          },
+        ],
+      },
+    };
+  }
+
   return {
     hasItem: hasItem,
     hasAllItems: hasAllItems,
@@ -149,5 +169,6 @@ global.Advancements.Criteria = (function Criteria() {
     consumeAll: consumeAll,
     blockInRadius: blockInRadius,
     placeBlock: placeBlock,
+    useItemOnEntity: useItemOnEntity,
   };
 })();
