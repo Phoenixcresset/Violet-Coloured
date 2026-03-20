@@ -14,7 +14,6 @@
         "vinery:red_grape",
         "vinery:white_grape",
       ],
-      "c:foods/grape": ["vinery:red_grape", "vinery:white_grape"],
       "c:fruits/cherry": ["vinery:cherry"],
       "c:seeds": ["vinery:red_grape_seeds", "vinery:white_grape_seeds"],
       "c:stripped_logs": ["vinery:stripped_dark_cherry_log"],
