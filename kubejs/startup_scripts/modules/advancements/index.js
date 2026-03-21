@@ -9,16 +9,23 @@ global.Advancements = (function Advancements() {
   /**@type {Map<string, Object} */
   const _removedAdvancements = new Map();
 
-  function _buildDisplay(category, { icon, id, background, frame, silent }) {
+  function _buildDisplay(
+    category,
+    { icon, id, title, description, background, frame, silent }
+  ) {
     const display = {
       icon: {
         id: icon,
       },
       title: {
-        translate: `advancement.${category.namespace}.${category.name}.${id}.title`,
+        translate:
+          title ??
+          `advancement.${category.namespace}.${category.name}.${id}.title`,
       },
       description: {
-        translate: `advancement.${category.namespace}.${category.name}.${id}.description`,
+        translate:
+          description ??
+          `advancement.${category.namespace}.${category.name}.${id}.description`,
       },
     };
 
@@ -45,6 +52,8 @@ global.Advancements = (function Advancements() {
         icon: root.icon,
         id: "root",
         background: root.background,
+        title: root.title,
+        description: root.description,
       }),
       criteria: root.criteria,
     };
@@ -57,6 +66,8 @@ global.Advancements = (function Advancements() {
         icon: advancement.icon,
         id: advancement.id,
         frame: advancement.type,
+        title: advancement.title,
+        description: advancement.description,
       }),
       criteria: advancement.criteria,
       requirements: advancement.requirements,

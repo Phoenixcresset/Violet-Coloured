@@ -23,6 +23,8 @@
       id: "place_keg",
       parent: "root",
       icon: "brewinandchewin:keg",
+      title: "brewinandchewin.advancement.place_keg",
+      description: "brewinandchewin.advancement.place_keg.desc",
       criteria: {
         placed_keg: Criteria.placeBlock("brewinandchewin:keg"),
       },
@@ -31,6 +33,8 @@
       id: "brew_drink",
       parent: "place_keg",
       icon: "brewinandchewin:beer",
+      title: "brewinandchewin.advancement.brew_drink",
+      description: "brewinandchewin.advancement.brew_drink.desc",
       criteria: {
         has_drink: Criteria.hasItem("#brewinandchewin:fermented_drinks"),
       },
@@ -40,6 +44,7 @@
       parent: "brew_drink",
       icon: "brewinandchewin:steel_toe_stout",
       type: "challenge",
+      title: "brewinandchewin.advancement.crafting_problem",
       criteria: Criteria.consumeAll(Registry.fermentedDrinks),
     },
     {
@@ -55,6 +60,8 @@
       id: "ferment_cheese",
       parent: "place_keg",
       icon: "brewinandchewin:unripe_flaxen_cheese_wheel",
+      title: "brewinandchewin.advancement.ferment_cheese",
+      description: "brewinandchewin.advancement.ferment_cheese.desc",
       criteria: {
         unripe_cheese_wheel: Criteria.hasItem(
           "#brewinandchewin:cheese_wheels/unripe"
