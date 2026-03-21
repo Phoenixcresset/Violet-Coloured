@@ -5,31 +5,47 @@
     "Let's Do - Pixel Perfect.zip"
   ],
   "pack_overrides": {
-    "required_packs": [
+    "built-in-packs": [
       "vanilla",
       "mod_resources",
-      "moonlight:merged_pack",
+      "fabric",
       "scholar:colored_books",
       "scholar:chiseled_bookshelf_colored_books"
     ],
+    "moonlight": [
+      "moonlight:merged_pack"
+    ],
     "additional_packs": [
       "file/Authentic Shadows_1.21+.zip",
-      "Let's Do - Pixel Perfect.zip"
+      "file/Let's Do - Pixel Perfect.zip",
+      "file/SPEGG BP [1.20-1.x].zip",
+      "file/Modded Omelet.zip"
     ],
     "hidden_packs": [
-      "supplementaries:darker_ropes"
+      "programmer_art",
+      "high_contrast",
+      "supplementaries:darker_ropes",
+      "vinery:bushy_leaves"
     ],
-    "$$required_packs": {
-      "default_position": "BOTTOM",
+    "$$built-in-packs": {
+      "hidden": true,
+      "required": true,
       "fixed_position": true,
-      "required": true
+      "default_position": "BOTTOM"
     },
-    "$$additional_packs": {
-      "default_position": "TOP",
+    "$$moonlight": {
+      "hidden": true,
+      "required": true,
       "fixed_position": true
     },
+    "$$additional_packs": {
+      "hidden": false,
+      "required": true,
+      "fixed_position": false
+    },
     "$$hidden_packs": {
-      "hidden": true
+      "hidden": true,
+      "required": false
     }
   }
 }
