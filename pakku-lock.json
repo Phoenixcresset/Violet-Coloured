@@ -2906,7 +2906,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "immersiveoverlays-1.5.2+1.21.1-neoforge.jar",
+                    "file_name": "immersiveoverlays-1.5.3+1.21.1-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2914,16 +2914,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7706/558/immersiveoverlays-1.5.2+1.21.1-neoforge.jar",
-                    "id": "7706558",
+                    "url": "https://edge.forgecdn.net/files/7782/153/immersiveoverlays-1.5.3+1.21.1-neoforge.jar",
+                    "id": "7782153",
                     "parent_id": "1245453",
                     "hashes": {
-                        "sha1": "704d59ab22d1651aaef744560133fced9a586766",
-                        "md5": "2bd5eeba7b29d2f7ed9033b45628cad9"
+                        "sha1": "cc3f352a2fd0c6355aeb18064d1c6e843b33e831",
+                        "md5": "046d7b41cd5955bf654539adb2ddae6c"
                     },
                     "required_dependencies": [],
-                    "size": 283840,
-                    "date_published": "2026-03-03T17:57:22.080Z"
+                    "size": 286186,
+                    "date_published": "2026-03-19T21:15:06.987Z"
                 }
             ]
         },

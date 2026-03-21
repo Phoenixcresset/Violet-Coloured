@@ -14,6 +14,7 @@
   "compass_vertical_position": 141,
   "compass_horizontal_position_left": true,
   "compass_direction": false,
+  "compass_single_line": false,
   "compass_direction_text_colour": 16755200,
   "compass_text_colour": 14737632,
   "compass_x_colour": 16733525,
