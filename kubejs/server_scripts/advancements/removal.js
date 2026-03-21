@@ -12,6 +12,13 @@
       "place_temperature_block_near_keg",
       "root",
     ],
+    "chalk:adventure": [
+      "alone_in_the_darkness",
+      "bound_by_bone",
+      "home_is_where_the_bed_is",
+      "this_way",
+      "vandalism",
+    ],
     "vinery:main": [
       "budding_grapes",
       "cherry_picker",
