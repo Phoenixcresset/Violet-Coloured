@@ -48,6 +48,9 @@
 
 /config/*.bak
 /config/alltheleaks.json
+/config/cerulean-client.toml
+/config/cerulean-common.toml
+/config/cerulean-server.toml
 /config/dynamic_fps.json
 /config/iris*
 /config/lithium.properties

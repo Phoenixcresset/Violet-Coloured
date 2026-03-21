@@ -4,6 +4,12 @@
 
 - Replaced Brewin and Chewin and Vinery advancements by custom made ones
 
+## Mods
+
+### Added
+
+- Cerulean
+
 # [0.0.7] - Quark and Polishing Update
 
 ## Changes

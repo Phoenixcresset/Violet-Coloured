@@ -859,6 +859,47 @@
             ]
         },
         {
+            "pakku_id": "ieUR8CLYAzApNtGF",
+            "pakku_links": [
+                "oQA4qYTXr5Zi9rOm"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cerulean"
+            },
+            "name": {
+                "curseforge": "Cerulean"
+            },
+            "id": {
+                "curseforge": "1204890"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cerulean-neoforge-1.0.0-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6489/711/cerulean-neoforge-1.0.0-1.21.1.jar",
+                    "id": "6489711",
+                    "parent_id": "1204890",
+                    "hashes": {
+                        "sha1": "f810a8ab7efd707500da4f153a5a64843edf4aac",
+                        "md5": "7d1753c8c8661b0cf2108f45c3fb7f1e"
+                    },
+                    "required_dependencies": [
+                        "1104882"
+                    ],
+                    "size": 340526,
+                    "date_published": "2025-05-03T02:24:36.230Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "HpnUSGsSQ9liueZM",
             "type": "MOD",
             "slug": {
@@ -6017,6 +6058,42 @@
                     ],
                     "size": 123802,
                     "date_published": "2026-03-17T17:19:09.493Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "oQA4qYTXr5Zi9rOm",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "txnilib"
+            },
+            "name": {
+                "curseforge": "TxniLib"
+            },
+            "id": {
+                "curseforge": "1104882"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "txnilib-neoforge-1.0.24-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6533/725/txnilib-neoforge-1.0.24-1.21.1.jar",
+                    "id": "6533725",
+                    "parent_id": "1104882",
+                    "hashes": {
+                        "sha1": "17b1bbb96e922e683a1807a2e7bece603fdc491d",
+                        "md5": "69cd87744e40cc444b4176022ec6d17a"
+                    },
+                    "required_dependencies": [],
+                    "size": 6276522,
+                    "date_published": "2025-05-15T21:54:10.040Z"
                 }
             ]
         },
