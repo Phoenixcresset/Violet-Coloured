@@ -26,6 +26,7 @@
       "quark:/misc/monster_box_spawns",
     ],
     categorizedIds: {
+      "emi:grinding": ["supplementaries:unenchanted_golden_apple"],
       "minecraft:brewing": [".*/hearthandharvest/.*"],
       "ali:entity_loot": [
         "quark:/entities/crab",
