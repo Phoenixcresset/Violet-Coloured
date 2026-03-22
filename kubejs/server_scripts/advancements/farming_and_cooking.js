@@ -5,6 +5,7 @@
     global.Advancements;
   const { Registry } = global;
 
+  /** @type {Category} */
   const category = {
     namespace: "violetcoloured",
     name: "farming_and_cooking",

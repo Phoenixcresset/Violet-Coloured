@@ -9,6 +9,11 @@ global.Advancements = (function Advancements() {
   /**@type {Map<string, Object>} */
   const _removedAdvancements = new Map();
 
+  /**
+   * @param {Category} category
+   * @param {Display} display
+   * @returns {DisplayData}
+   */
   function _buildDisplay(
     category,
     { icon, id, title, description, background, frame, silent }
@@ -46,6 +51,11 @@ global.Advancements = (function Advancements() {
     return display;
   }
 
+  /**
+   * @param {Category} category
+   * @param {Root} root
+   * @returns {RootData}
+   */
   function _buildRoot(category, root) {
     return {
       display: _buildDisplay(category, {
@@ -60,6 +70,11 @@ global.Advancements = (function Advancements() {
     };
   }
 
+  /**
+   * @param {Category} category
+   * @param {Advancement} advancement
+   * @returns {AdvancementData}
+   */
   function _buildAdvancement(category, advancement) {
     return {
       parent: `${category.namespace}:${category.name}/${advancement.parent}`,

@@ -1,11 +1,15 @@
+// @ts-check
+
 (() => {
   const { Criteria, registerRoot, registerAdvancements } = global.Advancements;
 
+  /** @type {Category} */
   const category = {
     namespace: "violetcoloured",
     name: "story",
   };
 
+  /** @type {Root} */
   const categoryRoot = {
     background: "minecraft:gui/advancements/backgrounds/stone",
     icon: "minecraft:grass_block",
@@ -16,6 +20,7 @@
     },
   };
 
+  /** @type {Advancement[]} */
   const advancements = [
     {
       id: "use_shears_on_sheep",
