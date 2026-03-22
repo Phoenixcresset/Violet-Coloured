@@ -1,5 +1,5 @@
 (() => {
-  const { removeAdvancements } = global.Advancements;
+  const { removeAdvancements } = _Advancements;
 
   const mappedRemovedAdvancements = {
     "brewinandchewin:main": [

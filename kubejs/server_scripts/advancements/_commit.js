@@ -1,8 +1,8 @@
 // priority: -1
-// Advancements need to be registered first
+// Advancements need to be declared first
 
 (() => {
   ServerEvents.generateData("after_mods", (event) => {
-    global.Advancements.commit(event);
+    _Advancements.commit(event);
   });
 })();

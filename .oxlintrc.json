@@ -91,7 +91,10 @@
     "GLFW": "readonly",
     "KeyModifier": "readonly",
     "console": "readonly",
-    "global": "readonly"
+    "global": "readonly",
+    "_Advancements": "readonly",
+    "_AdvancementsCriteria": "readonly",
+    "_AdvancementsConditions": "readonly",
   },
   "ignorePatterns": []
 }

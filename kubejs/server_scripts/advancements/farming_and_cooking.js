@@ -1,12 +1,9 @@
 // @ts-check
 
-/** @typedef {import("../types/advancements").Advancement} Advancement */
-/** @typedef {import("../types/advancements").Category} Category */
-/** @typedef {import("../types/advancements").Root} Root */
-
 (() => {
-  const { Conditions, Criteria, registerRoot, registerAdvancements } =
-    global.Advancements;
+  const { registerRoot, registerAdvancements } = _Advancements;
+  const Criteria = _AdvancementsCriteria;
+  const Conditions = _AdvancementsConditions;
   const { Registry } = global;
 
   /** @type {Category} */

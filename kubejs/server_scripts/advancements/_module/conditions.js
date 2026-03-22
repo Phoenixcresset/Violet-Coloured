@@ -1,7 +1,8 @@
-// priority: -1
-// Needs Advancements to be declared first
+// priority: 2
+// Needs to be declared before Criteria
 
-global.Advancements.Conditions = (function Conditions() {
+// oxlint-disable-next-line no-redeclare
+const _AdvancementsConditions = (() => {
   const { toArray } = global.Utils;
 
   function combine(conditions, additionalConditions) {
@@ -21,6 +22,11 @@ global.Advancements.Conditions = (function Conditions() {
     return result;
   }
 
+  /**
+   * 
+   * @param {*} blocks 
+   * @returns 
+   */
   function blockCheck(blocks) {
     return {
       condition: "minecraft:location_check",

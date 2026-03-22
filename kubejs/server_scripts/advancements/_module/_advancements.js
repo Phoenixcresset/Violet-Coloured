@@ -1,8 +1,18 @@
 // @ts-check
 
-global.Advancements = (function Advancements() {
-  const { toArray } = global.Utils;
+// priority: 1
 
+
+/** @typedef {import("../types/advancements").Advancement} Advancement */
+/** @typedef {import("../types/advancements").AdvancementData} AdvancementData */
+/** @typedef {import("../types/advancements").Category} Category */
+/** @typedef {import("../types/advancements").Display} Display */
+/** @typedef {import("../types/advancements").DisplayData} DisplayData */
+/** @typedef {import("../types/advancements").Root} Root */
+/** @typedef {import("../types/advancements").RootData} RootData */
+
+// oxlint-disable-next-line no-redeclare
+const _Advancements = (() => {
   /**@type {Map<string, Object>} */
   const _advancements = new Map();
 

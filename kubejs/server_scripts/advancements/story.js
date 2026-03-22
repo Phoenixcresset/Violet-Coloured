@@ -1,7 +1,8 @@
 // @ts-check
 
 (() => {
-  const { Criteria, registerRoot, registerAdvancements } = global.Advancements;
+  const { registerRoot, registerAdvancements } = _Advancements;
+  const Criteria = _AdvancementsCriteria;
 
   /** @type {Category} */
   const category = {

@@ -1,10 +1,10 @@
-// priority: -2
-// Needs Advancements and Conditions to be declared first
+// priority: 1
 
 /** @typedef {{key: string, value: string}} BlockState */
 
-global.Advancements.Criteria = (function Criteria() {
-  const { Conditions } = global.Advancements;
+// oxlint-disable-next-line no-redeclare
+const _AdvancementsCriteria = (() => {
+  const Conditions = _AdvancementsConditions;
 
   /**
    * @param {string | string[]} items An ID, a tag with #, or an array containing IDs
@@ -85,6 +85,18 @@ global.Advancements.Criteria = (function Criteria() {
     return consumeConditionMap;
   }
 
+  /**
+   * Checks for specific blocks within a given radius of base blocks.
+   *
+   * @param {Object} params - The parameters object.
+   * @param {Array} params.baseBlocks - The blocks to use as the center points for the radius check.
+   * @param {Array} params.blocksToCheckFor - The blocks to search for within the radius.
+   * @param {number} params.range - The radius distance to check around each base block.
+   * @param {Function} params.trigger - Callback function triggered when a matching block is found.
+   * @param {Object|Function} [params.additionalBaseBlocksConditions] - Optional extra conditions to filter the base blocks.
+   * @param {Object|Function} [params.additionalBlocksToCheckForConditions] - Optional extra conditions to filter the blocks being checked for.
+   * @returns {void}
+   */
   function blockInRadius({
     baseBlocks,
     blocksToCheckFor,
