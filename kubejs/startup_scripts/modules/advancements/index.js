@@ -1,12 +1,41 @@
+// @ts-check
 /** @typedef {{namespace: string, name: string}} Category */
+
+/**
+ * Base shared properties for all advancements
+ * @typedef {{
+ *   id: string,
+ *   icon: string,
+ *   criteria: Record<string, any>,
+ *   title?: string,
+ *   description?: string
+ * }} BaseAdvancement
+ */
+
+/**
+ * Root advancement definition
+ * @typedef {BaseAdvancement & {
+ *   id: "root",
+ *   background: string
+ * }} Root
+ */
+
+/**
+ * Standard advancement definition
+ * @typedef {BaseAdvancement & {
+ *   parent: string,
+ *   type?: string,
+ *   requirements?: string[][]
+ * }} Advancement
+ */
 
 global.Advancements = (function Advancements() {
   const { toArray } = global.Utils;
 
-  /**@type {Map<string, Object} */
+  /**@type {Map<string, Object>} */
   const _advancements = new Map();
 
-  /**@type {Map<string, Object} */
+  /**@type {Map<string, Object>} */
   const _removedAdvancements = new Map();
 
   function _buildDisplay(
@@ -77,8 +106,7 @@ global.Advancements = (function Advancements() {
 
   /**
    * @param {Category} category
-   * @param {{id: string, icon: string, background: string, criteria: Object}} root
-   * @returns {Object}
+   * @param {Root} root
    */
   function registerRoot(category, root) {
     _advancements.set(
@@ -89,7 +117,7 @@ global.Advancements = (function Advancements() {
 
   /**
    * @param {Category} category
-   * @param {{id: string, parent: string, icon: string, type?: string, criteria: Object}} advancements
+   * @param {Advancement | Advancement[]} advancements
    */
   function registerAdvancements(category, advancements) {
     advancements = toArray(advancements);
@@ -104,7 +132,7 @@ global.Advancements = (function Advancements() {
 
   /**
    * Remove advancement(s) with the given ID(s)
-   * @param {string | Array<string>} advancementIds - The ID(s) of the advancement(s). Can easily be found through /advancement command or GitHub
+   * @param {string | string[]} advancementIds - The ID(s) of the advancement(s). Can easily be found through /advancement command or GitHub
    */
   function removeAdvancements(advancementIds) {
     advancementIds = toArray(advancementIds);
