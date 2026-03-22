@@ -45,6 +45,7 @@ global.Advancements.Criteria = (function Criteria() {
 
   /**
    * Tracks if the player had each item at least one
+   * Must be used with a requirements containing the same item IDs (requirements: [[<requirement1>, <requirement2>,...]])
    * @param {string | string[]} items An ID, a tag with #, or an array containing IDs
    * @returns {Object}
    */
@@ -53,6 +54,7 @@ global.Advancements.Criteria = (function Criteria() {
     for (const item of items) {
       itemConditionMap[item] = hasItem(item);
     }
+
     return itemConditionMap;
   }
 
