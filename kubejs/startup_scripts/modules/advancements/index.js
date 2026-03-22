@@ -54,6 +54,7 @@ global.Advancements = (function Advancements() {
         background: root.background,
         title: root.title,
         description: root.description,
+        silent: true,
       }),
       criteria: root.criteria,
     };
