@@ -103,11 +103,9 @@ global.Advancements = (function Advancements() {
 
   /**
    * @param {Category} category
-   * @param {Advancement | Advancement[]} advancements
+   * @param {Advancement[]} advancements
    */
   function registerAdvancements(category, advancements) {
-    advancements = toArray(advancements);
-
     for (const advancement of advancements) {
       _advancements.set(
         `${category.namespace}:advancement/${category.name}/${advancement.id}`,
@@ -118,11 +116,9 @@ global.Advancements = (function Advancements() {
 
   /**
    * Remove advancement(s) with the given ID(s)
-   * @param {string | string[]} advancementIds - The ID(s) of the advancement(s). Can easily be found through /advancement command or GitHub
+   * @param {string[]} advancementIds - The ID(s) of the advancement(s). Can easily be found through /advancement command or GitHub
    */
   function removeAdvancements(advancementIds) {
-    advancementIds = toArray(advancementIds);
-
     for (const advancementId of advancementIds) {
       let [namespace, path] = advancementId.split(":");
       let fullPath = `${namespace}:advancement/${path}`;
