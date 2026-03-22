@@ -1,3 +1,5 @@
+// @ts-check
+
 (() => {
   const { Conditions, Criteria, registerRoot, registerAdvancements } =
     global.Advancements;
@@ -8,6 +10,7 @@
     name: "farming_and_cooking",
   };
 
+  /** @type {Root} */
   const categoryRoot = {
     background: "minecraft:block/bricks",
     icon: "minecraft:hay_block",
@@ -18,6 +21,7 @@
     },
   };
 
+  /** @type {Advancement[]} */
   const advancements = [
     {
       id: "place_keg",
