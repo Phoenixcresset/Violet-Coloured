@@ -16,14 +16,7 @@
     icon: "minecraft:red_nether_bricks",
     title: "advancements.nether.root.title",
     description: "advancements.nether.root.description",
-    criteria: {
-      entered_nether: {
-        conditions: {
-          to: "minecraft:the_nether",
-        },
-        trigger: "minecraft:changed_dimension",
-      },
-    },
+    criteria: Criteria.enterDimension("minecraft:the_nether"),
   };
 
   /** @type {Advancement[]} */
@@ -50,9 +43,7 @@
       icon: "minecraft:ancient_debris",
       title: "advancements.nether.obtain_ancient_debris.title",
       description: "advancements.nether.obtain_ancient_debris.description",
-      criteria: {
-        ancient_debris: Criteria.hasItem("minecraft:ancient_debris"),
-      },
+      criteria: Criteria.hasItem("minecraft:ancient_debris"),
     },
     {
       id: "obtain_crying_obsidian",
@@ -60,13 +51,8 @@
       icon: "minecraft:crying_obsidian",
       title: "advancements.nether.obtain_crying_obsidian.title",
       description: "advancements.nether.obtain_crying_obsidian.description",
-      criteria: {
-        crying_obsidian: Criteria.hasItem("minecraft:crying_obsidian"),
-      },
+      criteria: Criteria.hasItem("minecraft:crying_obsidian"),
     },
-    // {
-    //   id:
-    // }
   ];
 
   registerRoot(category, categoryRoot);

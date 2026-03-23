@@ -10,25 +10,28 @@ const _AdvancementsCriteria = (() => {
   const Conditions = _AdvancementsConditions;
 
   /**
-   * @param {string | string[]} items An ID, a tag with #, or an array containing IDs
+   * @param {string} item An ID or a tag (starting with `#`)
    * @returns {Object}
    */
-  function hasItem(items) {
-    return {
+  function hasItem(item) {
+    const criteria = {};
+    const key = item.replace("#", "");
+    criteria[key] = {
       conditions: {
         items: [
           {
-            items: items,
+            items: item,
           },
         ],
       },
       trigger: "minecraft:inventory_changed",
     };
+    return criteria;
   }
 
   /**
    * Checks if every item is in the player inventory at the same time
-   * @param {string | string[]} items An ID, a tag with #, or an array containing IDs or tags
+   * @param {string[]} items An array containing IDs or tags (starting with #)
    * @returns {Object}
    */
   function hasAllItems(items) {
@@ -48,14 +51,15 @@ const _AdvancementsCriteria = (() => {
 
   /**
    * Tracks if the player had each item at least one
-   * Must be used with a requirements containing the same item IDs (requirements: [[<requirement1>, <requirement2>,...]])
-   * @param {string | string[]} items An ID, a tag with #, or an array containing IDs
+   *
+   * Setting a requirements containing an array of the items (requirements: [["item1", "item2",..."]]) alongside this criteria will instead check if the player has only one item amongst all the items
+   * @param {string[]} items An array containing IDs or tags (starting with #)
    * @returns {Object}
    */
-  function gotAllItems(items) {
+  function hasItems(items) {
     let itemConditionMap = {};
     for (const item of items) {
-      itemConditionMap[item] = hasItem(item);
+      Object.assign(itemConditionMap, hasItem(item));
     }
 
     return itemConditionMap;
@@ -91,14 +95,14 @@ const _AdvancementsCriteria = (() => {
   /**
    * Checks for specific blocks within a given radius of base blocks.
    *
-   * @param {Object} params - The parameters object.
-   * @param {string | string[]} params.baseBlocks - The blocks to use as the center points for the radius check.
-   * @param {string | string[]} params.blocksToCheckFor - The blocks to search for within the radius.
-   * @param {number} params.range - The radius distance to check around each base block.
-   * @param {string} params.trigger - When to do the check.
-   * @param {Object|Function} [params.additionalBaseBlocksConditions] - Optional extra conditions to filter the base blocks.
-   * @param {Object|Function} [params.additionalBlocksToCheckForConditions] - Optional extra conditions to filter the blocks being checked for.
-   * @returns {void}
+   * @param {Object} params The parameters object.
+   * @param {string | string[]} params.baseBlocks The blocks to use as the center points for the radius check.
+   * @param {string | string[]} params.blocksToCheckFor The blocks to search for within the radius.
+   * @param {number} params.range The radius distance to check around each base block.
+   * @param {string} params.trigger When to do the check.
+   * @param {Object|Function} [params.additionalBaseBlocksConditions] Optional extra conditions to filter the base blocks.
+   * @param {Object|Function} [params.additionalBlocksToCheckForConditions] Optional extra conditions to filter the blocks being checked for.
+   * @returns {Object}
    */
   function blockInRadius({
     baseBlocks,
@@ -138,28 +142,33 @@ const _AdvancementsCriteria = (() => {
   }
 
   /**
-   * @param {string | string[]} blocks An ID, a tag with `#`, or an array containing IDs
-   * @returns {{
-   *   conditions: {
-   *     location: {
-   *       condition: "minecraft:location_check",
-   *       predicate: { block: { blocks: string | string[] } }
-   *     }[]
-   *   },
-   *   trigger: "minecraft:placed_block"
-   * }}
+   * @param {string} block An ID or a tag (starting with `#`)
+   * @returns {Object}
    */
-  function placeBlock(blocks) {
-    return {
+  function placeBlock(block) {
+    const [, shortBlockId] = block.split(":");
+    const key = `placed_${shortBlockId}`;
+    const criteria = {};
+    criteria[key] = {
       conditions: {
-        location: [Conditions.blockCheck(blocks)],
+        location: [Conditions.blockCheck(block)],
       },
       trigger: "minecraft:placed_block",
     };
+    return criteria;
   }
 
+  /**
+   * @param {string} item
+   * @param {string} entity
+   * @returns {Object}
+   */
   function useItemOnEntity(item, entity) {
-    return {
+    const [, shortItemId] = item.split(":");
+    const [, shortEntityId] = entity.split(":");
+    const key = `used_${shortItemId}_on_${shortEntityId}`;
+    const criteria = {};
+    criteria[key] = {
       trigger: "minecraft:player_interacted_with_entity",
       conditions: {
         item: {
@@ -176,8 +185,14 @@ const _AdvancementsCriteria = (() => {
         ],
       },
     };
+    return criteria;
   }
 
+  /**
+   *
+   * @param {string} structure
+   * @returns {Object}
+   */
   function findStructure(structure) {
     const criteria = {};
     criteria[structure] = {
@@ -199,6 +214,10 @@ const _AdvancementsCriteria = (() => {
     return criteria;
   }
 
+  /**
+   * @param {string} dimension
+   * @returns {Object}
+   */
   function enterDimension(dimension) {
     const [, dimensionShortId] = dimension.split(":");
     const key = `entered_${dimensionShortId}`;
@@ -215,7 +234,7 @@ const _AdvancementsCriteria = (() => {
   return {
     hasItem: hasItem,
     hasAllItems: hasAllItems,
-    gotAllItems: gotAllItems,
+    hasItems: hasItems,
     consume: consume,
     consumeAll: consumeAll,
     blockInRadius: blockInRadius,

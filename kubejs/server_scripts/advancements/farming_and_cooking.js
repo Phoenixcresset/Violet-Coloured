@@ -31,9 +31,7 @@
       icon: "brewinandchewin:keg",
       title: "brewinandchewin.advancement.place_keg",
       description: "brewinandchewin.advancement.place_keg.desc",
-      criteria: {
-        placed_keg: Criteria.placeBlock("brewinandchewin:keg"),
-      },
+      criteria: Criteria.placeBlock("brewinandchewin:keg"),
     },
     {
       id: "brew_drink",
@@ -41,9 +39,7 @@
       icon: "brewinandchewin:beer",
       title: "brewinandchewin.advancement.brew_drink",
       description: "brewinandchewin.advancement.brew_drink.desc",
-      criteria: {
-        has_drink: Criteria.hasItem("#brewinandchewin:fermented_drinks"),
-      },
+      criteria: Criteria.hasItem("#brewinandchewin:fermented_drinks"),
     },
     {
       id: "drink_all_fermented_drinks",
@@ -68,11 +64,7 @@
       icon: "brewinandchewin:unripe_flaxen_cheese_wheel",
       title: "brewinandchewin.advancement.ferment_cheese",
       description: "brewinandchewin.advancement.ferment_cheese.desc",
-      criteria: {
-        unripe_cheese_wheel: Criteria.hasItem(
-          "#brewinandchewin:cheese_wheels/unripe"
-        ),
-      },
+      criteria: Criteria.hasItem("#brewinandchewin:cheese_wheels/unripe"),
     },
     {
       id: "place_temperature_source_near_keg",

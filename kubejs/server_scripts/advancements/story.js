@@ -17,9 +17,7 @@
     title: "advancements.story.root.title",
     description: "advancements.story.root.description",
     criteria: {
-      welcome: {
-        trigger: "minecraft:inventory_changed",
-      },
+      welcome: { trigger: "minecraft:inventory_changed" },
     },
   };
 
@@ -45,9 +43,7 @@
       icon: "minecraft:wooden_pickaxe",
       title: "advancements.story.mine_stone.title",
       description: "advancements.story.mine_stone.description",
-      criteria: {
-        cobblestone: Criteria.hasItem("minecraft:cobblestone"),
-      },
+      criteria: Criteria.hasItem("minecraft:cobblestone"),
     },
     {
       id: "obtain_stone_pickaxe",
@@ -55,9 +51,7 @@
       icon: "minecraft:stone_pickaxe",
       title: "advancements.story.upgrade_tools.title",
       description: "advancements.story.upgrade_tools.description",
-      criteria: {
-        stone_pickaxe: Criteria.hasItem("minecraft:stone_pickaxe"),
-      },
+      criteria: Criteria.hasItem("minecraft:stone_pickaxe"),
     },
     {
       id: "obtain_iron_ingot",
@@ -65,9 +59,7 @@
       icon: "minecraft:iron_ingot",
       title: "advancements.story.smelt_iron.title",
       description: "advancements.story.smelt_iron.description",
-      criteria: {
-        iron_ingot: Criteria.hasItem("minecraft:iron_ingot"),
-      },
+      criteria: Criteria.hasItem("minecraft:iron_ingot"),
     },
     {
       id: "obtain_lava_bucket",
@@ -75,9 +67,7 @@
       icon: "minecraft:lava_bucket",
       title: "advancements.story.lava_bucket.title",
       description: "advancements.story.lava_bucket.description",
-      criteria: {
-        lava_bucket: Criteria.hasItem("minecraft:lava_bucket"),
-      },
+      criteria: Criteria.hasItem("minecraft:lava_bucket"),
     },
     {
       id: "obtain_iron_pickaxe",
@@ -85,9 +75,7 @@
       icon: "minecraft:iron_pickaxe",
       title: "advancements.story.iron_tools.title",
       description: "advancements.story.iron_tools.description",
-      criteria: {
-        iron_pickaxe: Criteria.hasItem("minecraft:iron_pickaxe"),
-      },
+      criteria: Criteria.hasItem("minecraft:iron_pickaxe"),
     },
     {
       id: "obtain_iron_armor",
@@ -95,9 +83,8 @@
       icon: "minecraft:iron_chestplate",
       title: "advancements.story.obtain_armor.title",
       description: "advancements.story.obtain_armor.description",
-      criteria: {
-        iron_armor: Criteria.hasItem(ironArmor),
-      },
+      criteria: Criteria.hasItems(ironArmor),
+      requirements: [ironArmor],
     },
     {
       id: "obtain_obsidian",
@@ -105,9 +92,7 @@
       icon: "minecraft:obsidian",
       title: "advancements.story.form_obsidian.title",
       description: "advancements.story.form_obsidian.description",
-      criteria: {
-        obsidian: Criteria.hasItem("minecraft:obsidian"),
-      },
+      criteria: Criteria.hasItem("minecraft:obsidian"),
     },
     {
       id: "obtain_diamond",
@@ -115,9 +100,7 @@
       icon: "minecraft:diamond",
       title: "advancements.story.mine_diamond.title",
       description: "advancements.story.mine_diamond.description",
-      criteria: {
-        diamond: Criteria.hasItem("minecraft:diamond"),
-      },
+      criteria: Criteria.hasItem("minecraft:diamond"),
     },
     {
       id: "deflect_arrow",
@@ -158,9 +141,8 @@
       icon: "minecraft:diamond_chestplate",
       title: "advancements.story.shiny_gear.title",
       description: "advancements.story.shiny_gear.description",
-      criteria: {
-        diamond_armor: Criteria.hasItem(diamondArmor),
-      },
+      criteria: Criteria.hasItems(diamondArmor),
+      requirements: [diamondArmor],
     },
     {
       id: "enchant_item",
@@ -168,11 +150,7 @@
       icon: "minecraft:enchanted_book",
       title: "advancements.story.enchant_item.title",
       description: "advancements.story.enchant_item.description",
-      criteria: {
-        enchanted_item: {
-          trigger: "minecraft:enchanted_item",
-        },
-      },
+      criteria: { enchanted_item: { trigger: "minecraft:enchanted_item" } },
     },
     {
       id: "find_stronghold",
@@ -189,9 +167,7 @@
       title: "advancements.story.cure_zombie_villager.title",
       description: "advancements.story.cure_zombie_villager.description",
       criteria: {
-        cured_zombie: {
-          trigger: "minecraft:cured_zombie_villager",
-        },
+        cured_zombie_villager: { trigger: "minecraft:cured_zombie_villager" },
       },
     },
     {
@@ -206,12 +182,7 @@
       id: "use_shears_on_sheep",
       parent: "obtain_iron_ingot",
       icon: "minecraft:shears",
-      criteria: {
-        sheared_sheep: Criteria.useItemOnEntity(
-          "minecraft:shears",
-          "minecraft:sheep"
-        ),
-      },
+      criteria: Criteria.useItemOnEntity("minecraft:shears", "minecraft:sheep"),
     },
   ];
 
