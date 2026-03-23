@@ -150,14 +150,7 @@
       icon: "minecraft:flint_and_steel",
       title: "advancements.story.enter_the_nether.title",
       description: "advancements.story.enter_the_nether.description",
-      criteria: {
-        entered_nether: {
-          conditions: {
-            to: "minecraft:the_nether",
-          },
-          trigger: "minecraft:changed_dimension",
-        },
-      },
+      criteria: Criteria.enterDimension("minecraft:the_nether"),
     },
     {
       id: "obtain_diamond_armor",
@@ -187,24 +180,7 @@
       icon: "minecraft:ender_eye",
       title: "advancements.story.follow_ender_eye.title",
       description: "advancements.story.follow_ender_eye.description",
-      criteria: {
-        in_stronghold: {
-          conditions: {
-            player: [
-              {
-                condition: "minecraft:entity_properties",
-                entity: "this",
-                predicate: {
-                  location: {
-                    structures: "minecraft:stronghold",
-                  },
-                },
-              },
-            ],
-          },
-          trigger: "minecraft:location",
-        },
-      },
+      criteria: Criteria.findStructure("minecraft:stronghold"),
     },
     {
       id: "cure_zombie_villager",
@@ -224,14 +200,7 @@
       icon: "minecraft:end_stone",
       title: "advancements.story.enter_the_end.title",
       description: "advancements.story.enter_the_end.description",
-      criteria: {
-        entered_end: {
-          conditions: {
-            to: "minecraft:the_end",
-          },
-          trigger: "minecraft:changed_dimension",
-        },
-      },
+      criteria: Criteria.enterDimension("minecraft:the_end"),
     },
     {
       id: "use_shears_on_sheep",

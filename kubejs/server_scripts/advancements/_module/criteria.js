@@ -1,3 +1,6 @@
+// oxlint-disable unicorn/no-immediate-mutation
+// Needed as Rhino does not support obj = {[param]: ...} declarations
+
 // priority: 1
 
 /** @typedef {{key: string, value: string}} BlockState */
@@ -175,6 +178,40 @@ const _AdvancementsCriteria = (() => {
     };
   }
 
+  function findStructure(structure) {
+    const criteria = {};
+    criteria[structure] = {
+      trigger: "minecraft:location",
+      conditions: {
+        player: [
+          {
+            condition: "minecraft:entity_properties",
+            entity: "this",
+            predicate: {
+              location: {
+                structures: structure,
+              },
+            },
+          },
+        ],
+      },
+    };
+    return criteria;
+  }
+
+  function enterDimension(dimension) {
+    const [, dimensionShortId] = dimension.split(":");
+    const key = `entered_${dimensionShortId}`;
+    const criteria = {};
+    criteria[key] = {
+      conditions: {
+        to: dimension,
+      },
+      trigger: "minecraft:changed_dimension",
+    };
+    return criteria;
+  }
+
   return {
     hasItem: hasItem,
     hasAllItems: hasAllItems,
@@ -184,5 +221,7 @@ const _AdvancementsCriteria = (() => {
     blockInRadius: blockInRadius,
     placeBlock: placeBlock,
     useItemOnEntity: useItemOnEntity,
+    findStructure: findStructure,
+    enterDimension: enterDimension,
   };
 })();
