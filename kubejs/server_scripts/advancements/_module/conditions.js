@@ -5,6 +5,12 @@
 const _AdvancementsConditions = (() => {
   const { toArray } = global.Utils;
 
+  /**
+   *
+   * @param {Object} conditions
+   * @param {Object} additionalConditions
+   * @returns {Object[]}
+   */
   function combine(conditions, additionalConditions) {
     const result = [];
 
@@ -23,9 +29,9 @@ const _AdvancementsConditions = (() => {
   }
 
   /**
-   * 
-   * @param {*} blocks 
-   * @returns 
+   *
+   * @param {string | string[]} blocks
+   * @returns {Object}
    */
   function blockCheck(blocks) {
     return {
@@ -66,10 +72,25 @@ const _AdvancementsConditions = (() => {
     };
   }
 
+  /**
+   * @param {string} entity
+   * @returns {Object}
+   */
+  function entityType(entity) {
+    return {
+      condition: "minecraft:entity_properties",
+      entity: "this",
+      predicate: {
+        type: entity,
+      },
+    };
+  }
+
   return {
     combine: combine,
     blockCheck: blockCheck,
     areaBlockCheck: areaBlockCheck,
     optionalBlockState: optionalBlockState,
+    entityType: entityType,
   };
 })();

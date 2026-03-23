@@ -53,6 +53,30 @@
       description: "advancements.nether.obtain_crying_obsidian.description",
       criteria: Criteria.hasItem("minecraft:crying_obsidian"),
     },
+    {
+      id: "obtain_wither_skull",
+      parent: "find_fortress",
+      icon: "minecraft:wither_skeleton_skull",
+      title: "advancements.nether.get_wither_skull.title",
+      description: "advancements.nether.get_wither_skull.description",
+      criteria: Criteria.hasItem("minecraft:wither_skeleton_skull"),
+    },
+    {
+      id: "obtain_blaze_rod",
+      parent: "find_fortress",
+      icon: "minecraft:blaze_rod",
+      title: "advancements.nether.obtain_blaze_rod.title",
+      description: "advancements.nether.obtain_blaze_rod.description",
+      criteria: Criteria.hasItem("minecraft:blaze_rod"),
+    },
+    {
+      id: "summon_wither",
+      parent: "obtain_wither_skull",
+      icon: "minecraft:nether_star",
+      title: "advancements.nether.summon_wither.title",
+      description: "advancements.nether.summon_wither.description",
+      criteria: Criteria.summonEntity("minecraft:wither"),
+    },
   ];
 
   registerRoot(category, categoryRoot);

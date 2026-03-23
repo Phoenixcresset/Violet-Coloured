@@ -231,6 +231,23 @@ const _AdvancementsCriteria = (() => {
     return criteria;
   }
 
+  /**
+   * @param {string} entity
+   * @returns {Object}
+   */
+  function summonEntity(entity) {
+    const [, shortEntityId] = entity.split(":");
+    const key = `summoned_${shortEntityId}`;
+    const criteria = {};
+    criteria[key] = {
+      conditions: {
+        entity: Conditions.entityType(entity),
+      },
+      trigger: "minecraft:summoned_entity",
+    };
+    return criteria;
+  }
+
   return {
     hasItem: hasItem,
     hasAllItems: hasAllItems,
@@ -242,5 +259,6 @@ const _AdvancementsCriteria = (() => {
     useItemOnEntity: useItemOnEntity,
     findStructure: findStructure,
     enterDimension: enterDimension,
+    summonEntity: summonEntity,
   };
 })();
