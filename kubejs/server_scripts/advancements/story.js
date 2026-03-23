@@ -40,18 +40,18 @@
   /** @type {Advancement[]} */
   const advancements = [
     {
-      id: "mine_stone",
+      id: "obtain_cobblestone",
       parent: "root",
       icon: "minecraft:wooden_pickaxe",
       title: "advancements.story.mine_stone.title",
       description: "advancements.story.mine_stone.description",
       criteria: {
-        wooden_pickaxe: Criteria.hasItem("minecraft:wooden_pickaxe"),
+        cobblestone: Criteria.hasItem("minecraft:cobblestone"),
       },
     },
     {
-      id: "stone_pickaxe",
-      parent: "mine_stone",
+      id: "obtain_stone_pickaxe",
+      parent: "obtain_cobblestone",
       icon: "minecraft:stone_pickaxe",
       title: "advancements.story.upgrade_tools.title",
       description: "advancements.story.upgrade_tools.description",
@@ -60,8 +60,8 @@
       },
     },
     {
-      id: "smelt_iron",
-      parent: "stone_pickaxe",
+      id: "obtain_iron_ingot",
+      parent: "obtain_stone_pickaxe",
       icon: "minecraft:iron_ingot",
       title: "advancements.story.smelt_iron.title",
       description: "advancements.story.smelt_iron.description",
@@ -70,8 +70,8 @@
       },
     },
     {
-      id: "lava_bucket",
-      parent: "smelt_iron",
+      id: "obtain_lava_bucket",
+      parent: "obtain_iron_ingot",
       icon: "minecraft:lava_bucket",
       title: "advancements.story.lava_bucket.title",
       description: "advancements.story.lava_bucket.description",
@@ -80,8 +80,8 @@
       },
     },
     {
-      id: "iron_pickaxe",
-      parent: "smelt_iron",
+      id: "obtain_iron_pickaxe",
+      parent: "obtain_iron_ingot",
       icon: "minecraft:iron_pickaxe",
       title: "advancements.story.iron_tools.title",
       description: "advancements.story.iron_tools.description",
@@ -90,8 +90,8 @@
       },
     },
     {
-      id: "obtain_armor",
-      parent: "smelt_iron",
+      id: "obtain_iron_armor",
+      parent: "obtain_iron_ingot",
       icon: "minecraft:iron_chestplate",
       title: "advancements.story.obtain_armor.title",
       description: "advancements.story.obtain_armor.description",
@@ -100,8 +100,8 @@
       },
     },
     {
-      id: "form_obsidian",
-      parent: "lava_bucket",
+      id: "obtain_obsidian",
+      parent: "obtain_lava_bucket",
       icon: "minecraft:obsidian",
       title: "advancements.story.form_obsidian.title",
       description: "advancements.story.form_obsidian.description",
@@ -110,8 +110,8 @@
       },
     },
     {
-      id: "mine_diamond",
-      parent: "iron_pickaxe",
+      id: "obtain_diamond",
+      parent: "obtain_iron_pickaxe",
       icon: "minecraft:diamond",
       title: "advancements.story.mine_diamond.title",
       description: "advancements.story.mine_diamond.description",
@@ -121,7 +121,7 @@
     },
     {
       id: "deflect_arrow",
-      parent: "obtain_armor",
+      parent: "obtain_iron_armor",
       icon: "minecraft:shield",
       title: "advancements.story.deflect_arrow.title",
       description: "advancements.story.deflect_arrow.description",
@@ -146,7 +146,7 @@
     },
     {
       id: "enter_the_nether",
-      parent: "form_obsidian",
+      parent: "obtain_obsidian",
       icon: "minecraft:flint_and_steel",
       title: "advancements.story.enter_the_nether.title",
       description: "advancements.story.enter_the_nether.description",
@@ -160,8 +160,8 @@
       },
     },
     {
-      id: "diamond_armor",
-      parent: "mine_diamond",
+      id: "obtain_diamond_armor",
+      parent: "obtain_diamond",
       icon: "minecraft:diamond_chestplate",
       title: "advancements.story.shiny_gear.title",
       description: "advancements.story.shiny_gear.description",
@@ -171,7 +171,7 @@
     },
     {
       id: "enchant_item",
-      parent: "mine_diamond",
+      parent: "obtain_diamond",
       icon: "minecraft:enchanted_book",
       title: "advancements.story.enchant_item.title",
       description: "advancements.story.enchant_item.description",
@@ -182,7 +182,7 @@
       },
     },
     {
-      id: "follow_ender_eye",
+      id: "find_stronghold",
       parent: "enter_the_nether",
       icon: "minecraft:ender_eye",
       title: "advancements.story.follow_ender_eye.title",
@@ -220,7 +220,7 @@
     },
     {
       id: "enter_the_end",
-      parent: "follow_ender_eye",
+      parent: "find_stronghold",
       icon: "minecraft:end_stone",
       title: "advancements.story.enter_the_end.title",
       description: "advancements.story.enter_the_end.description",
@@ -235,7 +235,7 @@
     },
     {
       id: "use_shears_on_sheep",
-      parent: "root",
+      parent: "obtain_iron_ingot",
       icon: "minecraft:shears",
       criteria: {
         sheared_sheep: Criteria.useItemOnEntity(
