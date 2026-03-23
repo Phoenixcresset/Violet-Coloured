@@ -31,6 +31,7 @@
     "jsdoc/require-returns": "warn", // Preference
     "jsdoc/require-returns-description": "off", // Preference
     "jsdoc/require-returns-type": "warn", // Preference
+    "unicorn/prefer-array-flat": "off", // KubeJS - Array.flat() does not exist in Rhino
     "unicorn/prefer-string-replace-all": "off", // KubeJS - replaceAll does not exist on Rhino's strings
     // Style
     "eslint/capitalized-comments": "off", // KubeJS - Cannot use KubeJS special comments like priority if enabled
@@ -45,11 +46,13 @@
     "eslint/no-continue": "off", // Preference
     "eslint/no-ternary": "off", // Preference - Like ternaries with formatter and moderate usage
     "eslint/prefer-const": "off", // KubeJS - Rhino needs to use a let for constants defined in for loops
+    "eslint/prefer-spread": "off", // KubeJS - Rhino does not support spread operators
     "eslint/sort-keys": "off", // Preference - Like having objects keys sorted by order
     "unicorn/filename-case": "off", // Preference - Like snake_case
     "unicorn/number-literal-case": "off", // Oxfmt - It auto formats to lowercase
     "unicorn/numeric-separators-style": "off", // KubeJS - Doesn't work
-    "unicorn/prefer-global-this": "off" // KubeJS - KubeJS exposes a global object that is needed, and Rhino doesn't have a globalThis
+    "unicorn/prefer-global-this": "off", // KubeJS - KubeJS exposes a global object that is needed, and Rhino doesn't have a globalThis
+    "unicorn/prefer-spread": "off" // KubeJS - Rhino doesn't support Array spreading
   },
   "settings": {
     "jsdoc": {
