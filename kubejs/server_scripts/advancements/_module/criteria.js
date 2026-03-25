@@ -32,21 +32,25 @@ const _AdvancementsCriteria = (() => {
   /**
    * Checks if every item is in the player inventory at the same time
    * @param {string[]} items An array containing IDs or tags (starting with #)
+   * @param {string} name The criteria name
    * @returns {Object}
    */
-  function hasAllItems(items) {
+  function hasAllItems(items, name) {
+    const criteria = {};
     const neededItems = [];
 
     for (const item of items) {
       neededItems.push({ items: item });
     }
 
-    return {
+    criteria[name] = {
       conditions: {
         items: neededItems,
       },
       trigger: "minecraft:inventory_changed",
     };
+
+    return criteria;
   }
 
   /**
