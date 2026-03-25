@@ -31,14 +31,16 @@ const _AdvancementsConditions = (() => {
   /**
    *
    * @param {string | string[]} blocks
+   * @param {Object.<string, string>} [state]
    * @returns {Object}
    */
-  function blockCheck(blocks) {
+  function blockCheck(blocks, state) {
     return {
       condition: "minecraft:location_check",
       predicate: {
         block: {
           blocks: blocks,
+          state: state,
         },
       },
     };
@@ -86,11 +88,25 @@ const _AdvancementsConditions = (() => {
     };
   }
 
+  /**
+   * @param {string} items
+   * @returns {Object}
+   */
+  function matchTool(items) {
+    return {
+      condition: "minecraft:match_tool",
+      predicate: {
+        items: items,
+      },
+    };
+  }
+
   return {
     combine: combine,
     blockCheck: blockCheck,
     areaBlockCheck: areaBlockCheck,
     optionalBlockState: optionalBlockState,
     entityType: entityType,
+    matchTool: matchTool,
   };
 })();

@@ -1,3 +1,4 @@
+// oxlint-disable max-lines
 // oxlint-disable unicorn/no-immediate-mutation
 // Needed as Rhino does not support obj = {[param]: ...} declarations
 
@@ -252,6 +253,70 @@ const _AdvancementsCriteria = (() => {
     return criteria;
   }
 
+  /**
+   * @returns {Object}
+   */
+  function hasAllPotionEffects() {
+    const effects = {};
+    for (const effect of global.Registry.potionEffects) {
+      effects[effect] = {};
+    }
+    return {
+      all_effects: {
+        trigger: "minecraft:effects_changed",
+        conditions: {
+          effects: effects,
+        },
+      },
+    };
+  }
+
+  /**
+   * @returns {Object}
+   */
+  function hasAllEffects() {
+    const effects = {};
+    for (const effect of global.Registry.potionEffects) {
+      effects[effect] = {};
+    }
+    for (const effect of global.Registry.otherEffects) {
+      effects[effect] = {};
+    }
+    return {
+      all_effects: {
+        trigger: "minecraft:effects_changed",
+        conditions: {
+          effects: effects,
+        },
+      },
+    };
+  }
+
+  /**
+   * @param {string} item
+   * @param {string} block
+   * @param {Object.<string, string>} [blockState]
+   * @returns {Object}
+   */
+  function useItemOnBlock(item, block, blockState) {
+    const [, shortItemId] = item.split(":");
+    const [, shortBlockId] = block.split(":");
+    const key = `use_${shortItemId}_on_${shortBlockId}`;
+
+    const conditions = [];
+    conditions.push(Conditions.matchTool(item));
+    conditions.push(Conditions.blockCheck(block, blockState));
+
+    const criteria = {};
+    criteria[key] = {
+      trigger: "minecraft:item_used_on_block",
+      conditions: {
+        location: conditions,
+      },
+    };
+    return criteria;
+  }
+
   return {
     hasItem: hasItem,
     hasAllItems: hasAllItems,
@@ -264,5 +329,8 @@ const _AdvancementsCriteria = (() => {
     findStructure: findStructure,
     enterDimension: enterDimension,
     summonEntity: summonEntity,
+    hasAllPotionEffects: hasAllPotionEffects,
+    hasAllEffects: hasAllEffects,
+    useItemOnBlock: useItemOnBlock,
   };
 })();

@@ -19,6 +19,13 @@
     criteria: Criteria.enterDimension("minecraft:the_nether"),
   };
 
+  const netheriteArmor = [
+    "minecraft:netherite_helmet",
+    "minecraft:netherite_chestplate",
+    "minecraft:netherite_leggings",
+    "minecraft:netherite_boots",
+  ];
+
   /** @type {Advancement[]} */
   const advancements = [
     {
@@ -76,6 +83,135 @@
       title: "advancements.nether.summon_wither.title",
       description: "advancements.nether.summon_wither.description",
       criteria: Criteria.summonEntity("minecraft:wither"),
+    },
+    {
+      id: "brew_potion",
+      parent: "obtain_blaze_rod",
+      icon: "minecraft:potion",
+      title: "advancements.nether.brew_potion.title",
+      description: "advancements.nether.brew_potion.description",
+      criteria: {
+        potion: {
+          trigger: "minecraft:brewed_potion",
+        },
+      },
+    },
+    {
+      id: "create_beacon",
+      parent: "summon_wither",
+      icon: "minecraft:beacon",
+      title: "advancements.nether.create_beacon.title",
+      description: "advancements.nether.create_beacon.description",
+      criteria: {
+        beacon: {
+          trigger: "minecraft:construct_beacon",
+          conditions: {
+            level: {
+              min: 1,
+            },
+          },
+        },
+      },
+    },
+    {
+      id: "create_full_beacon",
+      parent: "create_beacon",
+      icon: "minecraft:beacon",
+      title: "advancements.nether.create_full_beacon.title",
+      description: "advancements.nether.create_full_beacon.description",
+      criteria: {
+        beacon: {
+          trigger: "minecraft:construct_beacon",
+          conditions: {
+            level: 4,
+          },
+        },
+      },
+    },
+    {
+      id: "all_potion_effects",
+      parent: "brew_potion",
+      icon: "minecraft:milk_bucket",
+      title: "advancements.nether.all_potions.title",
+      description: "advancements.nether.all_potions.description",
+      criteria: Criteria.hasAllPotionEffects(),
+      type: "challenge",
+    },
+    {
+      id: "all_effects",
+      parent: "all_potion_effects",
+      icon: "minecraft:bucket",
+      title: "advancements.nether.all_effects.title",
+      description: "advancements.nether.all_effects.description",
+      criteria: Criteria.hasAllEffects(),
+      type: "challenge",
+    },
+    {
+      id: "obtain_all_netherite_armor",
+      parent: "obtain_ancient_debris",
+      icon: "minecraft:netherite_chestplate",
+      title: "advancements.nether.netherite_armor.title",
+      description: "advancements.nether.netherite_armor.description",
+      criteria: Criteria.hasAllItems(netheriteArmor, "netherite_armor"),
+      type: "challenge",
+    },
+    {
+      id: "charge_respawn_anchor",
+      parent: "obtain_crying_obsidian",
+      icon: "minecraft:respawn_anchor",
+      title: "advancements.nether.charge_respawn_anchor.title",
+      description: "advancements.nether.charge_respawn_anchor.description",
+      criteria: Criteria.useItemOnBlock(
+        "minecraft:glowstone",
+        "minecraft:respawn_anchor",
+        { charges: "4" }
+      ),
+    },
+    {
+      id: "use_lodestone",
+      parent: "obtain_ancient_debris",
+      icon: "minecraft:lodestone",
+      title: "advancements.nether.use_lodestone.title",
+      description: "advancements.nether.use_lodestone.description",
+      criteria: Criteria.useItemOnBlock(
+        "minecraft:compass",
+        "minecraft:lodestone"
+      ),
+    },
+    {
+      id: "kill_ghast_with_fireball",
+      parent: "root",
+      icon: "minecraft:fire_charge",
+      title: "advancements.nether.return_to_sender.title",
+      description: "advancements.nether.return_to_sender.description",
+      criteria: {
+        killed_ghast: {
+          conditions: {
+            entity: [
+              {
+                condition: "minecraft:entity_properties",
+                entity: "this",
+                predicate: {
+                  type: "minecraft:ghast",
+                },
+              },
+            ],
+            killing_blow: {
+              direct_entity: {
+                type: "minecraft:fireball",
+              },
+              tags: [
+                {
+                  expected: true,
+                  id: "minecraft:is_projectile",
+                },
+              ],
+            },
+          },
+          trigger: "minecraft:player_killed_entity",
+        },
+      },
+      type: "challenge",
     },
   ];
 
