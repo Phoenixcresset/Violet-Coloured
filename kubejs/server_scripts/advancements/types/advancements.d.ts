@@ -32,7 +32,7 @@ export type Root = BaseAdvancement & {
 export type Advancement = BaseAdvancement & {
   id: string;
   parent: string;
-  type?: string;
+  type?: "challenge" | "goal" | "task";
   requirements?: string[][];
 };
 
