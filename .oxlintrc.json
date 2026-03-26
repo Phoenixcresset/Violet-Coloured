@@ -20,6 +20,8 @@
     "eslint/no-param-reassign": "off", // KubeJS - Rhino does not allow conventionnal function default parameters
     "eslint/no-plusplus": "off", // Preference
     "eslint/no-undefined": "off", // Preference - Also conflicts with unicorn's no-typeof-undefined and the method to emulate default function parameters
+    // Suspicious
+    "unicorn/no-array-sort": "off", // KubeJS - Method toSorted() does not exist on Arrays in Rhino
     // Pedantic
     "eslint/no-inline-comments": "off", // Preference - Useful if comments are used sparingly
     "eslint/no-negated-condition": "off", // Preference
