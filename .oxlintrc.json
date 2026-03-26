@@ -100,6 +100,7 @@
     "_Advancements": "readonly",
     "_AdvancementsCriteria": "readonly",
     "_AdvancementsConditions": "readonly",
+    "_AdvancementsUtils": "readonly"
   },
   "ignorePatterns": []
 }

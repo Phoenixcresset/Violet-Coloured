@@ -9,6 +9,7 @@
 // oxlint-disable-next-line no-redeclare
 const _AdvancementsCriteria = (() => {
   const Conditions = _AdvancementsConditions;
+  const { lootTableToCriteria } = _AdvancementsUtils;
 
   /**
    * @param {string} item An ID or a tag (starting with `#`)
@@ -317,6 +318,25 @@ const _AdvancementsCriteria = (() => {
     return criteria;
   }
 
+  /**
+   * Triggers when the player open a container with the designated loot tables
+   * @param {string[]} lootTables
+   * @returns {Object}
+   */
+  function lootChest(lootTables) {
+    const criteria = {};
+    for (const lootTable of lootTables) {
+      let key = lootTableToCriteria(lootTable);
+      criteria[key] = {
+        conditions: {
+          loot_table: lootTable,
+        },
+        trigger: "minecraft:player_generates_container_loot",
+      };
+    }
+    return criteria;
+  }
+
   return {
     hasItem: hasItem,
     hasAllItems: hasAllItems,
@@ -332,5 +352,6 @@ const _AdvancementsCriteria = (() => {
     hasAllPotionEffects: hasAllPotionEffects,
     hasAllEffects: hasAllEffects,
     useItemOnBlock: useItemOnBlock,
+    lootChest: lootChest,
   };
 })();

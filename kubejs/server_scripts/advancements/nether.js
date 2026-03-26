@@ -3,6 +3,7 @@
 (() => {
   const { registerRoot, registerAdvancements } = _Advancements;
   const Criteria = _AdvancementsCriteria;
+  const { lootTableToCriteria } = _AdvancementsUtils;
 
   /** @type {Category} */
   const category = {
@@ -24,6 +25,13 @@
     "minecraft:netherite_chestplate",
     "minecraft:netherite_leggings",
     "minecraft:netherite_boots",
+  ];
+
+  const bastionLootTables = [
+    "minecraft:chests/bastion_bridge",
+    "minecraft:chests/bastion_hoglin_stable",
+    "minecraft:chests/bastion_treasure",
+    "minecraft:chests/bastion_other",
   ];
 
   /** @type {Advancement[]} */
@@ -212,6 +220,17 @@
         },
       },
       type: "challenge",
+    },
+    {
+      id: "loot_bastion",
+      parent: "find_bastion",
+      icon: "minecraft:chest",
+      title: "advancements.nether.loot_bastion.title",
+      description: "advancements.nether.loot_bastion.description",
+      criteria: Criteria.lootChest(bastionLootTables),
+      requirements: [
+        bastionLootTables.map((lootTable) => lootTableToCriteria(lootTable)),
+      ],
     },
   ];
 
