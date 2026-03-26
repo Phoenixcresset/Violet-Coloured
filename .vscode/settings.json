@@ -32,7 +32,7 @@
         ".gitignore": ".gitattributes",
         "package.json": ".oxfmtrc.json, .oxlintrc.json",
         "README.md": "LICENSE",
-        "pakku.json": "pakku.jar"
+        "pakku.json": "pakku-lock.json, pakku.jar"
     },
     "files.exclude": {
         ".cache/": true,
@@ -88,7 +88,6 @@
         "cherishedworlds-favorites.dat": true,
         "command_history.txt": true,
         "emi.json": true,
-        "pakku-lock.json": true,
         "pnpm-lock.yaml": true,
         "TrashSlotSaveState.json": true,
         "usercache.json": true,
