@@ -4,7 +4,7 @@
         "1.21.1"
     ],
     "loaders": {
-        "neoforge": "21.1.219"
+        "neoforge": "21.1.221"
     },
     "projects": [
         {
@@ -2360,7 +2360,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "FarmersDelight-1.21.1-1.2.10.jar",
+                    "file_name": "FarmersDelight-1.21.1-1.2.11.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2368,16 +2368,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7596/366/FarmersDelight-1.21.1-1.2.10.jar",
-                    "id": "7596366",
+                    "url": "https://edge.forgecdn.net/files/7801/529/FarmersDelight-1.21.1-1.2.11.jar",
+                    "id": "7801529",
                     "parent_id": "398521",
                     "hashes": {
-                        "sha1": "93f4de62fce2b90ee8c87e4f6d9b82edb132003d",
-                        "md5": "b1971a08ee136896c419d94c89702341"
+                        "sha1": "2415b91d6437977e676985b4a2ef877208d202e1",
+                        "md5": "031f81f1de33d0acbca9105a54616bae"
                     },
                     "required_dependencies": [],
-                    "size": 2935025,
-                    "date_published": "2026-02-08T21:08:17.640Z"
+                    "size": 2941573,
+                    "date_published": "2026-03-23T20:50:45.270Z"
                 }
             ]
         },
@@ -2947,7 +2947,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "immersiveoverlays-1.5.3+1.21.1-neoforge.jar",
+                    "file_name": "immersiveoverlays-1.6.0+1.21.1-neoforge.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2955,16 +2955,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7782/153/immersiveoverlays-1.5.3+1.21.1-neoforge.jar",
-                    "id": "7782153",
+                    "url": "https://edge.forgecdn.net/files/7813/191/immersiveoverlays-1.6.0+1.21.1-neoforge.jar",
+                    "id": "7813191",
                     "parent_id": "1245453",
                     "hashes": {
-                        "sha1": "cc3f352a2fd0c6355aeb18064d1c6e843b33e831",
-                        "md5": "046d7b41cd5955bf654539adb2ddae6c"
+                        "sha1": "0fa1f38a4cb9c5a785135102283a886144c950b1",
+                        "md5": "d324b6efd7912a3960cbd6bfd89a3ac9"
                     },
                     "required_dependencies": [],
-                    "size": 286186,
-                    "date_published": "2026-03-19T21:15:06.987Z"
+                    "size": 290144,
+                    "date_published": "2026-03-25T19:58:37.483Z"
                 }
             ]
         },
@@ -3028,7 +3028,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "InventoryProfilesNext-neoforge-1.21.1-2.2.4.jar",
+                    "file_name": "InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3036,19 +3036,19 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7746/401/InventoryProfilesNext-neoforge-1.21.1-2.2.4.jar",
-                    "id": "7746401",
+                    "url": "https://edge.forgecdn.net/files/7810/574/InventoryProfilesNext-neoforge-1.21.1-2.2.5.jar",
+                    "id": "7810574",
                     "parent_id": "495267",
                     "hashes": {
-                        "sha1": "f2975061bdfc438549a7850eec0bef2c922d2326",
-                        "md5": "3590adbf577afff42157e9aee04f43be"
+                        "sha1": "b09d7c0820c233ea34af54d0a3ab7ed510b32dcc",
+                        "md5": "0cef57934a1a913a84af75fccedb0995"
                     },
                     "required_dependencies": [
                         "351264",
                         "679177"
                     ],
-                    "size": 1286132,
-                    "date_published": "2026-03-12T09:59:31.243Z"
+                    "size": 1295466,
+                    "date_published": "2026-03-25T11:32:37.167Z"
                 }
             ]
         },
@@ -4209,7 +4209,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "moonlight-1.21-2.29.20-neoforge.jar",
+                    "file_name": "moonlight-1.21-2.29.23-neoforge.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -4218,16 +4218,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7708/176/moonlight-1.21-2.29.20-neoforge.jar",
-                    "id": "7708176",
+                    "url": "https://edge.forgecdn.net/files/7815/717/moonlight-1.21-2.29.23-neoforge.jar",
+                    "id": "7815717",
                     "parent_id": "499980",
                     "hashes": {
-                        "sha1": "99f9973f69460a772a4e8beccb9ca3f69e0a1291",
-                        "md5": "ca9aa486c66e116367850ecc87035889"
+                        "sha1": "0425f3f15ba59d1bbd48fff8dfddda645543c79d",
+                        "md5": "229aaed31def1a1c28240ca6bb211624"
                     },
                     "required_dependencies": [],
-                    "size": 1586350,
-                    "date_published": "2026-03-04T00:50:53.667Z"
+                    "size": 1585396,
+                    "date_published": "2026-03-26T07:16:40.177Z"
                 }
             ]
         },
@@ -5145,7 +5145,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "reliable_remover-neoforge-1.21.1-1.7.4.jar",
+                    "file_name": "reliable_remover-neoforge-1.21.1-1.7.5.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5153,16 +5153,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7767/822/reliable_remover-neoforge-1.21.1-1.7.4.jar",
-                    "id": "7767822",
+                    "url": "https://edge.forgecdn.net/files/7814/893/reliable_remover-neoforge-1.21.1-1.7.5.jar",
+                    "id": "7814893",
                     "parent_id": "1420447",
                     "hashes": {
-                        "sha1": "b1c4bec79a483b4d95226c35757efd2dafbc255a",
-                        "md5": "c7dc3d4119be22ceabf10a7c2975659d"
+                        "sha1": "dd4a4fc9b8dd89d3c614174426c92bbfa0f55854",
+                        "md5": "803d0790cb11c29dbb93e29037066cfe"
                     },
                     "required_dependencies": [],
-                    "size": 159185,
-                    "date_published": "2026-03-16T17:43:56.017Z"
+                    "size": 159236,
+                    "date_published": "2026-03-26T03:00:01.993Z"
                 }
             ]
         },
@@ -6460,7 +6460,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "libIPN-neoforge-1.21.1-6.6.2.jar",
+                    "file_name": "libIPN-neoforge-1.21.1-6.6.3.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -6468,18 +6468,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7327/448/libIPN-neoforge-1.21.1-6.6.2.jar",
-                    "id": "7327448",
+                    "url": "https://edge.forgecdn.net/files/7810/552/libIPN-neoforge-1.21.1-6.6.3.jar",
+                    "id": "7810552",
                     "parent_id": "679177",
                     "hashes": {
-                        "sha1": "b67f700bb76d44fbc7161a3466e1db85d60edec7",
-                        "md5": "88f65c6001888d8547497dd90ac67af6"
+                        "sha1": "baab9e8cae3d2b77b5e172b5694e465ee9f30d4a",
+                        "md5": "208d2c5832cf08b4bf64bae3b6025040"
                     },
                     "required_dependencies": [
                         "351264"
                     ],
-                    "size": 626176,
-                    "date_published": "2025-12-13T08:49:13.437Z"
+                    "size": 626146,
+                    "date_published": "2026-03-25T11:26:19.853Z"
                 }
             ]
         },
