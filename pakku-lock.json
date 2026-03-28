@@ -1180,7 +1180,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "colorwheel-neoforge-1.2.2+mc1.21.1.jar",
+                    "file_name": "colorwheel-neoforge-1.2.3+mc1.21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -1188,18 +1188,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7757/229/colorwheel-neoforge-1.2.2+mc1.21.1.jar",
-                    "id": "7757229",
+                    "url": "https://edge.forgecdn.net/files/7824/548/colorwheel-neoforge-1.2.3+mc1.21.1.jar",
+                    "id": "7824548",
                     "parent_id": "1254143",
                     "hashes": {
-                        "sha1": "e3678d8172da6792d193ae1b9c20b53d23c480d4",
-                        "md5": "548b4e4b9b2f07df4ce43272d82a913f"
+                        "sha1": "87b4df7de4ffb0325ba2dca27deabbbd6cad6810",
+                        "md5": "dea6ac6765195f0b3bdcfa72ab00a6b9"
                     },
                     "required_dependencies": [
                         "455508"
                     ],
-                    "size": 374610,
-                    "date_published": "2026-03-14T17:11:44.317Z"
+                    "size": 376978,
+                    "date_published": "2026-03-27T20:12:48.620Z"
                 }
             ]
         },
@@ -2154,7 +2154,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "entityculling-neoforge-1.9.5-mc1.21.1.jar",
+                    "file_name": "entityculling-neoforge-1.10.0-mc1.21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -2162,16 +2162,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7396/695/entityculling-neoforge-1.9.5-mc1.21.1.jar",
-                    "id": "7396695",
+                    "url": "https://edge.forgecdn.net/files/7813/017/entityculling-neoforge-1.10.0-mc1.21.1.jar",
+                    "id": "7813017",
                     "parent_id": "448233",
                     "hashes": {
-                        "sha1": "0b4a085c1b79c86d7054342123a0ce8deaa0b174",
-                        "md5": "ef1da268d5562d65d85da5af3c290a03"
+                        "sha1": "3ed524d21dfc679e8f1b9de148c26d49eaf89475",
+                        "md5": "eb1041ae2ca8d91d3878f1cc8b0d02bc"
                     },
                     "required_dependencies": [],
-                    "size": 1564767,
-                    "date_published": "2025-12-30T15:26:14.963Z"
+                    "size": 1573130,
+                    "date_published": "2026-03-25T19:23:10.067Z"
                 }
             ]
         },
@@ -4485,7 +4485,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "notenoughanimations-neoforge-1.11.3-mc1.21.1.jar",
+                    "file_name": "notenoughanimations-neoforge-1.12.0-mc1.21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -4493,16 +4493,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7650/365/notenoughanimations-neoforge-1.11.3-mc1.21.1.jar",
-                    "id": "7650365",
+                    "url": "https://edge.forgecdn.net/files/7818/966/notenoughanimations-neoforge-1.12.0-mc1.21.1.jar",
+                    "id": "7818966",
                     "parent_id": "433760",
                     "hashes": {
-                        "sha1": "3dd52f95293595ffdabbcfad842e7a191236f223",
-                        "md5": "36e1962eae4febf8186624ba858f8a92"
+                        "sha1": "98ad737aae797120f88e92824cc6e91b9e6215a4",
+                        "md5": "345a7188bdf3a233be31052a47e93014"
                     },
                     "required_dependencies": [],
-                    "size": 1926047,
-                    "date_published": "2026-02-19T20:11:33.050Z"
+                    "size": 1932791,
+                    "date_published": "2026-03-26T20:03:10.223Z"
                 }
             ]
         },
