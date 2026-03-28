@@ -220,6 +220,14 @@
       criteria: Criteria.lootChest(bastionLootTables),
       requirements: [mapLootTablesToCriteria(bastionLootTables)],
     },
+    {
+      id: "redirect_beacon",
+      parent: "create_beacon",
+      icon: "quark:red_corundum_cluster",
+      title: "advancements.quark.redirect_beacon.title",
+      description: "advancements.quark.redirect_beacon.description",
+      criteria: Criteria.raw("redirected_beacon", "quark:redirect_beacon"),
+    },
   ];
 
   registerRoot(category, categoryRoot);
