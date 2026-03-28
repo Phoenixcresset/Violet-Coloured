@@ -75,17 +75,23 @@ const _AdvancementsConditions = (() => {
   }
 
   /**
+   * @param {Object<string, any>} predicate
+   * @returns {Object}
+   */
+  function entityProperties(predicate) {
+    return {
+      condition: "minecraft:entity_properties",
+      entity: "this",
+      predicate: predicate,
+    };
+  }
+
+  /**
    * @param {string} entity
    * @returns {Object}
    */
   function entityType(entity) {
-    return {
-      condition: "minecraft:entity_properties",
-      entity: "this",
-      predicate: {
-        type: entity,
-      },
-    };
+    return entityProperties({ type: entity });
   }
 
   /**
