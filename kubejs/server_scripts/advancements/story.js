@@ -108,6 +108,7 @@
       icon: "minecraft:shield",
       title: "advancements.story.deflect_arrow.title",
       description: "advancements.story.deflect_arrow.description",
+      // TODO Extract into a helper function
       criteria: {
         deflected_projectile: {
           conditions: {
@@ -150,7 +151,7 @@
       icon: "minecraft:enchanted_book",
       title: "advancements.story.enchant_item.title",
       description: "advancements.story.enchant_item.description",
-      criteria: { enchanted_item: { trigger: "minecraft:enchanted_item" } },
+      criteria: Criteria.raw("enchanted_item", "minecraft:enchanted_item"),
     },
     {
       id: "find_stronghold",
@@ -166,9 +167,10 @@
       icon: "minecraft:golden_apple",
       title: "advancements.story.cure_zombie_villager.title",
       description: "advancements.story.cure_zombie_villager.description",
-      criteria: {
-        cured_zombie_villager: { trigger: "minecraft:cured_zombie_villager" },
-      },
+      criteria: Criteria.raw(
+        "cured_zombie_villager",
+        "minecraft:cured_zombie_villager"
+      ),
     },
     {
       id: "enter_the_end",

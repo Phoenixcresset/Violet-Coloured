@@ -14,5 +14,18 @@ const _AdvancementsUtils = (() => {
     let key = `loot_${shortLootTableId}`;
     return key;
   }
-  return { lootTableToCriteria: lootTableToCriteria };
+
+  /**
+   *
+   * @param {string[]} lootTables
+   * @returns {string[]}
+   */
+  function mapLootTablesToCriteria(lootTables) {
+    return lootTables.map((lootTable) => lootTableToCriteria(lootTable));
+  }
+
+  return {
+    lootTableToCriteria: lootTableToCriteria,
+    mapLootTablesToCriteria: mapLootTablesToCriteria,
+  };
 })();

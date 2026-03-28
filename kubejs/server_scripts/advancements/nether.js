@@ -3,7 +3,7 @@
 (() => {
   const { registerRoot, registerAdvancements } = _Advancements;
   const Criteria = _AdvancementsCriteria;
-  const { lootTableToCriteria } = _AdvancementsUtils;
+  const { mapLootTablesToCriteria } = _AdvancementsUtils;
 
   /** @type {Category} */
   const category = {
@@ -98,11 +98,7 @@
       icon: "minecraft:potion",
       title: "advancements.nether.brew_potion.title",
       description: "advancements.nether.brew_potion.description",
-      criteria: {
-        potion: {
-          trigger: "minecraft:brewed_potion",
-        },
-      },
+      criteria: Criteria.raw("potion", "minecraft:brewed_potion"),
     },
     {
       id: "create_beacon",
@@ -110,16 +106,9 @@
       icon: "minecraft:beacon",
       title: "advancements.nether.create_beacon.title",
       description: "advancements.nether.create_beacon.description",
-      criteria: {
-        beacon: {
-          trigger: "minecraft:construct_beacon",
-          conditions: {
-            level: {
-              min: 1,
-            },
-          },
-        },
-      },
+      criteria: Criteria.raw("beacon", "minecraft:construct_beacon", {
+        level: { min: 1 },
+      }),
     },
     {
       id: "create_full_beacon",
@@ -160,7 +149,7 @@
       icon: "minecraft:netherite_chestplate",
       title: "advancements.nether.netherite_armor.title",
       description: "advancements.nether.netherite_armor.description",
-      criteria: Criteria.hasAllItems(netheriteArmor, "netherite_armor"),
+      criteria: Criteria.hasAllItems("netherite_armor", netheriteArmor),
       type: "challenge",
     },
     {
@@ -192,6 +181,7 @@
       icon: "minecraft:fire_charge",
       title: "advancements.nether.return_to_sender.title",
       description: "advancements.nether.return_to_sender.description",
+      // TODO Extract into a helper function
       criteria: {
         killed_ghast: {
           conditions: {
@@ -228,9 +218,7 @@
       title: "advancements.nether.loot_bastion.title",
       description: "advancements.nether.loot_bastion.description",
       criteria: Criteria.lootChest(bastionLootTables),
-      requirements: [
-        bastionLootTables.map((lootTable) => lootTableToCriteria(lootTable)),
-      ],
+      requirements: [mapLootTablesToCriteria(bastionLootTables)],
     },
   ];
 

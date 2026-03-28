@@ -54,7 +54,7 @@
       parent: "brew_drink",
       icon: "vinery:noir_wine",
       type: "challenge",
-      criteria: Criteria.hasAllItems(Registry.wines, "wines"),
+      criteria: Criteria.hasAllItems("wines", Registry.wines),
     },
     {
       id: "ferment_cheese",

@@ -1,8 +1,11 @@
-// oxlint-disable max-lines
+// @ts-check
+
+// priority: 1
+
 // oxlint-disable unicorn/no-immediate-mutation
 // Needed as Rhino does not support obj = {[param]: ...} declarations
 
-// priority: 1
+// oxlint-disable max-lines
 
 /** @typedef {{key: string, value: string}} BlockState */
 
@@ -33,11 +36,11 @@ const _AdvancementsCriteria = (() => {
 
   /**
    * Checks if every item is in the player inventory at the same time
-   * @param {string[]} items An array containing IDs or tags (starting with #)
    * @param {string} name The criteria name
+   * @param {string[]} items An array containing IDs or tags (starting with #)
    * @returns {Object}
    */
-  function hasAllItems(items, name) {
+  function hasAllItems(name, items) {
     const criteria = {};
     const neededItems = [];
 
@@ -337,6 +340,21 @@ const _AdvancementsCriteria = (() => {
     return criteria;
   }
 
+  /**
+   * @param {string} name
+   * @param {string} trigger
+   * @param {Object<string, any>} [conditions]
+   * @returns {Object}
+   */
+  function raw(name, trigger, conditions) {
+    const criteria = {};
+    criteria[name] = {
+      trigger: trigger,
+      conditions: conditions,
+    };
+    return criteria;
+  }
+
   return {
     hasItem: hasItem,
     hasAllItems: hasAllItems,
@@ -353,5 +371,6 @@ const _AdvancementsCriteria = (() => {
     hasAllEffects: hasAllEffects,
     useItemOnBlock: useItemOnBlock,
     lootChest: lootChest,
+    raw: raw,
   };
 })();
