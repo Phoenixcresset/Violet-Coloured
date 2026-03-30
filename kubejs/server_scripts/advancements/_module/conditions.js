@@ -95,6 +95,14 @@ const _AdvancementsConditions = (() => {
   }
 
   /**
+   * @param {string | string[]} structures
+   * @returns {Object}
+   */
+  function entityInStructure(structures) {
+    return entityProperties({ location: { structures: structures } });
+  }
+
+  /**
    * @param {string} items
    * @returns {Object}
    */
@@ -113,6 +121,7 @@ const _AdvancementsConditions = (() => {
     areaBlockCheck: areaBlockCheck,
     optionalBlockState: optionalBlockState,
     entityType: entityType,
+    entityInStructure: entityInStructure,
     matchTool: matchTool,
   };
 })();

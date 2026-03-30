@@ -183,15 +183,7 @@ const _AdvancementsCriteria = (() => {
         item: {
           items: [item],
         },
-        entity: [
-          {
-            conditions: "minecraft:entity_properties",
-            entity: "this",
-            predicate: {
-              type: entity,
-            },
-          },
-        ],
+        entity: [Conditions.entityType(entity)],
       },
     };
     return criteria;
@@ -207,17 +199,7 @@ const _AdvancementsCriteria = (() => {
     criteria[structure] = {
       trigger: "minecraft:location",
       conditions: {
-        player: [
-          {
-            condition: "minecraft:entity_properties",
-            entity: "this",
-            predicate: {
-              location: {
-                structures: structure,
-              },
-            },
-          },
-        ],
+        player: [Conditions.entityInStructure(structure)],
       },
     };
     return criteria;
