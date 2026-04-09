@@ -1,8 +1,4 @@
 {
-    "json.schemaDownload.enable": true,
-    "json.schemaDownload.trustedDomains": {
-        "https://raw.githubusercontent.com/DavidAnson/markdownlint/v0.40.0/schema/markdownlint-config-schema.json": true
-    },
     "typescript.tsserver.maxTsServerMemory": 4096,
     "typescript.disableAutomaticTypeAcquisition": true,
     "typescript.surveys.enabled": false,
